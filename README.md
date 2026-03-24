@@ -6,6 +6,6 @@ Dynamic research node connected to [`Research-Vault`](https://github.com/shiroon
 
 ## Connection Model
 
-- Source of truth: `shiroonigami23-ui/Research-Vault`
-- This repo auto-pulls the latest `Research-Vault` README mirror into `connected/`.
-- Sync workflow runs daily and on-demand.
+- Source of truth hub: `shiroonigami23-ui/Research-Vault`
+- This node is mirrored into `Research-Vault/connected/under-water-deep-research/`.
+- Mirroring is executed from `Research-Vault` workflow (`sync-research-nodes.yml`).
