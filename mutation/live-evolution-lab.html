@@ -1,0 +1,500 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Underwater Evolution Lab</title>
+  <style>
+    :root {
+      --bg-1: #07101f;
+      --bg-2: #0c2540;
+      --ink: #eaf2ff;
+      --muted: #9db5d6;
+      --accent: #37d2ff;
+      --accent-2: #81ffa9;
+      --danger: #ff8ea1;
+      --panel: rgba(13, 29, 52, 0.72);
+      --line: rgba(173, 214, 255, 0.18);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 700px at 10% -10%, #1b3a67 0%, transparent 60%),
+        radial-gradient(1000px 600px at 90% -20%, #113a5d 0%, transparent 55%),
+        linear-gradient(160deg, var(--bg-1), var(--bg-2));
+      min-height: 100vh;
+    }
+
+    .wrap {
+      max-width: 1250px;
+      margin: 0 auto;
+      padding: 24px;
+      display: grid;
+      gap: 16px;
+    }
+
+    .hero, .panel {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--panel);
+      backdrop-filter: blur(5px);
+    }
+
+    .hero {
+      padding: 16px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero h1 { margin: 0 0 8px; font-size: 2rem; }
+    .hero p { margin: 0; color: var(--muted); }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      right: -80px;
+      top: -70px;
+      background: radial-gradient(circle, rgba(84,190,255,0.45), transparent 68%);
+      animation: drift 6s ease-in-out infinite alternate;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 16px;
+    }
+
+    .panel { padding: 14px; }
+    .panel h2 { margin: 0 0 10px; font-size: 1.1rem; }
+
+    #oceanCanvas {
+      width: 100%;
+      height: 480px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: linear-gradient(#0a2340, #051325);
+      display: block;
+    }
+
+    .control-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .control {
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: rgba(5, 16, 30, 0.5);
+    }
+    .control label { display: block; font-size: 0.82rem; color: var(--muted); margin-bottom: 6px; }
+    .control input[type="range"] { width: 100%; }
+
+    .dna-box {
+      height: 220px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(180deg, #0b1f35, #0a1526);
+    }
+    .strand {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      inset: 0;
+      animation: dnaShift 5.8s linear infinite;
+    }
+    .pair {
+      position: absolute;
+      left: 50%;
+      width: 150px;
+      height: 2px;
+      transform-origin: center;
+      background: linear-gradient(90deg, rgba(129,255,169,0.9), rgba(55,210,255,0.9));
+    }
+    .pair::before, .pair::after {
+      content: "";
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      top: -5px;
+      border-radius: 50%;
+      background: #b7ffca;
+      box-shadow: 0 0 10px rgba(129,255,169,0.7);
+    }
+    .pair::before { left: -6px; }
+    .pair::after { right: -6px; background: #89d6ff; box-shadow: 0 0 10px rgba(55,210,255,0.7); }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .stat {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px;
+      background: rgba(6, 19, 35, 0.55);
+    }
+    .k { font-size: 0.78rem; color: var(--muted); }
+    .v { margin-top: 4px; font-size: 1.1rem; }
+
+    .algo {
+      margin-top: 12px;
+      font-family: Consolas, monospace;
+      font-size: 0.83rem;
+      line-height: 1.4;
+      color: #dbecff;
+      background: rgba(5, 10, 19, 0.7);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px;
+      white-space: pre-wrap;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 8px;
+    }
+
+    @keyframes dnaShift {
+      from { transform: translateY(0); }
+      to { transform: translateY(-36px); }
+    }
+    @keyframes drift {
+      from { transform: translateY(0px); }
+      to { transform: translateY(16px); }
+    }
+
+    @media (max-width: 980px) {
+      .grid { grid-template-columns: 1fr; }
+      .control-row { grid-template-columns: 1fr; }
+      #oceanCanvas { height: 420px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Live Evolution: Underwater Creature Mutation Lab</h1>
+      <p>DNA pulse + fish phenotype transition simulator for deep-water vs shallow-water adaptation research.</p>
+    </section>
+
+    <section class="grid">
+      <div class="panel">
+        <h2>Evolution Tank</h2>
+        <canvas id="oceanCanvas" width="1100" height="480"></canvas>
+        <div class="control-row">
+          <div class="control">
+            <label for="envSlider">Environment (0 shallow -> 1 deep)</label>
+            <input id="envSlider" type="range" min="0" max="1" step="0.01" value="0.65" />
+          </div>
+          <div class="control">
+            <label for="mutationSlider">Mutation Intensity</label>
+            <input id="mutationSlider" type="range" min="0" max="1" step="0.01" value="0.28" />
+          </div>
+          <div class="control">
+            <label for="speedSlider">Transition Speed</label>
+            <input id="speedSlider" type="range" min="0.2" max="2.2" step="0.05" value="1.1" />
+          </div>
+        </div>
+        <p class="note">Left fish = current lineage. Right fish = post-mutation lineage. Pulses show mutation bursts and trait drift.</p>
+      </div>
+
+      <div class="panel">
+        <h2>DNA Mutation Stream</h2>
+        <div class="dna-box" id="dnaBox"></div>
+
+        <div class="stats">
+          <div class="stat"><div class="k">Environment</div><div class="v" id="envText">Deep-biased</div></div>
+          <div class="stat"><div class="k">Mutation Events</div><div class="v" id="mutCount">0</div></div>
+          <div class="stat"><div class="k">Fitness Index</div><div class="v" id="fitnessText">0.00</div></div>
+          <div class="stat"><div class="k">Dominant Trait Shift</div><div class="v" id="traitText">None</div></div>
+        </div>
+
+        <div class="algo">Algorithm (conceptual)
+1. Read environment E in [0,1].
+2. Blend target phenotype T = lerp(shallowGenome, deepGenome, E).
+3. Apply mutation pulse M at random intervals:
+   genome = genome + N(0, sigma) + rare jump.
+4. Selection pull:
+   genome = genome + alpha * (T - genome).
+5. Compute fitness = 1 - normalized_distance(genome, T).
+6. Render fish body, eye, fin, pigment, and biolum traits.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const canvas = document.getElementById('oceanCanvas');
+    const ctx = canvas.getContext('2d');
+
+    const envSlider = document.getElementById('envSlider');
+    const mutationSlider = document.getElementById('mutationSlider');
+    const speedSlider = document.getElementById('speedSlider');
+
+    const envText = document.getElementById('envText');
+    const mutCount = document.getElementById('mutCount');
+    const fitnessText = document.getElementById('fitnessText');
+    const traitText = document.getElementById('traitText');
+
+    const deepGenome = { bodyDepth: 1.25, eye: 0.65, fin: 0.75, pigment: 0.2, biolum: 0.95, tail: 0.7 };
+    const shallowGenome = { bodyDepth: 0.82, eye: 1.1, fin: 1.0, pigment: 1.0, biolum: 0.15, tail: 1.05 };
+
+    let genomeA = { bodyDepth: 0.95, eye: 0.95, fin: 0.9, pigment: 0.8, biolum: 0.25, tail: 1.0 };
+    let genomeB = { ...genomeA };
+    let mutationEvents = 0;
+    let mutationFlash = 0;
+    let bubbles = Array.from({length: 36}, () => ({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      r: 1 + Math.random() * 4,
+      v: 0.3 + Math.random() * 0.9
+    }));
+
+    function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
+    function lerp(a, b, t) { return a + (b - a) * t; }
+
+    function gaussian() {
+      let u = 0, v = 0;
+      while (u === 0) u = Math.random();
+      while (v === 0) v = Math.random();
+      return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+    }
+
+    function blendTarget(env) {
+      const t = clamp(env, 0, 1);
+      const out = {};
+      for (const k of Object.keys(deepGenome)) {
+        out[k] = lerp(shallowGenome[k], deepGenome[k], t);
+      }
+      return out;
+    }
+
+    function mutate(genome, intensity) {
+      const g = { ...genome };
+      for (const k of Object.keys(g)) {
+        g[k] += gaussian() * 0.02 * (0.4 + intensity);
+      }
+      if (Math.random() < 0.06 * intensity) {
+        const keys = Object.keys(g);
+        const key = keys[Math.floor(Math.random() * keys.length)];
+        g[key] += (Math.random() < 0.5 ? -1 : 1) * (0.06 + Math.random() * 0.06);
+      }
+      for (const k of Object.keys(g)) {
+        g[k] = clamp(g[k], 0.05, 1.5);
+      }
+      return g;
+    }
+
+    function fitness(genome, target) {
+      let sum = 0;
+      for (const k of Object.keys(genome)) {
+        const d = genome[k] - target[k];
+        sum += d * d;
+      }
+      const dist = Math.sqrt(sum / Object.keys(genome).length);
+      return clamp(1 - dist, 0, 1);
+    }
+
+    function dominantShift(g, t) {
+      let kBest = 'balanced';
+      let max = -1;
+      for (const k of Object.keys(g)) {
+        const d = Math.abs(g[k] - t[k]);
+        if (d > max) { max = d; kBest = k; }
+      }
+      const map = {
+        bodyDepth: 'Body depth', eye: 'Eye scaling', fin: 'Fin span',
+        pigment: 'Pigmentation', biolum: 'Bioluminescence', tail: 'Tail propulsion'
+      };
+      return map[kBest] || kBest;
+    }
+
+    function drawFish(x, y, s, g, glow = false) {
+      const bodyW = 250 * s;
+      const bodyH = 110 * s * g.bodyDepth;
+      const eyeR = 9 * s * g.eye;
+      const finH = 55 * s * g.fin;
+      const tailW = 70 * s * g.tail;
+
+      const hue = 195 - g.pigment * 80;
+      const sat = 40 + g.pigment * 45;
+      const light = 20 + g.pigment * 25;
+
+      ctx.save();
+      ctx.translate(x, y);
+
+      if (glow) {
+        ctx.shadowBlur = 28;
+        ctx.shadowColor = 'rgba(84,220,255,0.55)';
+      }
+
+      ctx.fillStyle = `hsl(${hue}, ${sat}%, ${light}%)`;
+      ctx.beginPath();
+      ctx.ellipse(0, 0, bodyW * 0.5, bodyH * 0.5, 0, 0, Math.PI * 2);
+      ctx.fill();
+
+      ctx.fillStyle = `hsl(${hue - 12}, ${sat}%, ${light - 5}%)`;
+      ctx.beginPath();
+      ctx.moveTo(bodyW * 0.5, 0);
+      ctx.lineTo(bodyW * 0.5 + tailW, -bodyH * 0.32);
+      ctx.lineTo(bodyW * 0.5 + tailW, bodyH * 0.32);
+      ctx.closePath();
+      ctx.fill();
+
+      ctx.beginPath();
+      ctx.moveTo(-bodyW * 0.05, -bodyH * 0.32);
+      ctx.lineTo(bodyW * 0.14, -bodyH * 0.32 - finH);
+      ctx.lineTo(bodyW * 0.28, -bodyH * 0.2);
+      ctx.closePath();
+      ctx.fill();
+
+      ctx.beginPath();
+      ctx.arc(-bodyW * 0.28, -bodyH * 0.12, eyeR, 0, Math.PI * 2);
+      ctx.fillStyle = '#ecf6ff';
+      ctx.fill();
+      ctx.beginPath();
+      ctx.arc(-bodyW * 0.28, -bodyH * 0.12, eyeR * 0.45, 0, Math.PI * 2);
+      ctx.fillStyle = '#061427';
+      ctx.fill();
+
+      const biolumCount = Math.floor(g.biolum * 10);
+      for (let i = 0; i < biolumCount; i++) {
+        const px = -bodyW * 0.25 + i * (bodyW * 0.07);
+        const py = bodyH * 0.18 + ((i % 2) ? 6 : -3);
+        ctx.beginPath();
+        ctx.arc(px, py, 2.4, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(126,255,198,0.92)';
+        ctx.fill();
+      }
+
+      ctx.restore();
+    }
+
+    function drawBackground(t) {
+      const g = ctx.createLinearGradient(0, 0, 0, canvas.height);
+      g.addColorStop(0, '#0a2d50');
+      g.addColorStop(1, '#041223');
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      for (const b of bubbles) {
+        b.y -= b.v;
+        if (b.y < -8) {
+          b.y = canvas.height + 8;
+          b.x = Math.random() * canvas.width;
+        }
+        ctx.beginPath();
+        ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(171,219,255,0.18)';
+        ctx.fill();
+      }
+
+      ctx.strokeStyle = 'rgba(95, 173, 232, 0.14)';
+      ctx.lineWidth = 1;
+      for (let i = 0; i < 5; i++) {
+        ctx.beginPath();
+        for (let x = 0; x <= canvas.width; x += 12) {
+          const y = 90 + i * 70 + Math.sin(x * 0.008 + t * 0.001 + i) * 8;
+          if (x === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+      }
+    }
+
+    function buildDNA() {
+      const box = document.getElementById('dnaBox');
+      box.innerHTML = '';
+      const strand = document.createElement('div');
+      strand.className = 'strand';
+      box.appendChild(strand);
+      for (let i = 0; i < 28; i++) {
+        const p = document.createElement('div');
+        p.className = 'pair';
+        const y = i * 18 + 8;
+        const ang = Math.sin(i * 0.6) * 32;
+        const sx = 1 + Math.sin(i * 0.7) * 0.34;
+        p.style.top = `${y}px`;
+        p.style.transform = `translateX(-50%) rotate(${ang}deg) scaleX(${sx})`;
+        p.style.opacity = `${0.52 + (i % 3) * 0.12}`;
+        strand.appendChild(p);
+      }
+    }
+
+    buildDNA();
+
+    let last = performance.now();
+
+    function loop(now) {
+      const dt = (now - last) / 1000;
+      last = now;
+
+      const env = Number(envSlider.value);
+      const mut = Number(mutationSlider.value);
+      const speed = Number(speedSlider.value);
+
+      const target = blendTarget(env);
+      const pull = 0.85 * dt * speed;
+
+      // Selection pull
+      for (const k of Object.keys(genomeA)) {
+        genomeA[k] += (target[k] - genomeA[k]) * pull;
+      }
+
+      // Mutation pulse
+      if (Math.random() < 0.02 + mut * 0.06) {
+        genomeA = mutate(genomeA, mut);
+        mutationEvents += 1;
+        mutationFlash = 1.0;
+      }
+
+      // Derive post-mutation lineage
+      genomeB = mutate({ ...genomeA }, mut * 0.8 + 0.05);
+
+      drawBackground(now);
+
+      if (mutationFlash > 0.01) {
+        ctx.fillStyle = `rgba(255, 142, 161, ${0.12 * mutationFlash})`;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        mutationFlash *= 0.92;
+      }
+
+      drawFish(350, 270 + Math.sin(now * 0.0012) * 9, 1.0, genomeA, true);
+      drawFish(770, 290 + Math.sin(now * 0.0015 + 1.4) * 8, 0.95, genomeB, mutationFlash > 0.15);
+
+      ctx.strokeStyle = 'rgba(129,255,169,0.35)';
+      ctx.lineWidth = 2;
+      ctx.setLineDash([8, 6]);
+      ctx.beginPath();
+      ctx.moveTo(500, 280);
+      ctx.lineTo(640, 280);
+      ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.fillStyle = 'rgba(185,235,255,0.9)';
+      ctx.fillText('mutation + selection', 533, 262);
+
+      const fit = fitness(genomeA, target);
+      fitnessText.textContent = fit.toFixed(2);
+      mutCount.textContent = String(mutationEvents);
+      traitText.textContent = dominantShift(genomeA, target);
+      envText.textContent = env < 0.33 ? 'Shallow-biased' : env < 0.66 ? 'Transitional' : 'Deep-biased';
+
+      requestAnimationFrame(loop);
+    }
+
+    requestAnimationFrame(loop);
+  </script>
+</body>
+</html>

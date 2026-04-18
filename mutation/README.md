@@ -32,6 +32,10 @@ Mutations that improve pressure tolerance, energy efficiency, sensory performanc
 - Selection and drift in isolated deep habitats:
   - Can accelerate divergence and endemism.
 
+## Interactive Visualization
+
+- Open `live-evolution-lab.html` in a browser for DNA animation + live fish mutation/evolution transition.
+
 ## Gallery
 
 ![Deep vs Shallow Traits](./png/deep_vs_shallow_traits_generated.png)

@@ -34,8 +34,11 @@ This section tracks deep-sea animal biology and compares it with shallow-water f
 ![Anglerfish](./png/anglerfish.png)
 ![Lanternfish](./png/lanternfish.png)
 ![Coral Reef Fish](./png/coral_reef_fish.png)
+![Fish Type Matrix](./png/fish_type_matrix_generated.png)
+![Living Condition Gradient](./png/living_condition_gradient_generated.png)
 
 ## Related Notes
 
 - `deep-sea-animal-biology.md`
 - `ongoing-studies-2025-2026.md`
+- `fish-type-comparative-research.md`

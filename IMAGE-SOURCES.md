@@ -45,3 +45,9 @@ These were generated locally for research visualization:
 - `mutation/png/deep_vs_shallow_traits_generated.png`
 - `mutation/png/mutation_pathways_generated.png`
 - `mutation/png/adaptation_timeline_generated.png`
+- `biology/png/fish_type_matrix_generated.png`
+- `biology/png/living_condition_gradient_generated.png`
+
+## Interactive visual
+
+- `mutation/live-evolution-lab.html` is a locally coded visualization (canvas + CSS/JS animation), not an externally downloaded image.
