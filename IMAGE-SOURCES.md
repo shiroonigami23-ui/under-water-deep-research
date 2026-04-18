@@ -19,6 +19,12 @@ These PNG files were downloaded from Wikimedia-hosted media associated with thei
 - Physics:
   - `physics/png/hadal_zone.png` from Hadal zone page media
   - `physics/png/ocean_acidification.png` from Ocean acidification page media
+- Deep-water types:
+  - `deep-water-types/png/fjord.png` from Fjord page media
+  - `deep-water-types/png/brine_pool.png` from Brine pool page media
+- Mutation:
+  - `mutation/png/bioluminescence.png` from Bioluminescence page media
+  - `mutation/png/deep_sea_gigantism.png` from Deep-sea gigantism page media
 
 Reference pages:
 - https://en.wikipedia.org/wiki/Deep_sea
@@ -31,6 +37,10 @@ Reference pages:
 - https://en.wikipedia.org/wiki/Seamount
 - https://en.wikipedia.org/wiki/Hadal_zone
 - https://en.wikipedia.org/wiki/Ocean_acidification
+- https://en.wikipedia.org/wiki/Fjord
+- https://en.wikipedia.org/wiki/Brine_pool
+- https://en.wikipedia.org/wiki/Bioluminescence
+- https://en.wikipedia.org/wiki/Deep-sea_gigantism
 
 ## Locally generated figures
 
@@ -48,6 +58,15 @@ These were generated locally for research visualization:
 - `biology/png/fish_type_matrix_generated.png`
 - `biology/png/living_condition_gradient_generated.png`
 
-## Interactive visual
+## Interactive visuals and GIFs
 
-- `mutation/live-evolution-lab.html` is a locally coded visualization (canvas + CSS/JS animation), not an externally downloaded image.
+- HTML labs:
+  - `mutation/live-evolution-lab.html`
+  - `mutation/evolution-timeline-tree-lab.html`
+- GIF reels generated locally from project PNG assets:
+  - `gifs/all_research_showcase.gif`
+  - `gifs/biology_showcase.gif`
+  - `gifs/structure_showcase.gif`
+  - `gifs/physics_showcase.gif`
+  - `gifs/deep_water_types_showcase.gif`
+  - `gifs/mutation_showcase.gif`

@@ -1,0 +1,436 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evolution Timeline Tree Lab</title>
+  <style>
+    :root {
+      --bg-a: #060d19;
+      --bg-b: #0b203b;
+      --ink: #eaf3ff;
+      --muted: #9fb8d7;
+      --line: rgba(163, 208, 255, 0.24);
+      --panel: rgba(10, 25, 44, 0.76);
+      --accent: #61d7ff;
+      --accent2: #94ffb4;
+      --alert: #ff9dad;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+      background:
+        radial-gradient(900px 500px at 10% -10%, #1a3964 0%, transparent 65%),
+        radial-gradient(1000px 500px at 90% -20%, #12355b 0%, transparent 60%),
+        linear-gradient(160deg, var(--bg-a), var(--bg-b));
+      min-height: 100vh;
+    }
+
+    .wrap {
+      max-width: 1260px;
+      margin: 0 auto;
+      padding: 22px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .hero, .panel {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--panel);
+    }
+
+    .hero { padding: 14px 18px; }
+    .hero h1 { margin: 0; font-size: 1.9rem; }
+    .hero p { margin: 8px 0 0; color: var(--muted); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 14px;
+    }
+
+    .panel { padding: 12px; }
+    .panel h2 { margin: 0 0 8px; font-size: 1.08rem; }
+
+    #treeCanvas {
+      width: 100%;
+      height: 560px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: linear-gradient(#0a213b, #040f1f);
+      display: block;
+    }
+
+    .controls {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 8px;
+    }
+
+    .ctrl {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 9px;
+      background: rgba(6, 15, 30, 0.6);
+    }
+    .ctrl label { display: block; font-size: 0.8rem; color: var(--muted); margin-bottom: 4px; }
+    .ctrl input[type="range"] { width: 100%; }
+
+    .timeline {
+      margin-top: 10px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px;
+      background: rgba(4, 11, 23, 0.6);
+    }
+
+    .tline {
+      position: relative;
+      height: 14px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #2a7fbf, #1f4f8d);
+      overflow: hidden;
+      margin-top: 8px;
+    }
+
+    .tfill {
+      position: absolute;
+      inset: 0;
+      width: 0%;
+      background: linear-gradient(90deg, #6ee3ff, #9dffbe);
+      box-shadow: 0 0 16px rgba(109, 241, 255, 0.6);
+      transition: width 0.2s linear;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .stat {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: rgba(5, 13, 26, 0.6);
+      padding: 9px;
+    }
+    .k { font-size: 0.78rem; color: var(--muted); }
+    .v { margin-top: 3px; font-size: 1.04rem; }
+
+    .algo {
+      margin-top: 10px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: rgba(5, 11, 20, 0.65);
+      padding: 10px;
+      font-family: Consolas, monospace;
+      font-size: 0.82rem;
+      line-height: 1.4;
+      white-space: pre-wrap;
+    }
+
+    @media (max-width: 980px) {
+      .grid { grid-template-columns: 1fr; }
+      .controls { grid-template-columns: 1fr; }
+      #treeCanvas { height: 470px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Evolution Timeline Tree: Underwater Lineage Divergence</h1>
+      <p>Animate lineage branching across millions of years with environmental forcing and mutation pressure.</p>
+    </section>
+
+    <section class="grid">
+      <div class="panel">
+        <h2>Branching Evolution Canvas</h2>
+        <canvas id="treeCanvas" width="1180" height="560"></canvas>
+
+        <div class="controls">
+          <div class="ctrl">
+            <label for="timeSlider">Timeline (million years)</label>
+            <input id="timeSlider" type="range" min="0" max="120" value="65" step="1" />
+          </div>
+          <div class="ctrl">
+            <label for="envSlider">Deep-ocean pressure gradient</label>
+            <input id="envSlider" type="range" min="0" max="1" value="0.72" step="0.01" />
+          </div>
+          <div class="ctrl">
+            <label for="mutSlider">Mutation pressure</label>
+            <input id="mutSlider" type="range" min="0" max="1" value="0.36" step="0.01" />
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Evolution Metrics</h2>
+
+        <div class="timeline">
+          <div><span id="timeNow">65</span> Myr progressed</div>
+          <div class="tline"><div id="tfill" class="tfill"></div></div>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><div class="k">Active Branches</div><div class="v" id="branchCount">0</div></div>
+          <div class="stat"><div class="k">Mutation Bursts</div><div class="v" id="burstCount">0</div></div>
+          <div class="stat"><div class="k">Dominant Lineage</div><div class="v" id="domLineage">Proto-marine</div></div>
+          <div class="stat"><div class="k">Adaptive Drift</div><div class="v" id="driftVal">0.00</div></div>
+        </div>
+
+        <div class="algo">Algorithm (timeline model)
+1. Set epoch T in [0, 120] million years.
+2. Start from proto-lineage node at T=0.
+3. Trigger branching events at predefined/climate-driven milestones.
+4. For each branch i:
+   trait_i = trait_i + mutation_noise + selection_pull(environment)
+5. Compute branch vitality score from fitness and stress tolerance.
+6. Render branch thickness, color, and node glow from vitality.
+7. Transition fish phenotype by weighted lineage trait average.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const canvas = document.getElementById('treeCanvas');
+    const ctx = canvas.getContext('2d');
+
+    const timeSlider = document.getElementById('timeSlider');
+    const envSlider = document.getElementById('envSlider');
+    const mutSlider = document.getElementById('mutSlider');
+
+    const timeNow = document.getElementById('timeNow');
+    const tfill = document.getElementById('tfill');
+    const branchCountEl = document.getElementById('branchCount');
+    const burstCountEl = document.getElementById('burstCount');
+    const domLineageEl = document.getElementById('domLineage');
+    const driftValEl = document.getElementById('driftVal');
+
+    const branchPlan = [
+      { t: 12, parent: 'root', id: 'shelf-forager', label: 'Shelf Forager' },
+      { t: 24, parent: 'root', id: 'midwater-pioneer', label: 'Midwater Pioneer' },
+      { t: 38, parent: 'midwater-pioneer', id: 'biolum-line', label: 'Biolum Lineage' },
+      { t: 52, parent: 'midwater-pioneer', id: 'deep-ambush', label: 'Deep Ambush' },
+      { t: 68, parent: 'deep-ambush', id: 'hadal-specialist', label: 'Hadal Specialist' },
+      { t: 88, parent: 'shelf-forager', id: 'reef-fragmented', label: 'Reef Fragmented' },
+      { t: 102, parent: 'hadal-specialist', id: 'trench-endemic', label: 'Trench Endemic' }
+    ];
+
+    let pulses = [];
+    let bursts = 0;
+
+    function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
+    function lerp(a, b, t) { return a + (b - a) * t; }
+
+    function gaussian() {
+      let u = 0, v = 0;
+      while (!u) u = Math.random();
+      while (!v) v = Math.random();
+      return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+    }
+
+    function makeNodes(T) {
+      const nodes = {
+        root: { id: 'root', label: 'Proto-marine', x: 110, y: 280, age: 0, trait: 0.5, vitality: 0.9, parent: null }
+      };
+
+      const yLanes = [80, 160, 240, 320, 400, 480];
+      let laneIndex = 0;
+
+      for (const b of branchPlan) {
+        if (b.t > T) continue;
+        const p = nodes[b.parent];
+        const x = 110 + (b.t / 120) * 980;
+        const y = yLanes[laneIndex % yLanes.length];
+        laneIndex++;
+
+        const base = p ? p.trait : 0.5;
+        nodes[b.id] = {
+          id: b.id,
+          label: b.label,
+          parent: b.parent,
+          x,
+          y,
+          age: b.t,
+          trait: clamp(base + gaussian() * 0.05, 0.05, 1.4),
+          vitality: clamp(0.6 + Math.random() * 0.35, 0.1, 1.0)
+        };
+      }
+      return nodes;
+    }
+
+    function drawFish(x, y, scale, trait, env, alpha = 1) {
+      const deepBias = clamp(env, 0, 1);
+      const bodyDepth = lerp(0.78, 1.25, deepBias * 0.75 + trait * 0.25);
+      const eye = lerp(1.1, 0.68, deepBias * 0.7 + trait * 0.2);
+      const biolum = lerp(0.1, 1.0, deepBias * 0.8 + trait * 0.2);
+
+      const bodyW = 130 * scale;
+      const bodyH = 56 * scale * bodyDepth;
+      const eyeR = 5 * scale * eye;
+      const hue = lerp(155, 208, deepBias);
+
+      ctx.save();
+      ctx.globalAlpha = alpha;
+      ctx.translate(x, y);
+
+      ctx.fillStyle = `hsl(${hue}, 48%, 34%)`;
+      ctx.beginPath();
+      ctx.ellipse(0, 0, bodyW * 0.5, bodyH * 0.5, 0, 0, Math.PI * 2);
+      ctx.fill();
+
+      ctx.fillStyle = `hsl(${hue - 10}, 42%, 28%)`;
+      ctx.beginPath();
+      ctx.moveTo(bodyW * 0.5, 0);
+      ctx.lineTo(bodyW * 0.5 + 35 * scale, -bodyH * 0.28);
+      ctx.lineTo(bodyW * 0.5 + 35 * scale, bodyH * 0.28);
+      ctx.closePath();
+      ctx.fill();
+
+      ctx.fillStyle = '#ecf8ff';
+      ctx.beginPath();
+      ctx.arc(-bodyW * 0.25, -bodyH * 0.12, eyeR, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.fillStyle = '#061527';
+      ctx.beginPath();
+      ctx.arc(-bodyW * 0.25, -bodyH * 0.12, eyeR * 0.45, 0, Math.PI * 2);
+      ctx.fill();
+
+      const dots = Math.floor(7 * biolum);
+      for (let i = 0; i < dots; i++) {
+        ctx.beginPath();
+        ctx.arc(-bodyW * 0.2 + i * (bodyW * 0.08), bodyH * 0.2, 1.8 * scale, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(150,255,196,0.9)';
+        ctx.fill();
+      }
+
+      ctx.restore();
+    }
+
+    function draw(now) {
+      const T = Number(timeSlider.value);
+      const env = Number(envSlider.value);
+      const mut = Number(mutSlider.value);
+
+      timeNow.textContent = T;
+      tfill.style.width = `${(T / 120) * 100}%`;
+
+      ctx.fillStyle = '#071b31';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // subtle current lines
+      ctx.strokeStyle = 'rgba(110, 176, 230, 0.14)';
+      ctx.lineWidth = 1;
+      for (let i = 0; i < 6; i++) {
+        ctx.beginPath();
+        for (let x = 0; x <= canvas.width; x += 14) {
+          const y = 70 + i * 78 + Math.sin((x * 0.008) + (now * 0.001) + i) * 7;
+          if (x === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+      }
+
+      const nodes = makeNodes(T);
+      const ids = Object.keys(nodes);
+
+      // branch mutation bursts
+      if (Math.random() < 0.02 + mut * 0.04) {
+        const active = ids.filter(id => id !== 'root');
+        if (active.length) {
+          const id = active[Math.floor(Math.random() * active.length)];
+          const n = nodes[id];
+          pulses.push({ x: n.x, y: n.y, r: 4, life: 1 });
+          bursts++;
+        }
+      }
+
+      // draw links
+      for (const id of ids) {
+        const n = nodes[id];
+        if (!n.parent) continue;
+        const p = nodes[n.parent];
+
+        const stress = Math.abs(n.trait - env);
+        const vitality = clamp(1 - stress + (Math.random() - 0.5) * mut * 0.08, 0.08, 1);
+        n.vitality = vitality;
+
+        ctx.strokeStyle = `rgba(${Math.floor(80 + vitality * 120)}, ${Math.floor(150 + vitality * 70)}, 255, 0.72)`;
+        ctx.lineWidth = 1 + vitality * 4;
+
+        ctx.beginPath();
+        ctx.moveTo(p.x, p.y);
+        const cx = (p.x + n.x) / 2;
+        ctx.bezierCurveTo(cx, p.y, cx, n.y, n.x, n.y);
+        ctx.stroke();
+      }
+
+      // draw nodes + labels
+      let dominant = nodes.root;
+      let driftSum = 0;
+      for (const id of ids) {
+        const n = nodes[id];
+        const drift = Math.abs(n.trait - env);
+        driftSum += drift;
+
+        if (n.vitality > dominant.vitality) dominant = n;
+
+        ctx.beginPath();
+        const glow = 6 + n.vitality * 8;
+        ctx.fillStyle = `rgba(142, 255, 193, ${0.45 + n.vitality * 0.45})`;
+        ctx.shadowColor = 'rgba(98, 232, 255, 0.65)';
+        ctx.shadowBlur = glow;
+        ctx.arc(n.x, n.y, 4 + n.vitality * 4, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.shadowBlur = 0;
+
+        ctx.fillStyle = 'rgba(220, 237, 255, 0.92)';
+        ctx.font = '12px Segoe UI';
+        ctx.fillText(n.label, n.x + 9, n.y - 8);
+
+        drawFish(n.x + 9, n.y + 17, 0.24 + n.vitality * 0.12, n.trait, env, 0.93);
+      }
+
+      // pulses
+      pulses = pulses.filter(p => p.life > 0.03);
+      for (const p of pulses) {
+        ctx.beginPath();
+        ctx.strokeStyle = `rgba(255, 157, 173, ${p.life})`;
+        ctx.lineWidth = 2;
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.stroke();
+        p.r += 1.6;
+        p.life *= 0.93;
+      }
+
+      // timeline axis
+      ctx.strokeStyle = 'rgba(145, 197, 242, 0.4)';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(100, 530);
+      ctx.lineTo(1090, 530);
+      ctx.stroke();
+      ctx.fillStyle = 'rgba(198, 224, 249, 0.92)';
+      ctx.font = '12px Segoe UI';
+      ctx.fillText('0 Myr', 90, 548);
+      ctx.fillText('120 Myr', 1060, 548);
+
+      branchCountEl.textContent = String(ids.length);
+      burstCountEl.textContent = String(bursts);
+      domLineageEl.textContent = dominant.label;
+      driftValEl.textContent = (driftSum / ids.length).toFixed(2);
+
+      requestAnimationFrame(draw);
+    }
+
+    requestAnimationFrame(draw);
+  </script>
+</body>
+</html>

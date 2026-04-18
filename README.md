@@ -17,6 +17,20 @@ Status date: April 19, 2026.
 - `mutation/`
   - Evolutionary and mutation-driven adaptation pathways in deep water.
 
+## Interactive Labs
+
+- `mutation/live-evolution-lab.html`
+- `mutation/evolution-timeline-tree-lab.html`
+
+## GIF Showcase
+
+- ![All Research Showcase](./gifs/all_research_showcase.gif)
+- ![Biology Showcase](./gifs/biology_showcase.gif)
+- ![Structure Showcase](./gifs/structure_showcase.gif)
+- ![Physics Showcase](./gifs/physics_showcase.gif)
+- ![Deep Water Types Showcase](./gifs/deep_water_types_showcase.gif)
+- ![Mutation Showcase](./gifs/mutation_showcase.gif)
+
 ## Image Assets
 
 Each study folder includes a `png/` subfolder with local PNG assets and its own `README.md`.

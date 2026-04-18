@@ -14,6 +14,8 @@ Classification layer for different deep-water contexts.
 ![Deep Water Type Matrix](./png/deep_water_type_matrix_generated.png)
 ![Volcanic Margin Cross Section](./png/volcanic_margin_cross_section_generated.png)
 ![Land Water Land Basin](./png/land_water_land_deep_basin_generated.png)
+![Fjord](./png/fjord.png)
+![Brine Pool](./png/brine_pool.png)
 
 ## Related Notes
 

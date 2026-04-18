@@ -32,15 +32,24 @@ Mutations that improve pressure tolerance, energy efficiency, sensory performanc
 - Selection and drift in isolated deep habitats:
   - Can accelerate divergence and endemism.
 
-## Interactive Visualization
+## Interactive Visualization Labs
 
-- Open `live-evolution-lab.html` in a browser for DNA animation + live fish mutation/evolution transition.
+- `live-evolution-lab.html`
+  - DNA helix animation, mutation pulses, and live fish phenotype transition.
+- `evolution-timeline-tree-lab.html`
+  - Million-year timeline slider with branching lineage tree and adaptive drift metrics.
 
-## Gallery
+## Mutation Gallery
 
 ![Deep vs Shallow Traits](./png/deep_vs_shallow_traits_generated.png)
 ![Mutation Pathways](./png/mutation_pathways_generated.png)
 ![Adaptation Timeline](./png/adaptation_timeline_generated.png)
+![Bioluminescence](./png/bioluminescence.png)
+![Deep Sea Gigantism](./png/deep_sea_gigantism.png)
+
+## GIF Showcase
+
+![Mutation Showcase GIF](../gifs/mutation_showcase.gif)
 
 ## Related References
 
