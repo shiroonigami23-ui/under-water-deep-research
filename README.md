@@ -1,11 +1,33 @@
-# Under Water Deep Research
+﻿# Under Water Deep Research
 
-Dynamic research node connected to [`Research-Vault`](https://github.com/shiroonigami23-ui/Research-Vault).
+Research node for deep-ocean studies, organized for parallel work across biology, structure, and physics/chemistry.
 
-![Research Vault Latest Commit](https://img.shields.io/github/last-commit/shiroonigami23-ui/Research-Vault/main?label=Research-Vault%20Sync)
+Status date: April 19, 2026.
 
-## Connection Model
+## Folder Map
 
-- Source of truth hub: `shiroonigami23-ui/Research-Vault`
-- This node is mirrored into `Research-Vault/connected/under-water-deep-research/`.
-- Mirroring is executed from `Research-Vault` workflow (`sync-research-nodes.yml`).
+- `biology/`
+  - Animal adaptations, ecosystems, and ongoing biodiversity studies.
+- `structure/`
+  - Natural structures (vents, trenches, canyons) and artificial structures (cables, observatories, mining systems).
+- `physics/`
+  - Pressure, temperature, circulation, chemistry, and depth-linked constraints.
+- `deep-water-types/`
+  - Classification of deep-water settings, including volcanic margins and semi-enclosed land-water-land basins.
+
+## Starting Files
+
+- `biology/deep-sea-animal-biology.md`
+- `biology/ongoing-studies-2025-2026.md`
+- `structure/natural-structures.md`
+- `structure/artificial-structures.md`
+- `physics/deep-ocean-physics-chemistry.md`
+- `deep-water-types/deep-water-types-and-geographies.md`
+
+## Working Rule
+
+Each file keeps:
+1. Core concepts
+2. Active research questions
+3. Latest known ongoing studies with dates
+4. Source links (Wikipedia plus primary org pages)
