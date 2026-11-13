@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Under Water Deep Research banner" width="100%">
+<img src="assets/banner.gif" alt="Under Water Deep Research animated banner" width="100%">
 
 # 🌊 Under Water Deep Research
 
@@ -193,13 +193,13 @@ See [CHANGELOG.md](CHANGELOG.md) for the release history.
 
 ## 📄 License
 
-Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
+Distributed under the **MIT** license. See [LICENSE](LICENSE) for details.
 
 ## 👤 Author
 
 **Aryan Singh Chandel** (Shiro)
 
-[![GitHub](https://img.shields.io/badge/GitHub-shiroonigami23-ui-181717?style=flat-square&logo=github)](https://github.com/shiroonigami23-ui)
+[![GitHub](https://img.shields.io/badge/GitHub-shiroonigami23--ui-181717?style=flat-square&logo=github)](https://github.com/shiroonigami23-ui)
 
 <div align="center">
 
