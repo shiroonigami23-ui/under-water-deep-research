@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.gif" alt="Under Water Deep Research animated banner" width="100%">
+<img src="gifs/all_research_showcase.gif" alt="Under Water Deep Research" width="100%">
 
 # 🌊 Under Water Deep Research
 
@@ -21,9 +21,9 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="gifs/all_research_showcase.gif" alt="preview" width="45%">
   <img src="gifs/biology_showcase.gif" alt="preview" width="45%">
   <img src="gifs/physics_showcase.gif" alt="preview" width="45%">
+  <img src="gifs/structure_showcase.gif" alt="preview" width="45%">
   <img src="gifs/mutation_showcase.gif" alt="preview" width="45%">
 </p>
 
