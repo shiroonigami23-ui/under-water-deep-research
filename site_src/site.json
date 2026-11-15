@@ -29,7 +29,7 @@
    "of the ocean protected (3.3% fully)"
   ],
   [
-   "1,003",
+   "1,072",
    "species profiles with photos and sounds"
   ]
  ],
@@ -233,7 +233,7 @@
    "id": "species",
    "icon": "🐠",
    "title": "Species Atlas",
-   "desc": "1,003 ocean animals, plants and microbes from sunlit reefs and rivers to the hadal trenches. Each profile shows depth range, where it lives, diet, conservation status, a real photo and an overview, plus the sounds of whales, dolphins, seals, seabirds and noisy fish.",
+   "desc": "1,072 ocean animals, plants and microbes from sunlit reefs and rivers to the hadal trenches. Each profile shows depth range, where it lives, diet, conservation status, a real photo and an overview, plus the sounds of whales, dolphins, seals, seabirds and noisy fish.",
    "file": "data/species.json",
    "name_key": "name",
    "sub_key": "scientific",
@@ -353,7 +353,7 @@
     ]
    ],
    "live_photos": true,
-   "short": "1,000+ animals, plants & microbes",
+   "short": "1,072 animals, plants & microbes",
    "sounds": true,
    "vocal_groups": [
     "Marine mammals",
@@ -393,7 +393,8 @@
      "title": "Depth range of every species (sorted by maximum depth)"
     }
    ],
-   "noun": "species"
+   "noun": "species",
+   "studies": true
   },
   {
    "id": "seas",
@@ -565,7 +566,8 @@
     }
    ],
    "glance": true,
-   "noun": "seas & oceans"
+   "noun": "seas & oceans",
+   "studies": true
   },
   {
    "id": "rivers",
@@ -677,7 +679,8 @@
      "https://en.wikipedia.org/wiki/{wiki}"
     ]
    ],
-   "noun": "rivers"
+   "noun": "rivers",
+   "studies": true
   },
   {
    "id": "wrecks",
@@ -779,7 +782,8 @@
      "https://en.wikipedia.org/wiki/{wiki}"
     ]
    ],
-   "noun": "wrecks"
+   "noun": "wrecks",
+   "studies": true
   },
   {
    "id": "phenomena",
@@ -848,7 +852,8 @@
      "https://en.wikipedia.org/wiki/{wiki}"
     ]
    ],
-   "noun": "phenomena"
+   "noun": "phenomena",
+   "studies": true
   },
   {
    "id": "papers",
@@ -926,7 +931,8 @@
     }
    ],
    "source_tpl": [],
-   "desc": "Key peer-reviewed papers behind this encyclopedia. Read openly licensed ones here in the built-in PDF reader, download them, or open the publisher/arXiv PDF in a new tab."
+   "desc": "Key peer-reviewed papers behind this encyclopedia. Read openly licensed ones here in the built-in PDF reader, download them, or open the publisher/arXiv PDF in a new tab.",
+   "studies": false
   }
  ],
  "nav_order": [

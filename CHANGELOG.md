@@ -3,6 +3,17 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Semantic Versioning](https://semver.org/).
 
+## [3.2.0] - 2026-11-15 — In-depth entries, research panels, auto-sound, larger layout
+
+### Added
+- **In depth** section on every catalog entry: the full Wikipedia article (description, habitat, diet, reproduction, behaviour, conservation, research, history…) loaded live into collapsible sections, with links to pages in this encyclopedia
+- **Research & studies** panel on every entry: most-cited and newest papers from OpenAlex, with free PDF links
+- Sounds load and try to play automatically when a page opens, with a written 'What it sounds like' note (including when an animal is silent or has never been recorded)
+- 1,072 species (+69, many from Indian waters), sound descriptions for every species
+
+### Changed
+- Fluid, larger layout that fills tablets and wide screens; Sources moved below the in-depth content
+
 ## [3.1.0] - 2026-11-15 — 1,000+ species, connections and navigation
 
 ### Added

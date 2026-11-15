@@ -1,0 +1,83 @@
+# Reef fish|🐠
+Lionfish red|Pterois volitans|1|300|Indo-Pacific; invasive W Atlantic|Fish, crustaceans|LC|Invaded the Caribbean and western Atlantic from the 1980s, eating native reef fish.
+Ocellaris clownfish|Amphiprion ocellaris|1|15|E Indian Ocean; W Pacific|Plankton, algae|LC|The 'Nemo' clownfish: all are born male and the dominant one becomes female.|clownfish sound
+Saddleback clownfish|Amphiprion polymnus|2|30|W Pacific|Plankton|LC|Lives in sand anemones and nests beside them.
+Bluestreak cleaner wrasse|Labroides dimidiatus|1|40|Indo-Pacific; Red Sea|Parasites|LC|Passes the mirror test of self-recognition and runs reef 'cleaning stations'.
+Giant moray|Gymnothorax javanicus|0|50|Indo-Pacific|Fish, crustaceans|LC|The largest moray by mass; hunts with groupers.
+Dragon moray|Enchelycore pardalis|1|50|Indo-Pacific|Fish|LC|Horned nostrils and curved jaws.
+Spotted moray|Gymnothorax moringa|0|200|W Atlantic|Fish, octopus|LC|Common Caribbean moray.
+Coral hind|Cephalopholis boenak|1|30|Indo-W Pacific|Fish, crustaceans|LC|Small brown reef grouper.
+Honeycomb cowfish|Acanthostracion polygonius|3|80|W Atlantic|Invertebrates|LC|Boxfish with a honeycomb pattern.
+Whitespotted puffer|Arothron hispidus|1|50|Indo-Pacific|Algae, invertebrates|LC|Inflates when threatened.
+Blackspot sergeant|Abudefduf sordidus|0|5|Indo-Pacific|Algae|LC|Common tide-pool damselfish.
+Humbug damselfish|Dascyllus aruanus|0|20|Indo-Pacific|Plankton|LC|Lives in groups among branching coral.
+Bicolor angelfish|Centropyge bicolor|1|25|Indo-W Pacific|Algae|LC|Half yellow, half blue dwarf angelfish.
+Lemonpeel angelfish|Centropyge flavissima|3|50|Pacific|Algae|LC|Bright yellow dwarf angelfish.
+Yellowhead butterflyfish|Chaetodon xanthocephalus|1|30|Indian Ocean|Polyps|LC|Butterflyfish of East Africa and India.
+Arabian angelfish|Pomacanthus asfur|3|30|Red Sea; W Indian Ocean|Sponges|LC|Yellow-banded angelfish.
+Maldives anemonefish|Amphiprion nigripes|2|25|Maldives; Sri Lanka|Plankton|LC|Black-finned clownfish.
+Andaman sweetlips|Plectorhinchus macrospilus|5|30|Andaman Sea|Invertebrates|LC|Spotted sweetlips of the Andaman Sea.
+Indian goatfish|Parupeneus indicus|1|30|Indo-W Pacific|Invertebrates|LC|Yellow-spotted goatfish.
+Blue-spotted stingray|Neotrygon kuhlii|0|90|Indo-W Pacific|Crustaceans|DD|Blue-spotted stingray of sandy lagoons.
+Sixstripe soapfish|Grammistes sexlineatus|1|130|Indo-Pacific|Fish|LC|Secretes a toxic soapy mucus.
+Comet|Calloplesiops altivelis|3|45|Indo-Pacific|Fish|LC|Its tail mimics a moray's head.
+# Coastal & bottom fish|🎣
+Atlantic cod|Gadus morhua|0|600|N Atlantic|Fish, invertebrates|VU|The fish that built and broke fishing economies; the Grand Banks stock collapsed in 1992.|cod grunting
+Pollack|Pollachius pollachius|0|200|NE Atlantic|Fish|LC|Cod relative of rocky reefs.
+Whiting|Merlangius merlangus|10|200|NE Atlantic|Fish|LC|Common North Sea cod relative.
+European hake|Merluccius merluccius|30|1000|NE Atlantic; Mediterranean|Fish, squid|LC|Major Iberian fishery.
+Indian threadfin|Leptomelanosoma indicum|0|30|Indo-W Pacific|Fish, prawns|NE|Large threadfin fished along Indian coasts.
+Indian salmon (fourfinger threadfin)|Eleutheronema tetradactylum|0|23|Indo-W Pacific|Fish, prawns|EN|Prized estuarine threadfin.
+Ribbonfish (largehead hairtail)|Trichiurus lepturus|0|589|Worldwide warm|Fish, squid|LC|Silvery ribbon-shaped fish, a major catch in India and China.
+Sole Indian|Cynoglossus macrostomus|0|50|Arabian Sea|Invertebrates|NE|Malabar tongue sole, fished off Kerala.
+Grey mullet Indian|Planiliza macrolepis|0|20|Indo-Pacific|Detritus|LC|Large-scale mullet of Indian estuaries.
+Pearl spot|Etroplus suratensis|0|5|India; Sri Lanka brackish waters|Algae, detritus|LC|Karimeen, the state fish of Kerala.
+Mangrove red snapper|Lutjanus argentimaculatus|0|120|Indo-W Pacific|Fish, crustaceans|LC|Moves from mangroves to reefs as it grows.
+Seer fish (narrow-barred Spanish mackerel)|Scomberomorus commerson|10|70|Indo-W Pacific|Fish|NT|Prized 'king fish' of India.
+Indian scad|Decapterus russelli|40|275|Indo-W Pacific|Plankton|LC|Small schooling scad.
+Malabar grouper|Epinephelus malabaricus|0|150|Indo-Pacific|Fish|NT|Large grouper of Indian reefs and estuaries.
+Tiger shrimp|Penaeus monodon|0|110|Indo-W Pacific|Detritus|NE|The giant tiger prawn, India's major farmed shrimp.
+Indian white shrimp|Penaeus indicus|2|90|Indo-W Pacific|Detritus|NE|Important coastal prawn fishery.
+# Deep-sea fish|🐡
+Deep-sea anglerfish Linophryne|Linophryne coronata|200|1500|N Atlantic|Fish|LC|Bearded anglerfish with a glowing chin barbel.
+Atlantic footballfish|Himantolophus albinares|300|1000|Atlantic|Fish|LC|Rare football-shaped anglerfish.
+Sea devil pacific|Caulophryne pelagica|500|3000|Pacific; Atlantic|Fish|LC|Fanfin anglerfish with long sensory filaments.
+Longnose chimaera Pacific|Harriotta haeckeli|1100|2600|Worldwide|Invertebrates|LC|Rare deep chimaera.
+Deep-sea dragonfish Stomias|Stomias boa|200|1500|Atlantic; Southern|Fish|LC|Scaly dragonfish with a chin barbel.
+Barrel-eye spookfish Opisthoproctus|Opisthoproctus soleatus|300|800|Worldwide warm|Plankton|LC|Upward-looking tubular eyes and a mirror-like belly light.
+Rattail Macrourus|Macrourus berglax|100|1000|N Atlantic|Invertebrates|LC|Roughhead grenadier.
+Bathyal tonguefish|Symphurus thermophilus|300|700|Pacific vents|Invertebrates|NE|Flatfish living around hydrothermal vents.
+# Crustaceans|🦀
+Coral banded shrimp yellow|Stenopus scutellatus|1|40|Caribbean|Parasites|NE|Golden coral shrimp.
+Glass shrimp anemone|Ancylomenes pedersoni|1|20|Caribbean|Parasites|NE|Clear cleaner shrimp living on anemones.
+Emperor shrimp|Zenopontonia rauli|0|50|Indo-Pacific|Detritus|NE|Hitchhikes on sea cucumbers and nudibranchs.
+Arrow crab|Stenorhynchus seticornis|1|130|W Atlantic|Worms|NE|Spider-like crab with a pointed head.
+Blue swimmer crab|Portunus pelagicus|0|50|Indo-W Pacific|Molluscs|NE|Swimming crab fished across India.
+Kuruma prawn|Penaeus japonicus|0|90|Indo-W Pacific|Detritus|NE|Striped prawn farmed in Japan.
+Antarctic krill relative ice krill|Euphausia crystallorophias|0|600|Southern Ocean|Algae|NE|Ice krill of the Antarctic shelf.
+Deep-sea isopod giant Pacific|Bathynomus jamesi|300|1000|South China Sea|Scavenger|NE|Another giant isopod species.
+Hermit crab common|Pagurus bernhardus|0|140|NE Atlantic|Detritus|NE|Common European hermit crab.
+# Molluscs|🐚
+Chambered nautilus relative crusty|Allonautilus scrobiculatus|100|700|W Pacific|Carrion|NE|The rare crusty nautilus with a hairy shell coating.
+Sacred chank|Turbinella pyrum|5|30|Gulf of Mannar; Sri Lanka|Worms|NE|The sacred shankh shell of India, blown in rituals.
+Green mussel|Perna viridis|0|10|Indo-Pacific|Plankton|NE|Major farmed mussel in India; invasive elsewhere.
+Window-pane oyster|Placuna placenta|0|100|Indo-Pacific|Plankton|NE|Translucent shells once used as window panes in Goa.
+Indian squid|Uroteuthis duvaucelii|0|170|Indo-W Pacific|Fish|DD|Major squid fishery in India.
+Pharaoh cuttlefish|Sepia pharaonis|0|130|Indo-W Pacific|Crustaceans|DD|Large cuttlefish of the Indian Ocean.
+# Echinoderms|⭐
+Granulated sea star|Choriaster granulatus|0|35|Indo-Pacific|Detritus|NE|Pinkish puffy sea star.
+Horned sea star|Protoreaster linckii|0|30|Indian Ocean|Detritus|NE|Red-horned star of Indian Ocean shores.
+Sea cucumber prickly redfish|Thelenota ananas|0|30|Indo-Pacific|Detritus|EN|Large spiky sea cucumber overharvested for trepang.
+# Marine mammals|🐋
+Indian Ocean humpback dolphin|Sousa plumbea|0|25|W Indian Ocean; India|Fish|EN|Coastal dolphin with a hump below the fin.
+Indo-Pacific finless porpoise|Neophocaena phocaenoides|0|50|Indian Ocean; W Pacific|Fish|VU|Porpoise with no dorsal fin, found off India.|porpoise click
+Dugong|Dugong dugon|0|20|Indo-Pacific|Seagrass|VU|The 'sea cow'; India's Gulf of Mannar has a dugong conservation reserve.
+Arabian Sea humpback whale|Megaptera novaeangliae (Arabian Sea population)|0|200|Arabian Sea|Fish|EN|The world's most isolated humpbacks, which never migrate.|humpback whale song
+# Seabirds|🐦
+Masked booby relative Nazca|Sula granti|0|10|Galápagos|Fish|LC|Nazca booby.
+Brown noddy|Anous stolidus|0|1|Tropical oceans|Fish|LC|Tropical tern that nods in courtship.
+White tern|Gygis alba|0|1|Tropical oceans|Fish|LC|Lays its egg on a bare branch.
+Greater crested tern|Thalasseus bergii|0|1|Indo-Pacific|Fish|LC|Common tern of Indian coasts.
+Lesser flamingo|Phoeniconaias minor|0|1|Africa; India (Rann of Kutch)|Algae|NT|Breeds in huge numbers in the Rann of Kutch.
+Spot-billed pelican|Pelecanus philippensis|0|1|South Asia|Fish|NT|Pelican of Indian wetlands.
+Indian skimmer|Rynchops albicollis|0|1|South Asian rivers|Fish|EN|Skims rivers like the Chambal.

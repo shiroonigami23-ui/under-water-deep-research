@@ -243,3 +243,40 @@ details.rel.big>summary{cursor:pointer;list-style:none}details.rel.big>summary::
 .acc.open{color:var(--ok);font-weight:700}.acc.closed{color:var(--warn);font-weight:700}
 .pbnote{margin-top:.6rem;color:var(--fg2)}
 .pbframe{width:100%;height:80vh;border:1px solid var(--line);border-radius:10px;margin-top:.8rem;background:#fff}
+/* ===== v5 fluid, larger layout (fixes 'shrunken' pages on tablets and wide screens) ===== */
+html{font-size:clamp(16px,0.55vw + 10px,19px)}
+body{font-size:1rem}
+.wrap{max-width:min(1640px,96vw)}
+.layout{grid-template-columns:clamp(200px,15vw,260px) minmax(0,1fr) clamp(190px,13vw,240px);gap:clamp(20px,2.4vw,44px)}
+.prose{max-width:none}.prose p,.prose li{max-width:78ch}
+.entry-top{grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:22px}
+.entry-pic img,.entry-pic svg,.livepic.big img{aspect-ratio:4/3}
+.factbox{font-size:.95rem}.factbox th,.factbox td{padding:9px 12px}
+.entry-head h1,.page h1{font-size:clamp(1.9rem,2.6vw,2.8rem)}
+.viz,.soundbox,.glance,.wikibox,.deepwiki,.studies{max-width:none}
+@media(max-width:1180px){.layout{grid-template-columns:minmax(0,1fr)}.sidebar{display:none}}
+/* deep Wikipedia sections */
+.deepwiki{margin:1.4rem 0}
+.deepwiki>h2{display:flex;align-items:center;gap:8px}
+details.dsec{border:1px solid var(--line);border-radius:12px;background:var(--panel);margin:.6rem 0;padding:.2rem 1rem}
+details.dsec>summary{cursor:pointer;font-weight:700;font-size:1.05rem;padding:.6rem 0;list-style:none}
+details.dsec>summary::before{content:"▸ ";color:var(--accent)}details.dsec[open]>summary::before{content:"▾ "}
+details.dsec .dbody{padding-bottom:.8rem}details.dsec .dbody p,details.dsec .dbody li{line-height:1.7}
+details.dsec .dbody h3,details.dsec .dbody h4{font-size:1rem;margin:1rem 0 .3rem;color:var(--fg2)}
+.dbody figure{display:none}.dbody table{display:none}
+.wsrc{font-size:.8rem;color:var(--muted);margin-top:.4rem}
+a.intl{border-bottom:1px dashed var(--accent)}
+.loadingbar{height:4px;border-radius:2px;background:linear-gradient(90deg,var(--chip),var(--accent),var(--chip));background-size:200% 100%;animation:lb 1.2s linear infinite;margin:.6rem 0}
+@keyframes lb{to{background-position:-200% 0}}
+/* studies */
+.studies{margin:1.4rem 0;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:14px;background:var(--panel)}
+.studies h2{margin-top:0}
+.stlist{list-style:none;margin:.4rem 0 0;padding:0}.stlist li{padding:.6rem 0;border-bottom:1px solid var(--line)}
+.stlist li:last-child{border-bottom:0}.stlist .sm{color:var(--muted);font-size:.85rem}
+.stlist .oa{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:999px;background:var(--ok);color:#012;font-size:.75rem;font-weight:700}
+.sttabs{display:flex;gap:6px;margin:.4rem 0}.sttabs button{border:1px solid var(--line);background:var(--bg);color:var(--fg);border-radius:999px;padding:5px 12px;cursor:pointer}.sttabs button.on{background:var(--accent);color:#012;border-color:var(--accent)}
+/* sound description */
+.sounddesc{flex-basis:100%;font-size:.95rem;color:var(--fg)}
+.sounddesc b{color:var(--accent)}
+.sbtn.pulse{animation:pulseb 1.4s infinite}@keyframes pulseb{50%{box-shadow:0 0 0 8px rgba(120,200,255,.25)}}
+.viz{width:100%;max-width:none}.viz svg{width:100%}

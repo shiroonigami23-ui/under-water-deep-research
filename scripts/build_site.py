@@ -150,6 +150,7 @@ PLAIN = r"""<main class="wrap plain"><div class="crumbs"><a href="{{ root }}inde
 IMG_EXT = (".webp", ".png", ".jpg", ".jpeg")
 PROMPTS = []
 PHOTOS = []
+WIKIMAP = {}
 
 
 def find_img(cid, slug):
@@ -356,6 +357,7 @@ def build_collections(env, write, sections, search, built):
                     prompt = f"Scientific illustration of {name}"
                 wk = urllib.parse.unquote(str(it.get(c.get("photo_key", "wiki"), ""))).replace("_", " ") if c.get("live_photos") else ""
                 if wk:
+                    WIKIMAP[wk.lower()] = f"wiki/{cid}/{slug}.html"
                     PHOTOS.append(dict(wiki=wk, name=name, save=f"assets/img/{cid}/{slug}.png", coll=c["title"]))
                 da = f' data-wiki="{html.escape(str(wk))}" data-save="assets/img/{cid}/{slug}.png"' if wk else ""
                 pic = f'<div class="livepic big"{da}>{placeholder(icon, name, sub, hue)}</div>'
@@ -378,9 +380,13 @@ def build_collections(env, write, sections, search, built):
             body += "\n\n## Sources\n\n" + "\n".join(f"{n+1}. {lab}: <{u}>" for n, (lab, u) in enumerate(srcs))
             md = markdown.Markdown(extensions=MD_EXT, extension_configs=MD_CFG)
             h = md.convert(callouts(body))
+            srch = ""
+            if '<h2 id="sources">' in h:
+                h, srch = h.split('<h2 id="sources">', 1)
+                srch = '<h2 id="sources">' + srch
             prev = items[i - 1] if i else None; nxt = items[i + 1] if i + 1 < len(items) else None
             content = env.from_string(COLL_ITEM).render(c=c, it=it, name=name, sub=sub, pic=pic, facts=facts, viz=visual(c.get("visual"), it), rel=related_html(c, it), glance=glance_html(c, it), wk=urllib.parse.unquote(str(it.get("wiki", ""))).replace("_", " "),
-                                                       body=h, toc=md.toc, prev=prev, next=nxt, nk=nk, n=len(items))
+                                                       body=h, srch=srch, toc=md.toc, prev=prev, next=nxt, nk=nk, n=len(items))
             write(f"wiki/{cid}/{slug}.html", name, content, 2, it.get("summary", ""), cid)
             search.append({"t": name, "s": c["title"], "u": f"wiki/{cid}/{slug}.html", "d": it.get("summary", sub),
                            "x": re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", h))[:3000]})
@@ -413,10 +419,13 @@ COLL_ITEM = r"""<div class="wrap layout">
  <div class="pbbtns"><button class="btn pbview" hidden>📖 Read here</button>{% if it.pdf_url %}<a class="btn pbopen" href="{{ it.pdf_url|e }}" target="_blank" rel="noopener">↗ Open PDF in new tab</a><a class="btn pbdl" href="{{ it.pdf_url|e }}" target="_blank" rel="noopener" download>⬇ Download PDF</a>{% else %}<a class="btn pbopen" hidden></a><a class="btn pbdl" hidden></a>{% endif %}{% if it.doi %}<a class="btn ghost" href="https://doi.org/{{ it.doi }}" target="_blank" rel="noopener">🔗 Publisher page</a>{% endif %}{% if it.analysis %}<a class="btn ghost" href="{{ it.analysis }}">🧠 Our analysis</a>{% endif %}</div>
  <div class="pbnote small">Checking for a copy hosted on this site…</div>
  <iframe class="pbframe" title="PDF viewer" hidden></iframe></div>{% endif %}
-{% if c.sounds %}<div class="soundbox" data-name="{{ (it.scientific or name)|e }}" data-sound="{{ (it.sound or '')|e }}" data-local="/assets/audio/{{ c.id }}/{{ it.slug }}.mp3" data-kind="{{ c.sound_kind or 'species' }}"{% if it.group in (c.vocal_groups or []) or it.sound %} data-vocal="1"{% endif %}><span class="sinfo">🔊 Sound</span></div>{% endif %}
+{% if c.sounds %}<div class="soundbox" data-name="{{ (it.scientific or name)|e }}" data-common="{{ name|e }}" data-sound="{{ (it.sound or '')|e }}" data-local="/assets/audio/{{ c.id }}/{{ it.slug }}.mp3" data-kind="{{ c.sound_kind or 'species' }}" data-silent="{{ '1' if it.silent else '' }}"><span class="sinfo">🔊 Loading sound…</span>{% if it.sound_desc %}<div class="sounddesc"><b>What it sounds like:</b> {{ it.sound_desc }}</div>{% endif %}</div>{% endif %}
 {{ viz }}{{ glance }}
 {% if c.live_photos %}<div class="wikibox" data-wiki="{{ wk|e }}" hidden></div>{% endif %}
 <div class="prose">{{ body }}</div>
+{% if c.live_photos %}<section class="deepwiki" data-wiki="{{ wk|e }}"><h2 id="in-depth">📚 In depth</h2><div class="loadingbar"></div><p class="small muted">Loading the full encyclopedia article (habitat, anatomy, behaviour, research, threats and more)…</p></section>{% endif %}
+{% if c.studies %}<section class="studies" data-q="{{ (it.scientific or it.study_q or name)|e }}"><h2 id="research">🔬 Research & studies</h2><p class="small">Scientific papers about {{ name|e }}, retrieved live from OpenAlex (250M+ works). Green <span class="oa" style="background:var(--ok);padding:0 6px;border-radius:9px;color:#012">PDF</span> badges open free full-text PDFs.</p><div class="sttabs"><button class="on" data-sort="cited_by_count:desc">Most cited</button><button data-sort="publication_date:desc">Newest</button></div><div class="loadingbar"></div><ul class="stlist"></ul></section>{% endif %}
+{% if srch %}<div class="prose srcs">{{ srch }}</div>{% endif %}
 {% if rel %}<section class="related"><h2 id="connections">🔗 Connections</h2>{{ rel }}</section>{% endif %}</main>
 <aside class="toc"><div class="tochead">On this page</div>{{ toc }}</aside></div>"""
 
@@ -429,6 +438,7 @@ COLL_INDEX = r"""<section class="sechero"><div class="wrap"><div class="crumbs">
 
 
 def write_prompts():
+    json.dump(WIKIMAP, open(os.path.join(ASSETS, "wikimap.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump(PHOTOS, open(os.path.join(ASSETS, "photo-index.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump([dict(sec=a, name=b, save=c, prompt=d) for a, b, c, d in PROMPTS],
               open(os.path.join(ASSETS, "prompts.json"), "w", encoding="utf-8"), ensure_ascii=False)

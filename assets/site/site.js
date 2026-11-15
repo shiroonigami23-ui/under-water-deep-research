@@ -138,22 +138,31 @@ requestAnimationFrame(tick)}requestAnimationFrame(tick)}document.addEventListene
    return ps.filter(function(p){return p.imageinfo&&!BAD.test(p.title)}).map(function(p){return {url:p.imageinfo[0].url,page:p.imageinfo[0].descriptionurl,title:p.title.replace(/^File:/,'')}})}).catch(function(){return []})}
  function player(box,items,auto){
    var it=items[0];
-   box.innerHTML='<button class="sbtn">▶ Play sound</button><span class="eq" hidden><i></i><i></i><i></i><i></i></span><div class="sinfo">'+it.title.replace(/</g,'&lt;')+' · <a href="'+it.page+'" target="_blank" rel="noopener">source &amp; licence</a>'+(items.length>1?' · <a href="#" class="snext">try another recording ('+(items.length-1)+')</a>':'')+'</div><audio preload="none" src="'+it.url+'"></audio>';
+   box.innerHTML='<button class="sbtn">⏳ Loading…</button><span class="eq" hidden><i></i><i></i><i></i><i></i></span><div class="sinfo">'+it.title.replace(/</g,'&lt;')+' · <a href="'+it.page+'" target="_blank" rel="noopener">source &amp; licence</a>'+(items.length>1?' · <a href="#" class="snext">try another recording ('+(items.length-1)+')</a>':'')+'</div><audio preload="auto" src="'+it.url+'"></audio>';
    var a=box.querySelector('audio'),b=box.querySelector('.sbtn'),eq=box.querySelector('.eq');
    b.onclick=function(){if(a.paused){a.play()}else{a.pause()}};
-   a.onplay=function(){b.textContent='⏸ Pause';eq.hidden=false};a.onpause=a.onended=function(){b.textContent='▶ Play sound';eq.hidden=true};
+   a.preload='auto';a.onplay=function(){b.textContent='⏸ Pause';b.classList.remove('pulse');eq.hidden=false};a.oncanplay=function(){if(a.paused&&b.textContent.indexOf('Loading')>-1)b.textContent='▶ Play sound'};a.onpause=a.onended=function(){b.textContent='▶ Play sound';eq.hidden=true};
    var nx=box.querySelector('.snext');if(nx)nx.onclick=function(ev){ev.preventDefault();player(box,items.slice(1).concat([items[0]]),true)};
-   if(auto){var pr=a.play();if(pr&&pr.catch)pr.catch(function(){b.textContent='🔊 Tap to hear'})}
+   if(auto){var pr=a.play();if(pr&&pr.catch)pr.catch(function(){b.textContent='🔊 Tap to hear it';b.classList.add('pulse')})}
  }
  function none(box,q){var space=(box.dataset.kind||'')!=='species';box.innerHTML='<span class="sinfo">🔇 No open recording found for this '+(box.dataset.kind||'species')+' yet. '+(space?'Space is a vacuum, so \'sounds\' of space are radio, plasma or data converted to audio (sonifications), and many objects have none yet. ':'Many fish and invertebrates are quiet or have never been recorded. ')+'<a href="#" class="sfind">Search more widely</a> · '+(space?'<a href="https://chandra.harvard.edu/sound/" target="_blank" rel="noopener">NASA Chandra sonifications</a>':'<a href="https://dosits.org/galleries/audio-gallery/" target="_blank" rel="noopener">Ocean sound gallery (DOSITS)</a>')+'</span>';
    box.querySelector('.sfind').onclick=function(ev){ev.preventDefault();box.innerHTML='<span class="sinfo">Searching…</span>';find(q.split(' ').slice(0,2).join(' ')).then(function(r){r.length?player(box,r,true):(box.innerHTML='<span class="sinfo">Still nothing found.</span>')})}}
+ function relevant(items,box){
+   var words=((box.dataset.common||'')+' '+(box.dataset.name||'')).toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(function(w){return w.length>3&&!/^(common|great|giant|lesser|greater|northern|southern|eastern|western|atlantic|pacific|indian|deep|ocean|planet|star|galaxy|nebula|comet|asteroid)$/.test(w)});
+   if(box.dataset.sound)return items;
+   return items.filter(function(it){var t=it.title.toLowerCase();return words.some(function(w){return t.indexOf(w)>-1})});
+ }
  function init(box,auto){
-   var local=box.dataset.local,q=box.dataset.sound||'',name=box.dataset.name;
-   var tryLocal=local?fetch(local,{method:'HEAD'}).then(function(r){return r.ok?[{url:local,page:local,title:'Recording'}]:[]}).catch(function(){return []}):Promise.resolve([]);
-   tryLocal.then(function(l){if(l.length)return player(box,l,auto);
-     if(!q&&!box.dataset.vocal){box.innerHTML='<button class="sbtn ghost">🔊 Look for a recording</button>';box.querySelector('.sbtn').onclick=function(){box.innerHTML='<span class="sinfo">Searching Wikimedia Commons…</span>';find(name).then(function(r){r.length?player(box,r,true):none(box,name)})};return}
-     box.innerHTML='<span class="sinfo">Loading sound…</span>';
-     find(q||name).then(function(r){r.length?player(box,r,auto):none(box,name)})});
+   var local=box.dataset.local,q=box.dataset.sound||'',name=box.dataset.name,common=box.dataset.common||name,desc=box.querySelector('.sounddesc');
+   function keepDesc(){if(desc&&!box.contains(desc))box.appendChild(desc)}
+   if(box.dataset.silent){box.innerHTML='<span class="sinfo">🔇 No sound to play</span>';keepDesc();return}
+   var tryLocal=local?fetch(local,{method:'HEAD'}).then(function(r){return r.ok&&(r.headers.get('content-type')||'').indexOf('audio')>-1?[{url:local,page:local,title:'Recording'}]:[]}).catch(function(){return []}):Promise.resolve([]);
+   box.innerHTML='<span class="sinfo">🔊 Finding a recording…</span>';keepDesc();
+   tryLocal.then(function(l){if(l.length){player(box,l,auto);keepDesc();return}
+     var qs=q?[q]:[name,common];
+     (function next(i){if(i>=qs.length){none(box,name);keepDesc();return}
+       find(qs[i]).then(function(r){r=relevant(r,box);if(r.length){player(box,r,auto);keepDesc()}else next(i+1)})})(0);
+   });
  }
  document.addEventListener('DOMContentLoaded',function(){
    var b=document.querySelector('.soundbox[data-name]');if(b)init(b,true);
@@ -176,3 +185,62 @@ document.addEventListener('DOMContentLoaded',function(){
   } else note.innerHTML=src?'The PDF opens from the publisher or arXiv. Openly licensed papers are mirrored here automatically by the repository\'s <i>Fetch open-access papers</i> workflow.':'No free PDF is available; use the publisher page (your library may have access).';
  }).catch(function(){note.textContent=''});
 });
+// ---- In-depth: full Wikipedia article sections, cross-linked to this encyclopedia ----
+(function(){
+ var SKIP=/^(see also|references|notes|external links|further reading|bibliography|sources|citations|footnotes|gallery|explanatory notes|works cited|general references|literature cited)$/i;
+ var ICON=[[/descr|anatom|morpholog|appear|character|physical|structure|size|composition/i,'🔎'],[/habitat|distribut|range|ecolog|location|geograph/i,'🗺'],[/diet|feed|predat|hunt|forag|prey/i,'🍽'],[/reprod|breed|mating|life cycle|spawn|lifespan|growth|develop/i,'🥚'],[/behavio|social|communicat|vocal|song|intelligen/i,'🧠'],[/migrat|movement|navigat/i,'🧭'],[/conserv|threat|status|human|fisher|pollut|climate|protect/i,'🛡'],[/taxonom|evolut|phylogen|classif|etymolog|name/i,'🧬'],[/research|study|scien|discover|observ|explor|mission|history/i,'🔬'],[/atmosph|surface|geolog|interior|orbit|rotation|magnet|formation|moon|ring/i,'🪐'],[/cultur|myth|religion|popular/i,'🎭']];
+ function icon(t){for(var i=0;i<ICON.length;i++)if(ICON[i][0].test(t))return ICON[i][1];return '📄'}
+ var base=(document.querySelector('link[href*="site.css"]')||{getAttribute:function(){return ''}}).getAttribute('href').replace('assets/site/site.css','');
+ function clean(node,map){
+  node.querySelectorAll('sup.reference,.mw-editsection,style,link,.hatnote,.navbox,.metadata,.reflist,.mw-empty-elt,table,figure,.thumb,.gallery,.noprint,.shortdescription,.ambox,.sidebar,.infobox').forEach(function(n){n.remove()});
+  node.querySelectorAll('a').forEach(function(a){var h=a.getAttribute('href')||'';
+   if(h.indexOf('./')===0||h.indexOf('/wiki/')===0){var t=decodeURIComponent(h.replace(/^\.\/|^\/wiki\//,'').split('#')[0]).replace(/_/g,' ').toLowerCase();
+    if(map[t]){a.href=base+map[t];a.className='intl';a.title='Open in this encyclopedia'}else{a.href='https://en.wikipedia.org/wiki/'+h.replace(/^\.\/|^\/wiki\//,'');a.target='_blank';a.rel='noopener'}}
+   else if(h.charAt(0)==='#'){a.replaceWith(document.createTextNode(a.textContent))}});
+  node.querySelectorAll('img').forEach(function(i){i.remove()});
+  return node;
+ }
+ function run(box){
+  var t=box.getAttribute('data-wiki');if(!t)return box.remove();
+  var url='https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&origin=*&redirects=1&prop=text|sections&disableeditsection=1&disablelimitreport=1&page='+encodeURIComponent(t.replace(/ /g,'_'));
+  Promise.all([fetch(url).then(function(r){return r.json()}),fetch(base+'assets/site/wikimap.json').then(function(r){return r.json()}).catch(function(){return {}})]).then(function(a){
+   var j=a[0],map=a[1];if(!j||!j.parse)throw 0;
+   var doc=new DOMParser().parseFromString(j.parse.text,'text/html');var root=doc.querySelector('.mw-parser-output')||doc.body;
+   var secs=[],cur=null;
+   [].slice.call(root.children).forEach(function(el){
+    var h2=el.tagName==='H2'?el:(el.classList&&el.classList.contains('mw-heading2')?el.querySelector('h2'):null);
+    if(h2){cur={title:h2.textContent.trim(),nodes:[]};secs.push(cur);return}
+    if(!cur){cur={title:'Introduction',nodes:[]};secs.push(cur)}
+    if(el.classList&&(el.classList.contains('mw-heading3')||el.classList.contains('mw-heading4'))){var hh=el.querySelector('h3,h4');if(hh){var x=document.createElement('h3');x.textContent=hh.textContent.trim();cur.nodes.push(x)}return}
+    if(/^(P|UL|OL|DL|BLOCKQUOTE|H3|H4)$/.test(el.tagName))cur.nodes.push(el);
+   });
+   secs=secs.filter(function(s){return !SKIP.test(s.title)&&s.nodes.some(function(n){return n.textContent.trim().length>40})});
+   if(!secs.length)throw 0;
+   var html='',n=0;
+   secs.forEach(function(s,i){if(s.title==='Introduction')return;
+    var div=document.createElement('div');s.nodes.forEach(function(nd){div.appendChild(document.importNode(nd,true))});clean(div,map);
+    if(div.textContent.trim().length<40)return;
+    var id='w-'+s.title.toLowerCase().replace(/[^a-z0-9]+/g,'-');
+    html+='<details class="dsec" id="'+id+'"'+(n<3?' open':'')+'><summary>'+icon(s.title)+' '+s.title.replace(/</g,'&lt;')+'</summary><div class="dbody">'+div.innerHTML+'</div></details>';n++;});
+   box.innerHTML='<h2 id="in-depth">📚 In depth: '+n+' sections</h2>'+html+'<div class="wsrc">Text from the Wikipedia article <a href="https://en.wikipedia.org/wiki/'+encodeURIComponent(j.parse.title.replace(/ /g,'_'))+'" target="_blank" rel="noopener">'+j.parse.title+'</a>, CC BY-SA 4.0, loaded live and kept up to date. Links with a dashed underline open pages in this encyclopedia.</div>';
+   var toc=document.querySelector('.toc ul');if(toc){var li=document.createElement('li');li.innerHTML='<a href="#in-depth">📚 In depth ('+n+')</a>';toc.appendChild(li);var li2=document.createElement('li');li2.innerHTML='<a href="#research">🔬 Research & studies</a>';if(document.getElementById('research'))toc.appendChild(li2)}
+  }).catch(function(){box.innerHTML='<h2 id="in-depth">📚 In depth</h2><p class="small muted">The full article could not be loaded right now. <a href="https://en.wikipedia.org/wiki/'+encodeURIComponent(t.replace(/ /g,'_'))+'" target="_blank" rel="noopener">Read it on Wikipedia</a>.</p>'});
+ }
+ document.addEventListener('DOMContentLoaded',function(){var b=document.querySelector('section.deepwiki');if(b)run(b)});
+})();
+// ---- Research & studies from OpenAlex ----
+(function(){
+ function load(box,sort){
+  var q=box.getAttribute('data-q'),ul=box.querySelector('.stlist'),lb=box.querySelector('.loadingbar');lb.hidden=false;ul.innerHTML='';
+  var url='https://api.openalex.org/works?search='+encodeURIComponent('"'+q+'"')+'&sort='+sort+'&per_page=8&select=title,publication_year,primary_location,best_oa_location,open_access,cited_by_count,doi,authorships,id';
+  fetch(url).then(function(r){return r.json()}).then(function(j){lb.hidden=true;var rs=(j&&j.results)||[];
+   if(!rs.length){ul.innerHTML='<li class="sm">No indexed studies found under this name yet. That itself shows how little-studied many species and objects are.</li>';return}
+   ul.innerHTML=rs.map(function(w){var src=(w.primary_location&&w.primary_location.source&&w.primary_location.source.display_name)||'';
+    var au=(w.authorships||[]).slice(0,3).map(function(a){return a.author&&a.author.display_name}).filter(Boolean).join(', ')+((w.authorships||[]).length>3?' et al.':'');
+    var link=w.doi||w.id;var pdf=(w.best_oa_location&&(w.best_oa_location.pdf_url||w.best_oa_location.landing_page_url))||(w.open_access&&w.open_access.oa_url);
+    return '<li><a href="'+link+'" target="_blank" rel="noopener"><b>'+(w.title||'Untitled').replace(/<[^>]+>/g,'')+'</b></a>'+(pdf?'<a class="oa" href="'+pdf+'" target="_blank" rel="noopener">PDF</a>':'')+'<div class="sm">'+au+(au?' · ':'')+(w.publication_year||'')+(src?' · '+src:'')+' · cited '+(w.cited_by_count||0)+'×</div></li>'}).join('')+'<li class="sm">Total indexed works: '+(j.meta&&j.meta.count||0).toLocaleString()+' · <a href="https://openalex.org/works?search='+encodeURIComponent(q)+'" target="_blank" rel="noopener">see all on OpenAlex</a> · <a href="https://scholar.google.com/scholar?q='+encodeURIComponent('"'+q+'"')+'" target="_blank" rel="noopener">Google Scholar</a></li>';
+  }).catch(function(){lb.hidden=true;ul.innerHTML='<li class="sm">Could not reach OpenAlex right now. <a href="https://scholar.google.com/scholar?q='+encodeURIComponent('"'+q+'"')+'" target="_blank" rel="noopener">Search Google Scholar</a>.</li>'});
+ }
+ document.addEventListener('DOMContentLoaded',function(){var b=document.querySelector('section.studies');if(!b)return;load(b,'cited_by_count:desc');
+  b.querySelectorAll('.sttabs button').forEach(function(btn){btn.onclick=function(){b.querySelectorAll('.sttabs button').forEach(function(x){x.classList.remove('on')});btn.classList.add('on');load(b,btn.dataset.sort)}})});
+})();
