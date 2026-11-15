@@ -1,4 +1,4 @@
-name: Validate research hub
+name: Build & validate research site
 
 on:
   push:
@@ -15,7 +15,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r scripts/requirements.txt
-      - name: Regenerate hub figures (smoke test)
+      - name: Regenerate figures (smoke test)
         run: python scripts/generate_figures.py
-      - name: Check Markdown links and images
+      - name: Build the encyclopedia site (PDF export skipped in CI)
+        run: SKIP_PDF=1 python scripts/build_site.py
+      - name: Check links and images (Markdown + generated HTML)
         run: python scripts/check_links.py

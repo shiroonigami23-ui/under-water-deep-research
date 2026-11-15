@@ -68,6 +68,6 @@ flowchart TB
 | Labs | `labs/dive-profile-lab.html` | Single-file depth explorer |
 | Figure pipeline | `scripts/generate_figures.py` | Rebuilds hub figures from cited values |
 | CI | `.github/workflows/validate.yml` | Figure smoke test + link check |
-| Hub homepage | `index.html` + `.nojekyll` | GitHub Pages landing page linking tracks, labs, tracker, papers and the sister hub |
+| Hub homepage | `index.html` + `.nojekyll` | GitHub Pages landing page linking tracks, labs, tracker, papers |
 
 *Last updated: 2026-11-15*

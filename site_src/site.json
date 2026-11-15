@@ -1,0 +1,502 @@
+{
+ "name": "Under Water Deep Research",
+ "logo": "🌊",
+ "kicker": "The deep-ocean research encyclopedia",
+ "tagline": "In-depth, fully sourced articles on the deep ocean: how it works, what lives there, how we explore it, how climate change reaches it, and who decides its future. Written as long-form research explainers, every claim is footnoted.",
+ "footer": "An independent research encyclopedia of the deep ocean, built from peer-reviewed papers, agency data (NOAA, GEBCO, ISA, UNEP-WCMC) and expedition reports.",
+ "github": "shiroonigami23-ui/under-water-deep-research",
+ "theme_default": "dark",
+ "reviewed": "2026-11-15",
+ "stats": [
+  [
+   "≤0.001%",
+   "of the deep seafloor ever seen by camera"
+  ],
+  [
+   "28.7%",
+   "of the seafloor mapped (2026)"
+  ],
+  [
+   "9,533 m",
+   "deepest known animal community"
+  ],
+  [
+   "23 ZJ",
+   "heat the ocean gained in 2025"
+  ],
+  [
+   "10%",
+   "of the ocean protected (3.3% fully)"
+  ]
+ ],
+ "featured": [
+  "hadal-life",
+  "deep-sea-mining",
+  "how-little-we-have-seen",
+  "deoxygenation",
+  "chemosynthetic-ecosystems",
+  "history-of-exploration"
+ ],
+ "repo_map": {
+  "papers/peng-2025-hadal-chemosynthesis.md": "/wiki/library/peng-2025.html",
+  "papers/jones-2025-mining-track-recovery.md": "/wiki/library/jones-2025.html",
+  "papers/sweetman-2024-dark-oxygen.md": "/wiki/library/sweetman-2024.html",
+  "papers/bell-2025-how-little-weve-seen.md": "/wiki/library/bell-2025.html",
+  "papers/portmann-2026-amoc-weakening.md": "/wiki/library/portmann-2026.html"
+ },
+ "sections": [
+  {
+   "id": "ocean-system",
+   "icon": "🌐",
+   "title": "Ocean System",
+   "desc": "How the deep ocean works physically and chemically: zones, pressure, light, circulation and the carbon pump.",
+   "pages": [
+    "ocean-zones",
+    "pressure-light-temperature",
+    "deep-circulation",
+    "biological-carbon-pump"
+   ]
+  },
+  {
+   "id": "life",
+   "icon": "🐟",
+   "title": "Deep-Sea Life",
+   "desc": "How animals and microbes survive darkness, cold, crushing pressure and scarce food, and how fast we are discovering them.",
+   "pages": [
+    "life-in-the-dark",
+    "bioluminescence",
+    "deep-sea-fish",
+    "hadal-life",
+    "chemosynthetic-ecosystems",
+    "species-discovery"
+   ]
+  },
+  {
+   "id": "seafloor",
+   "icon": "🗺",
+   "title": "Seafloor & Habitats",
+   "desc": "The geology and habitats of the deep: trenches, vents, seeps, seamounts, abyssal plains, canyons, brine pools and nodule fields.",
+   "pages": [
+    "ocean-trenches",
+    "hydrothermal-vents",
+    "seamounts-and-abyssal-plains",
+    "canyons-fjords-brine-pools",
+    "polymetallic-nodules"
+   ]
+  },
+  {
+   "id": "exploration",
+   "icon": "🛰",
+   "title": "Exploration",
+   "desc": "From the Challenger expedition to full-ocean-depth submersibles: the history, tools and blind spots of deep-sea exploration.",
+   "pages": [
+    "history-of-exploration",
+    "vehicles-and-technology",
+    "mapping-the-seafloor",
+    "how-little-we-have-seen"
+   ]
+  },
+  {
+   "id": "climate",
+   "icon": "🌡",
+   "title": "Ocean & Climate",
+   "desc": "How a warming, acidifying, deoxygenating ocean changes the deep, with the latest measured data.",
+   "pages": [
+    "ocean-heat",
+    "acidification",
+    "deoxygenation",
+    "coral-bleaching",
+    "amoc-weakening"
+   ]
+  },
+  {
+   "id": "impacts",
+   "icon": "⚖️",
+   "title": "Impacts & Governance",
+   "desc": "Deep-sea mining, bottom trawling, plastics, and the treaties and protected areas meant to manage them.",
+   "pages": [
+    "deep-sea-mining",
+    "bottom-trawling",
+    "plastics-and-pollution",
+    "high-seas-treaty-and-isa",
+    "marine-protected-areas"
+   ]
+  },
+  {
+   "id": "library",
+   "icon": "📚",
+   "title": "Research Library",
+   "desc": "Structured deep reads of the key papers, plus a reading list.",
+   "pages": [
+    "peng-2025",
+    "jones-2025",
+    "sweetman-2024",
+    "bell-2025",
+    "portmann-2026",
+    "reading-list"
+   ],
+   "pdf": true
+  },
+  {
+   "id": "data",
+   "icon": "📊",
+   "title": "Data, Labs & Tracker",
+   "desc": "The live research tracker, interactive labs, figure gallery and the open datasets behind deep-ocean science.",
+   "pages": [
+    "tracker",
+    "interactive-labs",
+    "figure-gallery",
+    "open-datasets"
+   ]
+  }
+ ],
+ "tracker_page": "data/tracker",
+ "prompt_style": "Photorealistic natural-history illustration, scientifically accurate, deep-ocean lighting, high detail, 16:9, no text or labels",
+ "tracker": [
+  {
+   "id": "isa",
+   "icon": "⚖️",
+   "name": "ISA Mining Code",
+   "status": "31st session ended without the Code; roadmap agreed",
+   "next": "32nd session, 2027"
+  },
+  {
+   "id": "noaa-tmc",
+   "icon": "⛏",
+   "name": "US mining permit (NOAA/TMC)",
+   "status": "65,000 km² application fully compliant; hearing 13 Oct",
+   "next": "Certification → EIS"
+  },
+  {
+   "id": "bbnj",
+   "icon": "🌐",
+   "name": "High Seas Treaty",
+   "status": "In force since 17 Jan 2026; 86 parties",
+   "next": "COP1 ~Jan 2027"
+  },
+  {
+   "id": "dark-oxygen",
+   "icon": "🫧",
+   "name": "Dark oxygen",
+   "status": "Contested; DORI follow-up running",
+   "next": "2026 lander results"
+  },
+  {
+   "id": "hadal",
+   "icon": "🕳",
+   "name": "Hadal life",
+   "status": "Chemosynthetic communities to 9,533 m",
+   "next": "Other trench surveys"
+  },
+  {
+   "id": "census",
+   "icon": "🧬",
+   "name": "Ocean Census",
+   "status": "1,121 new species in a year (+54%)",
+   "next": "Year-4 report ~May 2027"
+  },
+  {
+   "id": "mapping",
+   "icon": "🗺",
+   "name": "Seabed 2030",
+   "status": "28.7% of the seafloor mapped",
+   "next": "GEBCO grid ~Jun 2027"
+  },
+  {
+   "id": "visual",
+   "icon": "📷",
+   "name": "Visual exploration",
+   "status": "≤0.001% of deep seafloor ever imaged",
+   "next": "Low-cost camera programmes"
+  },
+  {
+   "id": "bleaching",
+   "icon": "🪸",
+   "name": "Coral bleaching",
+   "status": "4th global event (84.4%) ended mid-2025",
+   "next": "El Niño risk 2026–27"
+  },
+  {
+   "id": "amoc",
+   "icon": "🌀",
+   "name": "AMOC",
+   "status": "Weakening observed; 43–59% by 2100 projected",
+   "next": "RAPID/OSNAP updates"
+  }
+ ],
+ "collections": [
+  {
+   "id": "species",
+   "icon": "🐠",
+   "title": "Species Atlas",
+   "desc": "Profiles of ocean animals, plants and microbes from the sunlit reef to the hadal trenches: habitat, depth, feeding and hunting, mating, migration and behaviour.",
+   "file": "data/species.json",
+   "name_key": "name",
+   "sub_key": "scientific",
+   "group_key": "group",
+   "facts": [
+    [
+     "scientific",
+     "Scientific name"
+    ],
+    [
+     "group",
+     "Group"
+    ],
+    [
+     "depth_min",
+     "Min depth (m)"
+    ],
+    [
+     "depth_max",
+     "Max depth (m)"
+    ],
+    [
+     "oceans",
+     "Where"
+    ],
+    [
+     "size",
+     "Size"
+    ],
+    [
+     "lifespan",
+     "Lifespan"
+    ],
+    [
+     "diet",
+     "Diet"
+    ],
+    [
+     "iucn",
+     "IUCN status"
+    ]
+   ],
+   "texts": [
+    [
+     "overview",
+     "Overview"
+    ],
+    [
+     "habitat",
+     "Habitat and type of water"
+    ],
+    [
+     "feeding",
+     "Feeding and hunting"
+    ],
+    [
+     "reproduction",
+     "Mating and reproduction"
+    ],
+    [
+     "migration",
+     "Movement and migration"
+    ],
+    [
+     "behaviour",
+     "Behaviour and social life"
+    ],
+    [
+     "adaptations",
+     "Adaptations"
+    ],
+    [
+     "conservation",
+     "Conservation"
+    ]
+   ],
+   "columns": [
+    [
+     "group",
+     "Group"
+    ],
+    [
+     "depth_min",
+     "Min m"
+    ],
+    [
+     "depth_max",
+     "Max m"
+    ],
+    [
+     "diet",
+     "Diet"
+    ],
+    [
+     "iucn",
+     "IUCN"
+    ]
+   ],
+   "visual": {
+    "type": "depth",
+    "min": "depth_min",
+    "max": "depth_max"
+   },
+   "prompt": "Ultra-realistic underwater wildlife photograph of a {name} ({scientific}), shot like a National Geographic / BBC Blue Planet frame. Habitat: {habitat} Accurate anatomy, proportions and natural colouration for this exact species; realistic lighting for {depth_min}–{depth_max} m depth (sunlit blue near the surface, ROV floodlight against black water in the deep). Sharp focus on the animal, natural particles in the water, 4:3, no text, no watermark.",
+   "source_tpl": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/{wiki}"
+    ],
+    [
+     "WoRMS search",
+     "https://www.marinespecies.org/aphia.php?p=taxlist&tName={scientific}"
+    ],
+    [
+     "FishBase / SeaLifeBase search",
+     "https://www.fishbase.se/Nomenclature/ScientificNameSearchList.php?crit1_fieldname=SYNONYMS.SynGenus&crit1_fieldtype=CHAR&crit1_operator=EQUAL&crit2_fieldname=SYNONYMS.SynSpecies&crit2_fieldtype=CHAR&crit2_operator=EQUAL&group=summary&backstep=-2&gs={scientific}"
+    ]
+   ],
+   "live_photos": true
+  },
+  {
+   "id": "seas",
+   "icon": "🌊",
+   "title": "Seas & Oceans",
+   "desc": "All five oceans and the world's major seas: size, depth, deepest point, salinity, currents, life, people and threats.",
+   "file": "data/seas.json",
+   "name_key": "name",
+   "sub_key": "parent",
+   "group_key": "type",
+   "facts": [
+    [
+     "type",
+     "Type"
+    ],
+    [
+     "parent",
+     "Part of"
+    ],
+    [
+     "area_km2",
+     "Area (km²)"
+    ],
+    [
+     "avg_depth",
+     "Average depth (m)"
+    ],
+    [
+     "max_depth",
+     "Max depth (m)"
+    ],
+    [
+     "deepest_point",
+     "Deepest point"
+    ],
+    [
+     "salinity",
+     "Salinity"
+    ]
+   ],
+   "texts": [
+    [
+     "overview",
+     "Overview"
+    ],
+    [
+     "geography",
+     "Geography and seafloor"
+    ],
+    [
+     "water",
+     "Water, currents and climate"
+    ],
+    [
+     "life",
+     "Flora and fauna"
+    ],
+    [
+     "human",
+     "People and economy"
+    ],
+    [
+     "threats",
+     "Threats and protection"
+    ]
+   ],
+   "columns": [
+    [
+     "type",
+     "Type"
+    ],
+    [
+     "area_km2",
+     "Area km²"
+    ],
+    [
+     "avg_depth",
+     "Avg m"
+    ],
+    [
+     "max_depth",
+     "Max m"
+    ],
+    [
+     "salinity",
+     "Salinity"
+    ]
+   ],
+   "visual": {
+    "type": "depth",
+    "min": "avg_depth",
+    "max": "max_depth",
+    "label": "Average – maximum depth"
+   },
+   "prompt": "Ultra-realistic photograph of the {name}: a wide aerial or satellite view showing its real coastline shape and characteristic water colour, natural lighting, like a NASA Earth Observatory or drone landscape image, 16:9, no text, no labels, no watermark.",
+   "source_tpl": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/{wiki}"
+    ],
+    [
+     "Marine Regions",
+     "https://www.marineregions.org/gazetteer.php?p=search&name={name}"
+    ]
+   ],
+   "live_photos": true
+  }
+ ],
+ "nav_order": [
+  {
+   "id": "species",
+   "title": "Species"
+  },
+  {
+   "id": "seas",
+   "title": "Seas"
+  },
+  {
+   "id": "ocean-system",
+   "title": "Ocean System"
+  },
+  {
+   "id": "life",
+   "title": "Life"
+  },
+  {
+   "id": "seafloor",
+   "title": "Seafloor"
+  },
+  {
+   "id": "exploration",
+   "title": "Exploration"
+  },
+  {
+   "id": "climate",
+   "title": "Climate"
+  },
+  {
+   "id": "impacts",
+   "title": "Impacts"
+  },
+  {
+   "id": "library",
+   "title": "Library"
+  },
+  {
+   "id": "data",
+   "title": "Data"
+  }
+ ]
+}

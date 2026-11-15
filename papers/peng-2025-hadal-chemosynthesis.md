@@ -33,7 +33,6 @@ Do hadal trenches (6,000–11,000 m) support chemosynthesis-based animal communi
 - Biology: chemosynthesis section in [`../biology/deep-sea-animal-biology.md`](../biology/deep-sea-animal-biology.md)
 - Structure: trenches, in [`../structure/natural-structures.md`](../structure/natural-structures.md)
 - Exploration: depth records table in [`../exploration/exploration-methods-and-records.md`](../exploration/exploration-methods-and-records.md)
-- Cross-hub: an Earth analogue for life in ocean worlds such as Enceladus and Europa ([outer-space-research astrobiology](https://github.com/shiroonigami23-ui/outer-space-research/tree/main/astrobiology))
 
 ## My Take
 This moves hadal chemosynthesis from "a few clam patches" to "possibly a trench-scale ecosystem type". The most important new idea is the *in-situ microbial methane* supply. If confirmed elsewhere, trenches are not only sinks for carbon but active bioreactors, and that matters for both carbon budgets and astrobiology analogues.

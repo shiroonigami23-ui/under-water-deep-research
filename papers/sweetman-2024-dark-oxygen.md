@@ -30,7 +30,6 @@ Why did benthic chambers on nodule fields repeatedly record oxygen *increasing* 
 ## Links to This Hub
 - [`../governance-and-mining/seabed-governance-2026.md`](../governance-and-mining/seabed-governance-2026.md): evidence table
 - [`../physics/deep-ocean-physics-chemistry.md`](../physics/deep-ocean-physics-chemistry.md): oxygen chemistry
-- Cross-hub: oxygen without photosynthesis matters for biosignature logic ([outer-space astrobiology](https://github.com/shiroonigami23-ui/outer-space-research/tree/main/astrobiology))
 
 ## My Take
 Treat this as a **strong anomaly with an unproven mechanism**. The key discriminator is hydrogen. Electrolysis must make H₂ alongside O₂ in roughly a 2:1 ratio, while a sensor artefact would not. DORI's 2026 lander data is the result to watch, and the tracker lists it.

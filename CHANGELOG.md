@@ -3,13 +3,30 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Semantic Versioning](https://semver.org/).
 
+## [3.0.0] - 2026-11-15 — Encyclopedia website
+
+### Added
+- Multi-page site generator `scripts/build_site.py` (Markdown + JSON → static site) with search, dark/light theme, TOC, sources page, glossary, timeline and about pages
+- Species Atlas (72 entries) and Seas & Oceans (26 entries) catalogs with filters, sortable table and depth charts
+- 39 footnoted articles in 8 sections, including new climate pages (ocean heat 2025, acidification boundary, deoxygenation) and impacts pages (bottom trawling, plastics, MPAs and 30×30, UNCLOS/ISA/BBNJ)
+- Live research tracker shown on every page as a collapsible bar, plus a tracker page with anchored, expandable streams
+- Paper analyses exported to PDF (open in a new tab or download)
+- Real species and sea photos loaded live from Wikimedia Commons with credits; `wiki/photo-status.html` and `prompts.md` give Nano Banana prompts for anything missing
+
+### Changed
+- The root `index.html` is now the generated encyclopedia home page
+- CI builds the site and link-checks the generated HTML
+
+### Removed
+- Cross-links to the outer-space repository (the two hubs are now fully separate)
+
 ## [2.0.0] - 2026-11-15 — Research hub
 
 ### Added
 - Three new tracks: `exploration/`, `governance-and-mining/`, `ocean-change/` (notes + 8 generated figures)
 - `papers/`: structured deep reads of Peng 2025, Jones 2025, Sweetman 2024, Bell 2025, Portmann 2026 + reading list
 - `labs/dive-profile-lab.html`: interactive depth explorer (pressure, light, temperature, Boyle's law, life zones, records)
-- `index.html` GitHub Pages hub homepage (+ `.nojekyll`), cross-linked with the outer-space hub
+- `index.html` GitHub Pages hub homepage (+ `.nojekyll`)
 - `GLOSSARY.md`, `scripts/generate_figures.py`, `scripts/check_links.py`, `.github/workflows/validate.yml`
 
 ### Changed

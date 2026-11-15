@@ -44,7 +44,22 @@ Each track follows the same template: concepts → open questions → dated stud
 
 A **paper-analysis library** (`papers/`) gives structured deep reads of the key studies. **Three interactive labs** run in the browser. A dated **tracker** follows the ISA, NOAA permits, the High Seas Treaty, new species, mapping, bleaching and AMOC.
 
-🌐 **Browse it as a website:** <https://shiroonigami23-ui.github.io/under-water-deep-research/> · 🌌 Sister hub: [outer-space-research](https://github.com/shiroonigami23-ui/outer-space-research)
+🌐 **Browse the encyclopedia:** <https://shiroonigami23-ui.github.io/under-water-deep-research/>
+
+### 🗂 The website (v3)
+
+The repository now builds a full multi-page **deep-ocean encyclopedia** site:
+
+| Part | What's in it |
+|---|---|
+| 🐠 **Species Atlas** | 72 profiles (deep-sea fish, sharks, cephalopods, crustaceans, corals, vent fauna, mammals, turtles, seabirds, reef fish, plants and algae, microbes). Each covers habitat and type of water, depth range, feeding and hunting, mating, migration, behaviour, adaptations and conservation, with a depth chart and filterable catalog |
+| 🌊 **Seas & Oceans** | All 5 oceans and 21 major seas: area, depths, deepest point, salinity, currents, life, people, threats |
+| 📖 **39 articles** in 8 sections | Ocean system, deep-sea life, seafloor and habitats, exploration, ocean and climate, impacts and governance, library, data. Every claim is footnoted, with a combined [sources page](https://shiroonigami23-ui.github.io/under-water-deep-research/wiki/sources.html) |
+| 📡 **Live tracker on every page** | Collapsible bar with 10 research and policy streams, each linking to an expandable detail section |
+| 📄 **Paper library as PDFs** | Each paper analysis opens as a PDF in a new tab or downloads (`assets/pdf/`) |
+| 📷 **Real photos** | Species and seas load openly licensed photos from Wikimedia Commons, credited and linked to their file pages. The [Photo status](https://shiroonigami23-ui.github.io/under-water-deep-research/wiki/photo-status.html) page lists any entry still without one, with a Nano Banana prompt (also in [`prompts.md`](prompts.md)) |
+
+Build it locally: `pip install -r scripts/requirements.txt && python scripts/build_site.py`. Content lives in `site_src/` (Markdown articles plus `data/*.json` catalogs).
 
 ### ✨ Highlights
 

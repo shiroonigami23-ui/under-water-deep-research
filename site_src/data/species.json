@@ -1,0 +1,2144 @@
+[
+{
+"slug": "nautilus",
+"name": "Chambered nautilus",
+"scientific": "Nautilus pompilius",
+"group": "Cephalopods",
+"emoji": "🐚",
+"depth_min": 100,
+"depth_max": 700,
+"oceans": [
+"Pacific",
+"Indian"
+],
+"size": "~20 cm shell",
+"lifespan": "~20 years",
+"diet": "Carrion, crustaceans",
+"iucn": "Not evaluated (CITES Appendix II)",
+"summary": "A shelled cephalopod lineage almost unchanged for ~500 million years, with buoyancy control by gas chambers.",
+"overview": "The nautilus adjusts buoyancy by pumping fluid out of shell chambers through a tube called the siphuncle. Its shell implodes below roughly 800 m.",
+"habitat": "Indo-Pacific reef slopes.",
+"feeding": "Scavenger and predator that finds food by smell with ~90 suckerless tentacles.",
+"reproduction": "Slow growth (maturity at ~15 years). Lays few large eggs that take about a year to hatch.",
+"migration": "Daily vertical migration: deeper by day, shallower at night.",
+"behaviour": "Slow jet-propelled movement.",
+"adaptations": [
+"Chambered shell with gas buoyancy",
+"Pinhole eyes without a lens"
+],
+"conservation": "Overharvested for the shell trade. Listed on CITES Appendix II since 2016.",
+"wiki": "Chambered_nautilus"
+},
+{
+"slug": "colossal-squid",
+"name": "Colossal squid",
+"scientific": "Mesonychoteuthis hamiltoni",
+"group": "Cephalopods",
+"emoji": "🦑",
+"depth_min": 0,
+"depth_max": 2200,
+"oceans": [
+"Southern"
+],
+"size": "Up to ~10 m, the heaviest invertebrate (~500 kg)",
+"lifespan": "Unknown",
+"diet": "Fish such as toothfish, other squid",
+"iucn": "Least Concern",
+"summary": "The heaviest invertebrate known, with swivelling hooks on its arms; first filmed alive (a juvenile) in 2025.",
+"overview": "Shorter but much heavier than the giant squid. Its arm and tentacle clubs carry rotating hooks as well as suckers.",
+"habitat": "Southern Ocean around Antarctica.",
+"feeding": "Thought to be an ambush predator because of its slow metabolism. It preys on Patagonian and Antarctic toothfish.",
+"reproduction": "Poorly known. Females produce many eggs.",
+"migration": "Juveniles live shallower and adults deeper.",
+"behaviour": "A main prey of sperm whales in the Southern Ocean.",
+"adaptations": [
+"Swivelling hooks",
+"Huge eyes",
+"Ammonium-based buoyancy"
+],
+"conservation": "Rarely encountered.",
+"wiki": "Colossal_squid"
+},
+{
+"slug": "dumbo-octopus",
+"name": "Dumbo octopuses",
+"scientific": "Genus Grimpoteuthis",
+"group": "Cephalopods",
+"emoji": "🐙",
+"depth_min": 1000,
+"depth_max": 7000,
+"oceans": [
+"All oceans"
+],
+"size": "20–30 cm (some to 1.8 m)",
+"lifespan": "3–5 years",
+"diet": "Copepods, isopods, worms",
+"iucn": "Least Concern",
+"summary": "The deepest-living octopuses, flapping ear-like fins; one was filmed at nearly 7,000 m.",
+"overview": "Cirrate octopuses with fins on their mantle and finger-like cirri along their arms. They swallow prey whole.",
+"habitat": "Worldwide, bathyal to hadal depths.",
+"feeding": "Hovers above the seafloor and pounces on crustaceans and worms, swallowing them whole.",
+"reproduction": "Females carry eggs at various stages and lay them on hard substrates when conditions suit. There is no fixed breeding season.",
+"migration": "Little horizontal movement.",
+"behaviour": "Moves by fin flapping, jet propulsion and web expansion.",
+"adaptations": [
+"Ear-like fins",
+"No ink sac (useless in darkness)"
+],
+"conservation": "Vulnerable to bottom-trawling damage.",
+"wiki": "Grimpoteuthis"
+},
+{
+"slug": "giant-pacific-octopus",
+"name": "Giant Pacific octopus",
+"scientific": "Enteroctopus dofleini",
+"group": "Cephalopods",
+"emoji": "🐙",
+"depth_min": 0,
+"depth_max": 2000,
+"oceans": [
+"Pacific"
+],
+"size": "Arm span up to ~6 m",
+"lifespan": "3–5 years",
+"diet": "Crabs, clams, fish",
+"iucn": "Least Concern",
+"summary": "The largest octopus species, known for problem-solving and devoted, fatal motherhood.",
+"overview": "Highly intelligent and able to recognise individual humans in aquaria. Each arm has ~280 suckers.",
+"habitat": "North Pacific coasts from Japan to California, intertidal to ~2,000 m.",
+"feeding": "Forages at night, drilling or prying open shellfish and leaving shell middens outside its den.",
+"reproduction": "The male passes sperm with a modified arm (hectocotylus). The female lays up to ~100,000 eggs in a den and guards them without eating for ~6 months, then dies.",
+"migration": "Moves to deeper water in winter in some regions.",
+"behaviour": "Solitary, den-living, masters of camouflage.",
+"adaptations": [
+"Colour-changing chromatophores",
+"Distributed nervous system with neurons in the arms"
+],
+"conservation": "Targeted by small fisheries.",
+"wiki": "Giant_Pacific_octopus"
+},
+{
+"slug": "giant-squid",
+"name": "Giant squid",
+"scientific": "Architeuthis dux",
+"group": "Cephalopods",
+"emoji": "🦑",
+"depth_min": 300,
+"depth_max": 1000,
+"oceans": [
+"All oceans"
+],
+"size": "Up to ~12–13 m (females)",
+"lifespan": "~5 years (estimated)",
+"diet": "Fish, other squid",
+"iucn": "Least Concern",
+"summary": "The source of kraken legends. First filmed alive in its deep habitat in 2012 and again in 2019 using a glowing lure.",
+"overview": "Architeuthis has the largest eyes in the animal kingdom (~27 cm), likely for spotting the bioluminescent wakes of approaching sperm whales.",
+"habitat": "Worldwide, especially around New Zealand, Japan, the North Atlantic and southern Africa, 300–1,000 m.",
+"feeding": "Hunts fish and squid, seizing prey with two long feeding tentacles lined with toothed suckers.",
+"reproduction": "Males have a long muscular penis and inject sperm packets into the female's arms. Eggs are probably released in gelatinous masses.",
+"migration": "Not well known.",
+"behaviour": "Solitary. A key prey of sperm whales, which bear sucker scars from fights.",
+"adaptations": [
+"Giant eyes",
+"Ammonium-rich tissues for buoyancy",
+"Toothed sucker rings"
+],
+"conservation": "Not fished commercially.",
+"wiki": "Giant_squid"
+},
+{
+"slug": "vampire-squid",
+"name": "Vampire squid",
+"scientific": "Vampyroteuthis infernalis",
+"group": "Cephalopods",
+"emoji": "🦇",
+"depth_min": 600,
+"depth_max": 1200,
+"oceans": [
+"All oceans"
+],
+"size": "~30 cm",
+"lifespan": "Unknown",
+"diet": "Marine snow (detritus)",
+"iucn": "Least Concern",
+"summary": "Neither squid nor octopus: a gentle detritus eater living in the oxygen minimum zone.",
+"overview": "The sole surviving member of its order. Despite its name it is not predatory: it collects marine snow with two retractile filaments and mucus.",
+"habitat": "Tropical and temperate oceans in oxygen minimum zones, 600–1,200 m.",
+"feeding": "Gathers sinking organic particles with sticky filaments and rolls them into mucus balls to eat.",
+"reproduction": "Unusually for cephalopods, it appears to spawn multiple times over its life, with resting phases between.",
+"migration": "Stays within the oxygen minimum zone, where few predators can follow.",
+"behaviour": "When threatened it turns its webbed cloak inside out ('pineapple posture') and ejects glowing mucus instead of ink.",
+"adaptations": [
+"Haemocyanin that binds oxygen efficiently in low-oxygen water",
+"Very low metabolic rate",
+"Bioluminescent arm tips"
+],
+"conservation": "Not threatened. Expanding oxygen minimum zones may change its habitat.",
+"wiki": "Vampire_squid"
+},
+{
+"slug": "atolla-jellyfish",
+"name": "Atolla jellyfish",
+"scientific": "Atolla wyvillei",
+"group": "Cnidarians",
+"emoji": "🪼",
+"depth_min": 500,
+"depth_max": 4000,
+"oceans": [
+"All oceans"
+],
+"size": "~15 cm bell",
+"lifespan": "Unknown",
+"diet": "Crustaceans, plankton",
+"iucn": "Not evaluated",
+"summary": "A deep-red crown jelly famous for its 'burglar alarm' display of spinning blue light.",
+"overview": "When attacked, Atolla produces a ring of pulsing blue light that may attract larger predators to attack its attacker. This idea inspired the 'Electronic Jellyfish' lure that filmed the giant squid in 2012.",
+"habitat": "Worldwide in the midnight zone.",
+"feeding": "Captures small crustaceans with one elongated trailing tentacle.",
+"reproduction": "Alternates between polyp and medusa stages like other scyphozoans (life cycle poorly known).",
+"migration": "Drifts.",
+"behaviour": "Bioluminescent 'burglar alarm'.",
+"adaptations": [
+"Red pigment invisible in deep blue light",
+"Defensive bioluminescence"
+],
+"conservation": "Not threatened.",
+"wiki": "Atolla_wyvillei"
+},
+{
+"slug": "cold-water-coral",
+"name": "Cold-water coral (Lophelia)",
+"scientific": "Desmophyllum pertusum",
+"group": "Cnidarians",
+"emoji": "🪸",
+"depth_min": 40,
+"depth_max": 3000,
+"oceans": [
+"Atlantic",
+"Pacific",
+"Indian"
+],
+"size": "Reefs up to tens of metres high",
+"lifespan": "Colonies thousands of years old",
+"diet": "Zooplankton, organic particles",
+"iucn": "Not evaluated",
+"summary": "Reef-building coral that thrives in dark, cold water without symbiotic algae.",
+"overview": "Deep-water reefs off Norway, Ireland and the US south-east host high biodiversity. Some deep corals, such as black corals, have lived over 4,000 years.",
+"habitat": "Continental margins, seamounts and fjords, mostly 200–1,000 m.",
+"feeding": "Catches zooplankton and particles from currents. It lacks the sunlight-dependent algae of tropical corals.",
+"reproduction": "Separate sexes; broadcast spawns. Larvae can travel far on currents.",
+"migration": "Sessile. Larvae disperse.",
+"behaviour": "Grows slowly (mm to cm per year).",
+"adaptations": [
+"No photosynthetic symbionts",
+"Long-lived colonies"
+],
+"conservation": "Severely damaged by bottom trawling, and threatened by ocean acidification shoaling the aragonite saturation horizon.",
+"wiki": "Desmophyllum_pertusum"
+},
+{
+"slug": "giant-siphonophore",
+"name": "Giant siphonophore",
+"scientific": "Praya dubia",
+"group": "Cnidarians",
+"emoji": "🪢",
+"depth_min": 300,
+"depth_max": 1000,
+"oceans": [
+"All oceans"
+],
+"size": "Colonies up to ~40–50 m",
+"lifespan": "Unknown",
+"diet": "Small crustaceans, fish",
+"iucn": "Not evaluated",
+"summary": "A colonial organism that rivals the blue whale in length, made of specialised zooids.",
+"overview": "Siphonophores are colonies of clones (zooids) specialised for swimming, feeding or reproduction. In 2020, a spiralling Apolemia colony estimated at ~45 m was filmed off Western Australia.",
+"habitat": "Mid-water worldwide.",
+"feeding": "Sets a curtain of stinging tentacles and passively fishes.",
+"reproduction": "Colonies reproduce sexually via specialised reproductive zooids, and grow by budding.",
+"migration": "Drifts, with slow swimming.",
+"behaviour": "Bioluminescent.",
+"adaptations": [
+"Division of labour among zooids"
+],
+"conservation": "Not threatened.",
+"wiki": "Siphonophorae"
+},
+{
+"slug": "reef-building-coral",
+"name": "Reef-building corals",
+"scientific": "Order Scleractinia (zooxanthellate)",
+"group": "Cnidarians",
+"emoji": "🪸",
+"depth_min": 0,
+"depth_max": 150,
+"oceans": [
+"Atlantic",
+"Pacific",
+"Indian"
+],
+"size": "Polyps mm–cm; reefs up to thousands of km",
+"lifespan": "Colonies centuries",
+"diet": "Algal symbiont sugars plus zooplankton",
+"iucn": "Varies; ~1/3 threatened",
+"summary": "Animals that partner with algae to build the largest biological structures on Earth.",
+"overview": "Tropical corals host photosynthetic dinoflagellates (zooxanthellae) that supply most of their energy. Reefs cover under 1% of the seafloor but support roughly a quarter of marine species.",
+"habitat": "Shallow tropical seas; mesophotic reefs to ~150 m.",
+"feeding": "Gets sugars from symbionts. Hunts plankton at night with tentacles.",
+"reproduction": "Many species broadcast spawn in mass synchronised events after full moons. Others brood larvae.",
+"migration": "Sessile. Larvae disperse for days to weeks.",
+"behaviour": "Bleach (expel symbionts) under heat stress.",
+"adaptations": [
+"Algal symbiosis",
+"Calcium carbonate skeleton"
+],
+"conservation": "The 4th global bleaching event (2023–25) hit 84.4% of reef area. Acidification and pollution add stress.",
+"wiki": "Scleractinia"
+},
+{
+"slug": "antarctic-krill",
+"name": "Antarctic krill",
+"scientific": "Euphausia superba",
+"group": "Crustaceans",
+"emoji": "🦐",
+"depth_min": 0,
+"depth_max": 4000,
+"oceans": [
+"Southern"
+],
+"size": "~6 cm",
+"lifespan": "Up to 6 years",
+"diet": "Phytoplankton, ice algae",
+"iucn": "Least Concern",
+"summary": "Possibly the most abundant wild animal by biomass (hundreds of millions of tonnes), and the base of the Antarctic food web.",
+"overview": "Swarms can reach thousands of individuals per cubic metre. Whales, seals, penguins and fish depend on them.",
+"habitat": "Southern Ocean, mostly near the surface but recorded on the seafloor at ~4,000 m.",
+"feeding": "Filter-feeds on phytoplankton with a feeding basket and scrapes algae from under sea ice in winter.",
+"reproduction": "Females spawn thousands of eggs that sink deep before hatching. Larvae swim up while developing.",
+"migration": "Daily vertical migration, plus seasonal movements tied to sea ice.",
+"behaviour": "Forms massive swarms. Can shrink in size when starved.",
+"adaptations": [
+"Bioluminescent organs",
+"Ability to shrink when food is scarce"
+],
+"conservation": "Growing commercial krill fishery and sea-ice loss are the main concerns.",
+"wiki": "Antarctic_krill"
+},
+{
+"slug": "giant-isopod",
+"name": "Giant isopod",
+"scientific": "Bathynomus giganteus",
+"group": "Crustaceans",
+"emoji": "🦐",
+"depth_min": 170,
+"depth_max": 2140,
+"oceans": [
+"Atlantic"
+],
+"size": "Up to ~50 cm",
+"lifespan": "Unknown",
+"diet": "Carrion (dead fish, whales), slow prey",
+"iucn": "Not evaluated",
+"summary": "A deep-sea relative of the woodlouse that can survive years between meals.",
+"overview": "Deep-sea gigantism makes this isopod dozens of times bigger than its shallow relatives. One in captivity went more than five years without eating.",
+"habitat": "Western Atlantic, Gulf of Mexico and Caribbean, on soft muddy bottoms.",
+"feeding": "Scavenger that gorges on food falls, and also takes slow live prey.",
+"reproduction": "Females brood eggs in a pouch (marsupium). Young hatch as miniature adults.",
+"migration": "Roams the seabed.",
+"behaviour": "Rolls into a ball when threatened.",
+"adaptations": [
+"Deep-sea gigantism",
+"Extreme fasting ability"
+],
+"conservation": "Not threatened.",
+"wiki": "Bathynomus_giganteus"
+},
+{
+"slug": "japanese-spider-crab",
+"name": "Japanese spider crab",
+"scientific": "Macrocheira kaempferi",
+"group": "Crustaceans",
+"emoji": "🦀",
+"depth_min": 50,
+"depth_max": 600,
+"oceans": [
+"Pacific"
+],
+"size": "Leg span up to ~3.7 m",
+"lifespan": "Up to ~100 years",
+"diet": "Carrion, molluscs, plants",
+"iucn": "Not evaluated",
+"summary": "The largest arthropod by leg span.",
+"overview": "Decorates its shell with sponges and algae for camouflage.",
+"habitat": "Waters around Japan.",
+"feeding": "Slow scavenger and forager.",
+"reproduction": "Migrates to shallower water (~50 m) in spring to spawn. Females release up to ~1.5 million eggs.",
+"migration": "Seasonal vertical migration for spawning.",
+"behaviour": "Slow-moving. Moulting is risky at its size.",
+"adaptations": [
+"Enormous legs",
+"Camouflage decoration"
+],
+"conservation": "Fished. Spring spawning closures protect it.",
+"wiki": "Japanese_spider_crab"
+},
+{
+"slug": "yeti-crab",
+"name": "Yeti crab",
+"scientific": "Kiwa hirsuta",
+"group": "Crustaceans",
+"emoji": "🦀",
+"depth_min": 2200,
+"depth_max": 2300,
+"oceans": [
+"Pacific"
+],
+"size": "~15 cm",
+"lifespan": "Unknown",
+"diet": "Bacteria farmed on its setae",
+"iucn": "Not evaluated",
+"summary": "A hairy vent crab that farms chemosynthetic bacteria on its arms.",
+"overview": "Discovered in 2005 at hydrothermal vents on the Pacific-Antarctic Ridge. It belongs to a family of its own (Kiwaidae).",
+"habitat": "Hydrothermal vents of the South Pacific.",
+"feeding": "'Dances' its hairy claws in vent fluid to supply bacteria with oxygen and sulfide, then eats the bacteria.",
+"reproduction": "Females may move away from hot vents to brood eggs in cooler water.",
+"migration": "Clusters at vent margins.",
+"behaviour": "Rhythmic arm-waving.",
+"adaptations": [
+"Bacteria-farming setae"
+],
+"conservation": "Vent habitats are potential targets for seabed mining.",
+"wiki": "Kiwa_hirsuta"
+},
+{
+"slug": "barreleye",
+"name": "Barreleye (spookfish)",
+"scientific": "Macropinna microstoma",
+"group": "Deep-sea fish",
+"emoji": "👁",
+"depth_min": 600,
+"depth_max": 800,
+"oceans": [
+"Pacific"
+],
+"size": "~15 cm",
+"lifespan": "Unknown",
+"diet": "Small drifting animals, possibly stolen from siphonophores",
+"iucn": "Least Concern",
+"summary": "A fish with a transparent, fluid-filled head and tubular eyes that can rotate to look up through it.",
+"overview": "First filmed alive by MBARI in 2004. The barreleye's green 'eyes' are tubes inside a clear dome, and the spots above its mouth are actually its nostrils.",
+"habitat": "Subarctic to temperate North Pacific (Bering Sea to Baja California), twilight zone ~600–800 m.",
+"feeding": "Hangs nearly motionless looking upward for silhouettes. Researchers suspect it steals food from siphonophore tentacles, with the shield protecting its eyes from stinging cells.",
+"reproduction": "Poorly known. Thought to broadcast spawn pelagic eggs.",
+"migration": "Not known to migrate far vertically.",
+"behaviour": "Hovers with large fins and rotates its eyes from upward to forward to track prey into its mouth.",
+"adaptations": [
+"Transparent shield over the head",
+"Rotatable tubular eyes with green filters that cut sunlight glare"
+],
+"conservation": "Not fished. Known from few specimens.",
+"wiki": "Barreleye",
+"fishbase": "Macropinna-microstoma"
+},
+{
+"slug": "blobfish",
+"name": "Blobfish",
+"scientific": "Psychrolutes marcidus",
+"group": "Deep-sea fish",
+"emoji": "🫧",
+"depth_min": 600,
+"depth_max": 1200,
+"oceans": [
+"Pacific"
+],
+"size": "~30 cm",
+"lifespan": "Possibly >100 years (uncertain)",
+"diet": "Crabs, sea urchins, molluscs, carrion",
+"iucn": "Not evaluated",
+"summary": "Famous as the 'world's ugliest animal', but only because it decompresses when hauled to the surface.",
+"overview": "At depth the blobfish looks like a normal fathead sculpin. Its gelatinous flesh, slightly less dense than water, lets it float above the seafloor with little effort. The 'blob' look is decompression damage.",
+"habitat": "Continental slopes off south-eastern Australia and New Zealand, 600–1,200 m.",
+"feeding": "A low-energy opportunist that drifts near the seabed and eats whatever passes or lands.",
+"reproduction": "Females lay thousands of eggs on the seafloor, and some sculpin relatives guard their nests.",
+"migration": "Sedentary near the seabed.",
+"behaviour": "Very slow-moving. It conserves energy by floating instead of swimming.",
+"adaptations": [
+"Gelatinous low-density body instead of a swim bladder",
+"Minimal muscle and skeleton"
+],
+"conservation": "Caught as bycatch in deep trawl fisheries off Australia and New Zealand, which is a concern for a slow-growing species.",
+"wiki": "Blobfish",
+"fishbase": "Psychrolutes-marcidus"
+},
+{
+"slug": "humpback-anglerfish",
+"name": "Humpback anglerfish",
+"scientific": "Melanocetus johnsonii",
+"group": "Deep-sea fish",
+"emoji": "🐟",
+"depth_min": 200,
+"depth_max": 4500,
+"oceans": [
+"Atlantic",
+"Pacific",
+"Indian"
+],
+"size": "Females ~18 cm; males ~3 cm",
+"lifespan": "Unknown",
+"diet": "Fish, crustaceans",
+"iucn": "Least Concern",
+"summary": "The classic deep-sea anglerfish: a lure of glowing bacteria, a cavernous mouth and dwarf males.",
+"overview": "A black, globe-shaped predator of the bathypelagic zone and one of the most recognisable deep-sea animals. Females carry a fishing-rod lure (illicium) tipped with a light organ (esca) packed with symbiotic bioluminescent bacteria.",
+"habitat": "Open water of the midnight zone worldwide in tropical to temperate seas, mostly 1,000–2,000 m, recorded from ~200 to ~4,500 m.",
+"feeding": "A sit-and-wait ambush predator. It hangs motionless and wiggles its glowing lure to draw prey close, then engulfs it. Its stomach and jaws expand so it can swallow prey as large as itself, which matters where meals are rare.",
+"reproduction": "Males are tiny and free-swimming, with large nostrils for tracking female pheromones. In Melanocetus the male attaches temporarily to the female; in some other anglerfish families males fuse permanently (sexual parasitism). Eggs are released in buoyant gelatinous veils, and larvae develop in shallower water.",
+"migration": "Larvae and juveniles live higher in the water column and descend as they mature (ontogenetic migration). Adults do not migrate daily.",
+"behaviour": "Solitary, energy-saving and largely motionless. Encounters between the sexes are rare, which is why mate-finding adaptations are so extreme.",
+"adaptations": [
+"Bacterial bioluminescent lure",
+"Distensible stomach and hinged jaws",
+"Black, light-absorbing skin",
+"Weak, watery muscles that save energy"
+],
+"conservation": "Not commercially fished. The main threats are indirect (deep-sea trawling bycatch, climate-driven changes in food supply).",
+"wiki": "Melanocetus_johnsonii",
+"fishbase": "Melanocetus-johnsonii"
+},
+{
+"slug": "lanternfish",
+"name": "Lanternfishes",
+"scientific": "Family Myctophidae",
+"group": "Deep-sea fish",
+"emoji": "🐟",
+"depth_min": 0,
+"depth_max": 1500,
+"oceans": [
+"All oceans"
+],
+"size": "2–30 cm (most under 15 cm)",
+"lifespan": "1–5 years",
+"diet": "Zooplankton (copepods, krill)",
+"iucn": "Least Concern (most species)",
+"summary": "Possibly the most abundant vertebrates on Earth; their nightly migration is the largest on the planet.",
+"overview": "About 250 species of small fish covered in photophores (light organs) in species-specific patterns. Together they may make up a large share of the global fish biomass, and they underpin food webs for tuna, squid, seabirds and marine mammals.",
+"habitat": "Every ocean, mesopelagic zone by day (300–1,500 m), near-surface by night.",
+"feeding": "Feed at night near the surface on copepods, krill and other zooplankton, then descend at dawn to digest in dark, cold water safe from visual predators.",
+"reproduction": "Broadcast spawners with pelagic eggs and larvae. Many species mature within a year, and their short lives support rapid population turnover.",
+"migration": "Diel vertical migration: hundreds of metres up at dusk and down at dawn, every day. This transports carbon to depth (the 'migrant pump').",
+"behaviour": "Schooling. Photophores on the belly provide counter-illumination, matching downwelling light to hide the fish's silhouette from predators below.",
+"adaptations": [
+"Ventral photophores for counter-illumination",
+"Large eyes tuned to blue light",
+"Gas-filled or lipid-filled swim bladders (varies by species)"
+],
+"conservation": "Targeted by small experimental fisheries for fishmeal. Scientists caution that large-scale twilight-zone fishing could weaken the ocean's carbon pump.",
+"wiki": "Lanternfish"
+},
+{
+"slug": "mariana-snailfish",
+"name": "Mariana snailfish",
+"scientific": "Pseudoliparis swirei",
+"group": "Deep-sea fish",
+"emoji": "🐟",
+"depth_min": 6198,
+"depth_max": 8078,
+"oceans": [
+"Pacific"
+],
+"size": "~11 cm",
+"lifespan": "Unknown",
+"diet": "Amphipods and small crustaceans",
+"iucn": "Not evaluated",
+"summary": "A pale, scaleless top predator of the Mariana Trench, among the deepest-living fishes known.",
+"overview": "Described in 2017. Hadal snailfish (Liparidae) are the dominant fish of trenches below ~6,000 m and pushed the known depth limit of fish past 8,000 m. A related Pseudoliparis juvenile was filmed at 8,336 m in the Izu-Ogasawara Trench.",
+"habitat": "Hadal zone of the Mariana Trench, western Pacific.",
+"feeding": "Feeds on abundant amphipods by suction. In the hadal zone there are few competing fish predators.",
+"reproduction": "Lays relatively large eggs. Juveniles of hadal snailfishes tend to live deepest within the species' range.",
+"migration": "Lives within a narrow trench depth band.",
+"behaviour": "Active swimmers that gather at baited cameras in groups.",
+"adaptations": [
+"No swim bladder",
+"Incompletely ossified skull",
+"High TMAO levels to stabilise proteins under pressure",
+"Gelatinous tissue"
+],
+"conservation": "Not fished. Trenches accumulate pollutants and microplastics.",
+"wiki": "Mariana_snailfish",
+"fishbase": "Pseudoliparis-swirei"
+},
+{
+"slug": "orange-roughy",
+"name": "Orange roughy",
+"scientific": "Hoplostethus atlanticus",
+"group": "Deep-sea fish",
+"emoji": "🐠",
+"depth_min": 180,
+"depth_max": 1800,
+"oceans": [
+"Atlantic",
+"Pacific",
+"Indian"
+],
+"size": "Up to ~75 cm",
+"lifespan": "Over 150 years",
+"diet": "Crustaceans, fish, squid",
+"iucn": "Not evaluated",
+"summary": "A slow-growing deep-sea fish that can live past 150 years; its fishery became a cautionary tale.",
+"overview": "Orange roughy aggregate around seamounts and steep slopes. They mature very late (20–30+ years), so populations recover slowly from fishing.",
+"habitat": "Cold deep waters of the Atlantic, Indo-Pacific and especially around New Zealand and Australia, often over seamounts.",
+"feeding": "Feeds on mesopelagic prey drawn to seamounts by currents.",
+"reproduction": "Forms dense spawning aggregations, which made it easy to catch in very large quantities. Fecundity is low for its size.",
+"migration": "Moves between feeding and spawning grounds on seamounts.",
+"behaviour": "Aggregates in large schools around seamounts.",
+"adaptations": [
+"Extremely slow metabolism and growth",
+"Long lifespan"
+],
+"conservation": "Many stocks were heavily overfished in the 1980s–90s. Bottom trawling on seamounts also destroyed coral habitat. Some stocks have since been rebuilt under strict management.",
+"wiki": "Orange_roughy",
+"fishbase": "Hoplostethus-atlanticus"
+},
+{
+"slug": "black-dragonfish",
+"name": "Pacific blackdragon",
+"scientific": "Idiacanthus antrostomus",
+"group": "Deep-sea fish",
+"emoji": "🐉",
+"depth_min": 0,
+"depth_max": 2000,
+"oceans": [
+"Pacific"
+],
+"size": "Females ~40 cm; males ~5 cm",
+"lifespan": "Unknown",
+"diet": "Fish, crustaceans",
+"iucn": "Least Concern",
+"summary": "Ultra-black skin, a glowing chin barbel, and males that never feed as adults.",
+"overview": "Female blackdragons are eel-like predators with fangs and a long luminous chin barbel. Their skin is among the blackest known, absorbing over 99.5% of light.",
+"habitat": "Eastern Pacific, mesopelagic to bathypelagic.",
+"feeding": "The female uses her barbel as a lure and a light organ under each eye to spot prey.",
+"reproduction": "Strong sexual dimorphism: tiny males lack teeth and a functioning gut, live only to mate, and die soon after.",
+"migration": "Larvae have eyes on extremely long stalks. Adults migrate vertically.",
+"behaviour": "Solitary hunters.",
+"adaptations": [
+"Ultra-black pigment",
+"Bioluminescent barbel and suborbital photophores"
+],
+"conservation": "Not fished.",
+"wiki": "Idiacanthus_antrostomus"
+},
+{
+"slug": "pacific-viperfish",
+"name": "Pacific viperfish",
+"scientific": "Chauliodus macouni",
+"group": "Deep-sea fish",
+"emoji": "🐍",
+"depth_min": 250,
+"depth_max": 4400,
+"oceans": [
+"Pacific"
+],
+"size": "Up to ~25 cm",
+"lifespan": "~8 years",
+"diet": "Fish, crustaceans",
+"iucn": "Least Concern",
+"summary": "A fanged midnight-zone predator whose teeth are too long to fit inside its own mouth.",
+"overview": "Viperfishes are dragonfish relatives with needle-like fangs, a hinged skull that swings open to swallow large prey, and a lure-like first dorsal ray.",
+"habitat": "North Pacific, from the Bering Sea to Mexico and Japan, in the mesopelagic to bathypelagic zone.",
+"feeding": "Ambush predator that may use photophores to attract prey. It impales prey on its fangs and swallows it whole.",
+"reproduction": "Spawns pelagic eggs. Larvae develop near the surface.",
+"migration": "Many viperfish make vertical migrations, rising toward shallower water at night.",
+"behaviour": "Solitary, slow-moving and energy-efficient.",
+"adaptations": [
+"Hinged neurocranium for a huge gape",
+"Photophores along the body",
+"Transparent fangs that may be hard for prey to see"
+],
+"conservation": "Taken as trawl bycatch. Not targeted.",
+"wiki": "Pacific_viperfish",
+"fishbase": "Chauliodus-macouni"
+},
+{
+"slug": "gulper-eel",
+"name": "Pelican eel (gulper eel)",
+"scientific": "Eurypharynx pelecanoides",
+"group": "Deep-sea fish",
+"emoji": "🐍",
+"depth_min": 500,
+"depth_max": 3000,
+"oceans": [
+"Atlantic",
+"Pacific",
+"Indian"
+],
+"size": "Up to ~1 m",
+"lifespan": "Unknown",
+"diet": "Small crustaceans, fish",
+"iucn": "Least Concern",
+"summary": "An eel that is mostly mouth: a loose pouch-like jaw much larger than its body.",
+"overview": "The pelican eel has an enormous, loosely hinged mouth, a whip-like tail tipped with a light organ, and tiny eyes.",
+"habitat": "Tropical and temperate oceans worldwide, bathypelagic.",
+"feeding": "Despite its huge mouth it eats mostly small crustaceans, scooping water and prey together and then expelling the water through its gills.",
+"reproduction": "Males develop large olfactory organs at maturity, and adults are thought to die after spawning (semelparity), as in other eels.",
+"migration": "Larvae (leptocephali) live in upper waters.",
+"behaviour": "Can inflate its mouth like a balloon, possibly to deter predators or to engulf prey swarms.",
+"adaptations": [
+"Massive gape",
+"Bioluminescent tail tip possibly used as a lure"
+],
+"conservation": "Not fished.",
+"wiki": "Pelican_eel",
+"fishbase": "Eurypharynx-pelecanoides"
+},
+{
+"slug": "tripod-fish",
+"name": "Tripod fish",
+"scientific": "Bathypterois grallator",
+"group": "Deep-sea fish",
+"emoji": "🦿",
+"depth_min": 878,
+"depth_max": 4720,
+"oceans": [
+"Atlantic",
+"Pacific",
+"Indian"
+],
+"size": "~35 cm (body) on fin rays ~1 m",
+"lifespan": "Unknown",
+"diet": "Small crustaceans",
+"iucn": "Least Concern",
+"summary": "Stands on three elongated fin rays facing into the current, waiting for food to drift into its mouth.",
+"overview": "A greeneye relative that props itself above the seafloor on stiffened rays of its pelvic and tail fins, so it sits clear of the sediment where water flow is stronger.",
+"habitat": "Lower continental slope to abyssal plains in tropical and subtropical oceans.",
+"feeding": "Faces upstream with its pectoral fins spread forward like antennae, sensing tiny prey and snapping it from the current.",
+"reproduction": "Simultaneous hermaphrodite: each fish has both male and female organs and can self-fertilise if needed, a solution for a sparse population.",
+"migration": "Stationary. Relocates by swimming short distances.",
+"behaviour": "Solitary and spaced out across the seabed.",
+"adaptations": [
+"Stilt-like fin rays stiffened by fluid pressure",
+"Mechanosensory pectoral fins",
+"Reduced eyes"
+],
+"conservation": "Seen often on ROV dives. Not targeted.",
+"wiki": "Tripod_fish",
+"fishbase": "Bathypterois-grallator"
+},
+{
+"slug": "coelacanth",
+"name": "West Indian Ocean coelacanth",
+"scientific": "Latimeria chalumnae",
+"group": "Deep-sea fish",
+"emoji": "🦕",
+"depth_min": 90,
+"depth_max": 700,
+"oceans": [
+"Indian"
+],
+"size": "Up to ~2 m",
+"lifespan": "Possibly ~100 years",
+"diet": "Fish, cephalopods",
+"iucn": "Critically Endangered",
+"summary": "A 'living fossil' lobe-finned fish thought extinct for 66 million years until found off South Africa in 1938.",
+"overview": "Coelacanths belong to an ancient lineage more closely related to tetrapods than most fish are. Their fleshy lobed fins move in a pattern similar to the alternating gait of four-legged animals.",
+"habitat": "Volcanic slopes and caves off the Comoros, Mozambique, Madagascar, South Africa and Tanzania, typically 100–500 m. A second species lives in Indonesia.",
+"feeding": "Drifts head-down near reefs at night hunting fish and squid, using an electroreceptive rostral organ.",
+"reproduction": "Ovoviviparous: eggs hatch inside the mother and she gives birth to live young after a gestation estimated at about 5 years, one of the longest known in vertebrates.",
+"migration": "Rests in caves by day and drifts on currents to forage at night.",
+"behaviour": "Gathers peacefully in caves by day. Individuals are recognisable by their spot patterns.",
+"adaptations": [
+"Lobed, limb-like fins",
+"Rostral electroreceptor",
+"Fat-filled vestigial lung"
+],
+"conservation": "Very small population, threatened by bycatch in deep-set shark nets.",
+"wiki": "West_Indian_Ocean_coelacanth",
+"fishbase": "Latimeria-chalumnae"
+},
+{
+"slug": "crown-of-thorns",
+"name": "Crown-of-thorns starfish",
+"scientific": "Acanthaster planci",
+"group": "Echinoderms",
+"emoji": "⭐",
+"depth_min": 0,
+"depth_max": 30,
+"oceans": [
+"Pacific",
+"Indian"
+],
+"size": "25–35 cm",
+"lifespan": "~8 years",
+"diet": "Coral polyps",
+"iucn": "Not evaluated",
+"summary": "A venomous coral-eating starfish whose population outbreaks devastate reefs.",
+"overview": "Outbreaks can strip large reef areas of coral. Nutrient runoff boosting larval survival is a suspected driver.",
+"habitat": "Indo-Pacific reefs.",
+"feeding": "Everts its stomach over coral and digests the tissue.",
+"reproduction": "A large female can produce tens of millions of eggs a season.",
+"migration": "Larvae drift for weeks.",
+"behaviour": "Mostly nocturnal.",
+"adaptations": [
+"Venomous spines"
+],
+"conservation": "Culled on the Great Barrier Reef to protect coral.",
+"wiki": "Crown-of-thorns_starfish"
+},
+{
+"slug": "brittle-star",
+"name": "Deep-sea brittle stars",
+"scientific": "Class Ophiuroidea",
+"group": "Echinoderms",
+"emoji": "⭐",
+"depth_min": 0,
+"depth_max": 8000,
+"oceans": [
+"All oceans"
+],
+"size": "Few cm across",
+"lifespan": "Years",
+"diet": "Detritus, small animals",
+"iucn": "Not evaluated",
+"summary": "Among the most abundant animals on the deep seafloor, carpeting entire slopes.",
+"overview": "Over 2,000 species. They move with snake-like arm movements and can regenerate lost arms.",
+"habitat": "From shores to the hadal zone.",
+"feeding": "Suspension feeders, deposit feeders, scavengers and predators.",
+"reproduction": "Broadcast spawning or brooding, depending on species.",
+"migration": "Mostly sedentary.",
+"behaviour": "Dense beds on seamounts.",
+"adaptations": [
+"Arm regeneration",
+"Flexible arms"
+],
+"conservation": "Indicators of seafloor health.",
+"wiki": "Brittle_star"
+},
+{
+"slug": "sea-pig",
+"name": "Sea pig",
+"scientific": "Scotoplanes globosa",
+"group": "Echinoderms",
+"emoji": "🐷",
+"depth_min": 1000,
+"depth_max": 6000,
+"oceans": [
+"All oceans"
+],
+"size": "Up to ~15 cm",
+"lifespan": "Unknown",
+"diet": "Organic matter in sediment",
+"iucn": "Not evaluated",
+"summary": "A deep-sea sea cucumber that walks on tube feet, often in herds.",
+"overview": "Sea pigs use enlarged water-filled tube feet as legs. Juvenile king crabs sometimes ride underneath them.",
+"habitat": "Abyssal plains worldwide.",
+"feeding": "Selectively eats fresh organic-rich sediment (phytodetritus) arriving from the surface.",
+"reproduction": "Spawns gametes into the water.",
+"migration": "Herds move upstream toward food.",
+"behaviour": "Can occur in aggregations of hundreds.",
+"adaptations": [
+"Leg-like tube feet"
+],
+"conservation": "Sensitive to seabed disturbance.",
+"wiki": "Scotoplanes"
+},
+{
+"slug": "blue-whale",
+"name": "Blue whale",
+"scientific": "Balaenoptera musculus",
+"group": "Marine mammals",
+"emoji": "🐋",
+"depth_min": 0,
+"depth_max": 500,
+"oceans": [
+"All oceans"
+],
+"size": "Up to ~30 m, ~150+ t",
+"lifespan": "80–90 years",
+"diet": "Krill",
+"iucn": "Endangered",
+"summary": "The largest animal ever known to have lived.",
+"overview": "A blue whale can eat several tonnes of krill a day in lunge-feeding bursts.",
+"habitat": "All oceans except the Arctic.",
+"feeding": "Lunge-feeds on dense krill patches, engulfing a volume of water larger than its own body.",
+"reproduction": "Calves every 2–3 years after ~11 months' gestation. Calves gain ~90 kg a day.",
+"migration": "Seasonal migrations between polar feeding grounds and tropical breeding areas.",
+"behaviour": "Low-frequency songs travel hundreds of km.",
+"adaptations": [
+"Baleen filter",
+"Expandable throat pleats"
+],
+"conservation": "Protected since 1966 after whaling reduced Antarctic blue whales by >99%. Ship strikes remain a threat.",
+"wiki": "Blue_whale"
+},
+{
+"slug": "cuviers-beaked-whale",
+"name": "Cuvier's beaked whale",
+"scientific": "Ziphius cavirostris",
+"group": "Marine mammals",
+"emoji": "🐋",
+"depth_min": 0,
+"depth_max": 2992,
+"oceans": [
+"All oceans"
+],
+"size": "~6–7 m",
+"lifespan": "~60 years",
+"diet": "Deep-water squid, fish",
+"iucn": "Least Concern",
+"summary": "The record-holding mammal diver: 2,992 m deep and a dive lasting 222 minutes.",
+"overview": "Rarely seen at the surface. Tagging studies revealed extreme dives.",
+"habitat": "Deep offshore waters worldwide.",
+"feeding": "Suction-feeds on deep squid located by echolocation.",
+"reproduction": "Little known.",
+"migration": "Unclear.",
+"behaviour": "Very sensitive to naval sonar, linked to mass strandings.",
+"adaptations": [
+"Extreme breath-hold capacity"
+],
+"conservation": "Naval sonar and ocean noise are key threats.",
+"wiki": "Cuvier%27s_beaked_whale"
+},
+{
+"slug": "dugong",
+"name": "Dugong",
+"scientific": "Dugong dugon",
+"group": "Marine mammals",
+"emoji": "🐄",
+"depth_min": 0,
+"depth_max": 40,
+"oceans": [
+"Pacific",
+"Indian"
+],
+"size": "~3 m",
+"lifespan": "~70 years",
+"diet": "Seagrass",
+"iucn": "Vulnerable",
+"summary": "A strictly marine herbivore and possible inspiration for mermaid legends.",
+"overview": "Related to manatees and elephants.",
+"habitat": "Indo-West Pacific coasts.",
+"feeding": "Uproots seagrass, leaving feeding trails.",
+"reproduction": "Slow breeding: one calf every 3–7 years.",
+"migration": "Follows seagrass availability.",
+"behaviour": "Shy, solitary or in small groups.",
+"adaptations": [
+"Downturned snout for grazing"
+],
+"conservation": "Bycatch, habitat loss and hunting. Some populations are functionally extinct.",
+"wiki": "Dugong"
+},
+{
+"slug": "humpback-whale",
+"name": "Humpback whale",
+"scientific": "Megaptera novaeangliae",
+"group": "Marine mammals",
+"emoji": "🐋",
+"depth_min": 0,
+"depth_max": 200,
+"oceans": [
+"All oceans"
+],
+"size": "Up to ~16 m",
+"lifespan": "45–100 years",
+"diet": "Krill, small schooling fish",
+"iucn": "Least Concern",
+"summary": "Famous for complex songs, bubble-net feeding and some of the longest mammal migrations.",
+"overview": "Male humpbacks sing long structured songs that evolve and spread across ocean basins.",
+"habitat": "All oceans.",
+"feeding": "Groups cooperate to blow 'bubble nets' that trap fish.",
+"reproduction": "Males sing and compete for females on tropical breeding grounds. Gestation ~11 months.",
+"migration": "Migrations up to ~8,000 km each way between polar feeding and tropical breeding grounds.",
+"behaviour": "Breaching, tail slapping and cultural transmission of song and feeding techniques.",
+"adaptations": [
+"Long pectoral fins"
+],
+"conservation": "A conservation success story after the whaling ban.",
+"wiki": "Humpback_whale"
+},
+{
+"slug": "narwhal",
+"name": "Narwhal",
+"scientific": "Monodon monoceros",
+"group": "Marine mammals",
+"emoji": "🦄",
+"depth_min": 0,
+"depth_max": 1800,
+"oceans": [
+"Arctic"
+],
+"size": "4–5.5 m (plus tusk up to 3 m)",
+"lifespan": "~50 years",
+"diet": "Halibut, cod, squid",
+"iucn": "Least Concern",
+"summary": "The 'unicorn whale', whose tusk is a sensory tooth with millions of nerve endings.",
+"overview": "Dives deeper than 1,500 m under winter sea ice.",
+"habitat": "Arctic waters of Canada, Greenland and Russia.",
+"feeding": "Hunts Greenland halibut at depth in winter.",
+"reproduction": "Calves every ~3 years.",
+"migration": "Seasonal migration between summer bays and winter pack ice.",
+"behaviour": "Pods of 15–20. The tusk may be used in display and to stun fish.",
+"adaptations": [
+"Sensory tusk"
+],
+"conservation": "Vulnerable to sea-ice change and shipping noise.",
+"wiki": "Narwhal"
+},
+{
+"slug": "elephant-seal",
+"name": "Northern elephant seal",
+"scientific": "Mirounga angustirostris",
+"group": "Marine mammals",
+"emoji": "🦭",
+"depth_min": 0,
+"depth_max": 1500,
+"oceans": [
+"Pacific"
+],
+"size": "Males up to ~4.5 m, 2 t",
+"lifespan": "~20 years",
+"diet": "Squid, fish, rays",
+"iucn": "Least Concern",
+"summary": "Spends ~90% of its time at sea underwater, making dive after dive to over 1,000 m.",
+"overview": "Even sleeps in short naps while drifting down during dives.",
+"habitat": "Eastern North Pacific.",
+"feeding": "Forages on mesopelagic squid and fish.",
+"reproduction": "Harem breeding on beaches. Dominant 'beachmaster' males fight for access to females.",
+"migration": "Two migrations a year of thousands of km.",
+"behaviour": "Remarkable sleep during dives.",
+"adaptations": [
+"Blood oxygen stores",
+"Bradycardia"
+],
+"conservation": "Recovered from near-extinction in the 1890s.",
+"wiki": "Northern_elephant_seal"
+},
+{
+"slug": "sea-otter",
+"name": "Sea otter",
+"scientific": "Enhydra lutris",
+"group": "Marine mammals",
+"emoji": "🦦",
+"depth_min": 0,
+"depth_max": 100,
+"oceans": [
+"Pacific"
+],
+"size": "~1.2–1.5 m",
+"lifespan": "~15–20 years",
+"diet": "Urchins, crabs, clams",
+"iucn": "Endangered",
+"summary": "A keystone species that protects kelp forests by eating sea urchins.",
+"overview": "It has the densest fur of any animal and no blubber.",
+"habitat": "North Pacific coasts.",
+"feeding": "Uses rocks as tools to crack shellfish on its chest.",
+"reproduction": "Pups ride on their mother's belly.",
+"migration": "Mostly resident.",
+"behaviour": "Rafts together and holds paws while sleeping.",
+"adaptations": [
+"Dense fur",
+"Tool use"
+],
+"conservation": "Nearly hunted to extinction for fur. Oil spills remain a threat.",
+"wiki": "Sea_otter"
+},
+{
+"slug": "sperm-whale",
+"name": "Sperm whale",
+"scientific": "Physeter macrocephalus",
+"group": "Marine mammals",
+"emoji": "🐋",
+"depth_min": 0,
+"depth_max": 2250,
+"oceans": [
+"All oceans"
+],
+"size": "Males up to ~18 m",
+"lifespan": "~70 years",
+"diet": "Squid (incl. giant squid), fish",
+"iucn": "Vulnerable",
+"summary": "The deepest-diving large predator, with the biggest brain on Earth; it hunts giant squid in the dark.",
+"overview": "Sperm whales dive for 45–60+ minutes to 1,000–2,000 m, locating prey by echolocation clicks, the loudest sounds made by any animal.",
+"habitat": "All deep oceans. Females and young stay in warmer waters, and males range to polar seas.",
+"feeding": "Echolocates squid in the twilight and midnight zones. Stomachs have contained giant squid beaks.",
+"reproduction": "Matrilineal social units raise calves together. Gestation is ~14–16 months, with calves every 4–6 years.",
+"migration": "Males make long migrations to high latitudes.",
+"behaviour": "Distinct vocal 'clans' with dialects of codas, an area of active animal-communication research.",
+"adaptations": [
+"Spermaceti organ",
+"Collapsible lungs and high myoglobin"
+],
+"conservation": "Recovering from industrial whaling. Threats include ship strikes, entanglement, noise and plastics.",
+"wiki": "Sperm_whale"
+},
+{
+"slug": "bioluminescent-dinoflagellates",
+"name": "Bioluminescent dinoflagellates",
+"scientific": "e.g. Noctiluca scintillans, Lingulodinium polyedra",
+"group": "Microbes",
+"emoji": "✨",
+"depth_min": 0,
+"depth_max": 100,
+"oceans": [
+"All oceans"
+],
+"size": "20 μm–2 mm",
+"lifespan": "Days",
+"diet": "Photosynthesis or grazing",
+"iucn": "Not evaluated",
+"summary": "The cause of glowing 'sea sparkle' waves on beaches at night.",
+"overview": "Mechanical stress (a wave or a swimmer) triggers flashes via the luciferin–luciferase reaction.",
+"habitat": "Coastal waters worldwide.",
+"feeding": "Some photosynthesise. Noctiluca grazes.",
+"reproduction": "Asexual division and sexual cysts.",
+"migration": "Drift and bloom.",
+"behaviour": "The flash may startle grazers or attract their predators (a 'burglar alarm').",
+"adaptations": [
+"Scintillons (light organelles)"
+],
+"conservation": "Large blooms can harm fisheries.",
+"wiki": "Dinoflagellate"
+},
+{
+"slug": "deep-biosphere-archaea",
+"name": "Deep subseafloor microbes",
+"scientific": "Archaea and bacteria (e.g. Asgard archaea)",
+"group": "Microbes",
+"emoji": "🦠",
+"depth_min": 0,
+"depth_max": 10000,
+"oceans": [
+"All oceans"
+],
+"size": "<1 μm",
+"lifespan": "Possibly thousands of years per cell division",
+"diet": "Chemical energy, buried organic carbon",
+"iucn": "Not evaluated",
+"summary": "A vast biosphere buried kilometres below the seabed, living on geological timescales.",
+"overview": "Sediment cores contain living microbes millions of years old. Asgard archaea are the closest known relatives of complex (eukaryotic) cells.",
+"habitat": "Sediments and oceanic crust beneath the seafloor.",
+"feeding": "Extremely slow metabolism on buried carbon or rock-water chemistry.",
+"reproduction": "Cell division may take centuries to millennia.",
+"migration": "None.",
+"behaviour": "Survives with minimal energy.",
+"adaptations": [
+"Ultra-low energy metabolism"
+],
+"conservation": "Little known about disturbance impacts.",
+"wiki": "Deep_biosphere"
+},
+{
+"slug": "prochlorococcus",
+"name": "Prochlorococcus",
+"scientific": "Prochlorococcus marinus",
+"group": "Microbes",
+"emoji": "🦠",
+"depth_min": 0,
+"depth_max": 200,
+"oceans": [
+"All oceans"
+],
+"size": "~0.6 μm",
+"lifespan": "Days",
+"diet": "Photosynthesis",
+"iucn": "Not evaluated",
+"summary": "The most abundant photosynthetic organism on Earth, discovered only in 1988.",
+"overview": "A single millilitre of seawater can hold ~100,000 cells. It contributes a sizeable fraction of ocean primary production.",
+"habitat": "Warm, nutrient-poor open ocean.",
+"feeding": "Photosynthesis with a minimal genome.",
+"reproduction": "Asexual division.",
+"migration": "Different 'ecotypes' are adapted to different light depths.",
+"behaviour": "Relies on helper bacteria to neutralise peroxide.",
+"adaptations": [
+"Streamlined genome"
+],
+"conservation": "Expected to expand with warming.",
+"wiki": "Prochlorococcus"
+},
+{
+"slug": "scaly-foot-snail",
+"name": "Scaly-foot snail",
+"scientific": "Chrysomallon squamiferum",
+"group": "Molluscs",
+"emoji": "🐌",
+"depth_min": 2400,
+"depth_max": 2900,
+"oceans": [
+"Indian"
+],
+"size": "~4.5 cm",
+"lifespan": "Unknown",
+"diet": "Endosymbiotic bacteria",
+"iucn": "Endangered",
+"summary": "The only animal known to build its armour from iron sulfide; the first species listed as endangered by deep-sea mining.",
+"overview": "Its foot is covered in iron-sulfide scales and its shell has an iron-sulfide outer layer.",
+"habitat": "Three hydrothermal vent fields in the Indian Ocean.",
+"feeding": "Relies on chemosynthetic bacteria housed in an enlarged oesophageal gland. Its huge heart supports this.",
+"reproduction": "Hermaphrodite. Larvae disperse between vents.",
+"migration": "Larvae drift between vent fields.",
+"behaviour": "Lives in dense aggregations near vents.",
+"adaptations": [
+"Iron-sulfide armour",
+"Symbiont-housing gland",
+"Giant heart"
+],
+"conservation": "Listed Endangered by IUCN (2019) because two of its three vent fields lie within mining exploration licences.",
+"wiki": "Chrysomallon_squamiferum"
+},
+{
+"slug": "atlantic-bluefin-tuna",
+"name": "Atlantic bluefin tuna",
+"scientific": "Thunnus thynnus",
+"group": "Open-ocean fish",
+"emoji": "🐟",
+"depth_min": 0,
+"depth_max": 1000,
+"oceans": [
+"Atlantic"
+],
+"size": "Up to ~3 m, 600+ kg",
+"lifespan": "~40 years",
+"diet": "Fish, squid",
+"iucn": "Least Concern (recovering)",
+"summary": "A warm-bodied ocean racer that crosses the Atlantic and dives into the twilight zone.",
+"overview": "Bluefin keep their muscles warmer than the water using countercurrent heat exchangers, which lets them hunt in cold seas.",
+"habitat": "North Atlantic and Mediterranean.",
+"feeding": "Pursuit predator of herring, mackerel and squid, at speeds up to ~70 km/h.",
+"reproduction": "Spawns in the Gulf of Mexico and the Mediterranean, releasing millions of eggs.",
+"migration": "Trans-Atlantic migrations between feeding and spawning grounds.",
+"behaviour": "Schools by size class.",
+"adaptations": [
+"Regional endothermy",
+"Retractable fins"
+],
+"conservation": "Collapsed from overfishing. Quotas since ~2007 have aided recovery.",
+"wiki": "Atlantic_bluefin_tuna",
+"fishbase": "Thunnus-thynnus"
+},
+{
+"slug": "atlantic-cod",
+"name": "Atlantic cod",
+"scientific": "Gadus morhua",
+"group": "Open-ocean fish",
+"emoji": "🐟",
+"depth_min": 0,
+"depth_max": 600,
+"oceans": [
+"Atlantic",
+"Arctic"
+],
+"size": "Up to ~2 m",
+"lifespan": "~25 years",
+"diet": "Fish, crustaceans",
+"iucn": "Vulnerable",
+"summary": "The fish behind one of history's most famous fishery collapses (Grand Banks, 1992).",
+"overview": "Once immensely abundant, cod built the economies of New England and Newfoundland.",
+"habitat": "Continental shelves of the North Atlantic.",
+"feeding": "Bottom-oriented predator.",
+"reproduction": "Spawns in aggregations. Large females produce millions of eggs.",
+"migration": "Seasonal migrations between spawning and feeding grounds.",
+"behaviour": "Uses drumming sounds during spawning.",
+"adaptations": [
+"Swim bladder sound production"
+],
+"conservation": "The 1992 Canadian moratorium followed collapse. Recovery has been slow.",
+"wiki": "Atlantic_cod",
+"fishbase": "Gadus-morhua"
+},
+{
+"slug": "atlantic-salmon",
+"name": "Atlantic salmon",
+"scientific": "Salmo salar",
+"group": "Open-ocean fish",
+"emoji": "🐟",
+"depth_min": 0,
+"depth_max": 1000,
+"oceans": [
+"Atlantic"
+],
+"size": "Up to ~1.5 m",
+"lifespan": "Up to 13 years",
+"diet": "Fish, crustaceans",
+"iucn": "Least Concern",
+"summary": "Returns from the ocean to its home river to spawn, guided by smell.",
+"overview": "Anadromous: hatches in rivers, matures at sea, returns to spawn.",
+"habitat": "North Atlantic rivers and ocean.",
+"feeding": "Feeds on fish and krill at sea.",
+"reproduction": "Females dig redds in gravel. Some survive to spawn again.",
+"migration": "Marine migrations to feeding grounds off Greenland and the Faroes.",
+"behaviour": "Leaps waterfalls.",
+"adaptations": [
+"Olfactory homing"
+],
+"conservation": "Wild stocks are declining. Farmed-fish escapes and sea lice are concerns.",
+"wiki": "Atlantic_salmon",
+"fishbase": "Salmo-salar"
+},
+{
+"slug": "european-eel",
+"name": "European eel",
+"scientific": "Anguilla anguilla",
+"group": "Open-ocean fish",
+"emoji": "🐍",
+"depth_min": 0,
+"depth_max": 2000,
+"oceans": [
+"Atlantic"
+],
+"size": "Up to ~1.3 m",
+"lifespan": "Up to 80+ years",
+"diet": "Invertebrates, fish",
+"iucn": "Critically Endangered",
+"summary": "Crosses the Atlantic to spawn in the Sargasso Sea, a journey never directly observed.",
+"overview": "Born in the Sargasso Sea, larvae drift to Europe, grow in rivers, then return as adults to spawn and die.",
+"habitat": "Rivers and coasts of Europe and North Africa; spawning in the Sargasso Sea.",
+"feeding": "Generalist predator in fresh water.",
+"reproduction": "Semelparous: spawns once in the deep Sargasso Sea, then dies.",
+"migration": "Catadromous migration of ~5,000–6,000 km.",
+"behaviour": "Can move over wet land.",
+"adaptations": [
+"Magnetic navigation",
+"Life-stage transformations (leptocephalus, glass eel, yellow eel, silver eel)"
+],
+"conservation": "Collapsed by over 90%. Threatened by dams, the glass-eel trade and parasites.",
+"wiki": "European_eel",
+"fishbase": "Anguilla-anguilla"
+},
+{
+"slug": "ocean-sunfish",
+"name": "Ocean sunfish",
+"scientific": "Mola mola",
+"group": "Open-ocean fish",
+"emoji": "🐡",
+"depth_min": 0,
+"depth_max": 600,
+"oceans": [
+"All oceans"
+],
+"size": "Up to ~3.3 m, 2+ t",
+"lifespan": "~10 years",
+"diet": "Jellyfish, salps, small fish",
+"iucn": "Vulnerable",
+"summary": "The world's heaviest bony fish and the most fecund vertebrate known.",
+"overview": "A single female was estimated to carry ~300 million eggs.",
+"habitat": "Temperate and tropical oceans.",
+"feeding": "Dives to eat jellyfish and siphonophores.",
+"reproduction": "Massive egg output. Larvae are spiny and tiny.",
+"migration": "Long migrations. Basks at the surface to warm up and get cleaned by birds.",
+"behaviour": "Lies flat at the surface ('sunfish').",
+"adaptations": [
+"Truncated body with clavus instead of tail"
+],
+"conservation": "Common bycatch in drift-net fisheries.",
+"wiki": "Ocean_sunfish",
+"fishbase": "Mola-mola"
+},
+{
+"slug": "swordfish",
+"name": "Swordfish",
+"scientific": "Xiphias gladius",
+"group": "Open-ocean fish",
+"emoji": "🗡",
+"depth_min": 0,
+"depth_max": 2878,
+"oceans": [
+"All oceans"
+],
+"size": "Up to ~4.5 m",
+"lifespan": "~9+ years",
+"diet": "Squid, fish",
+"iucn": "Least Concern",
+"summary": "Heats its eyes and brain to hunt in cold, dark water.",
+"overview": "A special heater organ near the eyes keeps vision sharp during deep dives.",
+"habitat": "Worldwide tropical and temperate seas.",
+"feeding": "Slashes prey with its flat bill.",
+"reproduction": "Broadcast spawner in warm waters.",
+"migration": "Daily vertical migration: deep by day, shallow at night.",
+"behaviour": "Solitary.",
+"adaptations": [
+"Brain/eye heater organ"
+],
+"conservation": "Managed fisheries. Some stocks recovered.",
+"wiki": "Swordfish",
+"fishbase": "Xiphias-gladius"
+},
+{
+"slug": "phytoplankton-diatoms",
+"name": "Diatoms",
+"scientific": "Class Bacillariophyceae",
+"group": "Plants & algae",
+"emoji": "🔬",
+"depth_min": 0,
+"depth_max": 200,
+"oceans": [
+"All oceans"
+],
+"size": "2–200 μm",
+"lifespan": "Days",
+"diet": "Photosynthesis",
+"iucn": "Not evaluated",
+"summary": "Glass-walled microalgae that produce a large share of the oxygen we breathe.",
+"overview": "Diatoms drive much of the biological carbon pump. Their silica shells sink and build sediments.",
+"habitat": "Sunlit ocean worldwide.",
+"feeding": "Photosynthesise. They need silicate.",
+"reproduction": "Asexual division shrinks cells. Sexual reproduction restores size.",
+"migration": "Drift. Some regulate buoyancy.",
+"behaviour": "Blooms in spring in temperate seas.",
+"adaptations": [
+"Silica frustule"
+],
+"conservation": "Warming and stratification may shift communities.",
+"wiki": "Diatom"
+},
+{
+"slug": "giant-kelp",
+"name": "Giant kelp",
+"scientific": "Macrocystis pyrifera",
+"group": "Plants & algae",
+"emoji": "🌿",
+"depth_min": 0,
+"depth_max": 60,
+"oceans": [
+"Pacific",
+"Atlantic",
+"Southern"
+],
+"size": "Up to ~45 m",
+"lifespan": "Fronds months; holdfasts years",
+"diet": "Photosynthesis",
+"iucn": "Not evaluated",
+"summary": "A brown alga that grows up to ~60 cm a day and forms underwater forests.",
+"overview": "Kelp forests are among the most productive ecosystems on Earth.",
+"habitat": "Cool temperate coasts.",
+"feeding": "Photosynthesises. Gas bladders (pneumatocysts) float fronds to the light.",
+"reproduction": "Alternates between a large sporophyte and microscopic gametophytes.",
+"migration": "Fixed by a holdfast.",
+"behaviour": "Shelters sea otters, fish and urchins.",
+"adaptations": [
+"Gas bladders"
+],
+"conservation": "Marine heatwaves and urchin booms have destroyed many forests (e.g. northern California).",
+"wiki": "Macrocystis_pyrifera"
+},
+{
+"slug": "seagrass",
+"name": "Seagrasses",
+"scientific": "~70 species (e.g. Posidonia oceanica)",
+"group": "Plants & algae",
+"emoji": "🌱",
+"depth_min": 0,
+"depth_max": 60,
+"oceans": [
+"All oceans"
+],
+"size": "Leaves cm–m",
+"lifespan": "Some clones thousands of years",
+"diet": "Photosynthesis",
+"iucn": "Varies",
+"summary": "Flowering plants that returned to the sea and store carbon far faster than land forests per hectare.",
+"overview": "A Posidonia oceanica clone in the Mediterranean may be many thousands of years old.",
+"habitat": "Shallow coasts worldwide except Antarctica.",
+"feeding": "Photosynthesises and stores carbon in roots and sediment.",
+"reproduction": "Flowers and pollinates underwater, and also spreads by rhizomes.",
+"migration": "Spreads clonally.",
+"behaviour": "Nursery habitat for fish, dugongs and turtles.",
+"adaptations": [
+"Underwater pollination"
+],
+"conservation": "Lost at an estimated ~7% per year in some regions to coastal development and pollution.",
+"wiki": "Seagrass"
+},
+{
+"slug": "cleaner-wrasse",
+"name": "Bluestreak cleaner wrasse",
+"scientific": "Labroides dimidiatus",
+"group": "Reef fish",
+"emoji": "🐟",
+"depth_min": 1,
+"depth_max": 40,
+"oceans": [
+"Pacific",
+"Indian"
+],
+"size": "~12 cm",
+"lifespan": "~4 years",
+"diet": "Parasites from client fish",
+"iucn": "Least Concern",
+"summary": "Runs 'cleaning stations' and passes the mirror test, a sign of self-recognition.",
+"overview": "Clients queue to have parasites removed. Cleaners cheat by biting mucus, but behave better when watched.",
+"habitat": "Indo-Pacific reefs.",
+"feeding": "Eats ectoparasites from client fish.",
+"reproduction": "Harems led by a male. Females can change sex.",
+"migration": "Territorial at stations.",
+"behaviour": "Complex reputation management.",
+"adaptations": [
+"Advanced cognition"
+],
+"conservation": "Aquarium trade affects reef cleaning services.",
+"wiki": "Bluestreak_cleaner_wrasse",
+"fishbase": "Labroides-dimidiatus"
+},
+{
+"slug": "clownfish",
+"name": "Clown anemonefish",
+"scientific": "Amphiprion ocellaris",
+"group": "Reef fish",
+"emoji": "🐠",
+"depth_min": 1,
+"depth_max": 15,
+"oceans": [
+"Pacific",
+"Indian"
+],
+"size": "~11 cm",
+"lifespan": "6–10 years",
+"diet": "Zooplankton, algae",
+"iucn": "Least Concern",
+"summary": "Lives among stinging anemone tentacles and can change sex from male to female.",
+"overview": "Mucus protects it from its host anemone's stings.",
+"habitat": "Indo-West Pacific reefs.",
+"feeding": "Feeds on plankton and leftovers. Its waste nourishes the anemone (mutualism).",
+"reproduction": "Protandrous hermaphrodite: when the dominant female dies, the largest male becomes female. Eggs are guarded by the male.",
+"migration": "Larvae disperse but often settle near home reefs, finding them by smell and sound.",
+"behaviour": "Strict size-based social hierarchy.",
+"adaptations": [
+"Protective mucus",
+"Sex change"
+],
+"conservation": "Collected for aquaria. Bleaching harms its anemone hosts.",
+"wiki": "Ocellaris_clownfish",
+"fishbase": "Amphiprion-ocellaris"
+},
+{
+"slug": "moray-eel",
+"name": "Giant moray",
+"scientific": "Gymnothorax javanicus",
+"group": "Reef fish",
+"emoji": "🐍",
+"depth_min": 0,
+"depth_max": 50,
+"oceans": [
+"Pacific",
+"Indian"
+],
+"size": "Up to ~3 m",
+"lifespan": "Up to ~36 years",
+"diet": "Fish, crustaceans",
+"iucn": "Least Concern",
+"summary": "Has a second set of 'alien' jaws in its throat and hunts cooperatively with groupers.",
+"overview": "Pharyngeal jaws shoot forward to drag prey down the throat.",
+"habitat": "Indo-Pacific reefs.",
+"feeding": "Nocturnal predator. Groupers signal morays with head shakes to flush prey from crevices.",
+"reproduction": "Broadcast spawner.",
+"migration": "Resident in reef crevices.",
+"behaviour": "Interspecies cooperative hunting.",
+"adaptations": [
+"Pharyngeal jaws"
+],
+"conservation": "Can carry ciguatera toxin.",
+"wiki": "Giant_moray",
+"fishbase": "Gymnothorax-javanicus"
+},
+{
+"slug": "mandarinfish",
+"name": "Mandarinfish",
+"scientific": "Synchiropus splendidus",
+"group": "Reef fish",
+"emoji": "🐟",
+"depth_min": 1,
+"depth_max": 18,
+"oceans": [
+"Pacific"
+],
+"size": "~6 cm",
+"lifespan": "Unknown",
+"diet": "Copepods, small invertebrates",
+"iucn": "Least Concern",
+"summary": "One of the few vertebrates with true blue pigment cells.",
+"overview": "Brilliant colours may warn predators of its toxic mucus.",
+"habitat": "Western Pacific lagoons and reefs.",
+"feeding": "Picks tiny crustaceans from rubble.",
+"reproduction": "Pairs perform a spawning rise at dusk, releasing gametes at the top.",
+"migration": "Sedentary.",
+"behaviour": "Shy and reclusive.",
+"adaptations": [
+"Cyanophores (blue pigment cells)",
+"Toxic mucus"
+],
+"conservation": "Aquarium trade.",
+"wiki": "Mandarinfish",
+"fishbase": "Synchiropus-splendidus"
+},
+{
+"slug": "parrotfish",
+"name": "Parrotfishes",
+"scientific": "Family Scaridae",
+"group": "Reef fish",
+"emoji": "🐠",
+"depth_min": 1,
+"depth_max": 80,
+"oceans": [
+"Atlantic",
+"Pacific",
+"Indian"
+],
+"size": "30 cm–1.3 m",
+"lifespan": "5–20 years",
+"diet": "Algae scraped from coral rock",
+"iucn": "Varies",
+"summary": "Reef gardeners that grind coral rock into the white sand of tropical beaches.",
+"overview": "A large parrotfish can produce hundreds of kilograms of sand a year.",
+"habitat": "Tropical reefs worldwide.",
+"feeding": "Scrapes algae with beak-like fused teeth, keeping reefs clear for coral.",
+"reproduction": "Many are sequential hermaphrodites with colour phases.",
+"migration": "Daily commutes between feeding and sleeping sites.",
+"behaviour": "Some sleep in a mucus cocoon to mask their scent.",
+"adaptations": [
+"Fused beak teeth",
+"Pharyngeal mill"
+],
+"conservation": "Overfishing removes key algae grazers. Some regions now protect them.",
+"wiki": "Parrotfish"
+},
+{
+"slug": "lionfish",
+"name": "Red lionfish",
+"scientific": "Pterois volitans",
+"group": "Reef fish",
+"emoji": "🦁",
+"depth_min": 1,
+"depth_max": 55,
+"oceans": [
+"Pacific",
+"Atlantic"
+],
+"size": "~38 cm",
+"lifespan": "10+ years",
+"diet": "Small fish, crustaceans",
+"iucn": "Least Concern",
+"summary": "A venomous Indo-Pacific fish that became one of the worst marine invasions in the Atlantic.",
+"overview": "Released aquarium fish established populations from the US to Brazil.",
+"habitat": "Native to the Indo-Pacific; invasive in the western Atlantic and Mediterranean.",
+"feeding": "Herds prey with fanned pectoral fins and blows jets of water to disorient them.",
+"reproduction": "Spawns every few days year-round. Gelatinous egg masses drift.",
+"migration": "Spreads by larval drift.",
+"behaviour": "Few Atlantic predators recognise it as prey.",
+"adaptations": [
+"Venomous spines"
+],
+"conservation": "Culling and promoting it as food help control invasions.",
+"wiki": "Red_lionfish",
+"fishbase": "Pterois-volitans"
+},
+{
+"slug": "seahorse",
+"name": "Seahorses",
+"scientific": "Genus Hippocampus",
+"group": "Reef fish",
+"emoji": "🐴",
+"depth_min": 0,
+"depth_max": 70,
+"oceans": [
+"Atlantic",
+"Pacific",
+"Indian"
+],
+"size": "1.5–35 cm",
+"lifespan": "1–5 years",
+"diet": "Small crustaceans",
+"iucn": "Varies",
+"summary": "The only animals where the male gets pregnant.",
+"overview": "Females deposit eggs in the male's brood pouch, where he fertilises and nourishes them.",
+"habitat": "Seagrass, mangroves and reefs worldwide in shallow water.",
+"feeding": "Ambushes copepods with a rapid head-snap.",
+"reproduction": "Monogamous pair bonds with daily greeting dances in many species.",
+"migration": "Very sedentary.",
+"behaviour": "Grips seagrass with a prehensile tail.",
+"adaptations": [
+"Male pregnancy",
+"Independent eye movement"
+],
+"conservation": "Traditional-medicine trade and habitat loss. All species are on CITES Appendix II.",
+"wiki": "Seahorse"
+},
+{
+"slug": "green-sea-turtle",
+"name": "Green sea turtle",
+"scientific": "Chelonia mydas",
+"group": "Sea turtles & reptiles",
+"emoji": "🐢",
+"depth_min": 0,
+"depth_max": 100,
+"oceans": [
+"Atlantic",
+"Pacific",
+"Indian"
+],
+"size": "Up to ~1.5 m",
+"lifespan": "60–80+ years",
+"diet": "Seagrass, algae",
+"iucn": "Endangered",
+"summary": "A herbivorous turtle that 'mows' seagrass meadows and navigates using Earth's magnetic field.",
+"overview": "Its name comes from the green fat under its shell, a result of its plant diet.",
+"habitat": "Tropical and subtropical coasts.",
+"feeding": "Grazes seagrass and algae as an adult.",
+"reproduction": "Females return to their natal beaches, using magnetic imprinting.",
+"migration": "Long-distance migrations between feeding and nesting grounds.",
+"behaviour": "Basks on beaches in Hawaii.",
+"adaptations": [
+"Magnetic navigation"
+],
+"conservation": "Threatened by bycatch, habitat loss and warming beaches skewing sex ratios toward females.",
+"wiki": "Green_sea_turtle"
+},
+{
+"slug": "leatherback-turtle",
+"name": "Leatherback sea turtle",
+"scientific": "Dermochelys coriacea",
+"group": "Sea turtles & reptiles",
+"emoji": "🐢",
+"depth_min": 0,
+"depth_max": 1280,
+"oceans": [
+"All oceans"
+],
+"size": "Up to ~2 m",
+"lifespan": "~50 years",
+"diet": "Jellyfish",
+"iucn": "Vulnerable",
+"summary": "The largest and deepest-diving turtle, which keeps warm in cold water and eats almost only jellyfish.",
+"overview": "It lacks a hard shell; its carapace is leathery skin over bony plates.",
+"habitat": "Global, from the tropics to subpolar waters.",
+"feeding": "Eats huge quantities of jellyfish. Throat spines stop prey slipping out.",
+"reproduction": "Nests on tropical beaches. Nest temperature sets the hatchlings' sex.",
+"migration": "Ocean-crossing migrations of over 10,000 km.",
+"behaviour": "Dives deeper than 1,000 m.",
+"adaptations": [
+"Gigantothermy",
+"Throat papillae"
+],
+"conservation": "Threatened by bycatch, plastic ingestion (bags mistaken for jellyfish) and egg poaching.",
+"wiki": "Leatherback_sea_turtle"
+},
+{
+"slug": "marine-iguana",
+"name": "Marine iguana",
+"scientific": "Amblyrhynchus cristatus",
+"group": "Sea turtles & reptiles",
+"emoji": "🦎",
+"depth_min": 0,
+"depth_max": 30,
+"oceans": [
+"Pacific"
+],
+"size": "Up to ~1.3 m",
+"lifespan": "~12 years",
+"diet": "Algae",
+"iucn": "Vulnerable",
+"summary": "The only lizard that forages in the sea.",
+"overview": "Endemic to the Galápagos. It sneezes out salt through special glands.",
+"habitat": "Galápagos shores.",
+"feeding": "Dives to graze algae, then basks to warm up.",
+"reproduction": "Males defend leks of females.",
+"migration": "Stays local.",
+"behaviour": "Shrinks in body length during El Niño famines.",
+"adaptations": [
+"Salt glands",
+"Ability to shrink body size"
+],
+"conservation": "Threatened by El Niño events and introduced predators.",
+"wiki": "Marine_iguana"
+},
+{
+"slug": "emperor-penguin",
+"name": "Emperor penguin",
+"scientific": "Aptenodytes forsteri",
+"group": "Seabirds",
+"emoji": "🐧",
+"depth_min": 0,
+"depth_max": 565,
+"oceans": [
+"Southern"
+],
+"size": "~1.2 m",
+"lifespan": "~20 years",
+"diet": "Fish, krill, squid",
+"iucn": "Near Threatened",
+"summary": "The deepest-diving bird, breeding through the Antarctic winter on sea ice.",
+"overview": "Dives over 500 m and lasts more than 20 minutes.",
+"habitat": "Antarctic sea ice and surrounding ocean.",
+"feeding": "Hunts fish, krill and squid underwater.",
+"reproduction": "Males incubate a single egg on their feet for ~2 months through winter without eating.",
+"migration": "Travels between colony and open water.",
+"behaviour": "Huddles for warmth.",
+"adaptations": [
+"Solid bones",
+"Haemoglobin adapted for deep dives"
+],
+"conservation": "Sea-ice loss led to mass breeding failures (e.g. 2022).",
+"wiki": "Emperor_penguin"
+},
+{
+"slug": "wandering-albatross",
+"name": "Wandering albatross",
+"scientific": "Diomedea exulans",
+"group": "Seabirds",
+"emoji": "🕊",
+"depth_min": 0,
+"depth_max": 1,
+"oceans": [
+"Southern"
+],
+"size": "Wingspan up to ~3.5 m",
+"lifespan": "50+ years",
+"diet": "Squid, fish",
+"iucn": "Vulnerable",
+"summary": "The largest wingspan of any bird; circles the globe using dynamic soaring.",
+"overview": "Can fly thousands of kilometres with barely a wing flap.",
+"habitat": "Southern Ocean.",
+"feeding": "Seizes squid at the surface, often at night.",
+"reproduction": "Breeds every two years. Lifelong pair bonds.",
+"migration": "Circumpolar foraging trips.",
+"behaviour": "Elaborate courtship dances.",
+"adaptations": [
+"Shoulder lock for gliding",
+"Salt glands"
+],
+"conservation": "Longline bycatch is the main threat.",
+"wiki": "Wandering_albatross"
+},
+{
+"slug": "frilled-shark",
+"name": "Frilled shark",
+"scientific": "Chlamydoselachus anguineus",
+"group": "Sharks & rays",
+"emoji": "🐍",
+"depth_min": 50,
+"depth_max": 1500,
+"oceans": [
+"Atlantic",
+"Pacific"
+],
+"size": "~1.5–2 m",
+"lifespan": "Unknown",
+"diet": "Squid, fish, other sharks",
+"iucn": "Least Concern",
+"summary": "An eel-like shark with 300 needle teeth, often called a living fossil.",
+"overview": "Named for its six frilly gill slits. Its body plan resembles fossil sharks from hundreds of millions of years ago.",
+"habitat": "Outer continental shelves and slopes, patchily worldwide.",
+"feeding": "May strike like a snake, bending its body back and lunging. Its many inward-facing teeth trap slippery squid.",
+"reproduction": "Ovoviviparous, with the longest gestation recorded in any vertebrate: possibly up to 3.5 years.",
+"migration": "Undertakes vertical movements.",
+"behaviour": "Rarely observed alive.",
+"adaptations": [
+"Trident-shaped teeth",
+"Flexible eel-like body"
+],
+"conservation": "Low reproductive rate makes it sensitive to bycatch.",
+"wiki": "Frilled_shark",
+"fishbase": "Chlamydoselachus-anguineus"
+},
+{
+"slug": "giant-manta-ray",
+"name": "Giant oceanic manta ray",
+"scientific": "Mobula birostris",
+"group": "Sharks & rays",
+"emoji": "🦇",
+"depth_min": 0,
+"depth_max": 1000,
+"oceans": [
+"Atlantic",
+"Pacific",
+"Indian"
+],
+"size": "Wingspan up to ~7 m",
+"lifespan": "40+ years",
+"diet": "Zooplankton",
+"iucn": "Endangered",
+"summary": "The largest ray, with the largest brain-to-body ratio of any fish, and dives deep into the twilight zone.",
+"overview": "Mantas visit 'cleaning stations' on reefs and may recognise themselves in mirrors, an area of active study.",
+"habitat": "Tropical to temperate oceans, around oceanic islands and productive coasts.",
+"feeding": "Filter-feeds, sometimes by somersaulting repeatedly through plankton patches. Deep dives suggest they also feed on mesopelagic plankton.",
+"reproduction": "Gives birth to one pup every 2–5 years after a ~1-year gestation, one of the lowest reproductive rates of any fish.",
+"migration": "Seasonal migrations tied to plankton productivity.",
+"behaviour": "Curious, sometimes approaching divers. Uses cleaning stations.",
+"adaptations": [
+"Cephalic fins that funnel water",
+"Large brain with a rete mirabile for warming"
+],
+"conservation": "Gill plates are traded internationally. Listed on CITES Appendix II.",
+"wiki": "Giant_oceanic_manta_ray",
+"fishbase": "Mobula-birostris"
+},
+{
+"slug": "goblin-shark",
+"name": "Goblin shark",
+"scientific": "Mitsukurina owstoni",
+"group": "Sharks & rays",
+"emoji": "🦈",
+"depth_min": 100,
+"depth_max": 1300,
+"oceans": [
+"Atlantic",
+"Pacific",
+"Indian"
+],
+"size": "3–4 m",
+"lifespan": "Unknown",
+"diet": "Fish, squid, crustaceans",
+"iucn": "Least Concern",
+"summary": "Its jaws catapult forward at high speed to snatch prey, one of the fastest jaw projections among sharks.",
+"overview": "A pinkish, soft-bodied shark with a long flattened snout covered in electroreceptors.",
+"habitat": "Continental slopes and seamounts worldwide, most records from Japan.",
+"feeding": "Detects prey electrically, then 'slingshots' its jaws forward to grab it.",
+"reproduction": "Reproduction is little known; presumed ovoviviparous like its relatives.",
+"migration": "Juveniles are sometimes found in shallower submarine canyons.",
+"behaviour": "Slow, neutrally buoyant swimmer.",
+"adaptations": [
+"Protrusible slingshot jaws",
+"Ampullae of Lorenzini on the snout"
+],
+"conservation": "Rare bycatch.",
+"wiki": "Goblin_shark",
+"fishbase": "Mitsukurina-owstoni"
+},
+{
+"slug": "great-white-shark",
+"name": "Great white shark",
+"scientific": "Carcharodon carcharias",
+"group": "Sharks & rays",
+"emoji": "🦈",
+"depth_min": 0,
+"depth_max": 1200,
+"oceans": [
+"Atlantic",
+"Pacific",
+"Indian"
+],
+"size": "Up to ~6 m",
+"lifespan": "70+ years",
+"diet": "Seals, sea lions, fish, whale carcasses",
+"iucn": "Vulnerable",
+"summary": "Apex predator famous for ocean-crossing migrations and dives into the twilight zone.",
+"overview": "The largest predatory fish. Partly warm-blooded (regionally endothermic), so it can hunt in cold water.",
+"habitat": "Coastal and offshore temperate waters worldwide, with dives regularly reaching hundreds of metres.",
+"feeding": "Ambushes seals from below with high-speed vertical attacks, and scavenges whale carcasses.",
+"reproduction": "Ovoviviparous with intrauterine cannibalism (oophagy). Matures late (females ~33 years).",
+"migration": "Long migrations, e.g. between California and the 'White Shark Café' mid-Pacific, or South Africa to Australia.",
+"behaviour": "Investigates objects by biting. Social hierarchies observed at feeding sites.",
+"adaptations": [
+"Regional endothermy",
+"Acute electroreception and smell"
+],
+"conservation": "Protected in many countries. Threatened by bycatch and historic trophy hunting.",
+"wiki": "Great_white_shark",
+"fishbase": "Carcharodon-carcharias"
+},
+{
+"slug": "greenland-shark",
+"name": "Greenland shark",
+"scientific": "Somniosus microcephalus",
+"group": "Sharks & rays",
+"emoji": "🦈",
+"depth_min": 0,
+"depth_max": 2200,
+"oceans": [
+"Arctic",
+"Atlantic"
+],
+"size": "Up to ~6–7 m",
+"lifespan": "Estimated 250–500 years",
+"diet": "Fish, seals, carrion",
+"iucn": "Vulnerable",
+"summary": "The longest-lived vertebrate known: radiocarbon dating of eye lenses suggests ages of several centuries.",
+"overview": "A massive, slow-moving sleeper shark of Arctic and North Atlantic waters. A 2016 study dated one individual at roughly 392 ± 120 years.",
+"habitat": "Arctic and North Atlantic, from the surface in winter to over 2,000 m.",
+"feeding": "Opportunistic feeder on fish, seals (possibly caught while asleep) and carrion, including drowned reindeer and polar bear remains.",
+"reproduction": "Ovoviviparous. Females may not reach maturity until ~150 years old.",
+"migration": "Moves vertically and seasonally. Tagging shows long-distance movements.",
+"behaviour": "Swims extremely slowly (around 1 km/h). Many have copepod parasites attached to their eyes.",
+"adaptations": [
+"Cold-adapted slow metabolism",
+"Urea and TMAO-rich tissues"
+],
+"conservation": "Bycatch in Arctic fisheries is a concern for a species that reproduces so late.",
+"wiki": "Greenland_shark",
+"fishbase": "Somniosus-microcephalus"
+},
+{
+"slug": "whale-shark",
+"name": "Whale shark",
+"scientific": "Rhincodon typus",
+"group": "Sharks & rays",
+"emoji": "🐋",
+"depth_min": 0,
+"depth_max": 1900,
+"oceans": [
+"Atlantic",
+"Pacific",
+"Indian"
+],
+"size": "Up to ~18 m",
+"lifespan": "~80–130 years",
+"diet": "Plankton, fish eggs, small fish",
+"iucn": "Endangered",
+"summary": "The largest fish alive, a gentle filter feeder that dives to nearly 2 km.",
+"overview": "Each whale shark has a unique spot pattern used for photo-identification by citizen scientists.",
+"habitat": "Tropical and warm-temperate seas. Aggregation sites include Ningaloo, Mexico, the Philippines and the Maldives.",
+"feeding": "Filter-feeds by ram feeding or active suction, timing visits to coral spawning and fish spawning events.",
+"reproduction": "One pregnant female held about 300 embryos at different stages, which suggests sperm storage. Ovoviviparous.",
+"migration": "Ocean-basin-scale migrations. Dives below 1,900 m have been recorded.",
+"behaviour": "Usually solitary but gathers seasonally at food-rich sites.",
+"adaptations": [
+"Gill rakers that filter plankton",
+"Thick skin up to ~10 cm"
+],
+"conservation": "Endangered due to fisheries, bycatch and ship strikes.",
+"wiki": "Whale_shark",
+"fishbase": "Rhincodon-typus"
+},
+{
+"slug": "deep-sea-glass-sponge",
+"name": "Venus' flower basket",
+"scientific": "Euplectella aspergillum",
+"group": "Sponges & others",
+"emoji": "🧽",
+"depth_min": 100,
+"depth_max": 1000,
+"oceans": [
+"Pacific",
+"Indian"
+],
+"size": "~30 cm",
+"lifespan": "Unknown",
+"diet": "Bacteria, organic particles",
+"iucn": "Not evaluated",
+"summary": "A glass sponge whose silica lattice inspires engineers, and a lifelong home for a pair of shrimp.",
+"overview": "Its skeleton of fused silica spicules is extraordinarily strong. A male and female shrimp enter as larvae and grow too big to leave, living out their lives inside.",
+"habitat": "Western Pacific and Indian Ocean.",
+"feeding": "Filters bacteria and particles from water flowing through its body.",
+"reproduction": "Can reproduce sexually or by budding.",
+"migration": "Sessile.",
+"behaviour": "Long-lived. Its fibre-optic-like spicules transmit light.",
+"adaptations": [
+"Silica skeleton"
+],
+"conservation": "Vulnerable to trawling.",
+"wiki": "Venus%27_flower_basket"
+},
+{
+"slug": "bone-eating-worm",
+"name": "Bone-eating worms",
+"scientific": "Genus Osedax",
+"group": "Worms & vent fauna",
+"emoji": "🦴",
+"depth_min": 30,
+"depth_max": 4000,
+"oceans": [
+"All oceans"
+],
+"size": "Few cm (females); males microscopic",
+"lifespan": "Unknown",
+"diet": "Bone lipids via bacteria",
+"iucn": "Not evaluated",
+"summary": "Mouthless worms that bore into whale bones using acid and live off bacteria.",
+"overview": "Osedax females drill into whale (and other vertebrate) bones with root-like tissue that secretes acid. Microscopic dwarf males live inside the female's tube.",
+"habitat": "Whale falls and other bones on the seafloor worldwide.",
+"feeding": "Symbiotic bacteria in the roots digest collagen and lipids from bone.",
+"reproduction": "Dozens of dwarf males live in the female's tube and fertilise her eggs. Larvae disperse to find new bones.",
+"migration": "Larvae must find rare, scattered food falls.",
+"behaviour": "Colonies of red plumes cover bones within months of a whale's arrival.",
+"adaptations": [
+"Acid-secreting roots",
+"Dwarf males"
+],
+"conservation": "Fewer whales means fewer whale falls.",
+"wiki": "Osedax"
+},
+{
+"slug": "tardigrade-like-marine-meiofauna",
+"name": "Deep-sea meiofauna (nematodes & kin)",
+"scientific": "Mostly phylum Nematoda",
+"group": "Worms & vent fauna",
+"emoji": "🔬",
+"depth_min": 0,
+"depth_max": 10900,
+"oceans": [
+"All oceans"
+],
+"size": "<1 mm",
+"lifespan": "Weeks to months",
+"diet": "Bacteria, organic detritus",
+"iucn": "Not evaluated",
+"summary": "The most numerous animals in deep-sea sediments, found even at the bottom of the Challenger Deep.",
+"overview": "Meiofauna are animals between 0.03 and 1 mm living between sediment grains. Nematode worms dominate, often millions per square metre.",
+"habitat": "Sediments from beaches to hadal trenches.",
+"feeding": "Graze bacteria and detritus, recycling nutrients in sediments.",
+"reproduction": "Short generation times and diverse reproductive modes.",
+"migration": "Mostly sedentary within sediments.",
+"behaviour": "Their communities are used as indicators of disturbance, including mining impacts.",
+"adaptations": [
+"Tiny size",
+"Tolerance of low oxygen"
+],
+"conservation": "Directly affected by trawling and mining that disturb sediments.",
+"wiki": "Meiobenthos"
+},
+{
+"slug": "giant-tube-worm",
+"name": "Giant tube worm",
+"scientific": "Riftia pachyptila",
+"group": "Worms & vent fauna",
+"emoji": "🪱",
+"depth_min": 1800,
+"depth_max": 3000,
+"oceans": [
+"Pacific"
+],
+"size": "Up to ~2.4 m",
+"lifespan": "Decades (estimated)",
+"diet": "Chemosynthetic symbiotic bacteria",
+"iucn": "Not evaluated",
+"summary": "The icon of hydrothermal vents: a mouthless, gutless worm fed entirely by internal bacteria.",
+"overview": "Riftia was discovered at the Galápagos Rift after vents were found in 1977. It has no mouth or gut as an adult; a spongy organ (trophosome) holds billions of sulfur-oxidising bacteria.",
+"habitat": "East Pacific Rise and Galápagos Rift hydrothermal vents.",
+"feeding": "Its red plume absorbs oxygen, CO₂ and hydrogen sulfide. A special haemoglobin carries the sulfide to its bacteria, which make sugars for the worm.",
+"reproduction": "Separate sexes. Sperm bundles fertilise eggs released into the water. Larvae (which do have a gut) pick up bacteria from the environment.",
+"migration": "Larvae disperse along the ridge to colonise new vents.",
+"behaviour": "Among the fastest-growing invertebrates, able to grow over 85 cm a year.",
+"adaptations": [
+"Sulfide-binding haemoglobin",
+"Trophosome housing symbionts"
+],
+"conservation": "Vents are ephemeral and could be affected by seafloor massive sulfide mining.",
+"wiki": "Riftia_pachyptila"
+},
+{
+"slug": "pompeii-worm",
+"name": "Pompeii worm",
+"scientific": "Alvinella pompejana",
+"group": "Worms & vent fauna",
+"emoji": "🪱",
+"depth_min": 2500,
+"depth_max": 2700,
+"oceans": [
+"Pacific"
+],
+"size": "~13 cm",
+"lifespan": "Unknown",
+"diet": "Bacteria",
+"iucn": "Not evaluated",
+"summary": "One of the most heat-tolerant complex animals, living in tubes on black-smoker chimneys.",
+"overview": "Covered by a fleece of bacteria on its back that may insulate it. Its tube can have temperatures above 60 °C at one end.",
+"habitat": "East Pacific Rise vent chimneys.",
+"feeding": "Grazes bacteria and may farm its epibiotic bacteria.",
+"reproduction": "Internal fertilisation has been suggested. Embryos develop best at cooler temperatures (~10 °C).",
+"migration": "Sessile in tubes.",
+"behaviour": "Secretes mucus that may feed its bacterial partners.",
+"adaptations": [
+"Heat-stable proteins",
+"Symbiotic bacterial fleece"
+],
+"conservation": "Vent mining is a potential threat.",
+"wiki": "Pompeii_worm"
+}
+]
