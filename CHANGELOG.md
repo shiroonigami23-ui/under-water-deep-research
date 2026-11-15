@@ -3,6 +3,13 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Semantic Versioning](https://semver.org/).
 
+## [Unreleased] - 2026-11-15
+### Added
+- More animations: scroll-reveal for cards, charts and sections; count-up hero statistics; 3D tilt on cards; reveal failsafe so content is never hidden.
+### Changed
+- Generator hardening (numeric subtitles), hero animation scoped per site.
+- In-depth rewrite of 45 sea profiles (overview, geography, seafloor, water, climate, life, ecosystems, history, people and threats), including the Gulf of California, Mediterranean, Bay of Bengal and Arabian Sea.
+
 ## [3.2.0] - 2026-11-15 — In-depth entries, research panels, auto-sound, larger layout
 
 ### Added

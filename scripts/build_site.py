@@ -167,7 +167,7 @@ def placeholder(icon, name, sub, hue):
             f'<stop offset="1" stop-color="hsl({(hue+40)%360},70%,12%)"/></linearGradient></defs>'
             f'<rect width="640" height="360" fill="url(#g{hue})"/><text x="320" y="170" font-size="110" text-anchor="middle">{icon}</text>'
             f'<text x="320" y="250" font-size="30" fill="#fff" text-anchor="middle" font-family="system-ui" font-weight="700">{html.escape(name)}</text>'
-            f'<text x="320" y="290" font-size="20" fill="#dde" text-anchor="middle" font-family="system-ui" font-style="italic">{html.escape(sub or "")}</text>'
+            f'<text x="320" y="290" font-size="20" fill="#dde" text-anchor="middle" font-family="system-ui" font-style="italic">{html.escape(str(sub or ""))}</text>'
             f'<text x="320" y="340" font-size="14" fill="#aab" text-anchor="middle" font-family="system-ui">Loading photo…</text></svg>')
 
 
@@ -343,7 +343,7 @@ def build_collections(env, write, sections, search, built):
         groups = sorted({it.get(c.get("group_key", "group"), "Other") for it in items})
         cards, rows = [], []
         for i, it in enumerate(items):
-            slug = it["slug"]; name = it[nk]; sub = it.get(sk, "") if sk else ""
+            slug = it["slug"]; name = it[nk]; sub = str(it.get(sk, "")) if sk and it.get(sk) is not None else ""; name = str(name)
             hue = zlib.crc32(str(it.get(c.get("group_key", "group"), "")).encode()) % 360
             img = find_img(cid, slug)
             if img:

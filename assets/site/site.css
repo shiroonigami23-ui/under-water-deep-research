@@ -280,3 +280,17 @@ a.intl{border-bottom:1px dashed var(--accent)}
 .sounddesc b{color:var(--accent)}
 .sbtn.pulse{animation:pulseb 1.4s infinite}@keyframes pulseb{50%{box-shadow:0 0 0 8px rgba(120,200,255,.25)}}
 .viz{width:100%;max-width:none}.viz svg{width:100%}
+/* v6 reveal animations */
+@media (prefers-reduced-motion:no-preference){
+.rv{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s cubic-bezier(.2,.8,.2,1)}
+.rv.rv-in{opacity:1;transform:none}
+.card,.megatile{transition:transform .25s ease,box-shadow .25s ease,border-color .2s}
+.card:hover{box-shadow:0 14px 40px rgba(0,0,0,.25)}
+.hero h1{animation:heroin 1s cubic-bezier(.2,.8,.2,1) both}.hero .lede,.hero p{animation:heroin 1s .15s cubic-bezier(.2,.8,.2,1) both}
+@keyframes heroin{from{opacity:0;transform:translateY(16px)}}
+.livepic img{animation:fadein .7s ease both}@keyframes fadein{from{opacity:0;transform:scale(1.03)}}
+.viz rect[fill="var(--accent)"]{transform-box:fill-box;transform-origin:left;animation:growx 1.2s cubic-bezier(.2,.8,.2,1) both}
+.viz circle{transform-box:fill-box;transform-origin:center;animation:popc 1s cubic-bezier(.2,.8,.2,1) both}@keyframes popc{from{transform:scale(0)}}
+.timeline .ev{position:relative}
+details[open]>.dbody,details.coll[open]>.collin{animation:fadein .35s ease}
+}
