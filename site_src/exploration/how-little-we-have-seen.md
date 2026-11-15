@@ -13,6 +13,9 @@ image: /exploration/png/seen_vs_mapped_generated.png
 - Even if the estimate is off by 10×, less than 0.01% would have any visual record[^eu].
 :::
 
+
+{{chart:seen}}
+
 ## Biases
 
 - **Geographic:** waters off a handful of wealthy nations dominate.

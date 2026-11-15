@@ -1,0 +1,74 @@
+# Molluscs|🐚
+Nudibranch Chromodoris|Chromodoris willani|1|40|W Pacific|Sponges|NE|Blue-and-white nudibranch.
+Nembrotha|Nembrotha kubaryana|1|30|Indo-Pacific|Ascidians|NE|Neon-green-striped nudibranch.
+Clown nudibranch|Ceratosoma amoenum|0|30|SW Pacific|Sponges|NE|Spotted orange nudibranch.
+Sea angel|Clione limacina|0|500|Arctic; N Atlantic|Sea butterflies|NE|Shell-less swimming snail that hunts sea butterflies.
+Violet sea snail|Janthina janthina|0|0|Warm oceans|Siphonophores|NE|Floats on a raft of mucus bubbles.
+Tiger cowrie|Cypraea tigris|0|40|Indo-Pacific|Algae|NE|Glossy shell once used as money.
+Money cowrie|Monetaria moneta|0|5|Indo-Pacific|Algae|NE|Used as currency across Africa and Asia.
+Murex purple dye|Bolinus brandaris|5|150|Mediterranean|Molluscs|NE|Source of ancient Tyrian purple dye.
+Ocean quahog|Arctica islandica|5|480|N Atlantic|Plankton|NE|'Ming', a quahog clam, lived 507 years.
+Geoduck|Panopea generosa|0|110|NE Pacific|Plankton|NE|Burrowing clam with a long siphon; lives ~150 years.
+Pacific oyster|Magallana gigas|0|40|NW Pacific; farmed worldwide|Plankton|NE|Most farmed oyster in the world.
+Pen shell noble|Pinna nobilis|0|60|Mediterranean|Plankton|CR|Giant fan mussel killed by a parasite outbreak since 2016.
+Flame scallop|Ctenoides ales|3|50|Indo-Pacific|Plankton|NE|'Disco clam' that flashes light from its mantle.
+Cuttlefish common|Sepia officinalis|0|200|NE Atlantic; Mediterranean|Crustaceans, fish|LC|Passes the 'marshmallow test' of self-control.
+Bobtail squid Hawaiian|Euprymna scolopes|0|3|Hawaii|Shrimp|DD|Glowing bacteria in a light organ hide its shadow.
+Dumbo octopus Opisthoteuthis|Opisthoteuthis californiana|100|1100|N Pacific|Crustaceans|DD|Flapjack octopus.
+Seven-arm octopus|Haliphron atlanticus|0|1000|Worldwide|Jellies|LC|One of the largest octopuses.
+Coconut octopus|Amphioctopus marginatus|0|15|Indo-Pacific|Crabs|DD|Carries coconut shells as portable shelters.
+Wunderpus|Wunderpus photogenicus|0|20|Indo-Pacific|Crustaceans|DD|Striped octopus identified by unique spot patterns.
+Southern blue-ringed octopus|Hapalochlaena maculosa|0|50|S Australia|Crabs|LC|Smaller blue-ringed octopus.
+Bigfin reef squid|Sepioteuthis lessoniana|0|100|Indo-Pacific|Fish, shrimp|LC|Communicates with skin patterns.
+Japanese flying squid|Todarodes pacificus|0|500|NW Pacific|Fish|LC|Glides above the water using its fins.
+Strawberry squid|Histioteuthis heteropsis|200|1000|Pacific|Fish, shrimp|LC|One huge upward eye, one small downward eye.
+Ram's horn squid|Spirula spirula|200|1000|Warm oceans|Plankton|LC|Coiled internal shell often washes ashore.
+Vampire squid relative Chiroteuthis|Chiroteuthis calyx|100|2000|Pacific|Plankton|LC|Long glowing tentacle lures.
+# Cnidarians|🪼
+Golden jellyfish|Mastigias papua etpisoni|0|30|Jellyfish Lake, Palau|Symbiotic algae|NE|Millions migrate across a lake following the sun.
+Atlantic sea nettle|Chrysaora quinquecirrha|0|20|W Atlantic|Plankton|NE|Chesapeake Bay summer jelly.
+Pacific sea nettle|Chrysaora fuscescens|0|100|NE Pacific|Plankton|NE|Golden-brown jelly with long tentacles.
+Black sea nettle|Chrysaora achlyos|0|50|NE Pacific|Plankton|NE|Giant dark-purple jellyfish.
+Flower hat jelly|Olindias formosus|0|30|NW Pacific|Fish|NE|Fluorescent tentacle tips.
+Comb jelly Deep red|Lampocteis cruentiventer|300|1200|N Pacific|Plankton|NE|Blood-belly comb jelly.
+Pink sea fan|Eunicella verrucosa|10|200|NE Atlantic|Plankton|VU|British sea fan.
+Red coral|Corallium rubrum|10|1000|Mediterranean|Plankton|EN|Precious coral used in jewellery for millennia.
+Pillar coral|Dendrogyra cylindrus|1|25|Caribbean|Symbionts|CR|Hit hard by stony coral tissue loss disease.
+Star coral|Orbicella annularis|1|80|Caribbean|Symbionts|EN|Major Caribbean reef builder.
+Table coral|Acropora hyacinthus|1|20|Indo-Pacific|Symbionts|NT|Flat tables shading the reef.
+Plate coral|Turbinaria reniformis|2|20|Indo-Pacific|Symbionts|VU|Scroll-like plates.
+Bubble coral|Plerogyra sinuosa|2|20|Indo-Pacific|Symbionts|NT|Grape-like bubbles expand by day.
+Elegance coral|Catalaphyllia jardinei|2|40|Indo-W Pacific|Symbionts|VU|Long flowing tentacles.
+Lettuce coral|Agaricia agaricites|1|75|Caribbean|Symbionts|LC|Leafy ridged coral.
+Soft coral leather|Sarcophyton glaucum|1|20|Indo-Pacific|Symbionts|NE|Mushroom-shaped soft coral.
+Blue coral|Heliopora coerulea|0|30|Indo-Pacific|Symbionts|VU|Has a blue skeleton.
+Organ pipe coral|Tubipora musica|1|20|Indo-Pacific|Symbionts|NT|Red skeleton of parallel tubes.
+Gorgonian deep Primnoa|Primnoa resedaeformis|65|3500|N Atlantic; N Pacific|Plankton|NE|Red tree coral living centuries.
+Hydrocoral stylaster|Stylaster californicus|10|100|NE Pacific|Plankton|NE|Purple lace hydrocoral.
+# Echinoderms|⭐
+Crown of thorns Pacific|Acanthaster solaris|0|30|Pacific|Coral|NE|Outbreak starfish of the Pacific.
+Chocolate chip sea star|Protoreaster nodosus|0|30|Indo-Pacific|Detritus|NE|Studded with dark knobs.
+Bat star|Patiria miniata|0|300|NE Pacific|Detritus|NE|Webbed sea star of many colours.
+Leather star|Dermasterias imbricata|0|90|NE Pacific|Anemones|NE|Smells of garlic.
+Antarctic sea star|Odontaster validus|0|900|Antarctica|Detritus|NE|Slow-living Antarctic star.
+Crown sea urchin|Diadema setosum|0|70|Indo-Pacific|Algae|NE|Long black spines with an orange ring.
+Fire urchin|Asthenosoma varium|1|40|Indo-Pacific|Algae|NE|Venomous urchin hosting Coleman shrimp.
+Collector urchin|Tripneustes gratilla|0|75|Indo-Pacific|Algae|NE|Covers itself with debris.
+Red sea urchin|Mesocentrotus franciscanus|0|125|NE Pacific|Kelp|NE|May live over 200 years.
+Heart urchin|Echinocardium cordatum|0|200|Worldwide|Detritus|NE|Burrowing 'sea potato'.
+Sea pig Scotoplanes globosa|Scotoplanes globosa|1000|5000|Worldwide|Detritus|NE|Abyssal sea cucumber walking on tube feet.
+Sea cucumber Holothuria|Holothuria scabra|0|10|Indo-Pacific|Detritus|EN|Sandfish, harvested heavily for trepang.
+Brittle star Ophiothrix|Ophiothrix fragilis|0|350|NE Atlantic|Plankton|NE|Forms beds of millions.
+Antarctic brittle star|Ophionotus victoriae|0|1300|Antarctica|Detritus|NE|Abundant Antarctic brittle star.
+Feather star Oxycomanthus|Oxycomanthus bennetti|1|40|Indo-Pacific|Plankton|NE|Colourful reef crinoid.
+# Sponges & others|🧽
+Stove-pipe sponge|Aplysina archeri|3|30|Caribbean|Particles|NE|Tall purple tubes.
+Elephant ear sponge|Ianthella basta|5|30|Indo-Pacific|Particles|NE|Huge fan sponge.
+Orange puffball sponge|Tethya aurantium|0|300|NE Atlantic; Mediterranean|Particles|NE|Can crawl slowly.
+Glass sponge reef|Aphrocallistes vastus|30|1600|NE Pacific|Bacteria|NE|Builds the only known living glass sponge reefs.
+Moss animal lacy|Membranipora membranacea|0|20|Worldwide|Plankton|NE|Lacy colonies on kelp.
+Horseshoe worm|Phoronis australis|0|10|Indo-Pacific|Plankton|NE|Lives in anemone tubes.
+Acorn worm|Saccoglossus kowalevskii|0|5|W Atlantic|Sediment|NE|Hemichordate linking echinoderms and chordates.
+Arrow worm|Sagitta elegans|0|200|N Atlantic; N Pacific|Copepods|NE|Transparent plankton predator.
+Water bear marine|Echiniscoides sigismundi|0|1|Worldwide shores|Algae|NE|Marine tardigrade.
+Loriciferan anoxic|Spinoloricus cinziae|3500|3500|Mediterranean L'Atalante basin|Bacteria|NE|Animals that live with no oxygen.

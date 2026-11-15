@@ -27,6 +27,10 @@
   [
    "10%",
    "of the ocean protected (3.3% fully)"
+  ],
+  [
+   "1,003",
+   "species profiles with photos and sounds"
   ]
  ],
  "featured": [
@@ -229,7 +233,7 @@
    "id": "species",
    "icon": "🐠",
    "title": "Species Atlas",
-   "desc": "Profiles of ocean animals, plants and microbes from the sunlit reef to the hadal trenches: habitat, depth, feeding and hunting, mating, migration and behaviour.",
+   "desc": "1,003 ocean animals, plants and microbes from sunlit reefs and rivers to the hadal trenches. Each profile shows depth range, where it lives, diet, conservation status, a real photo and an overview, plus the sounds of whales, dolphins, seals, seabirds and noisy fish.",
    "file": "data/species.json",
    "name_key": "name",
    "sub_key": "scientific",
@@ -348,13 +352,54 @@
      "https://www.fishbase.se/Nomenclature/ScientificNameSearchList.php?crit1_fieldname=SYNONYMS.SynGenus&crit1_fieldtype=CHAR&crit1_operator=EQUAL&crit2_fieldname=SYNONYMS.SynSpecies&crit2_fieldtype=CHAR&crit2_operator=EQUAL&group=summary&backstep=-2&gs={scientific}"
     ]
    ],
-   "live_photos": true
+   "live_photos": true,
+   "short": "1,000+ animals, plants & microbes",
+   "sounds": true,
+   "vocal_groups": [
+    "Marine mammals",
+    "Seabirds"
+   ],
+   "links": [
+    {
+     "type": "rmatch",
+     "coll": "seas",
+     "mine": "oceans",
+     "theirs": "match",
+     "label": "🌊 Seas & oceans where it lives"
+    },
+    {
+     "type": "rmatch",
+     "coll": "rivers",
+     "mine": "oceans",
+     "theirs": "match",
+     "label": "🏞 Rivers connected to its range"
+    }
+   ],
+   "charts": [
+    {
+     "type": "count",
+     "key": "group",
+     "title": "Species by group"
+    },
+    {
+     "type": "count_donut",
+     "key": "iucn",
+     "title": "IUCN Red List status"
+    },
+    {
+     "type": "ranges",
+     "min": "depth_min",
+     "max": "depth_max",
+     "title": "Depth range of every species (sorted by maximum depth)"
+    }
+   ],
+   "noun": "species"
   },
   {
    "id": "seas",
    "icon": "🌊",
    "title": "Seas & Oceans",
-   "desc": "All five oceans and the world's major seas: size, depth, deepest point, salinity, currents, life, people and threats.",
+   "desc": "All five oceans and 45 major seas, gulfs and bays. Each has geography, seafloor, currents, weather and cyclones, flora and fauna, ecosystems, history and shipwrecks, people and threats, and links to every species, river, wreck and article connected to it.",
    "file": "data/seas.json",
    "name_key": "name",
    "sub_key": "parent",
@@ -396,15 +441,31 @@
     ],
     [
      "geography",
-     "Geography and seafloor"
+     "Geography"
+    ],
+    [
+     "seafloor",
+     "Seafloor and geology"
     ],
     [
      "water",
-     "Water, currents and climate"
+     "Water and currents"
+    ],
+    [
+     "climate_weather",
+     "Climate, weather and cyclones"
     ],
     [
      "life",
      "Flora and fauna"
+    ],
+    [
+     "ecosystems",
+     "Ecosystems"
+    ],
+    [
+     "history",
+     "History and exploration"
     ],
     [
      "human",
@@ -454,7 +515,418 @@
      "https://www.marineregions.org/gazetteer.php?p=search&name={name}"
     ]
    ],
-   "live_photos": true
+   "live_photos": true,
+   "short": "5 oceans + 45 seas & gulfs",
+   "links": [
+    {
+     "type": "match",
+     "coll": "species",
+     "mine": "match",
+     "theirs": "oceans",
+     "label": "🐠 Species found here"
+    },
+    {
+     "type": "backref",
+     "coll": "wrecks",
+     "theirs": "sea",
+     "label": "⚓ Shipwrecks and discoveries"
+    },
+    {
+     "type": "match",
+     "coll": "rivers",
+     "mine": "match",
+     "theirs": "match",
+     "label": "🏞 Rivers draining here"
+    },
+    {
+     "type": "articles",
+     "mine": "see",
+     "label": "📖 Related in-depth articles"
+    }
+   ],
+   "charts": [
+    {
+     "type": "top",
+     "key": "area_km2",
+     "title": "Largest by area (km²)",
+     "n": 20,
+     "log": true
+    },
+    {
+     "type": "top",
+     "key": "max_depth",
+     "title": "Deepest points (m)",
+     "n": 20
+    },
+    {
+     "type": "count",
+     "key": "type",
+     "title": "Oceans, seas and gulfs"
+    }
+   ],
+   "glance": true,
+   "noun": "seas & oceans"
+  },
+  {
+   "id": "rivers",
+   "icon": "🏞",
+   "title": "Rivers & Estuaries",
+   "short": "36 great rivers to the sea",
+   "desc": "The great rivers that feed the ocean: their course, seasonal flood cycles, flora and fauna, people and threats, linked to the seas they drain into and the species that live there.",
+   "file": "data/rivers.json",
+   "name_key": "name",
+   "sub_key": "continent",
+   "group_key": "continent",
+   "live_photos": true,
+   "facts": [
+    [
+     "continent",
+     "Continent"
+    ],
+    [
+     "length_km",
+     "Length (km)"
+    ],
+    [
+     "discharge_m3s",
+     "Mean discharge (m³/s)"
+    ],
+    [
+     "basin_km2",
+     "Basin (km²)"
+    ],
+    [
+     "mouth",
+     "Flows into"
+    ]
+   ],
+   "texts": [
+    [
+     "course",
+     "Course and mouth"
+    ],
+    [
+     "cycle",
+     "Seasonal cycle and floods"
+    ],
+    [
+     "life",
+     "Flora and fauna"
+    ],
+    [
+     "people",
+     "People"
+    ],
+    [
+     "threats",
+     "Threats"
+    ]
+   ],
+   "columns": [
+    [
+     "continent",
+     "Continent"
+    ],
+    [
+     "length_km",
+     "Length km"
+    ],
+    [
+     "discharge_m3s",
+     "Discharge m³/s"
+    ],
+    [
+     "mouth",
+     "Flows into"
+    ]
+   ],
+   "links": [
+    {
+     "type": "text",
+     "coll": "seas",
+     "mine": "mouth",
+     "label": "🌊 Flows into"
+    },
+    {
+     "type": "match",
+     "coll": "species",
+     "mine": "match",
+     "theirs": "oceans",
+     "label": "🐟 Species of this river system and its coast"
+    }
+   ],
+   "charts": [
+    {
+     "type": "top",
+     "key": "discharge_m3s",
+     "title": "Largest rivers by discharge (m³/s)",
+     "n": 20,
+     "log": true
+    },
+    {
+     "type": "top",
+     "key": "length_km",
+     "title": "Longest rivers (km)",
+     "n": 20
+    }
+   ],
+   "prompt": "Ultra-realistic aerial photograph of the {name} river where it meets the sea, natural colours, 16:9, no text",
+   "source_tpl": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/{wiki}"
+    ]
+   ],
+   "noun": "rivers"
+  },
+  {
+   "id": "wrecks",
+   "icon": "⚓",
+   "title": "Shipwrecks & Discoveries",
+   "short": "30 lost ships found",
+   "desc": "Famous shipwrecks and lost-ship discoveries, from Bronze Age traders to the Titanic and Endurance: how they sank, how they were found and what science learned.",
+   "file": "data/wrecks.json",
+   "name_key": "name",
+   "sub_key": "type",
+   "group_key": "type",
+   "live_photos": true,
+   "facts": [
+    [
+     "type",
+     "Type"
+    ],
+    [
+     "sunk_label",
+     "Sank"
+    ],
+    [
+     "found",
+     "Found"
+    ],
+    [
+     "depth_m",
+     "Depth (m)"
+    ],
+    [
+     "location",
+     "Location"
+    ]
+   ],
+   "texts": [
+    [
+     "story",
+     "How it sank"
+    ],
+    [
+     "discovery",
+     "How it was found"
+    ],
+    [
+     "science",
+     "What we learned"
+    ]
+   ],
+   "columns": [
+    [
+     "type",
+     "Type"
+    ],
+    [
+     "sunk_label",
+     "Sank"
+    ],
+    [
+     "found",
+     "Found"
+    ],
+    [
+     "depth_m",
+     "Depth m"
+    ]
+   ],
+   "links": [
+    {
+     "type": "ref",
+     "coll": "seas",
+     "mine": "sea",
+     "label": "🌊 Where it lies"
+    }
+   ],
+   "visual": {
+    "type": "depth",
+    "min": "depth_m",
+    "max": "depth_m",
+    "label": "Wreck depth"
+   },
+   "charts": [
+    {
+     "type": "top",
+     "key": "depth_m",
+     "title": "Deepest wrecks (m)",
+     "n": 20
+    },
+    {
+     "type": "timeline_count",
+     "key": "found",
+     "bin": 10,
+     "title": "Wrecks found per decade"
+    }
+   ],
+   "prompt": "Ultra-realistic underwater photograph of the wreck of {name} on the seabed at {depth_m} m, ROV lighting, encrusting marine life, 16:9, no text",
+   "source_tpl": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/{wiki}"
+    ]
+   ],
+   "noun": "wrecks"
+  },
+  {
+   "id": "phenomena",
+   "icon": "🌀",
+   "title": "Ocean Phenomena",
+   "short": "Waves, tides, cyclones…",
+   "desc": "How the ocean works, explained: why ripples, waves, swell, rogue waves and tsunamis form, how tides, cyclones, storm surges, monsoons, El Niño, upwelling and the global conveyor work, and more.",
+   "file": "data/phenomena.json",
+   "name_key": "name",
+   "sub_key": "kind",
+   "group_key": "kind",
+   "live_photos": true,
+   "facts": [
+    [
+     "kind",
+     "Type"
+    ],
+    [
+     "scale",
+     "Time and size scale"
+    ],
+    [
+     "where",
+     "Where"
+    ]
+   ],
+   "texts": [
+    [
+     "how",
+     "How it forms"
+    ],
+    [
+     "effects",
+     "Effects"
+    ],
+    [
+     "data",
+     "Key numbers"
+    ]
+   ],
+   "columns": [
+    [
+     "kind",
+     "Type"
+    ],
+    [
+     "scale",
+     "Scale"
+    ],
+    [
+     "where",
+     "Where"
+    ]
+   ],
+   "charts": [
+    {
+     "type": "count",
+     "key": "kind",
+     "title": "Phenomena by type"
+    }
+   ],
+   "prompt": "Ultra-realistic photograph illustrating {name} in the ocean, dramatic natural lighting, 16:9, no text",
+   "source_tpl": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/{wiki}"
+    ]
+   ],
+   "noun": "phenomena"
+  },
+  {
+   "id": "papers",
+   "icon": "📄",
+   "title": "Research Papers",
+   "short": "Read or download the PDFs",
+   "noun": "papers",
+   "file": "data/papers.json",
+   "name_key": "name",
+   "sub_key": "authors",
+   "group_key": "topic",
+   "paperbox": true,
+   "no_prompt": true,
+   "facts": [
+    [
+     "authors",
+     "Authors"
+    ],
+    [
+     "year",
+     "Year"
+    ],
+    [
+     "journal",
+     "Journal"
+    ],
+    [
+     "doi",
+     "DOI"
+    ],
+    [
+     "access",
+     "Access"
+    ],
+    [
+     "license",
+     "Licence"
+    ]
+   ],
+   "texts": [
+    [
+     "summary",
+     "What it found"
+    ]
+   ],
+   "columns": [
+    [
+     "authors",
+     "Authors"
+    ],
+    [
+     "year",
+     "Year"
+    ],
+    [
+     "journal",
+     "Journal"
+    ],
+    [
+     "access",
+     "Access"
+    ]
+   ],
+   "charts": [
+    {
+     "type": "count",
+     "key": "access",
+     "title": "Access type"
+    },
+    {
+     "type": "timeline_count",
+     "key": "year",
+     "bin": 10,
+     "title": "Papers by decade"
+    }
+   ],
+   "source_tpl": [],
+   "desc": "Key peer-reviewed papers behind this encyclopedia. Read openly licensed ones here in the built-in PDF reader, download them, or open the publisher/arXiv PDF in a new tab."
   }
  ],
  "nav_order": [
@@ -464,39 +936,16 @@
   },
   {
    "id": "seas",
-   "title": "Seas"
+   "title": "Seas & Oceans"
   },
   {
-   "id": "ocean-system",
-   "title": "Ocean System"
+   "id": "phenomena",
+   "title": "Phenomena"
   },
   {
-   "id": "life",
-   "title": "Life"
-  },
-  {
-   "id": "seafloor",
-   "title": "Seafloor"
-  },
-  {
-   "id": "exploration",
-   "title": "Exploration"
-  },
-  {
-   "id": "climate",
-   "title": "Climate"
-  },
-  {
-   "id": "impacts",
-   "title": "Impacts"
-  },
-  {
-   "id": "library",
-   "title": "Library"
-  },
-  {
-   "id": "data",
-   "title": "Data"
+   "id": "wrecks",
+   "title": "Shipwrecks"
   }
- ]
+ ],
+ "hero_anim": "bubbles"
 }

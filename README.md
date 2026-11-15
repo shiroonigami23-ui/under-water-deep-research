@@ -52,8 +52,11 @@ The repository now builds a full multi-page **deep-ocean encyclopedia** site:
 
 | Part | What's in it |
 |---|---|
-| 🐠 **Species Atlas** | 72 profiles (deep-sea fish, sharks, cephalopods, crustaceans, corals, vent fauna, mammals, turtles, seabirds, reef fish, plants and algae, microbes). Each covers habitat and type of water, depth range, feeding and hunting, mating, migration, behaviour, adaptations and conservation, with a depth chart and filterable catalog |
-| 🌊 **Seas & Oceans** | All 5 oceans and 21 major seas: area, depths, deepest point, salinity, currents, life, people, threats |
+| 🐠 **Species Atlas** | **1,003** animals, plants and microbes, from reef fish, sharks and whales to vent fauna, river dolphins, seabirds, mangroves, kelp and plankton, with depth range, habitat, diet, IUCN status, live photo, Wikipedia overview and sounds |
+| 🌊 **Seas & Oceans** | 5 oceans and 45 seas, gulfs and bays, each with geography, seafloor, currents, weather and cyclones, flora and fauna, history, threats, and links to every species, river and wreck connected to it |
+| 🏞 **Rivers & estuaries** · ⚓ **Shipwrecks** · 🌀 **Ocean phenomena** | 36 great rivers, 30 shipwrecks and discoveries (Titanic, Endurance, Erebus…), 31 phenomena explained (ripples, waves, tsunamis, tides, cyclones, monsoon, El Niño, upwelling…) |
+| 📄 **Research papers** | 22 key papers; openly licensed PDFs are read in a built-in viewer or downloaded (mirrored by `fetch-papers.yml`), the rest open from the publisher |
+| 📊 **Statistics** | Animated charts of heat, bleaching, mapping, oxygen, AMOC and protection, plus catalog charts |
 | 📖 **39 articles** in 8 sections | Ocean system, deep-sea life, seafloor and habitats, exploration, ocean and climate, impacts and governance, library, data. Every claim is footnoted, with a combined [sources page](https://shiroonigami23-ui.github.io/under-water-deep-research/wiki/sources.html) |
 | 📡 **Live tracker on every page** | Collapsible bar with 10 research and policy streams, each linking to an expandable detail section |
 | 📄 **Paper library as PDFs** | Each paper analysis opens as a PDF in a new tab or downloads (`assets/pdf/`) |

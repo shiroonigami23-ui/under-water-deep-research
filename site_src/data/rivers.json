@@ -1,0 +1,733 @@
+[
+{
+"name": "Amazon",
+"continent": "South America",
+"length_km": 6400,
+"discharge_m3s": 209000,
+"basin_km2": 7000000,
+"mouth": "Atlantic Ocean",
+"summary": "The largest river by volume, carrying about a fifth of all river water that reaches the ocean.",
+"course": "Rises in the Peruvian Andes and crosses Brazil to a mouth ~300 km wide; its freshwater plume extends hundreds of km into the Atlantic, and a reef system lies beneath it.",
+"cycle": "Annual flood pulse raises water by 10–15 m, flooding forests (várzea and igapó) for months.",
+"life": "Pink river dolphins, arapaima, piranhas, electric eels, Amazonian manatees, giant otters and over 3,000 fish species.",
+"people": "Supports Indigenous peoples and cities like Manaus and Belém.",
+"threats": "Deforestation, dams, mercury from gold mining, drought (record lows 2023–24).",
+"match": [
+"Amazon"
+],
+"slug": "amazon",
+"emoji": "🏞",
+"wiki": "Amazon_River"
+},
+{
+"name": "Nile",
+"continent": "Africa",
+"length_km": 6650,
+"discharge_m3s": 2800,
+"basin_km2": 3400000,
+"mouth": "Mediterranean Sea",
+"summary": "Often cited as the longest river, the lifeline of Egyptian civilisation.",
+"course": "White Nile from Lake Victoria and Blue Nile from Ethiopia join at Khartoum, ending in a large delta.",
+"cycle": "Historic summer flood from Ethiopian monsoon rains, now controlled by the Aswan High Dam (1970).",
+"life": "Nile crocodiles, Nile perch, hippos, migratory birds on the delta.",
+"people": "About 300 million people in 11 countries depend on it.",
+"threats": "Dams (including GERD), delta subsidence and saltwater intrusion.",
+"match": [
+"Nile"
+],
+"slug": "nile",
+"emoji": "🏞",
+"wiki": "Nile"
+},
+{
+"name": "Yangtze",
+"continent": "Asia",
+"length_km": 6300,
+"discharge_m3s": 30000,
+"basin_km2": 1800000,
+"mouth": "East China Sea",
+"summary": "Asia's longest river and home to the Three Gorges Dam.",
+"course": "From the Tibetan Plateau to Shanghai.",
+"cycle": "Summer monsoon floods.",
+"life": "Yangtze finless porpoise, Chinese sturgeon; the baiji is functionally extinct.",
+"people": "About 400 million people live in its basin.",
+"threats": "Dams, pollution, overfishing (10-year fishing ban from 2020).",
+"match": [
+"Yangtze"
+],
+"slug": "yangtze",
+"emoji": "🏞",
+"wiki": "Yangtze"
+},
+{
+"name": "Mississippi–Missouri",
+"continent": "North America",
+"length_km": 6275,
+"discharge_m3s": 16800,
+"basin_km2": 3220000,
+"mouth": "Gulf of Mexico",
+"summary": "North America's largest river system, draining ~40% of the contiguous USA.",
+"course": "Ends in the bird's-foot delta in Louisiana.",
+"cycle": "Spring snowmelt and rain floods (1927, 1993).",
+"life": "Paddlefish, alligator gar, catfish, migratory birds on the Mississippi Flyway.",
+"people": "A key shipping corridor for grain.",
+"threats": "Nutrient runoff causing the Gulf dead zone; delta land loss.",
+"match": [
+"Mississippi",
+"SE USA"
+],
+"slug": "mississippi-missouri",
+"emoji": "🏞",
+"wiki": "Mississippi_River"
+},
+{
+"name": "Yenisei",
+"continent": "Asia",
+"length_km": 5539,
+"discharge_m3s": 19600,
+"basin_km2": 2580000,
+"mouth": "Arctic Ocean (Kara Sea)",
+"summary": "The largest river flowing into the Arctic Ocean.",
+"course": "From Mongolia through Siberia.",
+"cycle": "Spring ice-breakup floods.",
+"life": "Siberian sturgeon, taimen, Arctic char.",
+"people": "Hydroelectric dams.",
+"threats": "Permafrost thaw, pollution.",
+"match": [
+"Siberia"
+],
+"slug": "yenisei",
+"emoji": "🏞",
+"wiki": "Yenisei"
+},
+{
+"name": "Ob–Irtysh",
+"continent": "Asia",
+"length_km": 5410,
+"discharge_m3s": 12500,
+"basin_km2": 2990000,
+"mouth": "Arctic Ocean (Kara Sea)",
+"summary": "Siberian river with one of the longest estuaries (Gulf of Ob).",
+"course": "From the Altai mountains.",
+"cycle": "Spring floods.",
+"life": "Whitefish, sturgeon.",
+"people": "Oil and gas region.",
+"threats": "Pollution, permafrost thaw.",
+"match": [
+"Siberia"
+],
+"slug": "ob-irtysh",
+"emoji": "🏞",
+"wiki": "Ob_River"
+},
+{
+"name": "Lena",
+"continent": "Asia",
+"length_km": 4400,
+"discharge_m3s": 17000,
+"basin_km2": 2490000,
+"mouth": "Arctic Ocean (Laptev Sea)",
+"summary": "Flows through permafrost to a vast Arctic delta.",
+"course": "Delta is a protected wildlife reserve.",
+"cycle": "Ice jams cause floods each spring.",
+"life": "Migratory birds, Arctic fish.",
+"people": "Yakutsk.",
+"threats": "Warming and erosion of permafrost banks.",
+"match": [
+"Siberia"
+],
+"slug": "lena",
+"emoji": "🏞",
+"wiki": "Lena_(river)"
+},
+{
+"name": "Congo",
+"continent": "Africa",
+"length_km": 4700,
+"discharge_m3s": 41000,
+"basin_km2": 4000000,
+"mouth": "Atlantic Ocean",
+"summary": "The deepest river in the world (over 220 m) and second by discharge.",
+"course": "Its submarine canyon carries sediment ~1,000 km out to sea.",
+"cycle": "Crosses the equator twice, so it flows strongly year-round.",
+"life": "Over 700 fish species, many endemic to rapids; bonobos on its banks.",
+"people": "Kinshasa and Brazzaville.",
+"threats": "Deforestation, dams.",
+"match": [
+"Congo"
+],
+"slug": "congo",
+"emoji": "🏞",
+"wiki": "Congo_River"
+},
+{
+"name": "Mekong",
+"continent": "Asia",
+"length_km": 4900,
+"discharge_m3s": 16000,
+"basin_km2": 795000,
+"mouth": "South China Sea",
+"summary": "The world's largest inland fishery, flowing through six countries.",
+"course": "From Tibet to Vietnam's delta.",
+"cycle": "Flood pulse reverses Cambodia's Tonlé Sap river each year.",
+"life": "Mekong giant catfish, giant freshwater stingray, Irrawaddy dolphins.",
+"people": "About 60 million people depend on its fish.",
+"threats": "Over 100 dams, sand mining, sinking delta.",
+"match": [
+"Mekong"
+],
+"slug": "mekong",
+"emoji": "🏞",
+"wiki": "Mekong"
+},
+{
+"name": "Ganges (Ganga)",
+"continent": "Asia",
+"length_km": 2525,
+"discharge_m3s": 12000,
+"basin_km2": 1086000,
+"mouth": "Bay of Bengal",
+"summary": "India's sacred river, forming with the Brahmaputra the world's largest delta.",
+"course": "From the Gangotri Glacier across the Indo-Gangetic Plain to the Sundarbans.",
+"cycle": "Monsoon floods supply most of its flow.",
+"life": "Ganges river dolphin, gharial, Ganges shark, hilsa, mahseer.",
+"people": "Over 500 million people in its basin.",
+"threats": "Pollution, dams and barrages (Farakka), groundwater loss.",
+"match": [
+"Ganges",
+"Sundarbans",
+"South Asia",
+"Indian subcontinent"
+],
+"slug": "ganges-ganga",
+"emoji": "🏞",
+"wiki": "Ganges"
+},
+{
+"name": "Brahmaputra",
+"continent": "Asia",
+"length_km": 2900,
+"discharge_m3s": 19800,
+"basin_km2": 580000,
+"mouth": "Bay of Bengal",
+"summary": "A braided giant flowing from Tibet through Assam and Bangladesh.",
+"course": "Called Yarlung Tsangpo in Tibet; carves one of the deepest canyons on Earth.",
+"cycle": "Monsoon floods and huge sediment loads.",
+"life": "Ganges river dolphin, golden mahseer, Kaziranga floodplain wildlife.",
+"people": "Assam and Bangladesh.",
+"threats": "Proposed dams, erosion.",
+"match": [
+"Brahmaputra",
+"Ganges"
+],
+"slug": "brahmaputra",
+"emoji": "🏞",
+"wiki": "Brahmaputra_River"
+},
+{
+"name": "Indus",
+"continent": "Asia",
+"length_km": 3180,
+"discharge_m3s": 6600,
+"basin_km2": 1165000,
+"mouth": "Arabian Sea",
+"summary": "Cradle of the Harappan civilisation.",
+"course": "From Tibet through Ladakh and Pakistan.",
+"cycle": "Snowmelt and monsoon floods (2022 floods).",
+"life": "Indus river dolphin (blind), palla fish.",
+"people": "Pakistan's agriculture.",
+"threats": "Delta starved of water and sediment.",
+"match": [
+"Indus"
+],
+"slug": "indus",
+"emoji": "🏞",
+"wiki": "Indus_River"
+},
+{
+"name": "Godavari",
+"continent": "Asia",
+"length_km": 1465,
+"discharge_m3s": 3500,
+"basin_km2": 312800,
+"mouth": "Bay of Bengal",
+"summary": "India's second-longest river, the 'Dakshin Ganga'.",
+"course": "Across the Deccan Plateau to a delta in Andhra Pradesh.",
+"cycle": "Monsoon floods.",
+"life": "Mangroves at Coringa, olive ridleys nearby.",
+"people": "Farming in the delta.",
+"threats": "Dams, pollution.",
+"match": [
+"Godavari"
+],
+"slug": "godavari",
+"emoji": "🏞",
+"wiki": "Godavari_River"
+},
+{
+"name": "Mahanadi",
+"continent": "Asia",
+"length_km": 858,
+"discharge_m3s": 2119,
+"basin_km2": 141600,
+"mouth": "Bay of Bengal",
+"summary": "Odisha's great river, feeding Chilika Lake area and the Bhitarkanika mangroves.",
+"course": "Flows from Chhattisgarh through Hirakud Dam to Odisha.",
+"cycle": "Monsoon floods.",
+"life": "Saltwater crocodiles and olive ridleys near its delta.",
+"people": "Odisha agriculture and Hirakud.",
+"threats": "Industrial pollution, coal mining.",
+"match": [
+"Odisha"
+],
+"slug": "mahanadi",
+"emoji": "🏞",
+"wiki": "Mahanadi_River"
+},
+{
+"name": "Krishna",
+"continent": "Asia",
+"length_km": 1400,
+"discharge_m3s": 2213,
+"basin_km2": 258948,
+"mouth": "Bay of Bengal",
+"summary": "A major Deccan river with mangroves at its mouth.",
+"course": "From the Western Ghats to Andhra Pradesh.",
+"cycle": "Monsoon flow.",
+"life": "Fishing cats, mangroves.",
+"people": "Irrigation.",
+"threats": "Over-abstraction.",
+"match": [
+"Krishna"
+],
+"slug": "krishna",
+"emoji": "🏞",
+"wiki": "Krishna_River"
+},
+{
+"name": "Narmada",
+"continent": "Asia",
+"length_km": 1312,
+"discharge_m3s": 1447,
+"basin_km2": 98796,
+"mouth": "Arabian Sea (Gulf of Khambhat)",
+"summary": "A west-flowing rift-valley river sacred in central India.",
+"course": "Through marble gorges at Bhedaghat.",
+"cycle": "Monsoon floods.",
+"life": "Mahseer, hilsa near the estuary.",
+"people": "Sardar Sarovar Dam.",
+"threats": "Dams reducing flow to the estuary.",
+"match": [
+"Narmada"
+],
+"slug": "narmada",
+"emoji": "🏞",
+"wiki": "Narmada_River"
+},
+{
+"name": "Irrawaddy",
+"continent": "Asia",
+"length_km": 2170,
+"discharge_m3s": 13000,
+"basin_km2": 413700,
+"mouth": "Andaman Sea",
+"summary": "Myanmar's lifeline, home of the Irrawaddy dolphin.",
+"course": "North to south through Myanmar.",
+"cycle": "Monsoon floods.",
+"life": "Irrawaddy dolphins that cooperate with fishers.",
+"people": "Rice farming.",
+"threats": "Mining, dams.",
+"match": [
+"Irrawaddy",
+"SE Asia"
+],
+"slug": "irrawaddy",
+"emoji": "🏞",
+"wiki": "Irrawaddy_River"
+},
+{
+"name": "Zambezi",
+"continent": "Africa",
+"length_km": 2574,
+"discharge_m3s": 3400,
+"basin_km2": 1390000,
+"mouth": "Indian Ocean (Mozambique Channel)",
+"summary": "Africa's fourth-longest river, plunging over Victoria Falls.",
+"course": "Through Zambia, Zimbabwe and Mozambique.",
+"cycle": "Seasonal floods; Kariba and Cahora Bassa dams.",
+"life": "Hippos, crocodiles, tigerfish.",
+"people": "Hydropower.",
+"threats": "Dams altering delta mangroves.",
+"match": [
+"Zambezi"
+],
+"slug": "zambezi",
+"emoji": "🏞",
+"wiki": "Zambezi"
+},
+{
+"name": "Niger",
+"continent": "Africa",
+"length_km": 4180,
+"discharge_m3s": 5600,
+"basin_km2": 2117700,
+"mouth": "Gulf of Guinea",
+"summary": "Flows in a boomerang through the Sahel to a vast oil-rich delta.",
+"course": "Inner Niger Delta wetlands in Mali.",
+"cycle": "Seasonal flood pulses.",
+"life": "West African manatees, hippos.",
+"people": "Fisheries, oil.",
+"threats": "Oil spills in the delta.",
+"match": [
+"Niger"
+],
+"slug": "niger",
+"emoji": "🏞",
+"wiki": "Niger_River"
+},
+{
+"name": "Danube",
+"continent": "Europe",
+"length_km": 2850,
+"discharge_m3s": 6500,
+"basin_km2": 801000,
+"mouth": "Black Sea",
+"summary": "Europe's second-longest river, flowing through 10 countries.",
+"course": "From the Black Forest to a large delta in Romania.",
+"cycle": "Spring snowmelt floods.",
+"life": "Danube delta pelicans, beluga sturgeon migrations (blocked by dams).",
+"people": "Major waterway.",
+"threats": "Dams, pollution.",
+"match": [
+"Danube"
+],
+"slug": "danube",
+"emoji": "🏞",
+"wiki": "Danube"
+},
+{
+"name": "Volga",
+"continent": "Europe",
+"length_km": 3530,
+"discharge_m3s": 8000,
+"basin_km2": 1360000,
+"mouth": "Caspian Sea",
+"summary": "Europe's longest river.",
+"course": "Through Russia to the Caspian delta.",
+"cycle": "Spring floods.",
+"life": "Beluga sturgeon (caviar).",
+"people": "Russian heartland.",
+"threats": "Dams blocking sturgeon.",
+"match": [
+"Caspian"
+],
+"slug": "volga",
+"emoji": "🏞",
+"wiki": "Volga"
+},
+{
+"name": "Rhine",
+"continent": "Europe",
+"length_km": 1230,
+"discharge_m3s": 2900,
+"basin_km2": 185000,
+"mouth": "North Sea",
+"summary": "Western Europe's busiest waterway.",
+"course": "From the Alps through the Netherlands.",
+"cycle": "Snowmelt and rain floods.",
+"life": "Atlantic salmon being restored.",
+"people": "Industry and shipping.",
+"threats": "Past pollution (Sandoz 1986).",
+"match": [
+"Rhine"
+],
+"slug": "rhine",
+"emoji": "🏞",
+"wiki": "Rhine"
+},
+{
+"name": "Thames",
+"continent": "Europe",
+"length_km": 346,
+"discharge_m3s": 66,
+"basin_km2": 12935,
+"mouth": "North Sea",
+"summary": "London's river, once declared biologically dead (1957), now home to seals.",
+"course": "Estuary into the North Sea.",
+"cycle": "Tidal; Thames Barrier protects London.",
+"life": "Seals, seahorses, eels.",
+"people": "London.",
+"threats": "Sewage overflows.",
+"match": [
+"Thames"
+],
+"slug": "thames",
+"emoji": "🏞",
+"wiki": "River_Thames"
+},
+{
+"name": "St. Lawrence",
+"continent": "North America",
+"length_km": 3058,
+"discharge_m3s": 16800,
+"basin_km2": 1344200,
+"mouth": "Gulf of St. Lawrence",
+"summary": "Outlet of the Great Lakes, with one of the world's largest estuaries.",
+"course": "From Lake Ontario to the Atlantic.",
+"cycle": "Seasonal ice.",
+"life": "Belugas, blue whales in the estuary.",
+"people": "Shipping seaway.",
+"threats": "Pollution affecting belugas.",
+"match": [
+"St. Lawrence",
+"Great Lakes"
+],
+"slug": "st-lawrence",
+"emoji": "🏞",
+"wiki": "Saint_Lawrence_River"
+},
+{
+"name": "Columbia",
+"continent": "North America",
+"length_km": 2000,
+"discharge_m3s": 7500,
+"basin_km2": 668000,
+"mouth": "Pacific Ocean",
+"summary": "Historically the greatest salmon river on Earth.",
+"course": "From British Columbia to Oregon.",
+"cycle": "Snowmelt floods.",
+"life": "Chinook and sockeye salmon, Pacific lamprey.",
+"people": "Hydropower dams.",
+"threats": "Dams blocking salmon.",
+"match": [
+"Columbia"
+],
+"slug": "columbia",
+"emoji": "🏞",
+"wiki": "Columbia_River"
+},
+{
+"name": "Yukon",
+"continent": "North America",
+"length_km": 3190,
+"discharge_m3s": 6430,
+"basin_km2": 832700,
+"mouth": "Bering Sea",
+"summary": "Home to one of the longest salmon migrations.",
+"course": "From Canada through Alaska.",
+"cycle": "Ice breakup.",
+"life": "Chinook and chum salmon.",
+"people": "Indigenous fisheries.",
+"threats": "Salmon declines.",
+"match": [
+"Yukon"
+],
+"slug": "yukon",
+"emoji": "🏞",
+"wiki": "Yukon_River"
+},
+{
+"name": "Orinoco",
+"continent": "South America",
+"length_km": 2140,
+"discharge_m3s": 37000,
+"basin_km2": 880000,
+"mouth": "Atlantic Ocean",
+"summary": "Venezuela's great river with a vast delta.",
+"course": "Connected to the Amazon by the Casiquiare channel.",
+"cycle": "Floods.",
+"life": "Orinoco crocodile, river dolphins.",
+"people": "Llanos ranching.",
+"threats": "Mining.",
+"match": [
+"Orinoco"
+],
+"slug": "orinoco",
+"emoji": "🏞",
+"wiki": "Orinoco"
+},
+{
+"name": "Paraná",
+"continent": "South America",
+"length_km": 4880,
+"discharge_m3s": 17290,
+"basin_km2": 2582672,
+"mouth": "Atlantic (Río de la Plata)",
+"summary": "South America's second-largest river.",
+"course": "Forms the Río de la Plata estuary.",
+"cycle": "Floods.",
+"life": "Franciscana dolphins in the estuary.",
+"people": "Itaipu Dam.",
+"threats": "Drought, dams.",
+"match": [
+"Paraná",
+"Río de la Plata",
+"South American rivers"
+],
+"slug": "paraná",
+"emoji": "🏞",
+"wiki": "Paraná_River"
+},
+{
+"name": "Murray–Darling",
+"continent": "Oceania",
+"length_km": 3672,
+"discharge_m3s": 767,
+"basin_km2": 1061469,
+"mouth": "Southern Ocean (Indian Ocean)",
+"summary": "Australia's largest river system.",
+"course": "Ends at the Coorong lagoons.",
+"cycle": "Highly variable flow.",
+"life": "Murray cod.",
+"people": "Irrigation.",
+"threats": "Over-extraction, fish kills.",
+"match": [
+"Murray"
+],
+"slug": "murray-darling",
+"emoji": "🏞",
+"wiki": "Murray–Darling_basin"
+},
+{
+"name": "Fly",
+"continent": "Oceania",
+"length_km": 1050,
+"discharge_m3s": 6000,
+"basin_km2": 76000,
+"mouth": "Gulf of Papua (Coral Sea)",
+"summary": "High-rainfall river of New Guinea.",
+"course": "Delta into the Gulf of Papua.",
+"cycle": "Steady flow.",
+"life": "Pig-nosed turtle.",
+"people": "Mining.",
+"threats": "Ok Tedi mine tailings.",
+"match": [
+"New Guinea"
+],
+"slug": "fly",
+"emoji": "🏞",
+"wiki": "Fly_River"
+},
+{
+"name": "Pearl (Zhujiang)",
+"continent": "Asia",
+"length_km": 2400,
+"discharge_m3s": 9500,
+"basin_km2": 409480,
+"mouth": "South China Sea",
+"summary": "Forms the Pearl River Delta megacity region.",
+"course": "Estuary between Hong Kong and Macau.",
+"cycle": "Monsoon floods.",
+"life": "Chinese white dolphins.",
+"people": "Over 80 million people.",
+"threats": "Pollution, reclamation.",
+"match": [
+"Pearl River"
+],
+"slug": "pearl-zhujiang",
+"emoji": "🏞",
+"wiki": "Pearl_River_(China)"
+},
+{
+"name": "Yellow (Huang He)",
+"continent": "Asia",
+"length_km": 5464,
+"discharge_m3s": 2571,
+"basin_km2": 752546,
+"mouth": "Bohai Sea",
+"summary": "The world's muddiest major river.",
+"course": "Through the Loess Plateau.",
+"cycle": "Historic catastrophic floods.",
+"life": "Migratory birds at the delta.",
+"people": "Cradle of Chinese civilisation.",
+"threats": "Dry spells when it fails to reach the sea.",
+"match": [
+"Yellow River"
+],
+"slug": "yellow-huang-he",
+"emoji": "🏞",
+"wiki": "Yellow_River"
+},
+{
+"name": "Amur",
+"continent": "Asia",
+"length_km": 4444,
+"discharge_m3s": 11400,
+"basin_km2": 1855000,
+"mouth": "Sea of Okhotsk",
+"summary": "Forms much of the Russia–China border.",
+"course": "Into the Tatar Strait.",
+"cycle": "Summer monsoon floods.",
+"life": "Kaluga sturgeon, salmon.",
+"people": "Fisheries.",
+"threats": "Pollution.",
+"match": [
+"Amur"
+],
+"slug": "amur",
+"emoji": "🏞",
+"wiki": "Amur"
+},
+{
+"name": "Tigris–Euphrates",
+"continent": "Asia",
+"length_km": 2800,
+"discharge_m3s": 1000,
+"basin_km2": 879790,
+"mouth": "Persian Gulf (Shatt al-Arab)",
+"summary": "The twin rivers of Mesopotamia.",
+"course": "Join as the Shatt al-Arab.",
+"cycle": "Spring floods.",
+"life": "Mesopotamian marshes' birds and fish.",
+"people": "Cradle of civilisation.",
+"threats": "Dams, drought, salinisation.",
+"match": [
+"Mesopotamia"
+],
+"slug": "tigris-euphrates",
+"emoji": "🏞",
+"wiki": "Tigris–Euphrates_river_system"
+},
+{
+"name": "Kaveri (Cauvery)",
+"continent": "Asia",
+"length_km": 800,
+"discharge_m3s": 677,
+"basin_km2": 81155,
+"mouth": "Bay of Bengal",
+"summary": "South India's sacred river, famous for mahseer.",
+"course": "From Coorg to Tamil Nadu's delta.",
+"cycle": "Monsoon flow.",
+"life": "Hump-backed mahseer.",
+"people": "Rice delta.",
+"threats": "Water disputes.",
+"match": [
+"Kaveri",
+"Western Ghats"
+],
+"slug": "kaveri-cauvery",
+"emoji": "🏞",
+"wiki": "Kaveri"
+},
+{
+"name": "Hooghly",
+"continent": "Asia",
+"length_km": 260,
+"discharge_m3s": null,
+"basin_km2": null,
+"mouth": "Bay of Bengal",
+"summary": "Ganges distributary on which Kolkata stands.",
+"course": "Through West Bengal to the Bay.",
+"cycle": "Tidal bore.",
+"life": "Ganges dolphins, hilsa.",
+"people": "Kolkata port.",
+"threats": "Pollution.",
+"match": [
+"Ganges",
+"Sundarbans"
+],
+"slug": "hooghly",
+"emoji": "🏞",
+"wiki": "Hooghly_River"
+}
+]

@@ -14,6 +14,9 @@ The ocean is where global warming really accumulates. **Over 90%** of the excess
 - This happened despite developing **La Niña** conditions, which usually cool the surface[^ucar].
 :::
 
+
+{{chart:ohc}}
+
 ## Why heat goes deep
 
 Argo floats measure the upper 2,000 m, and most added heat sits there. But heat is now detected in the abyss too, carried down where deep water forms near Antarctica and in the North Atlantic. Deep Argo floats (to 6,000 m) are extending the record.

@@ -1,0 +1,76 @@
+# Seabirds|🐦
+Snowy sheathbill|Chionis albus|0|0|Antarctic Peninsula|Scavenger|LC|The only Antarctic bird without webbed feet.
+Snow petrel|Pagodroma nivea|0|1|Antarctica|Krill, fish|LC|Pure white petrel nesting inland on nunataks.
+Southern giant petrel|Macronectes giganteus|0|1|Southern Ocean|Carrion, seabirds|LC|Scavenging 'stinker' of the Southern Ocean.
+Cape petrel|Daption capense|0|1|Southern Ocean|Krill|LC|Chequered black-and-white petrel.
+Royal albatross|Diomedea epomophora|0|5|Southern Ocean|Squid|VU|Breeds at Taiaroa Head, the only mainland colony.
+Atlantic yellow-nosed albatross|Thalassarche chlororhynchos|0|5|S Atlantic|Squid, fish|EN|Breeds on Tristan da Cunha.
+Black-footed albatross|Phoebastria nigripes|0|5|N Pacific|Squid, fish eggs|NT|Nests on Hawaiian atolls.
+Waved albatross|Phoebastria irrorata|0|5|Galápagos|Squid|CR|Equatorial albatross with fencing-like courtship.
+Brown booby|Sula leucogaster|0|10|Tropical oceans|Fish|LC|Plunge diver of tropical seas.
+Red-footed booby|Sula sula|0|10|Tropical oceans|Flying fish|LC|Nests in trees.
+Masked booby|Sula dactylatra|0|10|Tropical oceans|Fish|LC|Largest booby.
+Cape gannet|Morus capensis|0|10|South Africa|Sardines|EN|Dives into the sardine run.
+Australasian gannet|Morus serrator|0|10|Australia; New Zealand|Fish|LC|Southern gannet.
+Black skimmer|Rynchops niger|0|0|Americas|Fish|LC|Skims the water with an elongated lower bill.
+Common tern|Sterna hirundo|0|1|Worldwide|Fish|LC|Hovering diver of coasts.
+Royal tern|Thalasseus maximus|0|1|Americas; W Africa|Fish|LC|Large crested tern.
+Inca tern|Larosterna inca|0|1|Humboldt Current|Anchoveta|NT|Grey tern with white moustache plumes.
+Swallow-tailed gull|Creagrus furcatus|0|10|Galápagos|Squid|LC|The only fully nocturnal gull.
+Ivory gull|Pagophila eburnea|0|1|Arctic|Fish, carrion|NT|Pure white gull of the pack ice.
+Herring gull|Larus argentatus|0|1|N Atlantic|Omnivore|LC|Chicks peck a red spot on the parent's bill for food.
+Great black-backed gull|Larus marinus|0|1|N Atlantic|Seabirds, fish|LC|The largest gull.
+Horned puffin|Fratercula corniculata|0|30|N Pacific|Fish|LC|Fleshy 'horn' above each eye.
+Rhinoceros auklet|Cerorhinca monocerata|0|60|N Pacific|Fish|LC|Grows a horn on its bill.
+Marbled murrelet|Brachyramphus marmoratus|0|30|NE Pacific|Fish|EN|Seabird that nests in old-growth forest trees.
+Black guillemot|Cepphus grylle|0|50|N Atlantic; Arctic|Fish|LC|Black with white wing patches and red feet.
+Thick-billed murre|Uria lomvia|0|210|Arctic|Fish|LC|Dives deeper than 200 m.
+Emperor shag|Leucocarbo atriceps|0|100|Southern Ocean|Fish|LC|Blue-eyed cormorant of Antarctica.
+Guanay cormorant|Leucocarbo bougainvilliorum|0|30|Peru; Chile|Anchoveta|NT|Produced the guano that fertilised the 19th century.
+Magnificent frigatebird|Fregata magnificens|0|1|Tropical Americas|Fish|LC|Steals fish from other birds in flight.
+White-tailed tropicbird|Phaethon lepturus|0|5|Tropical oceans|Fish, squid|LC|Elegant streamer-tailed bird.
+Fairy prion|Pachyptila turtur|0|5|Southern Ocean|Krill|LC|Small blue-grey petrel.
+Bulwer's petrel|Bulweria bulwerii|0|1|Tropical oceans|Squid|LC|Small dark petrel.
+Ashy storm petrel|Hydrobates homochroa|0|1|California Current|Krill|EN|Rare storm petrel of California islands.
+Leach's storm petrel|Hydrobates leucorhous|0|1|N Atlantic; N Pacific|Plankton|VU|Nocturnal burrow-nesting petrel.
+Pink-footed shearwater|Ardenna creatopus|0|10|E Pacific|Fish, squid|VU|Breeds on Chilean islands.
+Short-tailed shearwater|Ardenna tenuirostris|0|70|Pacific|Krill|LC|'Muttonbird', migrating in millions around the Pacific.
+Common eider|Somateria mollissima|0|20|Arctic; N Atlantic|Mussels|NT|Down feathers harvested from nests.
+Long-tailed duck|Clangula hyemalis|0|60|Arctic|Molluscs|VU|One of the deepest-diving ducks.
+Red knot|Calidris canutus|0|0|Worldwide flyways|Molluscs; horseshoe crab eggs|NT|Shorebird refuelling on horseshoe crab eggs during migration.
+Bar-tailed godwit|Limosa lapponica|0|0|Alaska to New Zealand|Invertebrates|NT|Flies ~13,000 km non-stop over the Pacific.
+Eurasian oystercatcher|Haematopus ostralegus|0|0|Eurasian coasts|Shellfish|NT|Opens mussels by stabbing or hammering.
+Spoon-billed sandpiper|Calidris pygmaea|0|0|East Asian flyway|Invertebrates|CR|Tiny shorebird with a spoon-shaped bill; under ~500 pairs.
+Flamingo greater|Phoenicopterus roseus|0|1|Africa; S Asia; Mediterranean lagoons|Brine shrimp|LC|Pink from carotenoids in brine shrimp and algae.
+# Plants & algae|🌿
+Seagrass Cymodocea|Cymodocea nodosa|0|30|Mediterranean; E Atlantic|Photosynthesis|LC|Pioneer Mediterranean seagrass.
+Paddle weed|Halophila decipiens|0|85|Tropics|Photosynthesis|LC|Deepest-growing seagrass.
+Shoal grass|Halodule wrightii|0|5|W Atlantic|Photosynthesis|LC|Shallow pioneer seagrass.
+Manatee grass|Syringodium filiforme|0|20|Caribbean|Photosynthesis|LC|Round-leaved seagrass.
+Surfgrass|Phyllospadix scouleri|0|6|NE Pacific|Photosynthesis|LC|Grows on wave-battered rocks.
+Wakame|Undaria pinnatifida|0|20|NW Pacific; invasive|Photosynthesis|NE|Edible kelp, invasive worldwide.
+Kombu|Saccharina japonica|0|20|NW Pacific|Photosynthesis|NE|Source of umami (glutamate) discovery.
+Dulse|Palmaria palmata|0|20|N Atlantic|Photosynthesis|NE|Edible red seaweed.
+Gracilaria|Gracilaria gracilis|0|10|Worldwide|Photosynthesis|NE|Source of agar.
+Asparagopsis|Asparagopsis taxiformis|0|20|Tropics|Photosynthesis|NE|Red seaweed that cuts cattle methane when added to feed.
+Codium dead man's fingers|Codium fragile|0|15|Worldwide|Photosynthesis|NE|Spongy green alga, invasive.
+Southern bull kelp|Durvillaea antarctica|0|10|Southern Hemisphere|Photosynthesis|NE|Rafts carry animals across oceans.
+Mangrove apple|Sonneratia alba|0|1|Indo-Pacific|Photosynthesis|LC|Mangrove with edible fruit.
+Looking-glass mangrove|Heritiera littoralis|0|1|Indo-Pacific|Photosynthesis|LC|Buttress-rooted mangrove.
+Ceriops|Ceriops tagal|0|1|Indo-Pacific|Photosynthesis|LC|Yellow mangrove.
+Sea rocket|Cakile maritima|0|0|Coasts|Photosynthesis|LC|Beach plant dispersed by floating seeds.
+Marram grass|Ammophila arenaria|0|0|N Atlantic coasts|Photosynthesis|LC|Builds sand dunes.
+Sea kale|Crambe maritima|0|0|European coasts|Photosynthesis|LC|Shingle-beach plant.
+Diatom Chaetoceros|Chaetoceros socialis|0|100|Worldwide|Photosynthesis|NE|Chain-forming bloom diatom.
+Diatom Thalassiosira|Thalassiosira pseudonana|0|100|Worldwide|Photosynthesis|NE|First diatom genome sequenced.
+Phaeocystis|Phaeocystis antarctica|0|100|Southern Ocean|Photosynthesis|NE|Colonial alga forming foam blooms.
+Pyrocystis|Pyrocystis fusiformis|0|100|Tropical oceans|Photosynthesis|NE|Glowing dinoflagellate.
+Ceratium|Tripos furca|0|100|Worldwide|Photosynthesis|NE|Horned dinoflagellate.
+Zooxanthellae|Symbiodinium microadriaticum|0|50|Coral reefs|Photosynthesis|NE|The algae living inside corals; their loss is bleaching.
+Ostreococcus|Ostreococcus tauri|0|100|Worldwide|Photosynthesis|NE|The smallest known free-living eukaryote.
+Nitrosopumilus|Nitrosopumilus maritimus|0|4000|Worldwide|Ammonia oxidation|NE|Ammonia-oxidising archaeon that also makes oxygen in the dark.
+Roseobacter|Ruegeria pomeroyi|0|200|Worldwide|Organics|NE|Bacteria that make the 'smell of the sea' (DMS).
+Vibrio harveyi|Vibrio harveyi|0|200|Worldwide|Organics|NE|Glowing bacterium behind 'milky seas'.
+Dinophysis|Dinophysis acuminata|0|50|Worldwide|Mixotroph|NE|Causes diarrhetic shellfish poisoning.
+Alexandrium|Alexandrium catenella|0|50|Worldwide|Photosynthesis|NE|Paralytic shellfish poisoning dinoflagellate.
+Pseudo-nitzschia|Pseudo-nitzschia australis|0|50|Worldwide|Photosynthesis|NE|Diatom producing domoic acid.

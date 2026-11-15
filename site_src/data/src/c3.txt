@@ -1,0 +1,89 @@
+# Rivers & estuaries|🏞
+Ganges river dolphin|Platanista gangetica|0|10|Ganges; Brahmaputra; Indus|Fish, shrimp|EN|A nearly blind dolphin that navigates muddy rivers by echolocation; India's national aquatic animal.|Ganges river dolphin clicks
+Amazon river dolphin|Inia geoffrensis|0|20|Amazon; Orinoco|Fish, crabs|EN|The pink 'boto', which swims into flooded forests.|Amazon river dolphin
+Irrawaddy dolphin|Orcaella brevirostris|0|20|Rivers and coasts of SE Asia|Fish|EN|Spits water jets to herd fish; cooperates with fishers.
+Yangtze finless porpoise|Neophocaena asiaeorientalis asiaeorientalis|0|20|Yangtze|Fish|CR|Last surviving cetacean of the Yangtze after the baiji's extinction.
+Baiji|Lipotes vexillifer|0|10|Yangtze|Fish|CR|Yangtze river dolphin, declared functionally extinct in 2006.
+Gharial|Gavialis gangeticus|0|10|Ganges and Chambal rivers|Fish|CR|Thin-snouted crocodilian; males grow a pot-shaped 'ghara' on the snout.
+Mugger crocodile|Crocodylus palustris|0|5|Indian subcontinent|Fish, mammals|VU|Uses sticks as lures for nesting birds.
+Saltwater crocodile|Crocodylus porosus|0|20|Indo-Pacific coasts and rivers|Fish, mammals|LC|The largest living reptile, crossing open sea between islands.
+Nile crocodile|Crocodylus niloticus|0|10|African rivers|Fish, mammals|LC|Ambushes wildebeest at river crossings.
+American alligator|Alligator mississippiensis|0|5|SE USA|Fish, birds, mammals|LC|Recovered from near-extinction; bellows in chorus.|American alligator bellow
+West Indian manatee|Trichechus manatus|0|10|W Atlantic coasts and rivers|Seagrass|VU|Gentle 'sea cow' that winters in warm springs.|manatee vocalization
+Amazonian manatee|Trichechus inunguis|0|10|Amazon basin|Aquatic plants|VU|The only manatee living entirely in fresh water.
+Eurasian otter|Lutra lutra|0|10|Eurasia|Fish|NT|Returned to many European rivers as pollution fell.
+Smooth-coated otter|Lutrogale perspicillata|0|5|South Asia|Fish|VU|Hunts in coordinated family groups.
+Giant otter|Pteronura brasiliensis|0|5|South American rivers|Fish|EN|'River wolf' living in noisy family groups.|giant otter vocalization
+Platypus|Ornithorhynchus anatinus|0|5|Eastern Australia|Invertebrates|NT|Egg-laying mammal that hunts by electroreception.
+Arapaima|Arapaima gigas|0|10|Amazon|Fish|DD|One of the largest freshwater fish; must breathe air.
+Mekong giant catfish|Pangasianodon gigas|0|10|Mekong|Algae|CR|Among the largest freshwater fish, up to 300 kg.
+Wels catfish|Silurus glanis|0|30|Europe|Fish, birds|LC|Lunges onto riverbanks to catch pigeons.
+Red-bellied piranha|Pygocentrus nattereri|0|5|South America|Fish, carrion|LC|Barks and drums when threatened.|piranha sound
+Electric eel|Electrophorus electricus|0|5|Amazon; Orinoco|Fish|LC|Delivers up to ~860 volts.
+Mahseer golden|Tor putitora|0|10|Himalayan rivers|Plants, fish|EN|'Tiger of the river', a legendary game fish.
+Rohu|Labeo rohita|0|5|South Asian rivers|Plants, plankton|LC|Major carp farmed across India.
+Catla|Labeo catla|0|5|South Asian rivers|Zooplankton|LC|Surface-feeding Indian major carp.
+Freshwater sawfish|Pristis pristis|0|25|Tropical rivers and coasts|Fish|CR|Sawfish that swims far up rivers.
+Bull shark river|Glyphis gangeticus|0|10|Ganges delta|Fish|CR|The Ganges shark, one of the rarest sharks.
+Lake sturgeon|Acipenser fulvescens|0|43|North American lakes|Invertebrates|LC|Lives up to ~150 years.
+Paddlefish|Polyodon spathula|0|10|Mississippi basin|Zooplankton|VU|Filter feeder with an electrosensory paddle.
+Alligator gar|Atractosteus spatula|0|10|Mississippi basin|Fish|LC|Armour-scaled ancient fish.
+Archerfish|Toxotes jaculatrix|0|5|Indo-Pacific mangroves|Insects|LC|Shoots water jets to knock insects off leaves.
+Four-eyed fish|Anableps anableps|0|2|N South America|Insects, algae|LC|Eyes split to see above and below water at once.
+Mangrove killifish|Kryptolebias marmoratus|0|1|W Atlantic|Invertebrates|LC|Self-fertilising fish that can live in damp logs for weeks.
+Giant freshwater stingray|Urogymnus polylepis|0|10|Mekong; Chao Phraya|Invertebrates|EN|Among the biggest freshwater fish.
+Chinese giant salamander|Andrias davidianus|0|5|Chinese mountain streams|Fish, crabs|CR|The largest amphibian.
+Fishing cat|Prionailurus viverrinus|0|2|South and SE Asian wetlands|Fish|VU|A cat that dives for fish in mangroves.
+Mud crab|Scylla serrata|0|50|Indo-Pacific mangroves|Molluscs|NE|Large mangrove crab.
+Fiddler crab|Uca pugnax|0|1|W Atlantic marshes|Detritus|LC|Males wave one giant claw to attract mates.
+Horseshoe crab mangrove|Carcinoscorpius rotundicauda|0|40|SE Asia|Invertebrates|DD|Mangrove horseshoe crab.
+Atlantic blue crab|Callinectes sapidus|0|90|W Atlantic|Clams, fish|LC|Chesapeake Bay icon.
+Eastern oyster|Crassostrea virginica|0|12|W Atlantic|Plankton (filter)|NE|Each adult filters up to ~190 litres a day; builds reefs.
+Diamondback terrapin|Malaclemys terrapin|0|2|E USA salt marshes|Snails, crabs|VU|The only North American turtle living in brackish water.
+Sundarbans tiger|Panthera tigris tigris|0|2|Sundarbans mangroves|Deer, fish|EN|Swims between mangrove islands and drinks brackish water.
+Proboscis monkey|Nasalis larvatus|0|2|Borneo mangroves|Leaves|EN|Swims between mangrove channels with webbed feet.
+Mudskipper giant|Periophthalmodon schlosseri|0|1|SE Asia|Crabs, fish|LC|Builds deep burrows with air chambers.
+# Deep-sea fish|🐡
+Sea toad|Chaunax pictus|50|1000|Worldwide|Fish|LC|Balloon-shaped anglerfish that walks on fins.
+Coffinfish|Chaunax endeavouri|100|1000|Australia|Fish|LC|Holds breath for minutes by inflating its gill chamber.
+Pancake batfish|Halieutichthys aculeatus|45|820|Gulf of Mexico|Invertebrates|LC|Flattened anglerfish that walks the seabed.
+Red-lipped batfish|Ogcocephalus darwini|3|76|Galápagos|Invertebrates|LC|Bright red lips; walks on modified fins.
+Triplewart seadevil|Cryptopsaras couesii|75|4000|Worldwide|Fish|LC|Anglerfish with permanently fused parasitic males.
+Football fish|Himantolophus groenlandicus|0|1100|Atlantic|Fish|LC|Anglerfish with a branching lure.
+Wolftrap angler|Lasiognathus amphirhamphus|900|2500|Atlantic|Fish|LC|Lure on a long rod with hooks.
+Whipnose angler|Gigantactis vanhoeffeni|500|5300|Worldwide|Fish|LC|Lure longer than its body; swims upside down.
+Bearded seadevil|Linophryne arborifera|200|1000|Atlantic|Fish|LC|Glowing beard barbel plus lure.
+Pacific barreleye|Macropinna microstoma|600|800|N Pacific|Jellies, zooplankton|LC|See-through head with rotating green tubular eyes.
+Brownsnout spookfish|Dolichopteryx longipes|0|2000|Worldwide|Plankton|LC|Uses mirrors, not lenses, in its eyes.
+Glasshead grenadier|Hymenocephalus italicus|200|1400|Mediterranean; Atlantic|Plankton|LC|Light organ on its belly.
+Tube-eye|Stylephorus chordatus|300|800|Worldwide|Copepods|LC|Sucks in plankton with a telescopic mouth.
+Barbeled houndshark|Leptocharias smithii|10|75|West Africa|Crustaceans|NT|Small, little-known houndshark.
+Bigeye thresher|Alopias superciliosus|0|723|Worldwide|Fish, squid|VU|Huge upward eyes; tail slaps stun prey.
+Pelagic thresher|Alopias pelagicus|0|152|Indo-Pacific|Fish|EN|Tail-slapping hunter; cleaning stations at Malapascua.
+Velvet belly lanternshark|Etmopterus spinax|70|2490|NE Atlantic|Crustaceans|VU|Glowing spines warn predators.
+Kitefin shark|Dalatias licha|37|1800|Worldwide|Fish, sharks|VU|Largest luminous vertebrate known.
+Prickly shark|Echinorhinus cookei|11|1100|Pacific|Fish, octopus|DD|Covered in thorny denticles.
+Bramble shark|Echinorhinus brucus|10|900|Worldwide|Fish|EN|Slow deep shark with thorny skin.
+Gulper shark|Centrophorus granulosus|50|1440|Worldwide|Fish|EN|Liver oil fished heavily; very slow reproduction.
+Viper dogfish|Trigonognathus kabeyai|150|1500|NW Pacific|Fish|LC|Shoots its jaws forward like a viper.
+Deep-sea skate|Bathyraja abyssicola|360|2900|N Pacific|Fish, invertebrates|LC|Egg cases laid near vents to warm them.
+Pacific hagfish|Eptatretus stoutii|16|966|NE Pacific|Carrion|LC|Can absorb nutrients through its skin.
+Rattail Pacific|Coryphaenoides acrolepis|300|3700|N Pacific|Squid, fish|LC|Common slope grenadier.
+Rubyfish|Plagiogeneion rubiginosum|50|600|SW Pacific|Plankton|LC|Deep-reef ruby fish.
+Alfonsino|Beryx splendens|25|1300|Worldwide|Fish, crustaceans|LC|Red seamount fish.
+Oreo black|Allocyttus niger|560|1300|Southern Ocean|Plankton|LC|Seamount fish, very long-lived.
+Deep-sea smelt|Bathylagus euryops|500|3000|N Atlantic|Plankton|LC|Black smelt of the bathypelagic.
+Lanternfish Benthosema|Benthosema glaciale|0|1407|N Atlantic|Copepods|LC|One of the most abundant lanternfishes.
+Headlightfish|Diaphus rafinesquii|0|900|Atlantic|Zooplankton|LC|Lanternfish with a large headlight photophore.
+Lightfish|Vinciguerria poweriae|0|600|Worldwide|Plankton|LC|Among the most abundant vertebrates.
+Dragonfish Pacific|Tactostoma macropus|0|2000|N Pacific|Fish|LC|Long-finned dragonfish.
+Bathypelagic jellynose|Ateleopus japonicus|100|800|NW Pacific|Invertebrates|LC|Soft gelatinous snout.
+Deep-sea tripod Bathypterois|Bathypterois dubius|200|2500|Atlantic|Plankton|LC|Stands on fin stilts facing the current.
+Spiderfish|Bathypterois grallator|878|4720|Worldwide|Crustaceans|LC|Classic 'tripod fish' standing on 1 m-long fin rays.
+Hadal snailfish Kermadec|Notoliparis kermadecensis|5000|7000|Kermadec Trench|Amphipods|NE|Trench snailfish of the South Pacific.
+Atacama snailfish|Paraliparis selti|6000|7600|Atacama Trench|Amphipods|NE|Purple snailfish discovered in 2018.
+Japanese snailfish deep|Pseudoliparis belyaevi|6900|8000|Japan Trench|Amphipods|NE|Caught at 8,022 m, the deepest fish ever captured.
+Cusk-eel Bassozetus|Bassozetus sp.|2000|8000|Worldwide|Invertebrates|NE|Hadal cusk-eels seen in the Mariana Trench.
+Deep-water arrowtooth eel|Synaphobranchus kaupii|236|4800|Atlantic|Scavenger|LC|Swarms baited cameras on slopes.
+Long-nose chimaera|Harriotta raleighana|380|2600|Worldwide|Invertebrates|LC|Ghost shark with a long pointed snout.
+Black scabbardfish|Aphanopus carbo|200|1700|N Atlantic|Fish, squid|LC|Ribbon-like predator fished off Madeira.

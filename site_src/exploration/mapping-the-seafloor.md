@@ -4,6 +4,9 @@ summary: Why we have better maps of Mars than of our own seafloor, how multibeam
 level: Intermediate
 image: /exploration/png/seabed2030_progress_generated.png
 ---
+
+{{chart:seabed}}
+
 ## Methods
 
 - **Satellite altimetry:** sea-surface height bulges over seamounts and dips over trenches. This gives a global map, but only at ~kilometre resolution.

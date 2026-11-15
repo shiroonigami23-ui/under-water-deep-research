@@ -8,6 +8,9 @@ Corals live in partnership with symbiotic algae (zooxanthellae) that supply most
 
 ![Bleaching events](/ocean-change/png/coral_bleaching_events_generated.png)
 
+
+{{chart:bleach}}
+
 ## Global bleaching events
 
 | Event | Years | Reef area at bleaching-level heat stress |

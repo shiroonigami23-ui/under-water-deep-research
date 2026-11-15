@@ -3,6 +3,17 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Semantic Versioning](https://semver.org/).
 
+## [3.1.0] - 2026-11-15 — 1,000+ species, connections and navigation
+
+### Added
+- Species Atlas expanded to 1,003 entries, including rivers and estuaries, seabirds, plants and microbes
+- 45 seas, gulfs and bays with in-depth sections; automatic links between seas, species, rivers and wrecks; 'At a glance' summaries
+- Rivers & Estuaries, Shipwrecks & Discoveries, Ocean Phenomena and Research Papers catalogs
+- Built-in PDF reader for openly licensed papers and `fetch-papers.yml` to mirror them
+- Sounds for whales, dolphins, seals, seabirds and noisy fish; Wikipedia overviews on every entry
+- Animated charts, Statistics page, animated hero
+- New navigation: Browse mega-menu, instant search (`/`), mobile tab bar, compact footer with a collapsible site map, back-to-top
+
 ## [3.0.0] - 2026-11-15 — Encyclopedia website
 
 ### Added

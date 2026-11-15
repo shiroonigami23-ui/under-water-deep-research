@@ -1,0 +1,60 @@
+# Plants & algae|🌿
+Red mangrove|Rhizophora mangle|0|1|Tropical Atlantic; Pacific|Photosynthesis|LC|Arching prop roots; seeds germinate while still on the tree.
+Black mangrove|Avicennia germinans|0|1|Tropical Americas; W Africa|Photosynthesis|LC|Breathes through pencil-like pneumatophore roots.
+Grey mangrove|Avicennia marina|0|1|Indo-Pacific|Photosynthesis|LC|The most widespread mangrove; excretes salt from its leaves.
+Sundari|Heritiera fomes|0|1|Sundarbans|Photosynthesis|EN|The tree that gives the Sundarbans its name.
+Nypa palm|Nypa fruticans|0|1|Indo-Pacific mangroves|Photosynthesis|LC|The only mangrove palm.
+Turtle grass|Thalassia testudinum|0|10|Caribbean|Photosynthesis|LC|Dominant Caribbean seagrass grazed by turtles.
+Posidonia|Posidonia oceanica|0|45|Mediterranean|Photosynthesis|LC|Meadows store huge carbon; one clone may be ~100,000 years old.
+Eelgrass|Zostera marina|0|10|Northern Hemisphere|Photosynthesis|LC|Temperate seagrass that recovered after the 1930s wasting disease.
+Dugong grass|Halophila ovalis|0|60|Indo-Pacific|Photosynthesis|LC|Small paddle-leaved seagrass eaten by dugongs.
+Shark Bay ribbon weed|Posidonia australis|0|15|S Australia|Photosynthesis|NT|Shark Bay hosts a single plant clone ~180 km across.
+Bull kelp|Nereocystis luetkeana|0|20|NE Pacific|Photosynthesis|NE|Grows up to ~25 cm a day with gas-filled floats.
+Oarweed|Laminaria digitata|0|20|N Atlantic|Photosynthesis|NE|Common European kelp.
+Sugar kelp|Saccharina latissima|0|30|N Atlantic; N Pacific|Photosynthesis|NE|Farmed kelp with sweet-tasting mannitol.
+Bladderwrack|Fucus vesiculosus|0|1|N Atlantic|Photosynthesis|NE|Rocky-shore seaweed with air bladders.
+Sargassum|Sargassum natans|0|0|Sargasso Sea; Atlantic|Photosynthesis|NE|Free-floating mats that form the Sargasso Sea's 'golden forest'.
+Sea lettuce|Ulva lactuca|0|10|Worldwide|Photosynthesis|NE|Thin green seaweed; blooms in nutrient-rich water.
+Nori|Pyropia yezoensis|0|5|NW Pacific|Photosynthesis|NE|Red alga farmed for sushi.
+Irish moss|Chondrus crispus|0|20|N Atlantic|Photosynthesis|NE|Source of carrageenan.
+Coralline algae|Lithothamnion glaciale|0|50|N Atlantic|Photosynthesis|NE|Builds hard pink maerl beds.
+Caulerpa killer alga|Caulerpa taxifolia|0|100|Tropics; invasive Mediterranean|Photosynthesis|NE|A single giant cell; invaded the Mediterranean from an aquarium.
+Mermaid's wineglass|Acetabularia acetabulum|0|5|Mediterranean|Photosynthesis|NE|Single-celled alga several cm tall.
+Halimeda|Halimeda opuntia|0|100|Tropics|Photosynthesis|NE|Calcified green alga whose remains form much tropical sand.
+Glasswort|Salicornia europaea|0|0|Salt marshes|Photosynthesis|LC|Salt-tolerant marsh plant ('sea beans').
+Smooth cordgrass|Spartina alterniflora|0|0|W Atlantic marshes|Photosynthesis|LC|Builds salt marshes; invasive elsewhere.
+Coccolithophore|Emiliania huxleyi|0|200|Worldwide|Photosynthesis|NE|Chalk-plated plankton whose blooms are visible from space.
+Trichodesmium|Trichodesmium erythraeum|0|50|Tropical oceans|Nitrogen fixation|NE|'Sea sawdust' cyanobacteria that fix nitrogen; tint the Red Sea.
+Noctiluca|Noctiluca scintillans|0|20|Worldwide coasts|Plankton|NE|Causes glowing blue seas, including along the Indian coast.
+Karenia red tide|Karenia brevis|0|50|Gulf of Mexico|Photosynthesis|NE|Red-tide dinoflagellate producing brevetoxins.
+Synechococcus|Synechococcus sp.|0|200|Worldwide|Photosynthesis|NE|Tiny cyanobacterium producing a large share of ocean oxygen.
+Pelagibacter|Pelagibacter ubique|0|1000|Worldwide|Dissolved organics|NE|SAR11, possibly the most abundant organism on Earth.
+Foraminifera|Globigerina bulloides|0|500|Worldwide|Plankton|NE|Shelled protist whose fossils record past climate.
+Radiolarian|Acantharea|0|1000|Worldwide|Plankton|NE|Protists with intricate glass or strontium skeletons.
+Marine phage|Caudovirales|0|11000|Worldwide|Bacteria|NE|Viruses kill an estimated ~20% of ocean microbes daily, recycling nutrients.
+Thiomargarita|Thiomargarita namibiensis|100|150|Namibian shelf|Sulfur, nitrate|NE|Giant bacterium visible to the naked eye.
+Beggiatoa mats|Beggiatoa sp.|0|3000|Seeps and vents worldwide|Sulfide oxidation|NE|White bacterial mats marking seeps.
+Asgard archaea|Lokiarchaeota|2000|3300|Loki's Castle vent|Unknown|NE|Archaea that are the closest known relatives of complex cells.
+# Crustaceans|🦀
+Northern krill|Meganyctiphanes norvegica|0|500|N Atlantic|Plankton|NE|Key food for whales in the North Atlantic.
+Mysid shrimp|Mysis relicta|0|300|Northern seas and lakes|Plankton|NE|Opossum shrimp carrying young in a pouch.
+Banded coral shrimp|Stenopus hispidus|1|210|Tropical worldwide|Parasites|NE|Cleaner shrimp living in mated pairs.
+Pacific cleaner shrimp|Lysmata amboinensis|1|40|Indo-Pacific|Parasites|NE|Cleans fish, even inside their mouths.
+Harlequin shrimp|Hymenocera picta|1|30|Indo-Pacific|Starfish|NE|Eats starfish alive, arm by arm.
+Peppermint shrimp|Lysmata wurdemanni|1|40|W Atlantic|Detritus|NE|Hermaphroditic cleaner shrimp.
+Skeleton shrimp|Caprella mutica|0|20|N Pacific; invasive|Detritus|NE|Stick-like amphipod.
+Phronima|Phronima sedentaria|0|1000|Worldwide|Salps|NE|Hollows out salps to live in, the inspiration for 'Alien'.
+Ghost crab|Ocypode quadrata|0|0|W Atlantic beaches|Clams, turtles|NE|Sprints across beaches; growls with stomach teeth.
+Sally Lightfoot crab|Grapsus grapsus|0|0|E Pacific|Algae|NE|Bright red crab of Galápagos shores.
+Christmas Island red crab|Gecarcoidea natalis|0|0|Christmas Island; larvae at sea|Leaves|NE|Tens of millions migrate to the sea to spawn.
+Decorator crab|Camposcia retusa|0|20|Indo-Pacific|Algae, detritus|NE|Sticks sponges and algae on its shell as camouflage.
+Porcelain crab|Neopetrolisthes maculatus|0|30|Indo-Pacific|Plankton|NE|Filter-feeds from anemones.
+Boxer crab|Lybia tessellata|0|20|Indo-Pacific|Detritus|NE|Waves tiny anemones as stinging pom-poms.
+Snow crab|Chionoecetes opilio|20|1200|N Atlantic; N Pacific|Benthic invertebrates|NE|Bering Sea population crashed after a 2018–19 heatwave.
+Norway lobster|Nephrops norvegicus|20|800|NE Atlantic|Worms, molluscs|LC|'Scampi', living in muddy burrows.
+Slipper lobster|Scyllarides latus|4|100|Mediterranean; Atlantic|Molluscs|DD|Flat-headed lobster without claws.
+Squat lobster vent|Munidopsis polymorpha|0|0|Lanzarote lava tube|Detritus|NE|Blind white squat lobster living in a single cave lake.
+Pom-pom crab vent|Shinkaia crosnieri|1000|1600|Okinawa Trough|Symbiotic bacteria|NE|Hairy vent squat lobster farming bacteria.
+Deep-sea red shrimp|Aristeus antennatus|80|3300|Mediterranean|Benthic invertebrates|NE|Valuable deep shrimp of the Mediterranean.
+Antarctic sea spider small|Nymphon australe|10|4000|Southern Ocean|Hydroids|NE|Common Antarctic pycnogonid.
+Tongue-eating louse|Cymothoa exigua|2|60|E Pacific|Fish blood|NE|Replaces a fish's tongue with itself.

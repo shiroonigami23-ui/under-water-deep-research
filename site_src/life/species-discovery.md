@@ -5,6 +5,9 @@ level: Intermediate
 ---
 About 240,000 marine species have been formally described. Estimates of the total range far higher, and some studies suggest **up to ~90% of ocean species remain undiscovered**[^gma].
 
+
+{{chart:census}}
+
 ## The Ocean Census
 
 The Nippon Foundation–Nekton **Ocean Census** is the largest coordinated effort to speed up marine species discovery.

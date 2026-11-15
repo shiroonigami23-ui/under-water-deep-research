@@ -1,0 +1,99 @@
+# Marine mammals|🐋
+Orca|Orcinus orca|0|1000|All oceans|Fish, seals, whales|DD|Apex predator with distinct cultures, dialects and hunting traditions.|orca vocalization
+Bottlenose dolphin|Tursiops truncatus|0|500|Worldwide|Fish, squid|LC|Each dolphin has a signature whistle that works like a name.|bottlenose dolphin whistle
+Spinner dolphin|Stenella longirostris|0|300|Tropical worldwide|Fish, squid|LC|Spins up to seven times in one leap.|spinner dolphin
+Common dolphin|Delphinus delphis|0|280|Worldwide warm|Fish, squid|LC|Forms superpods of thousands.|common dolphin whistle
+Risso's dolphin|Grampus griseus|0|1000|Worldwide|Squid|LC|Body covered in white scars from squid and other Risso's.
+Dusky dolphin|Lagenorhynchus obscurus|0|150|Southern Hemisphere|Fish, squid|LC|Acrobatic dolphin of New Zealand and Argentina.
+Hector's dolphin|Cephalorhynchus hectori|0|100|New Zealand|Fish|EN|One of the smallest dolphins; Māui subspecies has under 60 left.
+Vaquita|Phocoena sinus|0|50|Upper Gulf of California|Fish, squid|CR|The most endangered marine mammal, with about 10 left.|vaquita clicks
+Harbour porpoise|Phocoena phocoena|0|200|N Atlantic; N Pacific|Fish|LC|Shy porpoise using high-frequency clicks.|harbour porpoise click
+Dall's porpoise|Phocoenoides dalli|0|500|N Pacific|Fish, squid|LC|Creates 'rooster-tail' spray at high speed.
+Beluga|Delphinapterus leucas|0|1000|Arctic|Fish, invertebrates|LC|The 'canary of the sea' with a flexible melon for sound.|beluga whale sound
+Pilot whale long-finned|Globicephala melas|0|1000|N Atlantic; Southern Ocean|Squid|LC|Tight family pods prone to mass strandings.|pilot whale
+False killer whale|Pseudorca crassidens|0|1000|Tropical worldwide|Fish, squid|NT|Shares food with other members of its group.
+Melon-headed whale|Peponocephala electra|0|1000|Tropical worldwide|Squid, fish|LC|Large groups of hundreds.
+Pygmy sperm whale|Kogia breviceps|0|1000|Worldwide|Squid|LC|Ejects a reddish-brown ink-like cloud to escape.
+Blainville's beaked whale|Mesoplodon densirostris|0|1600|Tropical worldwide|Squid, fish|LC|Males have tusk-like teeth on arching jaws.
+Northern bottlenose whale|Hyperoodon ampullatus|0|1500|N Atlantic|Squid|NT|Deep diver with a bulbous forehead.
+Bowhead whale|Balaena mysticetus|0|200|Arctic|Zooplankton|LC|Lives over 200 years; breaks ice with its head.|bowhead whale song
+North Atlantic right whale|Eubalaena glacialis|0|200|NW Atlantic|Copepods|CR|Fewer than ~400 left; threatened by ship strikes and entanglement.|right whale upcall
+Southern right whale|Eubalaena australis|0|200|Southern Hemisphere|Copepods, krill|LC|Recovered strongly since whaling ended.
+Grey whale|Eschrichtius robustus|0|120|N Pacific|Benthic amphipods|LC|One of the longest mammal migrations: ~20,000 km round trip.|gray whale sound
+Fin whale|Balaenoptera physalus|0|500|Worldwide|Krill, fish|VU|Second-largest animal; loud 20 Hz pulses travel hundreds of km.|fin whale 20 Hz
+Sei whale|Balaenoptera borealis|0|300|Worldwide|Copepods, krill|EN|Among the fastest whales.
+Bryde's whale|Balaenoptera edeni|0|300|Tropical worldwide|Fish|LC|Feeds on sardines in bait balls.
+Minke whale|Balaenoptera acutorostrata|0|300|Worldwide|Krill, fish|LC|Produces the 'boing' sound once thought mechanical.|minke whale boing
+Antarctic minke whale|Balaenoptera bonaerensis|0|300|Southern Ocean|Krill|NT|Its 'bio-duck' calls puzzled scientists for decades.|bio-duck sound
+Pygmy right whale|Caperea marginata|0|200|Southern Hemisphere|Copepods|LC|Smallest and most mysterious baleen whale.
+Walrus|Odobenus rosmarus|0|100|Arctic|Clams|VU|Uses tusks to haul onto ice; sucks clams from shells.|walrus vocalization
+Harbour seal|Phoca vitulina|0|500|N Atlantic; N Pacific|Fish|LC|Common coastal seal.|harbor seal vocalization
+Grey seal|Halichoerus grypus|0|300|N Atlantic|Fish|LC|Large seal breeding on remote beaches.|grey seal
+Leopard seal|Hydrurga leptonyx|0|100|Southern Ocean|Penguins, seals, krill|LC|Top predator; males sing eerie underwater songs.|leopard seal call
+Weddell seal|Leptonychotes weddellii|0|600|Antarctica|Fish, squid|LC|Southernmost mammal; keeps breathing holes open with its teeth.|Weddell seal calls
+Crabeater seal|Lobodon carcinophaga|0|500|Southern Ocean|Krill|LC|Possibly the most abundant seal; sieves krill through lobed teeth.
+Ross seal|Ommatophoca rossii|0|500|Antarctic pack ice|Squid|LC|Rarely seen seal with siren-like calls.
+Harp seal|Pagophilus groenlandicus|0|400|N Atlantic; Arctic|Fish|LC|White-coated pups born on pack ice.|harp seal
+Hooded seal|Cystophora cristata|0|1000|N Atlantic|Fish|VU|Males inflate a red nasal balloon.
+Bearded seal|Erignathus barbatus|0|200|Arctic|Benthic invertebrates|LC|Males sing long trilling songs under ice.|bearded seal song
+Ringed seal|Pusa hispida|0|500|Arctic|Fish|LC|Builds snow lairs for pups.
+Baikal seal|Pusa sibirica|0|300|Lake Baikal|Fish|LC|The only seal living solely in fresh water.
+Mediterranean monk seal|Monachus monachus|0|200|Mediterranean|Fish, octopus|VU|Shelters in sea caves; one of the rarest seals.
+Hawaiian monk seal|Neomonachus schauinslandi|0|500|Hawaii|Fish, octopus|EN|Endemic Hawaiian seal.
+Southern elephant seal|Mirounga leonina|0|2000|Southern Ocean|Squid, fish|LC|Largest carnivoran; dives beyond 2,000 m.|elephant seal
+Californian sea lion|Zalophus californianus|0|500|NE Pacific|Fish, squid|LC|Barking, highly trainable sea lion.|California sea lion bark
+Steller sea lion|Eumetopias jubatus|0|400|N Pacific|Fish|NT|The largest sea lion.
+Galápagos sea lion|Zalophus wollebaeki|0|200|Galápagos|Fish|EN|Playful sea lion of the equator.
+Antarctic fur seal|Arctocephalus gazella|0|200|Southern Ocean|Krill|LC|Recovered from near-extinction by sealing.
+Northern fur seal|Callorhinus ursinus|0|200|N Pacific|Fish, squid|VU|Breeds on the Pribilof Islands.
+Polar bear|Ursus maritimus|0|10|Arctic|Seals|VU|Classified as a marine mammal; depends on sea ice to hunt.
+Marine otter|Lontra felina|0|10|Pacific coast of South America|Crabs, fish|EN|Smallest marine mammal of the Pacific coast.
+Florida manatee|Trichechus manatus latirostris|0|10|Florida|Seagrass|VU|Manatee subspecies vulnerable to boat strikes and cold.
+Steller's sea cow|Hydrodamalis gigas|0|5|Bering Sea|Kelp|EX|A giant sirenian hunted to extinction 27 years after discovery (1768).
+# Sea turtles & reptiles|🐢
+Hawksbill turtle|Eretmochelys imbricata|0|100|Tropical worldwide|Sponges|CR|Sponge specialist with a beak-like mouth.
+Loggerhead turtle|Caretta caretta|0|200|Worldwide|Crabs, molluscs|VU|Navigates using Earth's magnetic field.
+Olive ridley turtle|Lepidochelys olivacea|0|150|Tropical worldwide|Jellies, crabs|VU|Mass nesting 'arribadas' at Odisha's Rushikulya and Gahirmatha beaches.
+Kemp's ridley turtle|Lepidochelys kempii|0|50|Gulf of Mexico|Crabs|CR|The rarest sea turtle; nests in daytime arribadas.
+Flatback turtle|Natator depressus|0|50|N Australia|Invertebrates|DD|Never leaves the Australian continental shelf.
+Yellow-bellied sea snake|Hydrophis platurus|0|50|Indo-Pacific|Fish|LC|Fully pelagic sea snake drifting in slicks.
+Banded sea krait|Laticauda colubrina|0|60|Indo-Pacific|Eels|LC|Hunts at sea, returns to land to digest and lay eggs.
+Olive sea snake|Aipysurus laevis|0|50|Australia|Fish|LC|Can sense light with its tail.
+Beaked sea snake|Hydrophis schistosus|0|30|Indian Ocean|Fish|LC|Responsible for most sea snake bites.
+# Seabirds|🐦
+Atlantic puffin|Fratercula arctica|0|60|N Atlantic|Fish|VU|Carries a dozen sand eels crosswise in its colourful bill.|Atlantic puffin call
+Tufted puffin|Fratercula cirrhata|0|60|N Pacific|Fish, squid|LC|Golden head tufts in summer.
+Northern gannet|Morus bassanus|0|20|N Atlantic|Fish|LC|Plunge-dives at ~100 km/h.|northern gannet call
+Blue-footed booby|Sula nebouxii|0|20|E Pacific|Fish|LC|Males show off blue feet in courtship dances.|blue-footed booby
+Brown pelican|Pelecanus occidentalis|0|10|Americas|Fish|LC|Dives head-first and scoops fish into its pouch.
+Great frigatebird|Fregata minor|0|1|Tropical oceans|Fish, squid|LC|Stays aloft for months; males inflate red throat pouches.|frigatebird
+Black-browed albatross|Thalassarche melanophris|0|5|Southern Ocean|Fish, squid|LC|Most widespread albatross.
+Laysan albatross|Phoebastria immutabilis|0|5|N Pacific|Squid|NT|'Wisdom', a female Laysan, was still breeding at over 70.|Laysan albatross
+Short-tailed albatross|Phoebastria albatrus|0|5|N Pacific|Squid|VU|Recovered from fewer than 50 birds.
+Arctic tern|Sterna paradisaea|0|5|Pole to pole|Fish|LC|The longest migration of any animal, ~70,000 km a year.|Arctic tern call
+Sooty tern|Onychoprion fuscatus|0|1|Tropical oceans|Fish, squid|LC|Stays airborne for years before breeding.
+Common murre|Uria aalge|0|180|N Atlantic; N Pacific|Fish|LC|Dives to 180 m; chicks leap from cliffs.|common murre colony
+Razorbill|Alca torda|0|120|N Atlantic|Fish|NT|Closest living relative of the extinct great auk.
+Little auk|Alle alle|0|35|Arctic|Copepods|LC|Tiny seabird nesting in millions in Greenland.
+Great auk|Pinguinus impennis|0|75|N Atlantic|Fish|EX|Flightless 'penguin of the north', extinct since 1844.
+Northern fulmar|Fulmarus glacialis|0|5|N Atlantic; N Pacific|Fish, offal|LC|Spits foul-smelling stomach oil at intruders.
+Sooty shearwater|Ardenna grisea|0|70|Pacific; Atlantic|Fish, squid|NT|Flies figure-eight migrations of 64,000 km.
+Manx shearwater|Puffinus puffinus|0|50|N Atlantic|Fish|LC|One bird lived 50+ years and flew ~8 million km.|Manx shearwater
+Wilson's storm petrel|Oceanites oceanicus|0|1|Worldwide|Plankton|LC|Patters on the sea surface; possibly the most abundant seabird.
+King penguin|Aptenodytes patagonicus|0|300|Sub-Antarctic|Lanternfish|LC|Dives deep for lanternfish.|king penguin call
+Adélie penguin|Pygoscelis adeliae|0|170|Antarctica|Krill|LC|Builds stone nests; steals stones from neighbours.|Adelie penguin
+Gentoo penguin|Pygoscelis papua|0|200|Sub-Antarctic|Krill, fish|LC|Fastest swimming penguin.
+Chinstrap penguin|Pygoscelis antarcticus|0|100|Antarctic Peninsula|Krill|LC|Takes thousands of micro-naps a day.
+African penguin|Spheniscus demersus|0|130|South Africa; Namibia|Fish|CR|Braying 'jackass penguin' in steep decline.|African penguin bray
+Galápagos penguin|Spheniscus mendiculus|0|50|Galápagos|Fish|EN|The only penguin found north of the equator.
+Little penguin|Eudyptula minor|0|70|Australia; New Zealand|Fish|LC|The smallest penguin, famous parade at Phillip Island.
+Macaroni penguin|Eudyptes chrysolophus|0|100|Sub-Antarctic|Krill|VU|Golden crest feathers.
+Rockhopper penguin|Eudyptes chrysocome|0|100|Sub-Antarctic|Krill, fish|VU|Hops between rocks.
+Yellow-eyed penguin|Megadyptes antipodes|0|160|New Zealand|Fish|EN|Forest-nesting penguin.
+Brown skua|Stercorarius antarcticus|0|1|Southern Ocean|Penguin eggs, chicks|LC|Predator and scavenger of penguin colonies.
+Kittiwake|Rissa tridactyla|0|10|N Atlantic; N Pacific|Fish|VU|Cliff-nesting gull named after its call.|kittiwake call
+Osprey|Pandion haliaetus|0|1|Worldwide|Fish|LC|Fish hawk with reversible outer toes.|osprey call
+White-tailed sea eagle|Haliaeetus albicilla|0|1|Eurasia|Fish, birds|LC|Europe's largest eagle, reintroduced widely.
+Great cormorant|Phalacrocorax carbo|0|30|Worldwide|Fish|LC|Plumage gets wet to reduce buoyancy for diving.
+Flightless cormorant|Nannopterum harrisi|0|10|Galápagos|Fish, octopus|VU|Lost the ability to fly.
+Red-billed tropicbird|Phaethon aethereus|0|5|Tropical oceans|Fish, squid|LC|Long tail streamers; nests on cliffs.

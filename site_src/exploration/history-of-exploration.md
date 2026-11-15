@@ -24,6 +24,9 @@ image: /exploration/png/depth_records_generated.png
 </div>
 :::
 
+
+{{chart:dives}}
+
 ## Four eras
 
 1. **Sounding and dredging (1870s–1920s):** ropes, wires and nets. The Challenger expedition dispelled the "azoic hypothesis" that no life exists below ~550 m.

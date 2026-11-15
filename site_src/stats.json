@@ -1,0 +1,244 @@
+{
+ "charts": {
+  "bleach": {
+   "type": "vbar",
+   "title": "Global coral bleaching events: reef area under bleaching-level heat stress",
+   "labels": [
+    "1998",
+    "2010",
+    "2014–17",
+    "2023–25"
+   ],
+   "values": [
+    21,
+    37,
+    68.2,
+    84.4
+   ],
+   "unit": "%",
+   "source": "NOAA Coral Reef Watch",
+   "hl": [
+    3
+   ]
+  },
+  "seabed": {
+   "type": "line",
+   "title": "Seafloor mapped to modern resolution (Seabed 2030)",
+   "x": [
+    "2017",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "Jun 2025",
+    "Apr 2026"
+   ],
+   "series": [
+    {
+     "name": "% of seafloor mapped",
+     "values": [
+      6,
+      15,
+      19,
+      20.6,
+      23.4,
+      24.9,
+      26.1,
+      27.3,
+      28.7
+     ]
+    }
+   ],
+   "unit": "%",
+   "ymin": 0,
+   "source": "Nippon Foundation–GEBCO Seabed 2030; IHO"
+  },
+  "ohc": {
+   "type": "vbar",
+   "title": "Heat added to the upper 2,000 m of the ocean in one year",
+   "labels": [
+    "2024",
+    "2025"
+   ],
+   "values": [
+    16,
+    23
+   ],
+   "unit": " ZJ",
+   "source": "Pan, Cheng et al. 2026 via Eos",
+   "note": "1 ZJ = 10²¹ joules. 23 ZJ ≈ 200× humanity's annual electricity use."
+  },
+  "mpa": {
+   "type": "hbar",
+   "title": "How much of the ocean is protected (2026)",
+   "labels": [
+    "Target by 2030 (30×30)",
+    "Designated protected or conserved",
+    "National waters covered",
+    "Fully or highly protected",
+    "High seas covered",
+    "Effectiveness assessed"
+   ],
+   "values": [
+    30,
+    10.01,
+    23.2,
+    3.3,
+    1.7,
+    1.3
+   ],
+   "unit": "%",
+   "source": "IUCN/UNEP-WCMC; MPAtlas; Mongabay"
+  },
+  "dives": {
+   "type": "vbar",
+   "title": "Record crewed dives (metres)",
+   "labels": [
+    "Bathysphere 1934",
+    "Trieste 1960",
+    "Deepsea Challenger 2012",
+    "Limiting Factor 2019",
+    "Fendouzhe 2020"
+   ],
+   "values": [
+    923,
+    10916,
+    10908,
+    10925,
+    10909
+   ],
+   "unit": "",
+   "source": "Expedition records"
+  },
+  "areas": {
+   "type": "donut",
+   "title": "Share of world ocean area by ocean",
+   "labels": [
+    "Pacific",
+    "Atlantic",
+    "Indian",
+    "Southern",
+    "Arctic"
+   ],
+   "values": [
+    165,
+    106,
+    71,
+    22,
+    16
+   ],
+   "note": "Million km² (approx.)"
+  },
+  "seen": {
+   "type": "hbar",
+   "title": "How much of the deep seafloor we know",
+   "labels": [
+    "Mapped (any resolution, satellite)",
+    "Mapped at modern resolution (2026)",
+    "Ever seen by a camera"
+   ],
+   "values": [
+    100,
+    28.7,
+    0.001
+   ],
+   "unit": "%",
+   "log": true,
+   "source": "Bell et al. 2025; Seabed 2030"
+  },
+  "oxygen": {
+   "type": "hbar",
+   "title": "Ocean oxygen loss",
+   "labels": [
+    "Global ocean O₂ lost since 1960",
+    "Projected loss by 2100 (high emissions)"
+   ],
+   "values": [
+    2,
+    7
+   ],
+   "unit": "%",
+   "source": "Schmidtko et al. 2017; projections",
+   "note": "About 15% of the observed loss is because warmer water holds less gas; the rest comes from weaker mixing."
+  },
+  "amoc": {
+   "type": "line",
+   "title": "AMOC strength projections to 2100 (relative to today)",
+   "x": [
+    "2025",
+    "2050",
+    "2075",
+    "2100"
+   ],
+   "series": [
+    {
+     "name": "Observation-constrained (central)",
+     "values": [
+      100,
+      82,
+      65,
+      49
+     ]
+    },
+    {
+     "name": "Strong emission cuts",
+     "values": [
+      100,
+      90,
+      84,
+      80
+     ]
+    }
+   ],
+   "unit": "%",
+   "ymin": 0,
+   "source": "Portmann et al. 2026 (central ~51% weakening; ~20% with strong cuts); intermediate points interpolated"
+  },
+  "census": {
+   "type": "vbar",
+   "title": "New marine species recorded by the Ocean Census",
+   "labels": [
+    "Usual yearly rate (approx.)",
+    "Apr 2025–Mar 2026"
+   ],
+   "values": [
+    728,
+    1121
+   ],
+   "unit": "",
+   "source": "Nekton / Ocean Census (+54%)"
+  }
+ },
+ "groups": [
+  {
+   "id": "climate",
+   "title": "🌡 Ocean & climate",
+   "charts": [
+    "ohc",
+    "bleach",
+    "oxygen",
+    "amoc"
+   ]
+  },
+  {
+   "id": "exploration",
+   "title": "🛰 Exploration & knowledge",
+   "charts": [
+    "seabed",
+    "seen",
+    "dives",
+    "census"
+   ]
+  },
+  {
+   "id": "protection",
+   "title": "🛡 Protection & geography",
+   "charts": [
+    "mpa",
+    "areas"
+   ]
+  }
+ ]
+}

@@ -11,13 +11,52 @@
 "deepest_point": "Challenger Deep, Mariana Trench",
 "salinity": "~34–35 PSU",
 "summary": "The largest and deepest ocean, covering about a third of Earth's surface.",
-"overview": "Larger than all land combined. Ringed by the 'Ring of Fire' of subduction zones, volcanoes and the deepest trenches.",
-"geography": "Bounded by Asia and Australia to the west and the Americas to the east. Holds the Mariana, Tonga, Kuril–Kamchatka, Philippine and Kermadec trenches.",
-"water": "The El Niño–Southern Oscillation (ENSO) in the tropical Pacific drives global climate variability. It holds the largest oxygen minimum zones (eastern tropical Pacific).",
-"life": "The Coral Triangle (the world's peak marine biodiversity), the Clarion-Clipperton Zone nodule fields, and hadal snailfish.",
-"human": "The largest tuna fisheries. Island nations depend heavily on it.",
-"threats": "Deep-sea mining in the CCZ, warming, bleaching, plastics (the Great Pacific Garbage Patch).",
-"wiki": "Pacific_Ocean"
+"overview": "The Pacific is the largest single feature on Earth's surface: at about 165 million km² it is bigger than all the land combined and holds roughly half of the planet's free water. It stretches about 15,500 km from the Bering Strait to Antarctica and nearly 20,000 km from Indonesia to Colombia. Its name, 'peaceful sea', came from Magellan in 1520, but it is the most geologically violent ocean, ringed by the Ring of Fire. Its tropical belt generates the El Niño–Southern Oscillation, the most important source of year-to-year climate variability on the planet.",
+"geography": "Bounded by Asia and Australia to the west, the Americas to the east and the Southern Ocean to the south (about 60°S). Marginal seas include the Bering, Okhotsk, Japan, Yellow, East and South China, Philippine, Coral and Tasman seas. More than 25,000 islands lie in the Pacific, more than in all other oceans combined, grouped into Melanesia, Micronesia and Polynesia.",
+"water": "Two great gyres (North and South Pacific) circulate clockwise and anticlockwise. The Kuroshio is the Pacific's Gulf Stream; the California and Humboldt currents carry cold water toward the equator and drive rich upwelling. The tropical Pacific warm pool is the warmest large body of ocean water. Every 2–7 years El Niño weakens the trade winds and warms the eastern Pacific, while La Niña does the opposite; the swings shift rainfall, cyclones and fisheries worldwide. The eastern tropical Pacific holds the largest oxygen minimum zone in the ocean.",
+"life": "The Coral Triangle (Indonesia, Philippines, Papua New Guinea, Solomon Islands) holds about 76% of all known coral species and the world's richest reef fish diversity. The Great Barrier Reef is the largest living structure on Earth. Kelp forests line California and Chile. Upwelling off Peru supports the anchoveta, the largest single-species fishery. The open Pacific holds tuna, blue sharks, leatherback turtles, albatrosses and the largest whales; its trenches hold snailfish and the deepest known chemosynthetic communities.",
+"human": "About half of the world's fish catch comes from the Pacific, including tuna, pollock, anchoveta and squid. It carries the busiest container trade routes between Asia and the Americas. Pacific island nations have vast Exclusive Economic Zones that make them 'large ocean states'.",
+"threats": "Coral bleaching (the Great Barrier Reef has had repeated mass bleaching), overfishing of bluefin tuna and sharks, the Great Pacific Garbage Patch, nuclear-test legacies (Bikini, Mururoa), deep-sea mining interest in the CCZ, and sea-level rise threatening atoll nations such as Tuvalu and Kiribati.",
+"wiki": "Pacific_Ocean",
+"seafloor": "The Pacific plate is the largest tectonic plate and is being consumed at subduction zones on almost every side. That creates the deepest trenches on Earth: Mariana (Challenger Deep, ~10,935 m), Tonga (~10,800 m), Philippine, Kuril–Kamchatka, Kermadec and Japan trenches. The East Pacific Rise spreads up to ~15 cm a year, the fastest on Earth, and hosts black-smoker vents. Tens of thousands of seamounts and guyots dot the basin, including the Hawaiian–Emperor chain that records the plate's motion over a hotspot. The Clarion-Clipperton Zone between Hawaii and Mexico holds the world's richest polymetallic nodule fields.",
+"climate_weather": "The western North Pacific produces more tropical cyclones (typhoons) than any other basin, about a third of the global total, including the strongest storms on record. El Niño years bring floods to Peru, drought to Australia and Indonesia, and weaker Indian monsoons. The Pacific Decadal Oscillation shifts sea temperatures over decades, and the 2014–16 'Blob' marine heatwave killed seabirds, whales and kelp along North America.",
+"ecosystems": "Coral reefs and atolls, kelp forests, mangroves of Southeast Asia, upwelling systems (California, Humboldt), hydrothermal vents (East Pacific Rise, back-arc basins), hadal trenches, seamounts, abyssal nodule plains, and the oligotrophic central gyres that are the ocean's 'deserts'.",
+"history": "Polynesian navigators settled the Pacific's islands over thousands of years using stars, swells and birds, reaching Hawaii, Rapa Nui and New Zealand. Magellan crossed in 1520–21; Cook mapped much of it in the 1770s. HMS Challenger sounded the Mariana area in 1875, Trieste reached Challenger Deep in 1960, and Alvin found the first hydrothermal vents on the Galápagos Rift in 1977. The Pacific was the main theatre of naval warfare in World War II, leaving thousands of wrecks, from Pearl Harbor to Truk Lagoon.",
+"match": [
+"Pacific",
+"Indo-Pacific",
+"Indo-W Pacific",
+"Indo-West Pacific",
+"Worldwide",
+"Tropical worldwide",
+"worldwide",
+"Hawaii",
+"Galápagos",
+"Mariana",
+"Japan",
+"Australia",
+"New Zealand",
+"Kermadec",
+"Atacama",
+"Humboldt",
+"California",
+"Philippines",
+"Coral Sea",
+"Peru",
+"Chile",
+"Bering",
+"Alaska"
+],
+"see": [
+"climate/ocean-heat",
+"climate/coral-bleaching",
+"climate/deoxygenation",
+"seafloor/ocean-trenches",
+"seafloor/polymetallic-nodules",
+"life/hadal-life",
+"impacts/deep-sea-mining",
+"impacts/plastics-and-pollution"
+]
 },
 {
 "slug": "atlantic-ocean",
@@ -31,13 +70,48 @@
 "deepest_point": "Milwaukee Deep, Puerto Rico Trench",
 "salinity": "~35–37 PSU (saltiest open ocean)",
 "summary": "The second-largest ocean, split down the middle by the Mid-Atlantic Ridge and home to the AMOC.",
-"overview": "An S-shaped basin widening by a few cm a year along the Mid-Atlantic Ridge.",
-"geography": "Between the Americas and Europe/Africa. Includes the Caribbean, Gulf of Mexico, Mediterranean and North Sea as marginal seas.",
-"water": "The Gulf Stream and AMOC carry heat north. The North Atlantic is a key site of deep-water formation.",
-"life": "Lost City hydrothermal field, the Sargasso Sea (eel spawning), cold-water coral reefs.",
-"human": "Historic cod, herring and tuna fisheries. Major shipping lanes.",
-"threats": "AMOC weakening, overfishing, hurricanes intensified by warm water.",
-"wiki": "Atlantic_Ocean"
+"overview": "The Atlantic is the second-largest ocean (about 106 million km²) and the youngest of the major basins, opening as Pangaea broke apart around 180 million years ago. It is still widening by about 2.5 cm a year along the Mid-Atlantic Ridge. It is the saltiest open ocean and the engine room of the global overturning circulation: cold, salty water sinks in the north and spreads through the deep ocean worldwide. That makes the Atlantic central to Earth's climate.",
+"geography": "An S-shaped basin between the Americas to the west and Europe and Africa to the east, from the Arctic to the Southern Ocean. Marginal seas include the Caribbean, Gulf of Mexico, Mediterranean, North, Baltic, Norwegian and Labrador seas, plus the Sargasso Sea, the only sea with no coastline. It drains more river water than any other ocean, including the Amazon, Congo, Mississippi and Niger.",
+"water": "The Gulf Stream and North Atlantic Current carry tropical heat to Europe. The Atlantic Meridional Overturning Circulation (AMOC) sinks water in the Labrador and Nordic seas, forming North Atlantic Deep Water. In the south, the Benguela upwelling off Namibia is one of the most productive systems on Earth. Salinity reaches ~37 PSU in the subtropics because evaporation exceeds rainfall.",
+"life": "Cold-water coral reefs off Norway and Ireland, the cod and herring stocks of the Grand Banks and North Sea, North Atlantic right whales, humpbacks breeding in the Caribbean, Atlantic bluefin tuna crossing the basin, the Sargasso Sea's floating sargassum community where European and American eels spawn, sea turtles, gannets, puffins, and the Lost City vent fauna.",
+"human": "Historic cod, herring, tuna and whale fisheries; North Sea oil and offshore wind; the busiest transatlantic shipping and cable routes.",
+"threats": "Collapse of the Grand Banks cod (1992), AMOC weakening, sargassum blooms swamping Caribbean beaches since 2011, ship strikes and entanglement of right whales, plastic accumulation in the North Atlantic gyre, and warming that pushes fish north.",
+"wiki": "Atlantic_Ocean",
+"seafloor": "The Mid-Atlantic Ridge runs ~16,000 km down the centre and rises above sea level in Iceland and the Azores. Vent fields such as TAG, Rainbow and the alkaline Lost City lie along it. The deepest point is the Milwaukee Deep in the Puerto Rico Trench (~8,376 m); the South Sandwich Trench lies in the far south. Wide continental shelves (Grand Banks, North Sea, Patagonian shelf) host rich fisheries, and submarine canyons cut the margins.",
+"climate_weather": "The tropical Atlantic produces hurricanes from June to November, born from African easterly waves over warm water above ~26.5°C. The North Atlantic Oscillation steers European winters. A weakening AMOC is one of the major climate tipping-point concerns (see AMOC weakening).",
+"ecosystems": "Sargassum mats, coral reefs (Caribbean), cold-water coral mounds, seagrass and mangroves, upwelling systems (Benguela, Canary), vent and seep communities, and the abyssal plains of the Cape Verde and Sohm basins.",
+"history": "Vikings reached North America around 1000 CE; Columbus crossed in 1492. The Atlantic slave trade forcibly carried over 12 million Africans across it. Matthew Maury charted its winds and currents in the 1850s; the first transatlantic telegraph cable was laid in 1858. Famous wrecks include the Titanic (found in 1985 at ~3,800 m), Lusitania and Bismarck. Endurance, lost in the Weddell Sea in 1915, was found in 2022.",
+"match": [
+"Atlantic",
+"W Atlantic",
+"NE Atlantic",
+"N Atlantic",
+"E Atlantic",
+"S Atlantic",
+"Caribbean",
+"Gulf of Mexico",
+"Worldwide",
+"Tropical worldwide",
+"worldwide",
+"Mid-Atlantic",
+"Sargasso",
+"Bermuda",
+"Canary",
+"West Africa",
+"Grand Banks",
+"Florida",
+"Norway",
+"Iceland",
+"Greenland"
+],
+"see": [
+"climate/amoc-weakening",
+"ocean-system/deep-circulation",
+"climate/coral-bleaching",
+"impacts/bottom-trawling",
+"seafloor/hydrothermal-vents",
+"exploration/history-of-exploration"
+]
 },
 {
 "slug": "indian-ocean",
@@ -51,13 +125,46 @@
 "deepest_point": "Java (Sunda) Trench",
 "salinity": "~34–35 PSU",
 "summary": "The warmest ocean, ruled by monsoon reversals of winds and currents.",
-"overview": "Enclosed to the north by Asia, so it lacks a northern polar connection.",
-"geography": "Between Africa, Asia, Australia and the Southern Ocean. Includes the Arabian Sea and Bay of Bengal.",
-"water": "Monsoon-driven seasonal current reversal (Somali Current). The Indian Ocean Dipole affects rainfall in India, Africa and Australia.",
-"life": "Coelacanths, whale sharks of the Maldives, scaly-foot snails at vents.",
-"human": "Crucial for Indian, East African and Indonesian fisheries and trade.",
-"threats": "Fastest-warming ocean, bleaching, oxygen loss in the Arabian Sea.",
-"wiki": "Indian_Ocean"
+"overview": "The Indian Ocean (~70.5 million km²) is the third-largest and the warmest ocean. Unlike the Pacific and Atlantic, it is closed to the north by Asia, so it has no northern polar water. Instead its circulation is ruled by the monsoon: winds and major currents reverse direction twice a year. It is named after India, whose rainfall, agriculture and economy depend directly on its behaviour.",
+"geography": "Bounded by Africa to the west, Asia to the north, Australia and Indonesia to the east and the Southern Ocean to the south. Marginal seas include the Arabian Sea, Bay of Bengal, Andaman Sea, Red Sea, Persian Gulf, Laccadive Sea and Mozambique Channel. Island groups include Madagascar, Sri Lanka, the Maldives, Lakshadweep, the Andaman and Nicobar Islands, Seychelles, Mauritius and Réunion. Major rivers include the Ganges–Brahmaputra, Indus, Zambezi and Irrawaddy.",
+"water": "During the southwest monsoon (June–September) the Somali Current flows north at up to ~3.5 m/s and drives strong upwelling off Somalia, Oman and western India; in the northeast monsoon it reverses. The Indian Ocean Dipole (IOD), a see-saw of temperatures between west and east, shapes rainfall in India, East Africa and Australia. The Agulhas Current, one of the strongest western boundary currents, leaks warm salty water into the Atlantic. The Arabian Sea and Bay of Bengal hold intense oxygen minimum zones.",
+"life": "Coelacanths off South Africa and Comoros, whale sharks of the Maldives and Ningaloo, dugongs, olive ridley turtles mass-nesting in Odisha, the Sundarbans mangroves with their tigers and Ganges river dolphins, manta rays of the Maldives, hilsa migrating up the Bengal rivers, and vent fauna like the scaly-foot snail.",
+"human": "Fisheries feed hundreds of millions of people. It carries major oil routes through the Strait of Hormuz and Bab-el-Mandeb, and about 80% of global seaborne oil trade passes through it. India's Deep Ocean Mission and Samudrayaan target its depths.",
+"threats": "Fastest warming of any ocean, repeated coral bleaching (the Maldives and Lakshadweep), expanding oxygen minimum zones in the Arabian Sea, sea-level rise threatening the Maldives, plastics carried by rivers, and overfishing.",
+"wiki": "Indian_Ocean",
+"seafloor": "The Java (Sunda) Trench (~7,290 m) is its deepest point and the source of the 2004 Sumatra–Andaman earthquake and tsunami. Three ridges (Central, Southwest and Southeast Indian ridges) meet at the Rodrigues Triple Junction, where the Kairei vent field hosts the scaly-foot snail. The Bengal Fan, built by sediment from the Himalaya via the Ganges–Brahmaputra, is the largest submarine fan on Earth. The Central Indian Ocean Basin holds nodule fields explored by India under an ISA contract.",
+"climate_weather": "The Bay of Bengal produces some of the deadliest tropical cyclones in history, because a shallow, funnel-shaped bay amplifies storm surges onto the low Ganges delta. Arabian Sea cyclones have become more frequent and intense as it warms. Monsoon rain from the ocean supplies most of India's annual rainfall. The Indian Ocean is warming faster than any other ocean, intensifying marine heatwaves.",
+"ecosystems": "Coral atolls (Maldives, Lakshadweep, Chagos), the Sundarbans (the world's largest mangrove forest), seagrass meadows grazed by dugongs, upwelling systems, deep oxygen minimum zones and hydrothermal vents.",
+"history": "Monsoon winds powered trade between Africa, Arabia, India and China for over 2,000 years. Vasco da Gama reached India by sea in 1498. The 2004 tsunami killed about 230,000 people in 14 countries and led to the Indian Ocean Tsunami Warning System.",
+"match": [
+"Indian",
+"Indo-Pacific",
+"Indo-W Pacific",
+"Indo-West Pacific",
+"N Indian Ocean",
+"Indian Ocean",
+"Red Sea",
+"Bay of Bengal",
+"Arabian",
+"Maldives",
+"Sundarbans",
+"South Asia",
+"Ganges",
+"Worldwide",
+"Tropical worldwide",
+"worldwide",
+"Madagascar",
+"Mozambique",
+"Persian Gulf",
+"Odisha"
+],
+"see": [
+"climate/ocean-heat",
+"climate/deoxygenation",
+"climate/coral-bleaching",
+"seafloor/hydrothermal-vents",
+"exploration/vehicles-and-technology"
+]
 },
 {
 "slug": "southern-ocean",
@@ -71,13 +178,37 @@
 "deepest_point": "Factorian Deep, South Sandwich Trench",
 "salinity": "~34 PSU",
 "summary": "The ring of ocean around Antarctica, driven by the strongest current on Earth.",
-"overview": "Recognised as the fifth ocean by the IHO in 2000 and by National Geographic in 2021.",
-"geography": "South of ~60°S around Antarctica.",
-"water": "The Antarctic Circumpolar Current moves ~100+ million m³/s. It forms Antarctic Bottom Water and takes up a large share of anthropogenic heat and CO₂.",
-"life": "Krill, penguins, colossal squid, Antarctic toothfish, icefish (with no haemoglobin).",
-"human": "Managed by CCAMLR. Krill and toothfish fisheries.",
-"threats": "Sea-ice loss, warming, acidification, krill fishing.",
-"wiki": "Southern_Ocean"
+"overview": "The Southern Ocean encircles Antarctica south of about 60°S and was formally recognised as the fifth ocean by the International Hydrographic Organization in 2000 (and by National Geographic in 2021). It is defined less by coastlines than by a current: the Antarctic Circumpolar Current, the largest current on Earth. It is the ocean's main gateway between surface and deep water, absorbing a large share of the heat and carbon dioxide that humans add to the climate system.",
+"geography": "Surrounds Antarctica, with the Weddell, Ross, Amundsen, Bellingshausen and Scotia seas as major embayments. The Drake Passage between South America and the Antarctic Peninsula is its narrowest point. Sub-Antarctic islands such as South Georgia, Kerguelen, Heard and Macquarie are wildlife strongholds.",
+"water": "The Antarctic Circumpolar Current flows eastward around the continent, carrying over 100 times the flow of all the world's rivers. Antarctic Bottom Water, the densest water in the ocean, forms on the Weddell and Ross shelves as sea ice forms and rejects salt, then spreads along the floor of all oceans. Upwelling of old deep water around Antarctica brings nutrients and CO₂ back to the surface.",
+"life": "Antarctic krill (perhaps the largest biomass of any wild animal species), emperor, Adélie, chinstrap, gentoo and king penguins, Weddell, leopard and crabeater seals, blue, humpback, fin and minke whales, albatrosses and petrels, and icefish with no red blood cells. Benthic communities include giant sea spiders and slow-growing sponges.",
+"human": "Krill and toothfish fisheries regulated by CCAMLR; tourism to the Antarctic Peninsula; research stations from about 30 nations, including India's Maitri and Bharati.",
+"threats": "Warming and sea-ice loss, ocean acidification (cold water absorbs CO₂ fastest), krill fishing near penguin colonies, ice-shelf collapse and invasive species arriving on ships.",
+"wiki": "Southern_Ocean",
+"seafloor": "The South Sandwich Trench (~7,400 m, the Factorian Deep) is the deepest point. Continental shelves around Antarctica are unusually deep (~500 m) because the weight of the ice sheet pushes the crust down. Mid-ocean ridges and seamounts steer the circumpolar current.",
+"climate_weather": "Westerly winds are the strongest on Earth ('Roaring Forties, Furious Fifties, Screaming Sixties'). Sea ice expands each winter to about 18 million km² and shrinks to ~3 million km² in summer; record lows since 2016, and especially 2023, have alarmed scientists. Warm water reaching beneath ice shelves (Thwaites, Pine Island) threatens future sea-level rise.",
+"ecosystems": "Sea-ice ecosystems (algae under ice), krill-based food webs, sub-Antarctic island seabird and seal colonies, deep continental shelves, and the ice-shelf cavities beneath floating ice.",
+"history": "Cook crossed the Antarctic Circle in 1773. Sealers and whalers devastated fur seals and great whales in the 19th and 20th centuries. The Antarctic Treaty (1959) set the continent aside for peace and science; CCAMLR (1982) manages its marine life. Shackleton's Endurance sank in the Weddell Sea in 1915 and was found at 3,008 m in 2022.",
+"match": [
+"Southern Ocean",
+"Antarctic",
+"Antarctica",
+"Sub-Antarctic",
+"Southern oceans",
+"Southern Hemisphere",
+"South Georgia",
+"Worldwide",
+"worldwide",
+"Pole to pole",
+"Ross",
+"Weddell"
+],
+"see": [
+"ocean-system/deep-circulation",
+"climate/acidification",
+"climate/ocean-heat",
+"exploration/history-of-exploration"
+]
 },
 {
 "slug": "arctic-ocean",
@@ -91,13 +222,35 @@
 "deepest_point": "Molloy Deep, Fram Strait",
 "salinity": "~30–34 PSU (fresher at surface)",
 "summary": "The smallest, shallowest ocean, losing its summer sea ice fast.",
-"overview": "Surrounded by Eurasia and North America, with wide continental shelves.",
-"geography": "Connected to the Atlantic via the Fram Strait and to the Pacific via the Bering Strait.",
-"water": "A fresh, cold surface layer over warmer Atlantic water. Summer sea-ice extent has fallen sharply since 1979.",
-"life": "Narwhals, belugas, polar bears, Greenland sharks.",
-"human": "New shipping routes and resource interest as ice retreats.",
-"threats": "Ice loss, 'Atlantification', pollution transported from lower latitudes.",
-"wiki": "Arctic_Ocean"
+"overview": "The Arctic is the smallest (~15.6 million km²) and shallowest ocean, mostly enclosed by Eurasia and North America. Much of it is covered by sea ice that grows and shrinks with the seasons. It is warming about four times faster than the global average, so its ice cover is one of the clearest signals of climate change.",
+"geography": "Ringed by Russia, Norway, Greenland, Canada and Alaska. Marginal seas include the Barents, Kara, Laptev, East Siberian, Chukchi and Beaufort seas, plus Baffin Bay and Hudson Bay. The Fram Strait is the main deep connection to the Atlantic; the narrow Bering Strait links it to the Pacific.",
+"water": "The Beaufort Gyre stores fresh water from rivers and melting ice, and the Transpolar Drift carries ice from Siberia toward Fram Strait. Huge Siberian rivers (Ob, Yenisei, Lena) make the surface fresher than any other ocean. Atlantic water entering through the Barents Sea is warming the Arctic from below ('Atlantification').",
+"life": "Polar bears, walruses, ringed and bearded seals, narwhals, belugas and bowhead whales, polar cod living in ice cracks, ice algae, Arctic char, little auks and ivory gulls. The Bering and Barents seas host some of the richest fisheries on Earth.",
+"human": "Indigenous subsistence hunting, Barents Sea and Bering Sea fisheries, Arctic shipping routes opening as ice melts (the Northern Sea Route), and oil and gas exploration.",
+"threats": "Rapid ice loss, Atlantification, shipping and oil-spill risk, microplastics trapped in sea ice, and fisheries moving north into unregulated waters (a central Arctic fishing moratorium was agreed in 2018).",
+"wiki": "Arctic_Ocean",
+"seafloor": "The Arctic has the widest continental shelves on Earth, especially off Siberia, holding about half its area. The Lomonosov Ridge divides it into the Amerasian and Eurasian basins; the Gakkel Ridge is the slowest-spreading ridge on Earth yet hosts active vents (the Aurora field). The deepest point is the Molloy Deep (~5,550 m) in the Fram Strait.",
+"climate_weather": "September sea-ice extent has fallen by about 13% per decade since satellite records began in 1979, and multi-year ice has largely disappeared. Loss of white ice exposes dark water that absorbs more sunlight, accelerating warming (ice–albedo feedback). Thawing subsea permafrost may release methane.",
+"ecosystems": "Sea-ice ecosystems, polynyas (open-water oases in ice), shallow Siberian shelves, the Barents Sea cod system and vents on the Gakkel Ridge.",
+"history": "Inuit and other Indigenous peoples have lived along its coasts for millennia. Searches for the Northwest Passage killed Franklin's 1845 expedition; its ships Erebus and Terror were found in 2014 and 2016. Nansen's Fram drifted across it in 1893–96; the submarine USS Nautilus passed under the North Pole in 1958.",
+"match": [
+"Arctic",
+"Arctic; N Atlantic",
+"Greenland",
+"Svalbard",
+"Barents",
+"Bering",
+"Alaska",
+"Pole to pole",
+"worldwide",
+"Worldwide"
+],
+"see": [
+"climate/ocean-heat",
+"climate/acidification",
+"ocean-system/deep-circulation",
+"exploration/history-of-exploration"
+]
 },
 {
 "slug": "mediterranean-sea",
@@ -117,7 +270,23 @@
 "life": "Posidonia seagrass meadows, monk seals, bluefin tuna spawning grounds. A biodiversity hotspot with many endemics.",
 "human": "Over 150 million coastal inhabitants and heavy tourism.",
 "threats": "Marine heatwaves, invasive species via the Suez Canal, overfishing, plastics.",
-"wiki": "Mediterranean_Sea"
+"wiki": "Mediterranean_Sea",
+"seafloor": "A complex basin of sub-basins (Alboran, Tyrrhenian, Ionian, Aegean, Levantine) with the Calypso Deep (~5,267 m) off Greece. About 5.6 million years ago it nearly dried out in the Messinian Salinity Crisis, leaving thick salt layers; the Zanclean flood through Gibraltar refilled it. Brine pools and mud volcanoes lie on its floor.",
+"climate_weather": "A hot, dry-summer 'Mediterranean climate'. It is warming ~20% faster than the global ocean, with repeated marine heatwaves since 2003 causing mass die-offs of gorgonians and the noble pen shell. 'Medicanes' (Mediterranean hurricane-like storms) such as Daniel in 2023 caused catastrophic floods in Libya.",
+"ecosystems": "Posidonia seagrass meadows, coralligenous reefs, red coral, submarine caves, deep cold-water corals, and over 1,000 non-native species that arrived through the Suez Canal (Lessepsian migration).",
+"history": "Cradle of Phoenician, Greek and Roman sea trade. Wrecks include the Antikythera wreck (with the Antikythera mechanism, the oldest known analogue computer) and Bronze Age ships like Uluburun. Jacques Cousteau pioneered scuba diving here.",
+"match": [
+"Mediterranean",
+"E Atlantic; Mediterranean",
+"NE Atlantic; Mediterranean",
+"invasive Mediterranean"
+],
+"see": [
+"climate/ocean-heat",
+"impacts/marine-protected-areas",
+"seafloor/canyons-fjords-brine-pools",
+"impacts/plastics-and-pollution"
+]
 },
 {
 "slug": "caribbean-sea",
@@ -137,7 +306,22 @@
 "life": "Reef fish, sea turtles, invasive lionfish, the world's deepest known vents (Beebe vent field, ~5,000 m).",
 "human": "Tourism and fisheries economies.",
 "threats": "Bleaching, Sargassum influxes, invasive lionfish.",
-"wiki": "Caribbean_Sea"
+"wiki": "Caribbean_Sea",
+"seafloor": "Floored by the Caribbean plate, with the Cayman Trough (~7,686 m) and the Mid-Cayman Rise, home to the deepest known black smokers (Beebe vent field, ~5,000 m). The Puerto Rico Trench lies just to the north.",
+"climate_weather": "The core of the Atlantic hurricane belt: warm water (>26.5°C) fuels storms from June to November. Sargassum influxes since 2011 smother beaches. Repeated heatwaves have bleached most reefs.",
+"ecosystems": "Coral reefs, the Mesoamerican Barrier Reef (second-largest reef system), mangroves, seagrass with manatees and turtles, and deep vents.",
+"history": "Columbus arrived in 1492; the Spanish treasure fleets and pirates of the 17th–18th centuries left many wrecks, including the San José galleon (found off Colombia in 2015).",
+"match": [
+"Caribbean",
+"W Atlantic",
+"Tropical worldwide",
+"Florida"
+],
+"see": [
+"climate/ocean-heat",
+"climate/coral-bleaching",
+"impacts/marine-protected-areas"
+]
 },
 {
 "slug": "gulf-of-mexico",
@@ -157,7 +341,20 @@
 "life": "Brine pools with 'hot tub of despair' lakes, cold seeps, giant isopods.",
 "human": "Major oil and gas region. Deepwater Horizon spill in 2010.",
 "threats": "Hypoxia, oil pollution, intensifying hurricanes.",
-"wiki": "Gulf_of_Mexico"
+"wiki": "Gulf_of_Mexico",
+"seafloor": "Wide shelves around a deep central basin (Sigsbee Deep, ~4,384 m). Salt domes and cold seeps produce brine pools and methane hydrates; the Chicxulub crater from the dinosaur-killing asteroid lies under its southern rim.",
+"climate_weather": "The Loop Current feeds warm water that intensifies hurricanes (Katrina 2005, Harvey 2017, Ian 2022). Mississippi River nutrients create a summer 'dead zone' of hypoxic water averaging ~14,000 km².",
+"ecosystems": "Seagrass, oyster reefs, the Flower Garden Banks coral reefs, cold seeps with tubeworms and ice worms, and Kemp's ridley turtle nesting beaches.",
+"history": "The 2010 Deepwater Horizon spill released ~4.9 million barrels of oil, the largest marine spill in US history.",
+"match": [
+"Gulf of Mexico",
+"W Atlantic"
+],
+"see": [
+"climate/deoxygenation",
+"seafloor/canyons-fjords-brine-pools",
+"seafloor/hydrothermal-vents"
+]
 },
 {
 "slug": "sargasso-sea",
@@ -175,7 +372,20 @@
 "life": "The spawning ground of European and American eels, and a nursery for turtles.",
 "human": "Hamilton Declaration (2014) for conservation cooperation.",
 "threats": "Plastic accumulation in the gyre, shipping.",
-"wiki": "Sargasso_Sea"
+"wiki": "Sargasso_Sea",
+"seafloor": "Overlies deep abyssal plains (Nares and Hatteras) and the Bermuda Rise; about 4,500–6,500 m deep.",
+"climate_weather": "Bounded only by currents of the North Atlantic Gyre, so it has calm, clear, nutrient-poor warm water. The Bermuda Atlantic Time-series Study (since 1988) records ocean warming and acidification here.",
+"ecosystems": "Floating sargassum mats host endemic sargassum fish, crabs and nudibranchs, and nurseries for sea turtles. It is the spawning ground of European and American eels.",
+"history": "Named by Portuguese sailors; Columbus feared his ships would be trapped in its weed. The 2014 Hamilton Declaration created a commission for its conservation.",
+"match": [
+"Sargasso",
+"Sargasso Sea; Atlantic",
+"W Atlantic"
+],
+"see": [
+"climate/acidification",
+"impacts/plastics-and-pollution"
+]
 },
 {
 "slug": "north-sea",
@@ -195,7 +405,20 @@
 "life": "Herring, cod, harbour porpoises, grey seals.",
 "human": "Oil and gas, the largest offshore wind build-out in the world, shipping.",
 "threats": "Bottom trawling (high carbon disturbance), heavy shipping.",
-"wiki": "North_Sea"
+"wiki": "North_Sea",
+"seafloor": "A shallow shelf sea (average ~95 m) that was dry land, Doggerland, until about 8,000 years ago; fishermen still trawl up mammoth bones and Stone Age tools. The Norwegian Trench reaches ~700 m.",
+"climate_weather": "Severe winter storms and storm surges (the 1953 flood killed over 2,000 people in the Netherlands and UK). Warming has shifted cod north and brought in warm-water species.",
+"ecosystems": "Sandbanks, oyster reefs (being restored), Wadden Sea mudflats (a UNESCO World Heritage site), seal colonies and seabird cliffs.",
+"history": "Viking routes, the Hanseatic League, the Battle of Jutland (1916) whose wrecks lie on the floor, North Sea oil since 1970 and now the world's largest offshore wind farms.",
+"match": [
+"NE Atlantic",
+"N Atlantic",
+"North Sea"
+],
+"see": [
+"impacts/bottom-trawling",
+"climate/ocean-heat"
+]
 },
 {
 "slug": "baltic-sea",
@@ -215,7 +438,18 @@
 "life": "Few species tolerate brackish water. Grey seals, cod (in decline).",
 "human": "Shipping and fishing.",
 "threats": "Eutrophication and hypoxia, overfishing.",
-"wiki": "Baltic_Sea"
+"wiki": "Baltic_Sea",
+"seafloor": "A young, shallow (average ~55 m) brackish sea left by the retreating ice sheet; the Landsort Deep reaches ~459 m. Land is still rising after the ice age.",
+"climate_weather": "Very low salinity (from ~2 PSU in the north to ~20 at the entrance) and limited exchange with the North Sea make it vulnerable. Its deep basins have one of the world's largest dead zones, caused by nutrient runoff.",
+"ecosystems": "A mix of marine and freshwater species, bladderwrack, grey and ringed seals, harbour porpoises, cod and herring.",
+"history": "The cold, low-salinity water lacks shipworms, so wrecks survive intact, from the Swedish warship Vasa (1628, raised in 1961) to medieval cogs.",
+"match": [
+"Baltic"
+],
+"see": [
+"climate/deoxygenation",
+"impacts/plastics-and-pollution"
+]
 },
 {
 "slug": "black-sea",
@@ -235,7 +469,18 @@
 "life": "Life mostly confined to the upper ~150 m. Dolphins, anchovy.",
 "human": "Fisheries and strategic shipping.",
 "threats": "Eutrophication, invasive comb jellies (historic), conflict.",
-"wiki": "Black_Sea"
+"wiki": "Black_Sea",
+"seafloor": "A deep basin (~2,212 m) linked to the Mediterranean only by the narrow Bosporus. Below ~150 m the water has no oxygen and is full of hydrogen sulfide, the largest anoxic water body on Earth.",
+"climate_weather": "Strong stratification: a fresher surface layer from rivers (Danube, Dnieper, Don) sits above dense salty water that never mixes.",
+"ecosystems": "Surface life includes dolphins, anchovy and turbot; the sulfidic depths hold only microbes. The invasive comb jelly Mnemiopsis collapsed fisheries in the 1980s.",
+"history": "Because there is no oxygen, wooden shipwrecks are perfectly preserved: the 2018 Black Sea MAP project found a Greek trading ship ~2,400 years old, the oldest intact shipwreck known.",
+"match": [
+"Black Sea",
+"Caspian and Black seas"
+],
+"see": [
+"climate/deoxygenation"
+]
 },
 {
 "slug": "red-sea",
@@ -255,7 +500,20 @@
 "life": "Corals unusually tolerant of heat, brine-pool microbes.",
 "human": "One of the busiest shipping routes (Suez).",
 "threats": "Coastal development, shipping disruption.",
-"wiki": "Red_Sea"
+"wiki": "Red_Sea",
+"seafloor": "A young ocean in the making, formed as Africa and Arabia split apart; the central rift reaches ~3,040 m and holds hot brine pools such as Atlantis II Deep.",
+"climate_weather": "Among the warmest and saltiest seas (~40 PSU) because of extreme evaporation and almost no rivers. Its northern corals are unusually heat-tolerant and may be a refuge as oceans warm.",
+"ecosystems": "Fringing coral reefs with high endemism, whale sharks, dugongs and Red Sea clownfish.",
+"history": "A trade route since antiquity; the Suez Canal (1869) connected it to the Mediterranean.",
+"match": [
+"Red Sea",
+"Indian Ocean; Red Sea",
+"Indo-Pacific; Red Sea"
+],
+"see": [
+"climate/coral-bleaching",
+"seafloor/canyons-fjords-brine-pools"
+]
 },
 {
 "slug": "arabian-sea",
@@ -275,7 +533,22 @@
 "life": "Lanternfish swarms, whale sharks, the Arabian humpback whale (a resident, isolated population).",
 "human": "Fisheries and shipping to the Gulf.",
 "threats": "Expanding low-oxygen zones, cyclones intensified by warming.",
-"wiki": "Arabian_Sea"
+"wiki": "Arabian_Sea",
+"seafloor": "Includes the Carlsberg Ridge and the Indus Fan, the second-largest submarine fan.",
+"climate_weather": "The southwest monsoon drives intense upwelling and plankton blooms. It holds one of the world's thickest oxygen minimum zones, and cyclones have become more frequent as it warms (e.g. Tauktae 2021 and Biparjoy 2023).",
+"ecosystems": "Upwelling-driven fisheries (oil sardine, mackerel), Lakshadweep atolls and the Gulf of Kutch coral reefs.",
+"history": "Ancient Harappan ports such as Lothal and Indo-Roman trade; Mumbai and Karachi are major ports.",
+"match": [
+"Arabian",
+"N Indian Ocean",
+"Indian Ocean",
+"Indo-Pacific",
+"Indo-W Pacific"
+],
+"see": [
+"climate/deoxygenation",
+"climate/ocean-heat"
+]
 },
 {
 "slug": "bay-of-bengal",
@@ -295,7 +568,25 @@
 "life": "Mangrove Sundarbans, Irrawaddy dolphins, olive ridley turtle mass nesting (arribadas in Odisha).",
 "human": "Dense coastal populations and fisheries.",
 "threats": "Cyclones, sea-level rise, oxygen minimum zone.",
-"wiki": "Bay_of_Bengal"
+"wiki": "Bay_of_Bengal",
+"seafloor": "Floored by the Bengal Fan, the largest submarine fan on Earth, built from Himalayan sediment carried by the Ganges and Brahmaputra.",
+"climate_weather": "Huge river inflow makes the surface fresh and strongly stratified, keeping it warm and favouring intense cyclones. Its funnel shape and low coasts amplify storm surges (Bhola 1970, Odisha super cyclone 1999, Amphan 2020).",
+"ecosystems": "The Sundarbans mangroves, olive ridley mass-nesting in Odisha, hilsa runs, Irrawaddy dolphins and the Andaman reefs.",
+"history": "Chola kingdom naval expeditions; Kolkata, Chennai, Visakhapatnam and Chittagong are major ports.",
+"match": [
+"Bay of Bengal",
+"N Indian Ocean",
+"Sundarbans",
+"Ganges",
+"Indo-Pacific",
+"Indo-W Pacific",
+"South Asia",
+"Indian Ocean"
+],
+"see": [
+"climate/ocean-heat",
+"climate/deoxygenation"
+]
 },
 {
 "slug": "coral-sea",
@@ -315,7 +606,23 @@
 "life": "The Great Barrier Reef (~2,300 km). The Ocean Census found many new species here in 2025–26.",
 "human": "Tourism and a protected marine park.",
 "threats": "Repeated mass bleaching (2016, 2017, 2020, 2022, 2024).",
-"wiki": "Coral_Sea"
+"wiki": "Coral_Sea",
+"seafloor": "Holds the Great Barrier Reef on its western margin and deep basins over ~9,000 m in the New Hebrides Trench nearby.",
+"climate_weather": "Cyclone-prone in the austral summer; repeated mass bleaching since 1998 (2016, 2017, 2020, 2022, 2024).",
+"ecosystems": "The Great Barrier Reef, the world's largest reef system, with ~1,500 fish species, dugongs, nesting turtles and Osprey Reef sharks.",
+"history": "The 1942 Battle of the Coral Sea was the first naval battle fought entirely by aircraft carriers.",
+"match": [
+"Coral Sea",
+"Australia",
+"W Pacific",
+"Indo-Pacific",
+"Indo-W Pacific",
+"Pacific"
+],
+"see": [
+"climate/coral-bleaching",
+"impacts/marine-protected-areas"
+]
 },
 {
 "slug": "south-china-sea",
@@ -335,7 +642,22 @@
 "life": "Extensive reefs (Spratlys, Paracels) and large fisheries.",
 "human": "A major trade route.",
 "threats": "Reef destruction by island building, overfishing, territorial disputes.",
-"wiki": "South_China_Sea"
+"wiki": "South_China_Sea",
+"seafloor": "Shelves in the north and south around a deep central basin (~5,500 m); the Spratly and Paracel reefs.",
+"climate_weather": "Typhoon-prone; driven by the East Asian monsoon.",
+"ecosystems": "Coral reefs at the edge of the Coral Triangle, seagrass, and some of the world's most heavily fished waters.",
+"history": "Maritime Silk Road trade; today about a third of global shipping passes through, and overlapping territorial claims make it a geopolitical flashpoint.",
+"match": [
+"South China Sea",
+"W Pacific",
+"Indo-Pacific",
+"Indo-W Pacific",
+"Pacific"
+],
+"see": [
+"climate/coral-bleaching",
+"impacts/marine-protected-areas"
+]
 },
 {
 "slug": "sea-of-japan",
@@ -355,7 +677,20 @@
 "life": "Squid fisheries, Japanese spider crabs nearby.",
 "human": "Fisheries.",
 "threats": "Warming, ventilation decline.",
-"wiki": "Sea_of_Japan"
+"wiki": "Sea_of_Japan",
+"seafloor": "A nearly enclosed back-arc basin (~3,742 m) whose straits are shallow, so it has its own deep water mass.",
+"climate_weather": "Cold winter monsoon winds form deep water locally; this formation has weakened with warming.",
+"ecosystems": "Snow crabs, firefly squid (Toyama Bay), Japanese flying squid and Pacific saury.",
+"history": "The 1905 Battle of Tsushima. The sea's name is disputed (Korea uses 'East Sea').",
+"match": [
+"Japan",
+"NW Pacific",
+"N Pacific",
+"Pacific"
+],
+"see": [
+"ocean-system/deep-circulation"
+]
 },
 {
 "slug": "bering-sea",
@@ -375,7 +710,20 @@
 "life": "Walrus, fur seals, king crab, pollock.",
 "human": "A major share of US seafood landings.",
 "threats": "Sea-ice loss leading to crab population crashes (2021–22).",
-"wiki": "Bering_Sea"
+"wiki": "Bering_Sea",
+"seafloor": "A broad shallow shelf in the east (the drowned Bering land bridge, Beringia) and a deep basin in the west.",
+"climate_weather": "Seasonal sea ice drives the ecosystem; the 2018–19 ice-free winters and heatwave triggered the collapse of the snow crab fishery.",
+"ecosystems": "Walrus, Steller sea lions, northern fur seals, seabirds in millions, and the pollock and king crab fisheries.",
+"history": "People crossed Beringia into the Americas; Vitus Bering explored it in 1728 and 1741.",
+"match": [
+"Bering",
+"Alaska",
+"N Pacific",
+"Arctic"
+],
+"see": [
+"climate/ocean-heat"
+]
 },
 {
 "slug": "weddell-sea",
@@ -393,7 +741,21 @@
 "life": "Icefish nesting colonies (~60 million nests found in 2021), emperor penguins.",
 "human": "A proposed marine protected area.",
 "threats": "Sea-ice change.",
-"wiki": "Weddell_Sea"
+"wiki": "Weddell_Sea",
+"seafloor": "Deep shelf and abyssal plain; the Filchner-Ronne Ice Shelf covers its southern part.",
+"climate_weather": "The main source of Antarctic Bottom Water. Its clockwise gyre traps thick sea ice.",
+"ecosystems": "Emperor penguin colonies, Weddell seals and, in 2021, a vast colony of ~60 million nesting icefish found on the seabed.",
+"history": "Shackleton's Endurance was crushed by its ice in 1915 and found at 3,008 m in 2022.",
+"match": [
+"Antarctic",
+"Antarctica",
+"Southern Ocean",
+"Weddell"
+],
+"see": [
+"ocean-system/deep-circulation",
+"exploration/history-of-exploration"
+]
 },
 {
 "slug": "ross-sea",
@@ -411,7 +773,20 @@
 "life": "Antarctic toothfish, Adélie and emperor penguins, Weddell seals.",
 "human": "Ross Sea region MPA (~1.55 million km²).",
 "threats": "Toothfish fishing pressure, warming.",
-"wiki": "Ross_Sea"
+"wiki": "Ross_Sea",
+"seafloor": "Contains the Ross Ice Shelf, the largest floating ice shelf (about the size of France).",
+"climate_weather": "Polynyas produce sea ice and dense water; considered one of the least altered ocean ecosystems.",
+"ecosystems": "Antarctic toothfish, Adélie and emperor penguins, Ross Sea orcas and Weddell seals.",
+"history": "Ross discovered it in 1841. The Ross Sea MPA (2016) was the first large high-seas MPA, about 1.55 million km².",
+"match": [
+"Antarctic",
+"Antarctica",
+"Southern Ocean",
+"Ross"
+],
+"see": [
+"impacts/marine-protected-areas"
+]
 },
 {
 "slug": "persian-gulf",
@@ -431,7 +806,20 @@
 "life": "Heat-tolerant corals, dugongs.",
 "human": "Oil and gas, desalination.",
 "threats": "Brine discharge, heat extremes.",
-"wiki": "Persian_Gulf"
+"wiki": "Persian_Gulf",
+"seafloor": "Shallow (average ~35 m), formed as a foreland basin of the Zagros mountains; dry land during the last ice age.",
+"climate_weather": "Some of the hottest seawater on Earth (over 35°C in summer) and very salty; its corals tolerate heat that would kill others.",
+"ecosystems": "Corals, dugongs, seagrass and pearl oysters.",
+"history": "Pearl diving was the economic base of the Gulf for millennia before oil.",
+"match": [
+"Persian Gulf",
+"Arabian",
+"Indian Ocean"
+],
+"see": [
+"climate/coral-bleaching",
+"climate/ocean-heat"
+]
 },
 {
 "slug": "tasman-sea",
@@ -450,7 +838,20 @@
 "life": "Range shifts of tropical species southward.",
 "human": "Fisheries.",
 "threats": "Frequent marine heatwaves.",
-"wiki": "Tasman_Sea"
+"wiki": "Tasman_Sea",
+"seafloor": "Deep (~5,943 m), with the Lord Howe Rise and seamount chains.",
+"climate_weather": "The East Australian Current is warming it rapidly, making it a marine heatwave hotspot.",
+"ecosystems": "Lord Howe Island's southernmost coral reef, kelp forests, and grey nurse sharks.",
+"history": "Named after Abel Tasman (1642).",
+"match": [
+"Australia",
+"New Zealand",
+"SW Pacific",
+"Pacific"
+],
+"see": [
+"climate/ocean-heat"
+]
 },
 {
 "slug": "hudson-bay",
@@ -470,7 +871,18 @@
 "life": "Polar bears, belugas.",
 "human": "Indigenous communities.",
 "threats": "A shortening ice season.",
-"wiki": "Hudson_Bay"
+"wiki": "Hudson_Bay",
+"seafloor": "A shallow inland sea (average ~100 m) still rising after the ice age (~1 cm a year).",
+"climate_weather": "Ice-covered most of the year; ice-free seasons lengthening, stressing polar bears.",
+"ecosystems": "Polar bears around Churchill, beluga whales in summer estuaries, and ringed seals.",
+"history": "Henry Hudson's 1610–11 expedition; the Hudson's Bay Company fur trade.",
+"match": [
+"Arctic",
+"Hudson"
+],
+"see": [
+"climate/ocean-heat"
+]
 },
 {
 "slug": "barents-sea",
@@ -490,7 +902,20 @@
 "life": "The world's largest cod stock, king crab (introduced).",
 "human": "Major fisheries, oil and gas.",
 "threats": "Rapid warming.",
-"wiki": "Barents_Sea"
+"wiki": "Barents_Sea",
+"seafloor": "A broad shelf sea (average ~230 m) warmed by Atlantic water.",
+"climate_weather": "Rapid 'Atlantification': sea ice retreating and Atlantic species moving in.",
+"ecosystems": "Among the largest cod stocks, capelin, and introduced red king crabs.",
+"history": "Willem Barentsz explored it in 1596; it was a WWII Arctic convoy route.",
+"match": [
+"Barents",
+"Arctic",
+"N Atlantic",
+"Arctic; N Atlantic"
+],
+"see": [
+"climate/ocean-heat"
+]
 },
 {
 "slug": "caspian-sea",
@@ -510,6 +935,795 @@
 "life": "Beluga sturgeon (source of caviar), Caspian seals.",
 "human": "Oil and gas.",
 "threats": "Falling water levels, sturgeon decline.",
-"wiki": "Caspian_Sea"
+"wiki": "Caspian_Sea",
+"seafloor": "The largest enclosed inland body of water, in a basin below sea level; its deepest point is ~1,025 m.",
+"climate_weather": "Water level fluctuates with Volga inflow and is now falling due to evaporation and warming.",
+"ecosystems": "Beluga sturgeon and Caspian seals.",
+"history": "Major oil and gas region since the 19th century.",
+"match": [
+"Caspian"
+],
+"see": [
+"climate/ocean-heat"
+]
+},
+{
+"slug": "andaman-sea",
+"name": "Andaman Sea",
+"type": "Sea",
+"parent": "Indian Ocean",
+"area_km2": 797700,
+"avg_depth": 1096,
+"max_depth": 4198,
+"deepest_point": "Andaman Basin",
+"salinity": "~32–34 PSU",
+"summary": "A tropical sea between Myanmar, Thailand and the Andaman and Nicobar Islands.",
+"overview": "Lies east of the Andaman and Nicobar chain on an active back-arc basin.",
+"geography": "Bounded by Myanmar, Thailand, Malaysia, Sumatra and India's Andaman and Nicobar Islands.",
+"seafloor": "Back-arc spreading centre with India's only active volcano at Barren Island.",
+"water": "Monsoon-driven circulation and large internal waves visible from space.",
+"climate_weather": "Hit by the 2004 tsunami; cyclones form in spring and autumn.",
+"life": "Coral reefs, dugongs, whale sharks and Moken sea nomads' fishing grounds.",
+"ecosystems": "Reefs, mangroves, seagrass.",
+"history": "Indian Ocean trade between India and Southeast Asia.",
+"human": "Tourism (Phuket, Havelock), fisheries.",
+"threats": "Bleaching, overfishing, tsunami risk.",
+"match": [
+"Andaman",
+"Indo-Pacific",
+"Indo-W Pacific",
+"Indian Ocean"
+],
+"see": [
+"climate/coral-bleaching"
+],
+"wiki": "Andaman_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "laccadive-sea",
+"name": "Laccadive Sea",
+"type": "Sea",
+"parent": "Indian Ocean",
+"area_km2": 786000,
+"avg_depth": 1929,
+"max_depth": 4131,
+"deepest_point": "Off the Maldives",
+"salinity": "~34–35 PSU",
+"summary": "The sea bordering southwest India, Sri Lanka and the Maldives, containing the Lakshadweep islands.",
+"overview": "Bounds India's Kerala coast and the Lakshadweep atolls.",
+"geography": "Between southwest India, Sri Lanka and the Maldives.",
+"seafloor": "Atolls sitting on the Chagos–Laccadive Ridge.",
+"water": "Monsoon upwelling feeds Kerala's sardine fishery.",
+"climate_weather": "Southwest monsoon arrives here first, usually around 1 June over Kerala.",
+"life": "Atoll reefs, oil sardine, mackerel, manta rays.",
+"ecosystems": "Coral atolls and lagoons.",
+"history": "Spice trade ports such as Kochi and Kozhikode.",
+"human": "Fisheries, tourism.",
+"threats": "Bleaching in 1998, 2010, 2016 and 2024; sea-level rise for atolls.",
+"match": [
+"Indian Ocean",
+"N Indian Ocean",
+"Indo-Pacific",
+"Indo-W Pacific",
+"Maldives"
+],
+"see": [
+"climate/coral-bleaching"
+],
+"wiki": "Laccadive_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "gulf-of-mannar",
+"name": "Gulf of Mannar",
+"type": "Gulf",
+"parent": "Laccadive Sea",
+"area_km2": 10500,
+"avg_depth": null,
+"max_depth": 1335,
+"deepest_point": "Southern gulf",
+"salinity": "~35 PSU",
+"summary": "A shallow gulf between India and Sri Lanka, home to India's first marine biosphere reserve.",
+"overview": "Separated from Palk Bay by Adam's Bridge (Ram Setu), a chain of shoals.",
+"geography": "Between Tamil Nadu and northwest Sri Lanka.",
+"seafloor": "Shallow shelf with 21 coral islands.",
+"water": "Calm much of the year; monsoon swells.",
+"climate_weather": "Northeast monsoon storms.",
+"life": "Dugongs, sea turtles, seagrass, corals and ~3,600 species.",
+"ecosystems": "Gulf of Mannar Marine National Park and Biosphere Reserve.",
+"history": "Pearl fisheries since antiquity.",
+"human": "Fisheries, pearls, chanks.",
+"threats": "Dugong decline, bottom trawling.",
+"match": [
+"Indian Ocean",
+"N Indian Ocean",
+"Indo-Pacific",
+"Indo-W Pacific",
+"South Asia"
+],
+"see": [
+"impacts/marine-protected-areas",
+"impacts/bottom-trawling"
+],
+"wiki": "Gulf_of_Mannar",
+"emoji": "🌊"
+},
+{
+"slug": "sea-of-okhotsk",
+"name": "Sea of Okhotsk",
+"type": "Sea",
+"parent": "Pacific Ocean",
+"area_km2": 1583000,
+"avg_depth": 859,
+"max_depth": 3372,
+"deepest_point": "Kuril Basin",
+"salinity": "~32–33 PSU",
+"summary": "The southernmost sea that freezes regularly, bordering Russia and Hokkaido.",
+"overview": "Shielded by the Kamchatka Peninsula and the Kuril Islands.",
+"geography": "Between Siberia, Kamchatka, the Kurils, Hokkaido and Sakhalin.",
+"seafloor": "Kuril Basin and shelves.",
+"water": "Sea-ice formation creates dense water that ventilates the North Pacific.",
+"climate_weather": "Drift ice reaches Hokkaido, the world's lowest-latitude seasonal sea ice.",
+"life": "Salmon, crabs, pollock, Steller's sea eagles, spotted seals.",
+"ecosystems": "Sea-ice ecosystem.",
+"history": "Ainu and Russian Pacific settlement.",
+"human": "Pollock, crab and salmon fisheries; Sakhalin oil.",
+"threats": "Declining sea ice.",
+"match": [
+"N Pacific",
+"NW Pacific",
+"Pacific",
+"Japan"
+],
+"see": [
+"climate/ocean-heat",
+"ocean-system/deep-circulation"
+],
+"wiki": "Sea_of_Okhotsk",
+"emoji": "🌊"
+},
+{
+"slug": "east-china-sea",
+"name": "East China Sea",
+"type": "Sea",
+"parent": "Pacific Ocean",
+"area_km2": 1249000,
+"avg_depth": 350,
+"max_depth": 2717,
+"deepest_point": "Okinawa Trough",
+"salinity": "~31–34 PSU",
+"summary": "A broad shelf sea fed by the Yangtze, the largest river in Asia.",
+"overview": "Bounded by China, Korea, Japan's Ryukyu Islands and Taiwan.",
+"geography": "Wide continental shelf and the Okinawa Trough, with hydrothermal vents.",
+"seafloor": "Kuroshio Current along its edge; Yangtze plume.",
+"water": "Typhoons in summer.",
+"climate_weather": "Vent fauna in the Okinawa Trough, Nomura's jellyfish blooms, hairtail and yellow croaker.",
+"life": "Shelf and vent ecosystems.",
+"ecosystems": "East Asian maritime trade.",
+"history": "Major fisheries, Shanghai port.",
+"human": "Overfishing, Yangtze nutrient-driven hypoxia.",
+"threats": [
+"East China",
+"NW Pacific",
+"Pacific",
+"Japan"
+],
+"match": [
+"seafloor/hydrothermal-vents",
+"climate/deoxygenation"
+],
+"see": "East_China_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "yellow-sea",
+"name": "Yellow Sea",
+"type": "Sea",
+"parent": "Pacific Ocean",
+"area_km2": 380000,
+"avg_depth": 44,
+"max_depth": 152,
+"deepest_point": "South of the Shandong peninsula",
+"salinity": "~32 PSU",
+"summary": "A shallow sea between China and Korea, named for sediment from the Yellow River.",
+"overview": "One of the largest shallow seas, with vast tidal flats.",
+"geography": "Between eastern China and the Korean Peninsula.",
+"seafloor": "Flat, shallow shelf; dry land in the last ice age.",
+"water": "Strong tides and a cold water mass in summer.",
+"climate_weather": "Winter monsoon cools it sharply.",
+"life": "Huge tidal flats are a key stop for migratory shorebirds (East Asian–Australasian Flyway).",
+"ecosystems": "Tidal flats (UNESCO-listed in Korea and China).",
+"history": "Coastal trade, Korean War landings at Incheon.",
+"human": "Fisheries, aquaculture.",
+"threats": "Land reclamation of tidal flats, green tides of Ulva.",
+"match": [
+"NW Pacific",
+"Pacific",
+"East Asian flyway"
+],
+"see": [
+"climate/deoxygenation"
+],
+"wiki": "Yellow_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "philippine-sea",
+"name": "Philippine Sea",
+"type": "Sea",
+"parent": "Pacific Ocean",
+"area_km2": 5000000,
+"avg_depth": 6000,
+"max_depth": 10540,
+"deepest_point": "Philippine Trench (Galathea Depth)",
+"salinity": "~34–35 PSU",
+"summary": "A deep marginal sea east of the Philippines, bordered by the Mariana arc.",
+"overview": "Floored by the Philippine Sea plate.",
+"geography": "Between the Philippines, Taiwan, Japan and the Mariana Islands.",
+"seafloor": "Bordered by the Philippine, Ryukyu, Izu-Ogasawara and Mariana trenches.",
+"water": "Source region of the Kuroshio Current.",
+"climate_weather": "The most active typhoon nursery on Earth.",
+"life": "Eel spawning grounds (Japanese eel), tuna, deep trench fauna.",
+"ecosystems": "Trenches, seamounts, back-arc vents.",
+"history": "Battle of the Philippine Sea (1944), the largest carrier battle.",
+"human": "Tuna fisheries.",
+"threats": "Warming, typhoon intensification.",
+"match": [
+"W Pacific",
+"Pacific",
+"Philippines",
+"Mariana",
+"Japan",
+"Indo-Pacific"
+],
+"see": [
+"seafloor/ocean-trenches",
+"life/hadal-life"
+],
+"wiki": "Philippine_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "java-sea",
+"name": "Java Sea",
+"type": "Sea",
+"parent": "Pacific / Indian",
+"area_km2": 320000,
+"avg_depth": 46,
+"max_depth": 203,
+"deepest_point": "East of Bawean",
+"salinity": "~32–33 PSU",
+"summary": "A shallow equatorial sea in the heart of Indonesia.",
+"overview": "Part of the Sunda Shelf, dry land in the ice age.",
+"geography": "Between Java, Borneo and Sumatra.",
+"seafloor": "Very shallow shelf.",
+"water": "Monsoon-reversing currents.",
+"climate_weather": "Equatorial; heavy rainfall.",
+"life": "Coral reefs (Karimunjawa), mangroves.",
+"ecosystems": "Shelf ecosystems.",
+"history": "Battle of the Java Sea (1942); many WWII wrecks, some illegally salvaged.",
+"human": "Fisheries, shipping.",
+"threats": "Pollution, overfishing.",
+"match": [
+"Indo-Pacific",
+"Indo-W Pacific",
+"W Pacific",
+"SE Asia"
+],
+"see": [
+"climate/coral-bleaching"
+],
+"wiki": "Java_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "banda-sea",
+"name": "Banda Sea",
+"type": "Sea",
+"parent": "Pacific Ocean",
+"area_km2": 470000,
+"avg_depth": 3064,
+"max_depth": 7440,
+"deepest_point": "Weber Deep",
+"salinity": "~34 PSU",
+"summary": "A deep sea in eastern Indonesia, home to the deepest forearc basin on Earth.",
+"overview": "Encircled by the curved Banda arc of volcanic islands.",
+"geography": "Between Sulawesi, Timor and New Guinea.",
+"seafloor": "The Weber Deep (~7,200 m).",
+"water": "Part of the Indonesian Throughflow, carrying Pacific water to the Indian Ocean.",
+"climate_weather": "Monsoonal.",
+"life": "Coral Triangle reefs, migrating whales.",
+"ecosystems": "Reefs, deep basins.",
+"history": "The Banda Islands were the world's only source of nutmeg; the spice trade shaped colonial history.",
+"human": "Spices, fisheries.",
+"threats": "Overfishing, warming.",
+"match": [
+"Indo-Pacific",
+"Indo-W Pacific",
+"W Pacific"
+],
+"see": [
+"ocean-system/deep-circulation"
+],
+"wiki": "Banda_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "sulu-sea",
+"name": "Sulu Sea",
+"type": "Sea",
+"parent": "Pacific Ocean",
+"area_km2": 260000,
+"avg_depth": null,
+"max_depth": 5600,
+"deepest_point": "Sulu Basin",
+"salinity": "~34 PSU",
+"summary": "A basin sea in the southwest Philippines holding Tubbataha Reef.",
+"overview": "Partly enclosed by Palawan and the Sulu Archipelago.",
+"geography": "Between Palawan, Mindanao and Borneo.",
+"seafloor": "Deep basin surrounded by shallow sills.",
+"water": "Isolated deep water.",
+"climate_weather": "Typhoons rare.",
+"life": "Tubbataha Reefs Natural Park (UNESCO), turtles, sharks.",
+"ecosystems": "Atoll reefs.",
+"history": "Sulu sultanate maritime trade.",
+"human": "Fisheries.",
+"threats": "Blast fishing in the past.",
+"match": [
+"Philippines",
+"Indo-Pacific",
+"W Pacific"
+],
+"see": [
+"impacts/marine-protected-areas",
+"climate/coral-bleaching"
+],
+"wiki": "Sulu_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "celebes-sea",
+"name": "Celebes Sea",
+"type": "Sea",
+"parent": "Pacific Ocean",
+"area_km2": 280000,
+"avg_depth": null,
+"max_depth": 6200,
+"deepest_point": "Central basin",
+"salinity": "~34 PSU",
+"summary": "A deep sea in the Coral Triangle known for mysterious midwater animals.",
+"overview": "Old oceanic crust trapped between arcs.",
+"geography": "Between Mindanao, Borneo and Sulawesi.",
+"seafloor": "Deep abyssal basin.",
+"water": "Part of the Indonesian Throughflow.",
+"climate_weather": "Equatorial.",
+"life": "2007 expeditions found many new midwater species; Lembeh Strait muck-diving critters.",
+"ecosystems": "Reefs and deep basins.",
+"history": "Trade routes.",
+"human": "Fisheries.",
+"threats": "Pollution.",
+"match": [
+"Indo-Pacific",
+"W Pacific",
+"Indonesia"
+],
+"see": [
+"life/species-discovery"
+],
+"wiki": "Celebes_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "gulf-of-california",
+"name": "Gulf of California",
+"type": "Gulf",
+"parent": "Pacific Ocean",
+"area_km2": 160000,
+"avg_depth": 818,
+"max_depth": 3400,
+"deepest_point": "Pescadero Basin",
+"salinity": "~35 PSU",
+"summary": "The 'aquarium of the world', a young sea opening as Baja California splits from Mexico.",
+"overview": "An active rift where the East Pacific Rise meets the San Andreas fault.",
+"geography": "Between Baja California and mainland Mexico.",
+"seafloor": "Spreading basins with vents (Guaymas, Pescadero).",
+"water": "Strong tidal mixing and upwelling.",
+"climate_weather": "Hot summers; occasional hurricanes.",
+"life": "Vaquita, whale sharks, mobula ray aggregations, sea lions and ~900 fish species.",
+"ecosystems": "Islands and Protected Areas (UNESCO).",
+"history": "Cousteau called it the world's aquarium.",
+"human": "Shrimp fisheries.",
+"threats": "Gillnets driving the vaquita to the brink.",
+"match": [
+"Gulf of California",
+"E Pacific",
+"Eastern Pacific",
+"Pacific"
+],
+"see": [
+"seafloor/hydrothermal-vents",
+"impacts/marine-protected-areas"
+],
+"wiki": "Gulf_of_California",
+"emoji": "🌊"
+},
+{
+"slug": "gulf-of-thailand",
+"name": "Gulf of Thailand",
+"type": "Gulf",
+"parent": "South China Sea",
+"area_km2": 320000,
+"avg_depth": 45,
+"max_depth": 80,
+"deepest_point": "Central",
+"salinity": "~32 PSU",
+"summary": "A shallow gulf bordered by Thailand, Cambodia, Vietnam and Malaysia.",
+"overview": "Part of the drowned Sunda Shelf.",
+"geography": "Between the Malay Peninsula and Indochina.",
+"seafloor": "Flat shallow shelf.",
+"water": "Monsoonal.",
+"climate_weather": "Rainy southwest monsoon.",
+"life": "Reefs, dugongs, Irrawaddy dolphins.",
+"ecosystems": "Reefs, mangroves.",
+"history": "Ancient trade.",
+"human": "Fisheries, gas.",
+"threats": "Overfishing, trawling.",
+"match": [
+"SE Asia",
+"Indo-Pacific",
+"Indo-W Pacific"
+],
+"see": [
+"impacts/bottom-trawling"
+],
+"wiki": "Gulf_of_Thailand",
+"emoji": "🌊"
+},
+{
+"slug": "adriatic-sea",
+"name": "Adriatic Sea",
+"type": "Sea",
+"parent": "Mediterranean Sea",
+"area_km2": 138600,
+"avg_depth": 252,
+"max_depth": 1233,
+"deepest_point": "South Adriatic Pit",
+"salinity": "~38 PSU",
+"summary": "A long arm of the Mediterranean between Italy and the Balkans.",
+"overview": "Shallow in the north (Po delta) and deep in the south.",
+"geography": "Between Italy, Slovenia, Croatia, Montenegro and Albania.",
+"seafloor": "Shallow northern shelf; southern pit.",
+"water": "Bora winds create dense water.",
+"climate_weather": "Acqua alta floods Venice.",
+"life": "Over 1,000 Croatian islands, sea turtles, bottlenose dolphins.",
+"ecosystems": "Rocky reefs, seagrass.",
+"history": "Venice's maritime empire.",
+"human": "Tourism, fisheries.",
+"threats": "Pollution, overfishing.",
+"match": [
+"Mediterranean"
+],
+"see": [
+"climate/ocean-heat"
+],
+"wiki": "Adriatic_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "aegean-sea",
+"name": "Aegean Sea",
+"type": "Sea",
+"parent": "Mediterranean Sea",
+"area_km2": 214000,
+"avg_depth": null,
+"max_depth": 3543,
+"deepest_point": "North of Crete",
+"salinity": "~38–39 PSU",
+"summary": "The island-studded sea between Greece and Turkey.",
+"overview": "Active subduction and volcanism (Santorini).",
+"geography": "Between Greece and Turkey.",
+"seafloor": "Volcanic arc and deep basins.",
+"water": "Etesian (meltemi) winds.",
+"climate_weather": "Hot dry summers.",
+"life": "Monk seals, seagrass, sponges.",
+"ecosystems": "Rocky reefs.",
+"history": "Minoan eruption of Santorini (~1600 BCE); ancient Greek seafaring.",
+"human": "Tourism, fisheries.",
+"threats": "Overfishing, heatwaves.",
+"match": [
+"Mediterranean"
+],
+"see": [
+"seafloor/ocean-trenches"
+],
+"wiki": "Aegean_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "tyrrhenian-sea",
+"name": "Tyrrhenian Sea",
+"type": "Sea",
+"parent": "Mediterranean Sea",
+"area_km2": 275000,
+"avg_depth": 2000,
+"max_depth": 3785,
+"deepest_point": "Tyrrhenian Basin",
+"salinity": "~38 PSU",
+"summary": "A deep, volcanic part of the Mediterranean west of Italy.",
+"overview": "Back-arc basin with the Marsili seamount, the largest volcano in Europe.",
+"geography": "Between Italy, Corsica, Sardinia and Sicily.",
+"seafloor": "Volcanic seamounts (Marsili, Vavilov).",
+"water": "Gyres and deep water.",
+"climate_weather": "Hot summers.",
+"life": "Pelagos Sanctuary for whales in the north.",
+"ecosystems": "Seamounts, canyons.",
+"history": "Roman 'Mare Nostrum'.",
+"human": "Tourism, shipping.",
+"threats": "Plastic hotspots (microplastics up to ~1.9 million particles per m² of seafloor).",
+"match": [
+"Mediterranean"
+],
+"see": [
+"impacts/plastics-and-pollution"
+],
+"wiki": "Tyrrhenian_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "norwegian-sea",
+"name": "Norwegian Sea",
+"type": "Sea",
+"parent": "Atlantic/Arctic",
+"area_km2": 1383000,
+"avg_depth": 2000,
+"max_depth": 3970,
+"deepest_point": "Norwegian Basin",
+"salinity": "~35 PSU",
+"summary": "A deep sea where warm Atlantic water cools, sinks and feeds the global overturning circulation.",
+"overview": "Key deep-water formation region.",
+"geography": "Between Norway, Iceland and Svalbard.",
+"seafloor": "Deep basins and Mohns Ridge vents.",
+"water": "North Atlantic Current carries warm water north.",
+"climate_weather": "Storms and polar lows.",
+"life": "Cold-water coral reefs (Røst Reef), herring, orcas.",
+"ecosystems": "Coral mounds.",
+"history": "Viking routes.",
+"human": "Fisheries, oil and gas.",
+"threats": "Warming.",
+"match": [
+"N Atlantic",
+"NE Atlantic",
+"Norway"
+],
+"see": [
+"climate/amoc-weakening",
+"ocean-system/deep-circulation"
+],
+"wiki": "Norwegian_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "labrador-sea",
+"name": "Labrador Sea",
+"type": "Sea",
+"parent": "Atlantic Ocean",
+"area_km2": 841000,
+"avg_depth": null,
+"max_depth": 4316,
+"deepest_point": "Central basin",
+"salinity": "~34.9 PSU",
+"summary": "A key site where the North Atlantic overturns, forming deep water.",
+"overview": "Winter cooling drives deep convection.",
+"geography": "Between Labrador and Greenland.",
+"seafloor": "Abyssal basin.",
+"water": "Labrador Current carries icebergs south.",
+"climate_weather": "Severe winters.",
+"life": "Seals, seabirds, cod.",
+"ecosystems": "Shelf and slope.",
+"history": "Vikings sailed past; the Titanic iceberg likely came via here.",
+"human": "Fisheries.",
+"threats": "Freshening from Greenland melt affecting AMOC.",
+"match": [
+"N Atlantic",
+"NW Atlantic",
+"Greenland",
+"Arctic"
+],
+"see": [
+"climate/amoc-weakening"
+],
+"wiki": "Labrador_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "scotia-sea",
+"name": "Scotia Sea",
+"type": "Sea",
+"parent": "Southern Ocean",
+"area_km2": 900000,
+"avg_depth": null,
+"max_depth": 8264,
+"deepest_point": "South Sandwich Trench",
+"salinity": "~34 PSU",
+"summary": "A stormy sea between South America and Antarctica, rich in krill.",
+"overview": "Bounded by the Scotia Arc.",
+"geography": "Between Tierra del Fuego, South Georgia and the South Orkneys.",
+"seafloor": "The South Sandwich Trench.",
+"water": "Antarctic Circumpolar Current through Drake Passage.",
+"climate_weather": "Extremely stormy.",
+"life": "Krill swarms feeding whales, seals and penguins; South Georgia wildlife.",
+"ecosystems": "Krill-based ecosystem.",
+"history": "Shackleton's 1916 open-boat voyage to South Georgia.",
+"human": "Krill fishing.",
+"threats": "Krill fishing pressure, warming.",
+"match": [
+"Southern Ocean",
+"Antarctic",
+"South Georgia",
+"Sub-Antarctic"
+],
+"see": [
+"climate/ocean-heat"
+],
+"wiki": "Scotia_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "amundsen-sea",
+"name": "Amundsen Sea",
+"type": "Sea",
+"parent": "Southern Ocean",
+"area_km2": 98000,
+"avg_depth": null,
+"max_depth": 4000,
+"deepest_point": "Shelf troughs",
+"salinity": "~34 PSU",
+"summary": "The sea beside the Thwaites 'Doomsday' Glacier, where warm water melts ice from below.",
+"overview": "West Antarctic margin.",
+"geography": "Off Marie Byrd Land.",
+"seafloor": "Deep glacial troughs channel warm water.",
+"water": "Circumpolar Deep Water intrudes on the shelf.",
+"climate_weather": "Rapid ice-shelf thinning.",
+"life": "Polynya ecosystems.",
+"ecosystems": "Shelf.",
+"history": "Named after Roald Amundsen.",
+"human": "Research only.",
+"threats": "Ice loss contributing to sea-level rise.",
+"match": [
+"Southern Ocean",
+"Antarctic"
+],
+"see": [
+"climate/ocean-heat"
+],
+"wiki": "Amundsen_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "beaufort-sea",
+"name": "Beaufort Sea",
+"type": "Sea",
+"parent": "Arctic Ocean",
+"area_km2": 476000,
+"avg_depth": 1004,
+"max_depth": 4683,
+"deepest_point": "Canada Basin margin",
+"salinity": "~28–32 PSU",
+"summary": "An Arctic sea north of Alaska and Canada, home to the Beaufort Gyre.",
+"overview": "Stores Arctic fresh water.",
+"geography": "North of Alaska and Yukon.",
+"seafloor": "Shelf and Canada Basin.",
+"water": "Beaufort Gyre stores fresh water.",
+"climate_weather": "Sea ice retreating.",
+"life": "Bowhead whales, belugas, polar bears.",
+"ecosystems": "Sea-ice ecosystem.",
+"history": "Northwest Passage routes.",
+"human": "Indigenous hunting, oil.",
+"threats": "Ice loss.",
+"match": [
+"Arctic",
+"Alaska"
+],
+"see": [
+"climate/ocean-heat"
+],
+"wiki": "Beaufort_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "greenland-sea",
+"name": "Greenland Sea",
+"type": "Sea",
+"parent": "Arctic/Atlantic",
+"area_km2": 1205000,
+"avg_depth": 1444,
+"max_depth": 4846,
+"deepest_point": "Molloy Deep nearby",
+"salinity": "~34.9 PSU",
+"summary": "A deep-water formation area between Greenland and Svalbard.",
+"overview": "Feeds overturning.",
+"geography": "Between Greenland, Svalbard and Jan Mayen.",
+"seafloor": "Basins and ridges.",
+"water": "East Greenland Current exports ice.",
+"climate_weather": "Cold winds.",
+"life": "Harp and hooded seals, narwhals.",
+"ecosystems": "Ice edge.",
+"history": "Whaling history.",
+"human": "Fisheries.",
+"threats": "Warming.",
+"match": [
+"Arctic",
+"N Atlantic",
+"Greenland"
+],
+"see": [
+"ocean-system/deep-circulation"
+],
+"wiki": "Greenland_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "irish-sea",
+"name": "Irish Sea",
+"type": "Sea",
+"parent": "Atlantic Ocean",
+"area_km2": 46000,
+"avg_depth": null,
+"max_depth": 175,
+"deepest_point": "Beaufort's Dyke",
+"salinity": "~33–34 PSU",
+"summary": "A shallow sea between Ireland and Great Britain.",
+"overview": "Separated by the North Channel and St George's Channel.",
+"geography": "Between Ireland and Britain.",
+"seafloor": "Shallow; dumped WWII munitions in Beaufort's Dyke.",
+"water": "Tidal fronts.",
+"climate_weather": "Storms.",
+"life": "Basking sharks, seabirds.",
+"ecosystems": "Shelf.",
+"history": "Ferry and trade routes.",
+"human": "Fisheries, wind farms.",
+"threats": "Radioactive legacy from Sellafield.",
+"match": [
+"NE Atlantic",
+"N Atlantic"
+],
+"see": [
+"impacts/plastics-and-pollution"
+],
+"wiki": "Irish_Sea",
+"emoji": "🌊"
+},
+{
+"slug": "gulf-of-aden",
+"name": "Gulf of Aden",
+"type": "Gulf",
+"parent": "Arabian Sea",
+"area_km2": 410000,
+"avg_depth": 1800,
+"max_depth": 5390,
+"deepest_point": "Central rift",
+"salinity": "~35.5 PSU",
+"summary": "A young rifting gulf linking the Red Sea to the Indian Ocean.",
+"overview": "Spreading ridge between Africa and Arabia.",
+"geography": "Between Yemen and Somalia.",
+"seafloor": "Active rift.",
+"water": "Monsoon upwelling.",
+"climate_weather": "Hot.",
+"life": "Reefs, whale sharks.",
+"ecosystems": "Reefs.",
+"history": "Ancient incense and spice route; modern piracy hotspot.",
+"human": "Shipping chokepoint.",
+"threats": "Conflict and piracy.",
+"match": [
+"Indian Ocean",
+"Red Sea",
+"Arabian"
+],
+"see": [
+"impacts/high-seas-treaty-and-isa"
+],
+"wiki": "Gulf_of_Aden",
+"emoji": "🌊"
 }
 ]

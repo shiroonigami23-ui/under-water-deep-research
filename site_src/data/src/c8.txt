@@ -1,0 +1,70 @@
+# Coastal & bottom fish|🎣
+Red mullet|Mullus barbatus|5|300|Mediterranean; E Atlantic|Invertebrates|LC|Prized since Roman times; probes mud with barbels.
+Painted comber|Serranus scriba|1|150|Mediterranean|Fish, crustaceans|LC|Simultaneous hermaphrodite.
+Dusky grouper|Epinephelus marginatus|8|300|Mediterranean; E Atlantic|Fish, octopus|VU|Symbol of Mediterranean marine reserves.
+Ornate wrasse|Thalassoma pavo|1|150|Mediterranean; E Atlantic|Invertebrates|LC|Expanding north with warming.
+Damselfish Mediterranean|Chromis chromis|3|35|Mediterranean|Plankton|LC|Brown schooling damselfish.
+Salema|Sarpa salpa|5|70|Mediterranean; E Atlantic|Algae|LC|Can cause hallucinations if eaten.
+Weever greater|Trachinus draco|1|150|NE Atlantic; Mediterranean|Fish|LC|Buries in sand with venomous spines up.
+John Dory|Zeus faber|5|400|Worldwide temperate|Fish|DD|Thin fish stalking prey head-on; dark eye-spot.
+Grey gurnard|Eutrigla gurnardus|10|340|NE Atlantic|Crustaceans|LC|'Walks' on fin rays and grunts.|gurnard sound
+Tub gurnard|Chelidonichthys lucerna|20|318|E Atlantic; Mediterranean|Fish|LC|Blue-edged 'wings'.
+Shore rockling|Gaidropsarus mediterraneus|0|30|NE Atlantic|Crustaceans|LC|Rock-pool fish with barbels.
+Butterfish rock gunnel|Pholis gunnellus|0|100|N Atlantic|Worms|LC|Eel-like intertidal fish.
+Shanny|Lipophrys pholis|0|8|NE Atlantic|Barnacles|LC|Common rock-pool blenny.
+Tompot blenny|Parablennius gattorugine|3|32|NE Atlantic|Invertebrates|LC|Antler-like head tentacles.
+Ballan wrasse|Labrus bergylta|1|50|NE Atlantic|Crustaceans|LC|Used as a cleaner fish in salmon farms.
+Cuckoo wrasse|Labrus mixtus|2|200|NE Atlantic|Crustaceans|LC|Males blue and orange.
+Corkwing wrasse|Symphodus melops|1|30|NE Atlantic|Invertebrates|LC|Males build seaweed nests.
+Garfish|Belone belone|0|10|NE Atlantic; Mediterranean|Fish|LC|Needle-like fish with green bones.
+Thick-lipped grey mullet|Chelon labrosus|0|20|NE Atlantic|Algae, detritus|LC|Common harbour mullet.
+Atlantic horse mackerel|Trachurus trachurus|0|1050|NE Atlantic|Fish, crustaceans|VU|Schooling scad.
+Dab|Limanda limanda|20|150|NE Atlantic|Invertebrates|LC|Small flatfish of sandy seabeds.
+Flounder European|Platichthys flesus|0|100|NE Atlantic|Invertebrates|LC|Swims into fresh water.
+Brill|Scophthalmus rhombus|5|50|NE Atlantic; Mediterranean|Fish|LC|Left-eyed flatfish.
+Megrim|Lepidorhombus whiffiagonis|100|700|NE Atlantic|Fish|LC|Translucent deep flatfish.
+Witch flounder|Glyptocephalus cynoglossus|18|1570|N Atlantic|Worms|LC|Deep-water flatfish.
+Summer flounder|Paralichthys dentatus|0|150|W Atlantic|Fish|LC|'Fluke' that changes colour.
+California halibut|Paralichthys californicus|0|183|NE Pacific|Fish|LC|Large Pacific flatfish.
+Starry flounder|Platichthys stellatus|0|375|N Pacific|Invertebrates|LC|Eyes can be on either side.
+Kelp greenling|Hexagrammos decagrammus|0|46|NE Pacific|Crustaceans|LC|Sexes look completely different.
+Cabezon|Scorpaenichthys marmoratus|0|76|NE Pacific|Crabs|LC|Large sculpin with toxic roe.
+Tidepool sculpin|Oligocottus maculosus|0|1|NE Pacific|Invertebrates|LC|Finds its home pool by smell.
+Grunt sculpin|Rhamphocottus richardsonii|0|165|N Pacific|Crustaceans|LC|Walks on finger-like fins.
+Sarcastic fringehead|Neoclinus blanchardi|3|73|NE Pacific|Invertebrates|LC|Opens a huge mouth in 'mouth-wrestling' contests.
+Wolf eel|Anarrhichthys ocellatus|0|226|N Pacific|Crabs, urchins|LC|Pairs mate for life.
+China rockfish|Sebastes nebulosus|3|128|NE Pacific|Crustaceans|LC|Territorial reef rockfish.
+Yelloweye rockfish|Sebastes ruberrimus|15|549|NE Pacific|Fish|NT|Lives up to 147 years.
+California sheephead|Semicossyphus pulcher|0|87|NE Pacific|Urchins|VU|Kelp guardian eating urchins.
+Opaleye|Girella nigricans|0|30|NE Pacific|Algae|LC|Tidepool juvenile, kelp-forest adult.
+Giant sea bass|Stereolepis gigas|5|46|NE Pacific|Fish, crustaceans|VU|Lives over 75 years; recovering in California.
+Blue rockfish|Sebastes mystinus|0|90|NE Pacific|Plankton|LC|Schools in kelp forests.
+Atlantic menhaden relative Gulf|Brevoortia patronus|0|30|Gulf of Mexico|Plankton|LC|Gulf menhaden fishery.
+Sheepshead|Archosargus probatocephalus|1|15|W Atlantic|Barnacles, crabs|LC|Has human-like teeth.
+Spotted seatrout|Cynoscion nebulosus|0|10|W Atlantic|Shrimp, fish|LC|Spawns in estuaries with drumming.
+Black drum|Pogonias cromis|1|100|W Atlantic|Shellfish|LC|Loudest drum fish; 'drums' at night.|black drum fish sound
+Southern flounder|Paralichthys lethostigma|0|40|W Atlantic|Fish|NT|Estuarine flatfish.
+Hardhead catfish|Ariopsis felis|0|20|W Atlantic|Invertebrates|LC|Males mouth-brood eggs.
+Gafftopsail catfish|Bagre marinus|0|50|W Atlantic|Crabs|LC|Long filamentous fins.
+Spotted eagle ray Pacific|Aetobatus ocellatus|0|60|Indo-Pacific|Molluscs|EN|Pacific relative of the spotted eagle ray.
+Pacific angel shark|Squatina californica|3|205|NE Pacific|Fish|NT|Ambush predator buried in sand.
+# Deep-sea fish|🐡
+Atlantic hatchetfish|Sternoptyx diaphana|400|3676|Worldwide|Plankton|LC|Tiny upward-gazing hatchetfish.
+Bigscale fish|Melamphaes suborbitalis|0|2000|Worldwide|Plankton|LC|Ridgehead with large scales.
+Bathypelagic anglerfish Oneirodes|Oneirodes eschrichtii|200|1500|Worldwide|Fish|LC|Dreamer anglerfish.
+Gulper eel pelican|Saccopharynx ampullaceus|2000|3000|Atlantic|Fish|LC|Whiptail gulper with a glowing tail tip.
+Bobtail snipe eel|Cyema atrum|300|5100|Worldwide|Crustaceans|LC|Short-bodied deep eel.
+Hairyfish|Mirapinna esau|0|50|Atlantic|Unknown|NE|Rarely seen fish covered in hair-like outgrowths.
+Ragfish|Icosteus aenigmaticus|0|1420|N Pacific|Jellies|LC|Limp, boneless-feeling fish.
+Pacific viperfish relative Chauliodus barbatus|Chauliodus barbatus|0|1000|SE Pacific|Fish|LC|Viperfish of Chilean waters.
+Deep-sea anglerfish Thaumatichthys|Thaumatichthys binghami|1000|3600|Atlantic|Fish|LC|Lure inside its mouth.
+Owlfish|Bathylagus pacificus|200|1000|N Pacific|Plankton|LC|Big-eyed deep-sea smelt.
+Bluntnose sixgill relative bigeye|Hexanchus nakamurai|90|600|Worldwide|Fish|NT|Bigeyed sixgill shark.
+Frilled shark southern|Chlamydoselachus africana|300|1400|SE Atlantic|Fish|LC|Southern African frilled shark.
+Deep-sea cod Antimora|Antimora rostrata|300|3000|Worldwide|Fish, crustaceans|LC|Blue hake of slopes.
+Armored searobin|Peristedion miniatum|64|910|W Atlantic|Invertebrates|LC|Bony plated deep searobin.
+Snaggletooth|Astronesthes niger|0|1000|Atlantic|Fish|LC|Small dragonfish.
+Longfin lanternfish|Diaphus metopoclampus|0|1000|Worldwide|Plankton|LC|Lanternfish with forehead light.
+Tadpole snailfish|Nectoliparis pelagicus|0|3000|N Pacific|Plankton|LC|Pelagic snailfish.
+Eelpout Lycodes|Lycodes pacificus|0|400|NE Pacific|Invertebrates|LC|Bottom-living eelpout.
+Vent eelpout|Thermarces cerberus|2500|2700|East Pacific Rise|Vent invertebrates|NE|The only fish living in vent communities.

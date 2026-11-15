@@ -1,0 +1,102 @@
+# Cnidarians|🪼
+Moon jellyfish|Aurelia aurita|0|200|Worldwide|Plankton|NE|The classic translucent jellyfish with four horseshoe gonads.
+Lion's mane jellyfish|Cyanea capillata|0|20|Arctic; N Atlantic; N Pacific|Fish, jellies|NE|The largest known jellyfish, with tentacles over 30 m.
+Box jellyfish|Chironex fleckeri|0|10|N Australia; SE Asia|Shrimp, fish|NE|Among the most venomous animals; has 24 eyes.
+Portuguese man o' war|Physalia physalis|0|0|Warm oceans|Fish|NE|A floating colony (siphonophore) with a gas-filled sail.
+Blue button|Porpita porpita|0|0|Warm oceans|Plankton|NE|A floating hydrozoan colony like a blue coin.
+By-the-wind sailor|Velella velella|0|0|Warm and temperate oceans|Plankton|NE|Sails across the ocean on a diagonal fin; washes ashore by millions.
+Upside-down jellyfish|Cassiopea andromeda|0|2|Indo-Pacific; invasive Mediterranean|Algal symbionts|NE|Lies upside down to sunbathe its symbiotic algae.
+Immortal jellyfish|Turritopsis dohrnii|0|20|Mediterranean; worldwide|Plankton|NE|Can revert to its juvenile polyp stage, potentially indefinitely.
+Irukandji jellyfish|Carukia barnesi|0|20|N Australia|Larval fish|NE|Thumbnail-sized jelly causing Irukandji syndrome.
+Fried egg jellyfish|Cotylorhiza tuberculata|0|20|Mediterranean|Plankton|NE|Looks like a fried egg; hosts juvenile fish.
+Barrel jellyfish|Rhizostoma pulmo|0|20|NE Atlantic; Mediterranean|Plankton|NE|Dustbin-lid-sized jellyfish.
+Nomura's jellyfish|Nemopilema nomurai|0|50|East China and Yellow Seas|Plankton|NE|Up to 200 kg; blooms clog fishing nets.
+Crystal jelly|Aequorea victoria|0|100|NE Pacific|Plankton, jellies|NE|Source of green fluorescent protein (GFP), Nobel Prize 2008.
+Deep red jellyfish|Periphylla periphylla|0|7000|Worldwide|Plankton|NE|Light-shy deep jelly that dominates some Norwegian fjords.
+Stygiomedusa|Stygiomedusa gigantea|200|6665|Worldwide|Plankton, fish|NE|Giant phantom jelly with 10 m oral arms, seen ~100 times.
+Big red jellyfish|Tiburonia granrojo|600|1500|Pacific|Unknown|NE|Thick red jelly with fleshy arms instead of tentacles.
+Sea wasp Carybdea|Carybdea marsupialis|0|20|Atlantic; Mediterranean|Fish, shrimp|NE|Small box jelly.
+Sea pen|Pennatula phosphorea|10|100|NE Atlantic|Plankton|NE|Feather-shaped colony that glows when touched.
+Venus sea fan|Gorgonia flabellum|1|15|Caribbean|Plankton|NE|Purple fan coral oriented across currents.
+Black coral|Antipathes griggi|30|100|Hawaii|Plankton|NE|Living black corals can be over 4,000 years old.
+Bubblegum coral|Paragorgia arborea|200|1300|Worldwide cold waters|Plankton|NE|Large pink tree coral of cold seamounts.
+Elkhorn coral|Acropora palmata|1|20|Caribbean|Plankton, symbionts|CR|Once the dominant Caribbean reef builder, lost ~90%.
+Staghorn coral|Acropora cervicornis|1|30|Caribbean|Plankton, symbionts|CR|Fast-growing branching coral used in restoration.
+Brain coral|Diploria labyrinthiformis|1|40|Caribbean|Plankton, symbionts|CR|Grooved dome coral resembling a brain.
+Mushroom coral|Fungia fungites|1|35|Indo-Pacific|Plankton, symbionts|NT|Free-living solitary coral that can right itself.
+Fire coral|Millepora alcicornis|1|40|Caribbean|Plankton, symbionts|LC|Hydrozoan, not true coral; stings painfully.
+Bubble-tip anemone|Entacmaea quadricolor|1|40|Indo-Pacific|Plankton, symbionts|NE|Host to clownfish.
+Giant carpet anemone|Stichodactyla gigantea|0|5|Indo-Pacific|Fish, symbionts|NE|Host anemone for many clownfish species.
+Beadlet anemone|Actinia equina|0|20|NE Atlantic|Small animals|NE|Common red rock-pool anemone that fights neighbours with stinging beads.
+Venus flytrap anemone|Actinoscyphia aurelia|1000|2000|Gulf of Mexico; Atlantic|Particles|NE|Closes like a flytrap.
+Tube anemone|Cerianthus membranaceus|1|40|Mediterranean; Atlantic|Plankton|NE|Lives in a felt-like tube.
+Hydroid ostrich-plume|Aglaophenia struthionides|0|180|NE Pacific|Plankton|NE|Feathery hydroid colony.
+# Comb jellies & others|🫧
+Sea walnut|Mnemiopsis leidyi|0|50|W Atlantic; invasive Black Sea|Zooplankton|NE|Comb jelly that collapsed Black Sea fisheries after invading.
+Venus girdle|Cestum veneris|0|500|Warm oceans|Plankton|NE|Ribbon-shaped comb jelly over 1 m long.
+Beroe|Beroe forskalii|0|500|Worldwide|Comb jellies|NE|Swallows other comb jellies whole.
+Salp|Salpa maxima|0|1000|Worldwide|Phytoplankton|NE|Barrel-shaped tunicates forming long chains; huge carbon exporters.
+Pyrosome|Pyrosoma atlanticum|0|1000|Warm oceans|Phytoplankton|NE|Glowing colonial tunicate; giant tubes reach 18 m.
+Giant larvacean|Bathochordaeus charon|100|500|Worldwide|Particles|NE|Builds mucus 'houses' up to 1 m wide that sink as marine snow.
+Sea squirt|Ciona intestinalis|0|500|Worldwide|Plankton|NE|Our distant chordate relative; larva has a notochord.
+Lancelet|Branchiostoma lanceolatum|0|10|NE Atlantic; Mediterranean|Plankton|NE|Living model of early chordates.
+# Sponges & others|🧽
+Barrel sponge|Xestospongia muta|10|120|Caribbean|Bacteria, particles|NE|'Redwood of the reef', living for centuries.
+Azure vase sponge|Callyspongia plicifera|2|30|Caribbean|Particles|NE|Vivid violet vase-shaped sponge.
+Carnivorous harp sponge|Chondrocladia lyra|3300|3500|NE Pacific|Crustaceans|NE|Harp-shaped sponge that snares prey, described 2012.
+Boring sponge|Cliona celata|0|200|Worldwide|Particles|NE|Bores into shells and limestone.
+Hexactinellid Monorhaphis|Monorhaphis chuni|1000|1100|W Pacific|Particles|NE|A single glass spicule 3 m long; specimens ~11,000 years old.
+Bryozoan|Bugula neritina|0|20|Worldwide|Plankton|NE|Source of bryostatin, an anticancer compound.
+Lamp shell|Lingula anatina|0|40|Indo-Pacific|Plankton|NE|Brachiopod lineage almost unchanged for 500 million years.
+# Molluscs|🐚
+Giant clam|Tridacna gigas|0|20|Indo-Pacific|Symbiotic algae, plankton|CR|The largest bivalve, over 200 kg.
+Queen conch|Aliger gigas|0|30|Caribbean|Algae|NE|Pink-lipped conch that hops with its foot.
+Cone snail geography|Conus geographus|0|20|Indo-Pacific|Fish|NE|Harpoons fish with insulin-laced venom; deadly to humans.
+Textile cone|Conus textile|0|50|Indo-Pacific|Snails|NE|Venomous patterned cone shell.
+Giant triton|Charonia tritonis|0|30|Indo-Pacific|Starfish|NE|Predator of crown-of-thorns starfish.
+Spanish dancer|Hexabranchus sanguineus|0|50|Indo-Pacific|Sponges|NE|Huge red nudibranch that 'dances' when swimming.
+Blue dragon|Glaucus atlanticus|0|0|Warm oceans|Man o' war, Velella|NE|Floating sea slug that steals stinging cells from its prey.
+Lettuce sea slug|Elysia crispata|0|20|Caribbean|Algae|NE|Keeps stolen chloroplasts alive to photosynthesise.
+Sea hare|Aplysia californica|0|20|NE Pacific|Algae|NE|Squirts purple ink; key model for memory research.
+Leaf sheep|Costasiella kuroshimae|0|20|W Pacific|Algae|NE|Tiny solar-powered sea slug that looks like a sheep.
+Sea butterfly|Limacina helicina|0|500|Arctic; Southern Ocean|Plankton|NE|Swimming snail whose thin shell dissolves in acidified water.
+Chiton gumboot|Cryptochiton stelleri|0|20|N Pacific|Algae|NE|The largest chiton, up to 36 cm.
+Blue mussel|Mytilus edulis|0|10|N Atlantic|Plankton (filter)|NE|Forms dense beds glued by byssus threads.
+Great scallop|Pecten maximus|0|250|NE Atlantic|Plankton|LC|Has up to 200 eyes with mirrored retinas.
+Pearl oyster|Pinctada maxima|0|120|Indo-Pacific|Plankton|NE|Produces large South Sea pearls.
+Shipworm|Teredo navalis|0|10|Worldwide|Wood|NE|A clam that bores through wooden ships and piers.
+Paper nautilus|Argonauta hians|0|20|Warm oceans|Plankton|NE|Brown argonaut with a fragile egg-case shell.
+Abalone red|Haliotis rufescens|0|180|NE Pacific|Kelp|CR|Iridescent-shelled snail; collapsed with kelp loss.
+Limpet common|Patella vulgata|0|1|NE Atlantic|Algae|NE|Teeth are the strongest known biological material.
+Giant African land snail sea|Melo melo|0|20|Indo-Pacific|Snails|NE|Indian volute that produces rare orange 'melo pearls'.
+Deep-sea mussel|Bathymodiolus thermophilus|2500|2700|East Pacific Rise|Symbiotic bacteria|NE|Vent mussel fed by sulfur-oxidising symbionts.
+Vent clam|Calyptogena magnifica|2000|3000|East Pacific Rise|Symbiotic bacteria|NE|Giant white vent clam with red blood.
+# Echinoderms|⭐
+Ochre sea star|Pisaster ochraceus|0|90|NE Pacific|Mussels|EN|The original 'keystone species'; ravaged by sea star wasting disease.
+Sunflower sea star|Pycnopodia helianthoides|0|435|NE Pacific|Urchins|CR|Up to 24 arms; its loss let urchins destroy kelp forests.
+Crown sea star Atlantic|Asterias rubens|0|650|NE Atlantic|Mussels|NE|Common European starfish.
+Cushion star|Culcita novaeguineae|0|30|Indo-Pacific|Coral|NE|Puffy pentagon-shaped sea star.
+Blue linckia|Linckia laevigata|0|60|Indo-Pacific|Biofilm|NE|Bright blue sea star that regrows from one arm.
+Basket star|Gorgonocephalus eucnemis|10|1800|N Pacific|Plankton|NE|Coiling branched arms form a feeding net at night.
+Purple sea urchin|Strongylocentrotus purpuratus|0|160|NE Pacific|Kelp|NE|Forms 'urchin barrens' when predators vanish.
+Long-spined sea urchin|Diadema antillarum|0|50|Caribbean|Algae|NE|Its 1983 die-off helped algae overgrow Caribbean reefs.
+Pencil urchin slate|Heterocentrotus mamillatus|0|20|Indo-Pacific|Algae|NE|Thick blunt spines.
+Sand dollar|Dendraster excentricus|0|40|NE Pacific|Particles|NE|Flattened urchin that stands on edge in sand.
+Feather star|Antedon bifida|0|200|NE Atlantic|Plankton|NE|Crinoid that swims by waving its arms.
+Sea lily stalked|Metacrinus rotundus|100|1000|W Pacific|Plankton|NE|Stalked crinoid that can crawl.
+Giant California sea cucumber|Apostichopus californicus|0|250|NE Pacific|Detritus|NE|Can eject internal organs to escape predators.
+Swimming sea cucumber|Enypniastes eximia|500|5000|Worldwide|Detritus|NE|'Headless chicken monster', a glowing swimming sea cucumber.
+Sea apple|Pseudocolochirus violaceus|0|20|W Pacific|Plankton|NE|Colourful filter-feeding sea cucumber.
+# Worms & vent fauna|🪱
+Christmas tree worm|Spirobranchus giganteus|0|30|Tropical reefs|Plankton|NE|Spiral plumes retract instantly when disturbed.
+Feather duster worm|Sabellastarte spectabilis|0|30|Indo-Pacific|Plankton|NE|Fan worm living in a parchment tube.
+Bobbit worm|Eunice aphroditois|10|40|Indo-Pacific|Fish|NE|Ambush predator up to 3 m that snaps fish from the sand.
+Fireworm|Hermodice carunculata|0|60|Atlantic|Coral|NE|Bristles inject irritants.
+Palolo worm|Palola viridis|0|10|South Pacific|Algae|NE|Spawning swarms timed to the moon are a feast in Samoa.
+Ice worm|Hesiocaeca methanicola|500|600|Gulf of Mexico|Bacteria|NE|Lives on methane ice (hydrate) mounds.
+Peanut worm|Sipunculus nudus|0|900|Worldwide|Detritus|NE|Unsegmented burrowing worm.
+Ribbon worm giant|Lineus longissimus|0|10|NE Atlantic|Worms|NE|Possibly the longest animal at up to ~55 m.
+Lugworm|Arenicola marina|0|10|NE Atlantic|Sediment|NE|Leaves coiled casts on beaches.
+Lamellibrachia|Lamellibrachia luymesi|400|1000|Gulf of Mexico|Symbiotic bacteria|NE|Cold-seep tubeworm living over 250 years.
+Zombie worm Osedax rubiplumus|Osedax rubiplumus|1000|3000|NE Pacific|Whale bones|NE|Red-plumed bone-eating worm with dwarf males.
+Flatworm Persian carpet|Pseudobiceros bedfordi|0|20|Indo-Pacific|Ascidians|NE|Flatworms 'penis-fence' to decide who becomes the mother.

@@ -13,6 +13,9 @@ The **Kunming-Montreal Global Biodiversity Framework** (2022) set **Target 3**: 
 - Only **1.3%** of the ocean has protected areas whose management effectiveness has been assessed[^iucn].
 :::
 
+
+{{chart:mpa}}
+
 ## Paper parks
 
 Many MPAs allow fishing, including bottom trawling. In the EU, a large share of MPAs are commercially trawled. Strongly protected reserves, by contrast, hold on average several times more fish biomass than fished areas nearby, and "spillover" can benefit neighbouring fisheries.

@@ -1,0 +1,82 @@
+# Reef fish|🐠
+Queen angelfish|Holacanthus ciliaris|1|70|W Atlantic; Caribbean|Sponges|LC|Electric blue-and-yellow angelfish with a 'crown' spot; juveniles clean other fish.
+Flame angelfish|Centropyge loricula|15|60|Central Pacific|Algae|LC|A small fiery-red pygmy angelfish living in harems.
+Coral beauty|Centropyge bispinosa|10|60|Indo-Pacific|Algae, detritus|LC|Purple-and-orange dwarf angelfish of reef rubble.
+Copperband butterflyfish|Chelmon rostratus|1|25|Indo-West Pacific|Worms, small invertebrates|LC|Long-snouted butterflyfish that probes crevices; eats nuisance anemones.
+Raccoon butterflyfish|Chaetodon lunula|0|30|Indo-Pacific|Nudibranchs, polyps, algae|LC|Masked butterflyfish active mainly at night.
+Longfin bannerfish|Heniochus acuminatus|2|178|Indo-Pacific|Zooplankton|LC|Butterflyfish with a pennant-like dorsal fin, often confused with the Moorish idol.
+Powder blue tang|Acanthurus leucosternon|0|25|Indian Ocean|Algae|LC|Pale-blue surgeonfish grazing in large schools.
+Unicornfish|Naso unicornis|1|180|Indo-Pacific|Brown algae|LC|Surgeonfish with a horn-like forehead projection.
+Achilles tang|Acanthurus achilles|0|10|Pacific|Algae|LC|Surge-zone surgeonfish with a bright orange tail patch.
+Convict surgeonfish|Acanthurus triostegus|0|90|Indo-Pacific|Algae|LC|Striped surgeonfish that overwhelms territorial damselfish in mass raids.
+Sergeant major|Abudefduf saxatilis|1|20|Atlantic|Plankton, algae|LC|Striped damselfish whose males guard purple egg patches.
+Blue chromis|Chromis cyanea|3|60|Caribbean|Zooplankton|LC|Brilliant blue damselfish that hovers above reefs.
+Three-spot dascyllus|Dascyllus trimaculatus|1|55|Indo-Pacific|Plankton, algae|LC|Juveniles shelter among anemones like clownfish.
+Yellowtail damselfish|Microspathodon chrysurus|0|10|W Atlantic|Algae|LC|Juveniles are 'jewel' fish with glowing blue spots.
+Bicolor blenny|Ecsenius bicolor|1|25|Indo-Pacific|Algae|LC|Peeks from holes; changes colour when breeding.
+Sabre-tooth blenny|Aspidontus taeniatus|1|25|Indo-Pacific|Fins and scales of other fish|LC|Mimics the cleaner wrasse to bite unsuspecting clients.
+Fang blenny|Meiacanthus grammistes|1|20|W Pacific|Zooplankton|LC|Venomous fangs containing opioid-like toxins.
+Yellow watchman goby|Cryptocentrus cinctus|1|20|W Pacific|Small invertebrates|LC|Shares a burrow with a blind pistol shrimp in a classic partnership.
+Fire goby|Nemateleotris magnifica|6|70|Indo-Pacific|Zooplankton|LC|Flicks its long dorsal fin as a signal and dives into its burrow.
+Mandarin dragonet|Synchiropus picturatus|1|18|W Pacific|Small crustaceans|LC|Psychedelic dragonet that mates at dusk.
+Stonefish|Synanceia verrucosa|0|30|Indo-Pacific|Fish, shrimp|LC|The world's most venomous fish, camouflaged as a rock.
+Scorpionfish|Scorpaenopsis oxycephala|1|35|Indo-W Pacific|Fish, crustaceans|LC|Tasselled ambush predator with venomous spines.
+Leaf scorpionfish|Taenianotus triacanthus|1|135|Indo-Pacific|Small fish, shrimp|LC|Sways like a dead leaf and sheds its skin regularly.
+Clearfin lionfish|Pterois radiata|1|30|Indo-Pacific; Red Sea|Crustaceans|LC|Lionfish with white-striped fin rays hunting at night.
+Coral grouper|Cephalopholis miniata|2|150|Indo-Pacific|Fish, crustaceans|LC|Scarlet blue-spotted grouper ruling small harems.
+Peacock hind|Cephalopholis argus|1|40|Indo-Pacific|Fish|LC|Hunts cooperatively with octopuses and moray eels.
+Potato grouper|Epinephelus tukula|10|150|Indo-Pacific|Fish, crabs|LC|Huge, curious grouper that approaches divers.
+Coral trout|Plectropomus leopardus|3|100|W Pacific|Fish|LC|Signals moray eels and octopus to team up on hunts.
+Bluestripe snapper|Lutjanus kasmira|3|265|Indo-Pacific|Fish, crustaceans|LC|Bright schooling snapper introduced to Hawaii.
+Midnight snapper|Macolor macularis|3|50|Indo-Pacific|Zooplankton|LC|Juveniles are black-and-white; adults school in channels.
+Bigeye trevally|Caranx sexfasciatus|0|146|Indo-Pacific|Fish|LC|Forms swirling tornado-like schools by day.
+Giant trevally|Caranx ignobilis|10|190|Indo-Pacific|Fish, birds|LC|Large predator famous for leaping to catch seabird fledglings.
+Bluefin trevally|Caranx melampygus|0|190|Indo-Pacific|Fish|LC|Hunts alongside goatfish and moray eels.
+Yellowtail snapper|Ocyurus chrysurus|0|180|W Atlantic|Plankton, fish|LC|Schools over Caribbean reefs.
+Blue-striped grunt|Haemulon sciurus|0|30|W Atlantic|Invertebrates|LC|Grunts by grinding pharyngeal teeth.|grunt fish sound
+Foureye butterflyfish|Chaetodon capistratus|2|20|W Atlantic|Polyps, worms|LC|A fake eye-spot near its tail confuses predators.
+Rock beauty|Holacanthus tricolor|3|92|W Atlantic|Sponges|LC|Yellow and black angelfish of Caribbean reefs.
+Stoplight parrotfish|Sparisoma viride|1|50|W Atlantic|Algae, coral|LC|Bites coral and excretes fine sand; sex-changing reef engineer.
+Bumphead parrotfish|Bolbometopon muricatum|1|30|Indo-Pacific|Coral|VU|The largest parrotfish, ramming coral with its forehead and producing tonnes of sand.
+Rainbow parrotfish|Scarus guacamaia|3|25|W Atlantic|Algae|NT|The largest herbivorous fish in the Atlantic, dependent on mangroves.
+Slingjaw wrasse|Epibulus insidiator|1|42|Indo-Pacific|Fish, crustaceans|LC|Shoots its jaws out to half its body length.
+Fairy wrasse|Cirrhilabrus solorensis|3|40|W Pacific|Zooplankton|LC|Males flash neon colours during displays.
+Bird wrasse|Gomphosus varius|2|35|Pacific|Crustaceans|LC|Beak-like snout for picking prey from coral.
+Harlequin tuskfish|Choerodon fasciatus|5|35|W Pacific|Molluscs, crustaceans|LC|Uses rocks as anvils to smash shellfish.
+Yellow boxfish|Ostracion cubicus|1|45|Indo-Pacific|Algae, invertebrates|LC|Box-shaped fish that releases toxin when stressed.
+Longhorn cowfish|Lactoria cornuta|1|100|Indo-Pacific|Invertebrates|LC|Horned boxfish that blows jets of water to uncover prey.
+Map puffer|Arothron mappa|4|30|Indo-Pacific|Sponges, algae|LC|Maze-patterned puffer carrying tetrodotoxin.
+Spotted trunkfish|Lactophrys bicaudalis|3|50|W Atlantic|Invertebrates|LC|Armoured trunkfish with toxic skin secretion.
+Ribbon eel|Rhinomuraena quaesita|1|57|Indo-Pacific|Small fish|LC|Changes from black juvenile to blue male to yellow female.
+Zebra moray|Gymnomuraena zebra|1|50|Indo-Pacific|Crabs, molluscs|LC|Moray with blunt crushing teeth.
+Green moray|Gymnothorax funebris|0|50|W Atlantic|Fish, octopus|LC|Yellow mucus over blue skin makes it look green.
+Snowflake moray|Echidna nebulosa|0|30|Indo-Pacific|Crustaceans|LC|Can wriggle onto land to catch crabs.
+Spotted drum|Equetus punctatus|3|30|W Atlantic|Crustaceans|LC|Juveniles have a sail-like dorsal fin that swirls as they swim.
+Jawfish yellowhead|Opistognathus aurifrons|3|40|Caribbean|Zooplankton|LC|Builds stone-lined burrows; males brood eggs in their mouth.
+Flashlight fish|Anomalops katoptron|0|400|W Pacific|Zooplankton|LC|Blinks bacterial light organs under its eyes to communicate.
+Pinecone fish|Monocentris japonica|2|200|Indo-Pacific|Crustaceans|LC|Armoured fish with glowing jaw light organs.
+Squirrelfish|Holocentrus adscensionis|0|180|Atlantic|Crustaceans|LC|Big-eyed nocturnal fish that makes clicking sounds.|squirrelfish sound
+Bluespotted ribbontail ray|Taeniura lymma|0|30|Indo-Pacific|Molluscs, worms|LC|Electric-blue spotted ray of sandy reef patches.
+Whitetip reef shark|Triaenodon obesus|1|330|Indo-Pacific|Fish, octopus|VU|Wedges into reef crevices to hunt at night.
+Blacktip reef shark|Carcharhinus melanopterus|0|75|Indo-Pacific|Fish|VU|Small shark of shallow lagoons, fins often above water.
+Grey reef shark|Carcharhinus amblyrhynchos|0|280|Indo-Pacific|Fish, cephalopods|EN|Performs a hunched threat display before attacking.
+Caribbean reef shark|Carcharhinus perezi|0|378|W Atlantic|Fish|EN|Top reef predator of the Caribbean.
+Lemon shark|Negaprion brevirostris|0|92|W Atlantic; E Pacific|Fish, rays|VU|Returns to the mangrove nursery where it was born to give birth.
+Bonnethead|Sphyrna tiburo|0|80|W Atlantic|Crabs, seagrass|LC|The only shark known to digest plants (seagrass).
+Spotted wobbegong|Orectolobus maculatus|0|218|Australia|Fish, octopus|LC|Ornate carpet shark resting on reefs.
+Tasselled anglerfish|Rhycherus filamentosus|1|25|S Australia|Fish|LC|Seaweed-mimic anglerfish.
+Hairy frogfish|Antennarius striatus|1|219|Worldwide warm|Fish|LC|Covered in skin filaments resembling algae.
+Pygmy seahorse|Hippocampus bargibanti|10|40|W Pacific|Small crustaceans|DD|Thumbnail-sized seahorse living on one sea fan, invisible among its polyps.
+Weedy seadragon|Phyllopteryx taeniolatus|3|50|S Australia|Mysids|LC|Colourful relative of seahorses; males carry the eggs.
+Ghost pipefish|Solenostomus paradoxus|3|25|Indo-Pacific|Small crustaceans|LC|Females brood eggs in fused pelvic fins.
+Trumpetfish|Aulostomus maculatus|2|25|W Atlantic|Small fish|LC|Shadows larger fish to sneak up on prey.
+Cornetfish|Fistularia commersonii|0|130|Indo-Pacific|Fish|LC|Very long, thin predator; invaded the Mediterranean.
+Spotted goatfish|Pseudupeneus maculatus|1|90|W Atlantic|Invertebrates|LC|Probes sand with chin barbels; followed by opportunists.
+Glassy sweeper|Pempheris schomburgkii|1|30|W Atlantic|Plankton|LC|Shimmering schools fill reef caves by day.
+Bluehead tilefish|Hoplolatilus starcki|20|105|W Pacific|Plankton|LC|Pairs hover over burrows on reef slopes.
+Orange-lined triggerfish|Balistapus undulatus|2|50|Indo-Pacific|Urchins, crabs|LC|Aggressive triggerfish that flips urchins to reach their soft underside.
+Clown triggerfish|Balistoides conspicillum|1|75|Indo-Pacific|Urchins, crustaceans|LC|Bold polka-dot pattern on its belly.
+Queen triggerfish|Balistes vetula|2|275|Atlantic|Urchins|NT|Blows water at urchins to flip them over.
+Orbicular batfish|Platax orbicularis|1|35|Indo-Pacific|Algae, invertebrates|LC|Juveniles mimic drifting dead leaves.
+Spadefish Atlantic|Chaetodipterus faber|3|35|W Atlantic|Invertebrates|LC|Disc-shaped fish in large schools around wrecks.
+Remora|Echeneis naucrates|0|85|Worldwide warm|Scraps, parasites|LC|Hitches rides on sharks with a suction disc on its head.

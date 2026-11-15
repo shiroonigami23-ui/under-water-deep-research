@@ -13,6 +13,9 @@ Oxygen loss is the least-known of the ocean's three climate stressors (with warm
 - Losses could reach **up to 7%** by 2100[^vn].
 :::
 
+
+{{chart:oxygen}}
+
 ## Why oxygen is falling
 
 1. **Solubility:** warm water holds less gas. This explains about **15%** of the loss[^nat].

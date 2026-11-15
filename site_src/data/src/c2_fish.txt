@@ -1,0 +1,83 @@
+# Open-ocean fish|🐟
+Pacific bluefin tuna|Thunnus orientalis|0|550|N Pacific|Fish, squid|NT|Crosses the entire Pacific from Japan to California and back.
+Southern bluefin tuna|Thunnus maccoyii|0|500|Southern oceans|Fish, squid|EN|Spawns only south of Java; long-lived and slow to recover.
+Bigeye tuna|Thunnus obesus|0|1500|Tropical worldwide|Fish, squid|VU|Dives deep by day with large eyes adapted for dim light.
+Wahoo|Acanthocybium solandri|0|20|Tropical worldwide|Fish, squid|LC|One of the fastest fish, with razor teeth.
+King mackerel|Scomberomorus cavalla|5|140|W Atlantic|Fish|LC|Leaps high when striking bait.
+Atlantic bonito|Sarda sarda|0|200|Atlantic; Mediterranean|Fish|LC|Fast schooling tuna relative.
+Black marlin|Istiompax indica|0|915|Indo-Pacific|Tuna, squid|DD|Rigid pectoral fins; among the fastest fish.
+Striped marlin|Kajikia audax|0|200|Indo-Pacific|Sardines, squid|LC|Hunts bait balls in groups, flashing stripes.
+Atlantic white marlin|Kajikia albida|0|150|Atlantic|Fish, squid|NT|Smaller Atlantic marlin.
+Shortbill spearfish|Tetrapturus angustirostris|0|200|Indo-Pacific|Fish, squid|DD|Rarest-seen billfish.
+Cobia|Rachycentron canadum|0|1200|Worldwide warm|Crabs, fish|LC|Follows rays and sharks for scraps.
+Amberjack|Seriola dumerili|18|360|Worldwide warm|Fish|LC|Powerful jack around wrecks and reefs.
+Yellowtail kingfish|Seriola lalandi|3|825|Temperate worldwide|Fish, squid|LC|Fast predator of temperate reefs.
+Bluefish|Pomatomus saltatrix|0|200|Worldwide temperate|Fish|VU|Voracious schooling predator with 'feeding frenzies'.
+Pilot fish|Naucrates ductor|0|300|Worldwide warm|Parasites, scraps|LC|Escorts sharks and turtles, eating parasites.
+Rainbow runner|Elagatis bipinnulata|2|150|Worldwide warm|Fish, crustaceans|LC|Sleek blue-striped jack.
+Pacific saury|Cololabis saira|0|230|N Pacific|Zooplankton|LC|Skips across the surface to flee predators.
+Capelin|Mallotus villosus|0|725|Arctic; N Atlantic; N Pacific|Zooplankton|LC|Key forage fish; spawns on beaches by the million.
+Sand eel|Ammodytes tobianus|0|30|NE Atlantic|Zooplankton|LC|Burrows in sand; vital food for puffins.
+Atlantic saury|Scomberesox saurus|0|30|N Atlantic|Zooplankton|LC|Needle-nosed surface fish.
+Pacific herring|Clupea pallasii|0|475|N Pacific|Zooplankton|LC|Spawning turns coastal waters milky white.
+European sprat|Sprattus sprattus|10|150|NE Atlantic|Zooplankton|LC|Small silvery shoaling fish.
+European anchovy|Engraulis encrasicolus|0|400|E Atlantic; Mediterranean|Zooplankton|LC|Important small pelagic fish of the Mediterranean.
+Japanese anchovy|Engraulis japonicus|0|400|NW Pacific|Plankton|LC|Huge swings in abundance with ocean regimes.
+Round sardinella|Sardinella aurita|0|350|Atlantic; Mediterranean|Plankton|LC|West African upwelling fish.
+Chub mackerel|Scomber japonicus|0|300|Pacific|Plankton, fish|LC|Abundant small mackerel.
+Jack mackerel|Trachurus murphyi|10|300|SE Pacific|Plankton, fish|LC|Spans the South Pacific.
+Pacific hake|Merluccius productus|0|1000|NE Pacific|Krill, fish|LC|The largest groundfish stock off the US West Coast.
+Blue whiting|Micromesistius poutassou|150|3000|NE Atlantic|Krill|LC|One of the most abundant fish in the North Atlantic.
+Alaska pollock|Gadus chalcogrammus|0|1280|N Pacific|Krill, fish|LC|World's biggest whitefish fishery (fish sticks, surimi).
+Haddock|Melanogrammus aeglefinus|10|450|N Atlantic|Invertebrates|VU|Cod relative with a black 'thumbprint'.
+Atlantic pollock|Pollachius virens|37|364|N Atlantic|Fish|LC|Schooling cod-family fish.
+Ling|Molva molva|100|1000|NE Atlantic|Fish|LC|Long-bodied deep cod relative.
+Monkfish|Lophius piscatorius|20|1000|NE Atlantic|Fish|LC|Huge-mouthed coastal anglerfish.
+Plaice|Pleuronectes platessa|0|200|NE Atlantic|Worms, molluscs|LC|Orange-spotted flatfish.
+Common sole|Solea solea|0|150|NE Atlantic; Mediterranean|Worms|DD|Nocturnal flatfish hunting by touch and smell.
+Pacific halibut|Hippoglossus stenolepis|6|1200|N Pacific|Fish, crabs|LC|Giant flatfish exceeding 200 kg.
+Greenland halibut|Reinhardtius hippoglossoides|1|2000|Arctic; N Atlantic; N Pacific|Fish, squid|LC|Deep-water flatfish that swims upright.
+Sablefish|Anoplopoma fimbria|0|2740|N Pacific|Fish, squid|LC|Long-lived 'black cod' of slopes.
+Lingcod|Ophiodon elongatus|3|475|NE Pacific|Fish|LC|Males guard egg masses for weeks.
+Bocaccio|Sebastes paucispinis|12|478|NE Pacific|Fish|LC|Rockfish that recovered after fishing limits.
+Rougheye rockfish|Sebastes aleutianus|25|900|N Pacific|Shrimp, fish|NT|Lives over 200 years.
+Atlantic wolffish|Anarhichas lupus|1|600|N Atlantic|Urchins, crabs|NE|Antifreeze proteins and crushing teeth.
+Lumpsucker|Cyclopterus lumpus|0|868|N Atlantic|Jellies, crustaceans|NT|Round fish with a suction disc; males guard eggs.
+European seabass|Dicentrarchus labrax|10|100|NE Atlantic; Mediterranean|Fish, crustaceans|LC|Popular coastal sport fish.
+Gilt-head bream|Sparus aurata|1|150|Mediterranean; E Atlantic|Shellfish|LC|Sex-changing sea bream.
+Red drum|Sciaenops ocellatus|1|70|W Atlantic|Crabs, fish|LC|Drums loudly with its swim bladder.|red drum fish sound
+Atlantic croaker|Micropogonias undulatus|0|100|W Atlantic|Invertebrates|LC|Named for its croaking sounds.|Atlantic croaker sound
+Oyster toadfish|Opsanus tau|0|30|W Atlantic|Crabs, molluscs|LC|Males 'boatwhistle' to attract mates.|toadfish boatwhistle
+Plainfin midshipman|Porichthys notatus|0|366|NE Pacific|Crustaceans|LC|Night-time humming kept houseboat owners awake.|plainfin midshipman hum
+Black sea bass|Centropristis striata|0|130|W Atlantic|Crustaceans|LC|Sex-changing coastal grouper relative.
+Tarpon|Megalops atlanticus|0|98|Atlantic|Fish, crabs|VU|Gulps air with a lung-like swim bladder.
+Bonefish|Albula vulpes|0|84|W Atlantic|Shrimp, crabs|NT|'Grey ghost' of tropical flats.
+Snook|Centropomus undecimalis|0|22|W Atlantic|Fish|LC|Mangrove and estuary predator.
+Mullet flathead|Mugil cephalus|0|120|Worldwide|Detritus, algae|LC|Leaps from the water; sifts mud.
+Milkfish|Chanos chanos|0|30|Indo-Pacific|Algae, plankton|LC|Major aquaculture fish in Asia.
+Hilsa|Tenualosa ilisha|0|200|Bay of Bengal; Arabian Sea|Plankton|LC|Migrates up the Ganges and Padma to spawn; national fish of Bangladesh.
+Indian mackerel|Rastrelliger kanagurta|20|90|Indo-W Pacific|Plankton|DD|Key catch along Indian coasts.
+Pomfret silver|Pampus argenteus|5|110|Indo-W Pacific|Jellyfish, zooplankton|VU|Prized diamond-shaped fish.
+Bombay duck|Harpadon nehereus|0|50|N Indian Ocean|Fish, shrimp|NT|A lizardfish dried and eaten in western India.
+Indian oil sardine|Sardinella longiceps|0|200|N Indian Ocean|Phytoplankton|LC|Kerala's staple fishery.
+Barramundi|Lates calcarifer|0|40|Indo-W Pacific|Fish, crustaceans|LC|Born male, many become female later.
+Giant grouper|Epinephelus lanceolatus|1|100|Indo-Pacific|Spiny lobsters, fish|VU|The largest reef bony fish, up to 400 kg.
+Atlantic sturgeon|Acipenser oxyrinchus|0|50|W Atlantic|Invertebrates|LC|Ancient armoured fish leaping from rivers.
+European sea sturgeon|Acipenser sturio|0|100|NE Atlantic|Invertebrates|CR|Nearly extinct; one spawning river left (Gironde).
+Sea lamprey|Petromyzon marinus|0|4099|N Atlantic|Blood of fish|LC|Jawless parasite with a sucking disc of teeth.
+Shortfin eel|Anguilla australis|0|0|SW Pacific|Fish, invertebrates|NT|Spawns in the deep Pacific near New Caledonia.
+Japanese eel|Anguilla japonica|0|400|NW Pacific|Invertebrates|EN|Spawns near the West Mariana Ridge.
+American eel|Anguilla rostrata|0|464|W Atlantic|Fish, invertebrates|EN|Shares the Sargasso Sea spawning ground with the European eel.
+Pacific lamprey|Entosphenus tridentatus|0|1100|N Pacific|Blood of fish|LC|Sacred to Columbia River tribes.
+Pink salmon|Oncorhynchus gorbuscha|0|250|N Pacific|Plankton, fish|LC|Males grow a hump at spawning.
+Coho salmon|Oncorhynchus kisutch|0|250|N Pacific|Fish|LC|Silver salmon of coastal streams.
+Chum salmon|Oncorhynchus keta|0|250|N Pacific|Plankton|LC|Develops tiger stripes when spawning.
+Steelhead|Oncorhynchus mykiss|0|200|N Pacific|Fish, insects|LC|Sea-run rainbow trout that can spawn more than once.
+Arctic char|Salvelinus alpinus|0|70|Arctic|Fish, invertebrates|LC|The northernmost freshwater fish; some go to sea.
+Sea trout|Salmo trutta|0|28|NE Atlantic|Fish|LC|Sea-run brown trout.
+Antarctic toothfish|Dissostichus mawsoni|0|2200|Southern Ocean|Fish, squid|NE|Antifreeze glycoproteins keep its blood from freezing.
+Patagonian toothfish|Dissostichus eleginoides|70|1600|Southern Ocean|Fish, squid|NE|Sold as 'Chilean sea bass'.
+Icefish blackfin|Chaenocephalus aceratus|5|770|Southern Ocean|Fish, krill|NE|A vertebrate with no red blood cells or haemoglobin.
+Antarctic silverfish|Pleuragramma antarcticum|0|900|Southern Ocean|Krill, copepods|LC|Key forage fish nesting under sea ice.
+Polar cod|Boreogadus saida|0|1390|Arctic|Plankton|LC|Lives under and in cracks of Arctic sea ice.
+Greenland cod|Gadus ogac|0|400|Arctic|Fish, crustaceans|LC|Cod of Greenland fjords.

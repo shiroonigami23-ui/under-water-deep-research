@@ -8,10 +8,15 @@ Needs:    markdown, jinja2
 import json, os, re, shutil, html, datetime, zlib, urllib.parse
 import markdown
 from jinja2 import Environment, BaseLoader
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import charts as CH
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "site_src")
 CFG = json.load(open(os.path.join(SRC, "site.json"), encoding="utf-8"))
+STATS = json.load(open(os.path.join(SRC, "stats.json"), encoding="utf-8")) if os.path.exists(os.path.join(SRC, "stats.json")) else {"charts": {}, "groups": []}
+COLL_CHARTS = []
 GH = f"https://github.com/{CFG['github']}"
 OUT_WIKI = os.path.join(ROOT, "wiki")
 ASSETS = os.path.join(ROOT, "assets", "site")
@@ -30,6 +35,7 @@ def parse(path):
 
 
 def callouts(body):
+    body = re.sub(r"\{\{chart:([\w-]+)\}\}", lambda m: "\n\n" + CH.render(STATS["charts"][m.group(1)]) + "\n\n", body)
     # :::facts Title  ...  :::   -> styled boxes (markdown inside)
     def rep(m):
         kind, title, inner = m.group(1), (m.group(2) or "").strip(), m.group(3)
@@ -85,23 +91,34 @@ TEMPLATE = r"""<!DOCTYPE html>
 <meta name="description" content="{{ summary|e }}">
 <link rel="stylesheet" href="{{ root }}assets/site/site.css">
 <script>try{const t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
-</head><body class="{{ bodyclass }}">
+</head><body class="{{ bodyclass }}" data-anim="{{ cfg.hero_anim or '' }}">
+<a class="skip" href="#main">Skip to content</a>
 <header class="topbar"><div class="wrap topin">
- <button class="burger" aria-label="Menu" onclick="document.body.classList.toggle('navopen')">☰</button>
  <a class="brand" href="{{ root }}index.html"><span class="logo">{{ cfg.logo }}</span><span><b>{{ cfg.name }}</b><small>{{ cfg.kicker }}</small></span></a>
- <nav class="mainnav">{% for s in nav %}<a href="{{ root }}wiki/{{ s.id }}/index.html" class="{{ 'on' if s.id==cur_sec }}">{{ s.title }}</a>{% endfor %}</nav>
- <form class="search" action="{{ root }}wiki/search.html"><input name="q" placeholder="Search {{ npages }} articles…" aria-label="Search"></form>
- <button class="themebtn" aria-label="Toggle theme" onclick="const d=document.documentElement;d.dataset.theme=d.dataset.theme==='dark'?'light':'dark';try{localStorage.setItem('theme',d.dataset.theme)}catch(e){}">◐</button>
-</div></header>
-{% if tracker %}<details class="trackbar"{% if bodyclass=='homepage' %} open{% endif %}><summary><span class="live">●</span> Live research tracker <span class="muted">· {{ tracker|length }} streams · updated {{ built }}</span></summary>
+ <button class="browsebtn" aria-expanded="false" aria-controls="megamenu" onclick="document.body.classList.toggle('megaopen');this.setAttribute('aria-expanded',document.body.classList.contains('megaopen'))">☰ <span>Browse</span></button>
+ <nav class="quicknav">{% for s in nav[:4] %}<a href="{{ root }}wiki/{{ s.id }}/index.html" class="{{ 'on' if s.id==cur_sec }}">{{ s.title }}</a>{% endfor %}</nav>
+ <div class="search live"><input id="qs" placeholder="Search everything…  ( / )" aria-label="Search" autocomplete="off"><div id="qsres" class="qsres" hidden></div></div>
+ <button class="themebtn" title="Light / dark" aria-label="Toggle theme" onclick="const d=document.documentElement;d.dataset.theme=d.dataset.theme==='dark'?'light':'dark';try{localStorage.setItem('theme',d.dataset.theme)}catch(e){}">🌓</button>
+</div>
+<div id="megamenu" class="megamenu"><div class="wrap"><div class="megagrid">
+ {% for c in cfg.collections %}<a class="megatile cat" href="{{ root }}wiki/{{ c.id }}/index.html"><span class="mi">{{ c.icon }}</span><b>{{ c.title }}</b><small>{{ c.short or 'Catalog' }}</small></a>{% endfor %}
+ {% for s in sections %}<a class="megatile" href="{{ root }}wiki/{{ s.id }}/index.html"><span class="mi">{{ s.icon }}</span><b>{{ s.title }}</b><small>{{ s.pages|length }} articles</small></a>{% endfor %}
+ <a class="megatile" href="{{ root }}wiki/statistics/index.html"><span class="mi">📊</span><b>Statistics</b><small>Animated charts</small></a>
+ <a class="megatile" href="{{ root }}wiki/timeline.html"><span class="mi">🕰</span><b>Timeline</b><small>Key dates</small></a>
+ <a class="megatile" href="{{ root }}wiki/glossary.html"><span class="mi">📖</span><b>Glossary</b><small>Terms explained</small></a>
+ <a class="megatile" href="{{ root }}wiki/sources.html"><span class="mi">🔗</span><b>Sources</b><small>Every reference</small></a>
+</div></div></div></header>
+{% if tracker %}<details class="trackbar"{% if bodyclass=='homepage' %} data-openwide="1"{% endif %}><summary><span class="live">●</span> Live research tracker <span class="muted">· {{ tracker|length }} streams · updated {{ built }}</span></summary>
 <div class="wrap"><div class="trackgrid">{% for t in tracker %}<a class="trk" href="/wiki/{{ cfg.tracker_page }}.html#{{ t.id }}"><span class="ti">{{ t.icon }}</span><b>{{ t.name }}</b><span class="st">{{ t.status }}</span><span class="nx">Next: {{ t.next }}</span></a>{% endfor %}</div>
 <p class="small"><a href="/wiki/{{ cfg.tracker_page }}.html">Open the full tracker with sources →</a></p></div></details>{% endif %}
-{{ content }}
-<footer class="foot"><div class="wrap footgrid">
- <div><div class="brand small"><span class="logo">{{ cfg.logo }}</span><b>{{ cfg.name }}</b></div><p>{{ cfg.footer }}</p>
- <p class="muted">Content reviewed {{ built }} · MIT licensed · <a href="https://github.com/{{ cfg.github }}">Source on GitHub</a></p></div>
- {% for s in sections %}<div><h4><a href="{{ root }}wiki/{{ s.id }}/index.html">{{ s.title }}</a></h4><ul>{% for p in s.pages[:6] %}<li><a href="{{ root }}wiki/{{ s.id }}/{{ p.slug }}.html">{{ p.title }}</a></li>{% endfor %}</ul></div>{% endfor %}
- <div><h4>Reference</h4><ul><li><a href="{{ root }}wiki/glossary.html">Glossary</a></li><li><a href="{{ root }}wiki/timeline.html">Timeline</a></li><li><a href="{{ root }}wiki/sources.html">All sources</a></li><li><a href="{{ root }}wiki/search.html">Search</a></li><li><a href="{{ root }}wiki/about.html">About &amp; method</a></li></ul></div>
+<div id="main"></div>{{ content }}
+<button class="totop" aria-label="Back to top" onclick="scrollTo({top:0,behavior:'smooth'})">↑</button>
+<nav class="tabbar" aria-label="Quick navigation"><a href="{{ root }}index.html">🏠<span>Home</span></a><button onclick="document.body.classList.toggle('megaopen');scrollTo({top:0})">🧭<span>Browse</span></button><a href="{{ root }}wiki/search.html">🔎<span>Search</span></a>{% if tracker %}<a href="{{ root }}wiki/{{ cfg.tracker_page }}.html">📡<span>Tracker</span></a>{% endif %}<a href="{{ root }}wiki/statistics/index.html">📊<span>Stats</span></a></nav>
+<footer class="foot"><div class="wrap">
+ <div class="footrow"><div class="brand small"><span class="logo">{{ cfg.logo }}</span><b>{{ cfg.name }}</b></div>
+ <nav class="footlinks">{% for c in cfg.collections %}<a href="{{ root }}wiki/{{ c.id }}/index.html">{{ c.title }}</a>{% endfor %}{% for s in sections %}<a href="{{ root }}wiki/{{ s.id }}/index.html">{{ s.title }}</a>{% endfor %}<a href="{{ root }}wiki/statistics/index.html">Statistics</a><a href="{{ root }}wiki/glossary.html">Glossary</a><a href="{{ root }}wiki/timeline.html">Timeline</a><a href="{{ root }}wiki/sources.html">Sources</a><a href="{{ root }}wiki/about.html">About</a></nav></div>
+ <details class="sitemap"><summary>🗺 Full site map ({{ npages }} articles)</summary><div class="smgrid">{% for s in sections %}<div><h4>{{ s.icon }} {{ s.title }}</h4><ul>{% for p in s.pages %}<li><a href="{{ root }}wiki/{{ s.id }}/{{ p.slug }}.html">{{ p.title }}</a></li>{% endfor %}</ul></div>{% endfor %}</div></details>
+ <p class="footnote">{{ cfg.footer }} · Reviewed {{ built }} · MIT licensed · <a href="https://github.com/{{ cfg.github }}">Source on GitHub</a></p>
 </div></footer>
 <script src="{{ root }}assets/site/site.js"></script>
 </body></html>"""
@@ -168,7 +185,7 @@ def visual(v, it):
                 f'<text x="40" y="24" font-size="13" fill="currentColor">{v.get("label", "Depth range")}: {lo:,}–{hi:,} m (square-root scale)</text></svg></figure>')
     if v["type"] == "size":
         r = it.get(v["key"])
-        if not r:
+        if not isinstance(r, (int, float)) or r <= 0:
             return ""
         ref = v.get("ref", 6371); refname = v.get("refname", "Earth")
         scale = 120 / max(r, ref)
@@ -180,10 +197,147 @@ def visual(v, it):
     return ""
 
 
+def coll_charts(c, items):
+    out = []
+    cid = c["id"]
+    for sp in c.get("charts", []):
+        t = sp["type"]
+        if t in ("count", "count_donut"):
+            cnt = {}
+            for it in items:
+                v = it.get(sp["key"])
+                for x in (v if isinstance(v, list) else [v]):
+                    if x not in (None, ""):
+                        cnt[x] = cnt.get(x, 0) + 1
+            kv = sorted(cnt.items(), key=lambda a: -a[1])[: sp.get("n", 30)]
+            if t == "count":
+                out.append(CH.hbar(sp["title"], [k for k, _ in kv], [v for _, v in kv]))
+            else:
+                out.append(CH.donut(sp["title"], [k for k, _ in kv], [v for _, v in kv]))
+        elif t == "top":
+            rows = sorted([it for it in items if isinstance(it.get(sp["key"]), (int, float))], key=lambda it: -it[sp["key"]])[: sp.get("n", 15)]
+            if sp.get("asc"):
+                rows = sorted([it for it in items if isinstance(it.get(sp["key"]), (int, float))], key=lambda it: it[sp["key"]])[: sp.get("n", 15)]
+            out.append(CH.hbar(sp["title"], [it[c.get("name_key", "name")] for it in rows], [it[sp["key"]] for it in rows], sp.get("unit", ""), log=sp.get("log", False)))
+        elif t == "ranges":
+            rows = [it for it in items if isinstance(it.get(sp["min"]), (int, float)) and isinstance(it.get(sp["max"]), (int, float))]
+            rows.sort(key=lambda it: (it[sp["max"]], it[sp["min"]]))
+            out.append('<div style="grid-column:1/-1">' + CH.ranges(sp["title"], [(it[c.get("name_key", "name")], it[sp["min"]], it[sp["max"]], f"/wiki/{cid}/{it['slug']}.html") for it in rows],
+                       maxv=sp.get("maxv", 11000), sqrt=sp.get("sqrt", True), unit=sp.get("unit", " m")) + "</div>")
+        elif t == "scatter":
+            pts = [(it[c.get("name_key", "name")], it.get(sp["x"]), it.get(sp["y"]), f"/wiki/{cid}/{it['slug']}.html") for it in items
+                   if isinstance(it.get(sp["x"]), (int, float)) and isinstance(it.get(sp["y"]), (int, float)) and it.get(sp["x"]) > 0 and it.get(sp["y"]) > 0]
+            out.append(CH.scatter(sp["title"], pts, sp["xlabel"], sp["ylabel"], sp.get("logx", False), sp.get("logy", False), sp.get("note", "")))
+        elif t == "timeline_count":
+            cnt = {}
+            for it in items:
+                v = it.get(sp["key"])
+                if isinstance(v, (int, float)):
+                    b = int(v // sp.get("bin", 10) * sp.get("bin", 10))
+                    cnt[b] = cnt.get(b, 0) + 1
+            ks = sorted(cnt)
+            out.append(CH.vbar(sp["title"], [f"{k}s" if sp.get("bin", 10) >= 10 else str(k) for k in ks], [cnt[k] for k in ks]))
+    return "".join(out)
+
+
+ALL = {}
+ARTS = {}
+
+
+def _m(aliases, strings):
+    al = [a.lower() for a in (aliases or []) if a]
+    ss = [str(x).lower() for x in (strings if isinstance(strings, list) else [strings]) if x]
+    return any(a in t for a in al for t in ss)
+
+
+def related_html(c, it):
+    out = []
+    for L in c.get("links", []):
+        t = L["type"]
+        if t == "articles":
+            arts = [ARTS[k] for k in it.get(L.get("mine", "see"), []) if k in ARTS]
+            if arts:
+                out.append(f'<div class="rel"><h3>{L["label"]}</h3><div class="relchips">' + "".join(f'<a class="rchip art" href="{a["url"]}">📖 {html.escape(a["title"])}</a>' for a in arts) + "</div></div>")
+            continue
+        oc = next((x for x in CFG["collections"] if x["id"] == L["coll"]), None)
+        if not oc:
+            continue
+        items = ALL.get(oc["id"], [])
+        if t == "match":
+            hits = [o for o in items if _m(it.get(L["mine"]), o.get(L["theirs"]))]
+        elif t == "rmatch":
+            hits = [o for o in items if _m(o.get(L["theirs"]), it.get(L["mine"]))]
+        elif t == "ref":
+            hits = [o for o in items if o["slug"] == it.get(L["mine"])]
+        elif t == "backref":
+            hits = [o for o in items if o.get(L["theirs"]) == it["slug"]]
+        elif t == "text":
+            txt = str(it.get(L["mine"], "")).lower()
+            def _key(o):
+                n = re.sub(r"\s*\(.*?\)", "", o[oc.get("name_key", "name")].lower())
+                return n.replace(" ocean", "").replace(" sea", "") if oc["id"] == "seas" else n
+            hits = [o for o in items if o is not it and re.search(r"(?<![\w-])" + re.escape(_key(o)) + r"(?![\w-])", txt)]
+        elif t == "backname":
+            nm = re.sub(r"\s*\(.*?\)", "", it[c.get("name_key", "name")]).lower()
+            hits = [o for o in items if re.search(r"(?<![\w-])" + re.escape(nm) + r"(?![\w-])", str(o.get(L["theirs"], "")).lower())]
+        else:
+            hits = []
+        if not hits:
+            continue
+        nk = oc.get("name_key", "name"); gk = oc.get("group_key", "group")
+        groups = {}
+        for o in hits:
+            groups.setdefault(o.get(gk, ""), []).append(o)
+        body = ""
+        for g, os_ in sorted(groups.items(), key=lambda a: -len(a[1])):
+            chips = "".join(f'<a class="rchip" href="/wiki/{oc["id"]}/{o["slug"]}.html">{o.get("emoji", "")} {html.escape(o[nk])}</a>' for o in sorted(os_, key=lambda o: o[nk]))
+            body += (f'<div class="relg"><b>{html.escape(str(g))}</b> <span class="muted">({len(os_)})</span></div>' if len(groups) > 1 else "") + f'<div class="relchips">{chips}</div>'
+        n = len(hits)
+        if n > 24:
+            out.append(f'<details class="rel big"><summary><h3>{L["label"]} <span class="cnt">{n}</span></h3></summary>{body}</details>')
+        else:
+            out.append(f'<div class="rel"><h3>{L["label"]} <span class="cnt">{n}</span></h3>{body}</div>')
+    return "".join(out)
+
+
+def glance_html(c, it):
+    if not c.get("glance"):
+        return ""
+    bits = []
+    nk = c.get("name_key", "name")
+    a, avg, mx = it.get("area_km2"), it.get("avg_depth"), it.get("max_depth")
+    s = f"<b>{html.escape(it[nk])}</b>"
+    if a:
+        s += f" covers about <b>{a:,} km²</b>"
+    if avg:
+        s += f", averages <b>{avg:,} m</b> deep"
+    if mx:
+        s += f" and reaches <b>{mx:,} m</b>" + (f" at {html.escape(it['deepest_point'])}" if it.get("deepest_point") and it["deepest_point"] != "—" else "")
+    bits.append(s + ".")
+    for L in c.get("links", []):
+        if L["type"] != "match":
+            continue
+        oc = next((x for x in CFG["collections"] if x["id"] == L["coll"]), None)
+        hits = [o for o in ALL.get(L["coll"], []) if _m(it.get(L["mine"]), o.get(L["theirs"]))]
+        if hits and oc:
+            hits.sort(key=lambda o: (0 if o.get("summary") and not o.get("compact") else 1, o[oc.get("name_key", "name")]))
+            ex = ", ".join(f'<a href="/wiki/{oc["id"]}/{o["slug"]}.html">{html.escape(o[oc.get("name_key", "name")])}</a>' for o in hits[:8])
+            bits.append(f'This encyclopedia links <a href="#connections"><b>{len(hits)} {oc.get("noun", oc["title"].lower())}</b></a> to it, including {ex}.')
+    wr = [o for o in ALL.get("wrecks", []) if o.get("sea") == it["slug"]]
+    if wr:
+        bits.append("Wrecks and discoveries here: " + ", ".join(f'<a href="/wiki/wrecks/{o["slug"]}.html">{html.escape(o["name"])}</a>' for o in wr) + ".")
+    return '<div class="glance"><h3>🧭 At a glance</h3><p>' + " ".join(bits) + "</p></div>"
+
+
 def build_collections(env, write, sections, search, built):
     out = []
     for c in CFG.get("collections", []):
-        items = json.load(open(os.path.join(SRC, c["file"]), encoding="utf-8"))
+        ALL[c["id"]] = json.load(open(os.path.join(SRC, c["file"]), encoding="utf-8"))
+    for sec in sections:
+        for p in sec["pages"]:
+            ARTS[f'{sec["id"]}/{p["slug"]}'] = p
+    for c in CFG.get("collections", []):
+        items = ALL[c["id"]]
         cid = c["id"]; nk = c.get("name_key", "name"); sk = c.get("sub_key")
         groups = sorted({it.get(c.get("group_key", "group"), "Other") for it in items})
         cards, rows = [], []
@@ -206,8 +360,9 @@ def build_collections(env, write, sections, search, built):
                 da = f' data-wiki="{html.escape(str(wk))}" data-save="assets/img/{cid}/{slug}.png"' if wk else ""
                 pic = f'<div class="livepic big"{da}>{placeholder(icon, name, sub, hue)}</div>'
                 thumb = f'<div class="livepic"{da}>{placeholder(icon, name, sub, hue)}</div>'
-                PROMPTS.append((c["title"], name, f"assets/img/{cid}/{slug}.png", prompt))
-            facts = "".join(f"<tr><th>{lab}</th><td>{html.escape(', '.join(map(str, it[k])) if isinstance(it.get(k), list) else str(it[k]))}</td></tr>" for k, lab in c["facts"] if it.get(k) not in (None, "", []))
+                if not c.get("no_prompt"):
+                    PROMPTS.append((c["title"], name, f"assets/img/{cid}/{slug}.png", prompt))
+            facts = "".join(f"<tr><th>{lab}</th><td>{html.escape(', '.join(map(str, it[k])) if isinstance(it.get(k), list) else (f'{it[k]:,}' if isinstance(it[k], int) and abs(it[k]) >= 10000 else str(it[k])))}</td></tr>" for k, lab in c["facts"] if it.get(k) not in (None, "", []))
             body = ""
             for k, lab in c["texts"]:
                 if it.get(k):
@@ -224,7 +379,7 @@ def build_collections(env, write, sections, search, built):
             md = markdown.Markdown(extensions=MD_EXT, extension_configs=MD_CFG)
             h = md.convert(callouts(body))
             prev = items[i - 1] if i else None; nxt = items[i + 1] if i + 1 < len(items) else None
-            content = env.from_string(COLL_ITEM).render(c=c, it=it, name=name, sub=sub, pic=pic, facts=facts, viz=visual(c.get("visual"), it),
+            content = env.from_string(COLL_ITEM).render(c=c, it=it, name=name, sub=sub, pic=pic, facts=facts, viz=visual(c.get("visual"), it), rel=related_html(c, it), glance=glance_html(c, it), wk=urllib.parse.unquote(str(it.get("wiki", ""))).replace("_", " "),
                                                        body=h, toc=md.toc, prev=prev, next=nxt, nk=nk, n=len(items))
             write(f"wiki/{cid}/{slug}.html", name, content, 2, it.get("summary", ""), cid)
             search.append({"t": name, "s": c["title"], "u": f"wiki/{cid}/{slug}.html", "d": it.get("summary", sub),
@@ -232,10 +387,13 @@ def build_collections(env, write, sections, search, built):
             grp = it.get(c.get("group_key", "group"), "Other")
             cells = "".join(f'<td>{html.escape(", ".join(map(str, it[k])) if isinstance(it.get(k), list) else str(it.get(k, "")))}</td>' for k, _ in c["columns"])
             rows.append(f'<tr data-g="{html.escape(grp)}"><td><a href="/wiki/{cid}/{slug}.html">{html.escape(name)}</a>{"<br><i class=muted>" + html.escape(sub) + "</i>" if sub else ""}</td>{cells}</tr>')
-            cards.append(f'<a class="card" data-g="{html.escape(grp)}" href="/wiki/{cid}/{slug}.html">{thumb}<div class="cb"><span class="tag">{html.escape(grp)}</span><h3>{html.escape(name)}</h3><p>{html.escape(it.get("summary", ""))}</p></div></a>')
+            snd = f'<button class="cardsnd" title="Play sound" data-sound="{html.escape(it.get("sound") or (it.get("scientific") or name))}">🔊</button>' if c.get("sounds") and (it.get("sound") or grp in c.get("vocal_groups", [])) else ""
+            cards.append(f'<a class="card" data-g="{html.escape(grp)}" href="/wiki/{cid}/{slug}.html">{snd}{thumb}<div class="cb"><span class="tag">{html.escape(grp)}</span><h3>{html.escape(name)}</h3><p>{html.escape(it.get("summary", ""))}</p></div></a>')
+        cht = coll_charts(c, items)
+        COLL_CHARTS.append((c, cht))
         chips = '<button class="chip on" data-g="*">All</button>' + "".join(f'<button class="chip" data-g="{html.escape(g)}">{html.escape(g)}</button>' for g in groups)
         head = "".join(f"<th>{lab}</th>" for _, lab in c["columns"])
-        content = env.from_string(COLL_INDEX).render(c=c, n=len(items), chips=chips, cards="".join(cards), rows="".join(rows), head=head, ngroups=len(groups))
+        content = env.from_string(COLL_INDEX).render(c=c, n=len(items), cht=cht, chips=chips, cards="".join(cards), rows="".join(rows), head=head, ngroups=len(groups))
         write(f"wiki/{cid}/index.html", c["title"], content, 2, c["desc"], cid)
         out.append((c, len(items)))
     return out
@@ -250,13 +408,21 @@ COLL_ITEM = r"""<div class="wrap layout">
 <h1>{{ it.emoji or '' }} {{ name }}</h1>{% if sub %}<p class="sci">{{ sub }}</p>{% endif %}
 {% if it.summary %}<p class="lede">{{ it.summary }}</p>{% endif %}
 <div class="entry-top"><div class="entry-pic">{{ pic }}</div><table class="factbox">{{ facts }}</table></div>
-{{ viz }}
-<div class="prose">{{ body }}</div></main>
+{% if c.paperbox %}<div class="paperbox" data-local="/assets/papers/{{ it.slug }}.pdf" data-src="{{ (it.pdf_url or '')|e }}">
+ <div class="pbhead"><span class="pbicon">📄</span><div><b>{{ it.journal }}{% if it.year %} · {{ it.year }}{% endif %}</b><div class="small">{{ it.authors }} · <span class="acc {{ 'open' if it.access=='Open access' else 'closed' }}">{{ it.access }}</span>{% if it.license %} · {{ it.license }}{% endif %}</div></div></div>
+ <div class="pbbtns"><button class="btn pbview" hidden>📖 Read here</button>{% if it.pdf_url %}<a class="btn pbopen" href="{{ it.pdf_url|e }}" target="_blank" rel="noopener">↗ Open PDF in new tab</a><a class="btn pbdl" href="{{ it.pdf_url|e }}" target="_blank" rel="noopener" download>⬇ Download PDF</a>{% else %}<a class="btn pbopen" hidden></a><a class="btn pbdl" hidden></a>{% endif %}{% if it.doi %}<a class="btn ghost" href="https://doi.org/{{ it.doi }}" target="_blank" rel="noopener">🔗 Publisher page</a>{% endif %}{% if it.analysis %}<a class="btn ghost" href="{{ it.analysis }}">🧠 Our analysis</a>{% endif %}</div>
+ <div class="pbnote small">Checking for a copy hosted on this site…</div>
+ <iframe class="pbframe" title="PDF viewer" hidden></iframe></div>{% endif %}
+{% if c.sounds %}<div class="soundbox" data-name="{{ (it.scientific or name)|e }}" data-sound="{{ (it.sound or '')|e }}" data-local="/assets/audio/{{ c.id }}/{{ it.slug }}.mp3" data-kind="{{ c.sound_kind or 'species' }}"{% if it.group in (c.vocal_groups or []) or it.sound %} data-vocal="1"{% endif %}><span class="sinfo">🔊 Sound</span></div>{% endif %}
+{{ viz }}{{ glance }}
+{% if c.live_photos %}<div class="wikibox" data-wiki="{{ wk|e }}" hidden></div>{% endif %}
+<div class="prose">{{ body }}</div>
+{% if rel %}<section class="related"><h2 id="connections">🔗 Connections</h2>{{ rel }}</section>{% endif %}</main>
 <aside class="toc"><div class="tochead">On this page</div>{{ toc }}</aside></div>"""
 
 COLL_INDEX = r"""<section class="sechero"><div class="wrap"><div class="crumbs"><a href="/index.html">Home</a> › {{ c.title }}</div>
 <h1>{{ c.icon }} {{ c.title }}</h1><p class="lede">{{ c.desc }}</p><p class="muted">{{ n }} entries in {{ ngroups }} groups.</p></div></section>
-<main class="wrap"><div class="catbar"><input class="catfilter" placeholder="Filter {{ n }} entries…"><div class="chips">{{ chips }}</div>
+<main class="wrap">{% if cht %}<details class="charts" open><summary>📊 Charts and statistics for this catalog</summary><div class="chartgrid">{{ cht }}</div></details>{% endif %}<div class="catbar"><input class="catfilter" placeholder="Filter {{ n }} entries…"><div class="chips">{{ chips }}</div>
 <div class="viewtoggle"><button class="chip on" data-v="grid">Cards</button><button class="chip" data-v="table">Table</button></div></div>
 <div class="cards catgrid">{{ cards }}</div>
 <div class="cattable" hidden><table class="sortable"><thead><tr><th>Name</th>{{ head }}</tr></thead><tbody>{{ rows }}</tbody></table></div></main>"""
@@ -319,6 +485,9 @@ def main():
             words = len(re.sub(r"<[^>]+>", " ", h).split())
             refs = re.findall(r'<li id="fn:[^"]+">(.*?)</li>', h, flags=re.S)
             links = re.findall(r'href="(https?://[^"]+)"', "".join(refs))
+            if not refs:  # pages that cite with inline links instead of footnotes
+                links = [u for u in dict.fromkeys(re.findall(r'href="(https?://[^"]+)"', h)) if "github.com/" + CFG["github"] not in u]
+                refs = links
             p = dict(slug=slug, title=meta.get("title", slug), summary=meta.get("summary", ""), updated=meta.get("updated", built),
                      level=meta.get("level", ""), image=(meta.get("image", "").lstrip("/") or (find_img("articles", slug) or "")), html=h, toc=md.toc,
                      minutes=max(1, round(words / 220)), nrefs=len(refs), links=links, words=words, url=url, sec=s["id"])
@@ -376,6 +545,15 @@ def main():
           body=f'<p class="lede">Every external source cited anywhere on this site, with the articles that cite it.</p><ol class="biblio">{rows}</ol>', root="../"), 1)
     write("wiki/photo-status.html", "Photo status", P.render(title="Photo status", root="../",
           body='<p class="lede">This page checks every catalog entry against Wikipedia / Wikimedia Commons right now. Entries with a real, openly licensed photo are counted; the ones without are listed with a ready-made Nano Banana prompt and the exact path to save the image to.</p><div id="photostatus" class="prose wide"><p>Checking…</p></div>'), 1, bodyclass="photostatus")
+    groups = ""
+    for g in STATS.get("groups", []):
+        groups += f'<h2 id="{g.get("id", "")}">{html.escape(g["title"])}</h2>' + (f'<p>{g["desc"]}</p>' if g.get("desc") else "") + '<div class="chartgrid">' + "".join(CH.render(STATS["charts"][k]) for k in g["charts"]) + "</div>"
+    for c, cht in COLL_CHARTS:
+        if cht:
+            groups += f'<h2>{c["icon"]} {html.escape(c["title"])}</h2><p><a href="/wiki/{c["id"]}/index.html">Open the {html.escape(c["title"])} catalog →</a></p><div class="chartgrid">{cht}</div>'
+    nch = groups.count('<figure class="chart')
+    write("wiki/statistics/index.html", "Statistics & data", P.render(title="📊 Statistics & data", root="../../",
+          body=f'<p class="lede">{nch} animated charts built from cited datasets and from this encyclopedia\'s own catalogs. Hover any point or bar for exact values; every chart lists its source.</p>{groups}'), 2, "Animated charts and statistics", "statistics")
     write("wiki/search.html", "Search", P.render(title="Search", root="../", body='<input id="q" class="bigsearch" placeholder="Type to search every article…" autofocus><div id="results"></div>'), 1, bodyclass="searchpage")
 
     # home

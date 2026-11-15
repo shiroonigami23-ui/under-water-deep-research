@@ -1,0 +1,100 @@
+# Sharks & rays|🦈
+Silky shark|Carcharhinus falciformis|0|500|Tropical worldwide|Fish, squid|VU|Smooth-skinned open-ocean shark, heavily caught as bycatch.
+Dusky shark|Carcharhinus obscurus|0|400|Worldwide warm|Fish|EN|Slow-growing coastal shark; matures at ~20 years.
+Sandbar shark|Carcharhinus plumbeus|0|280|Worldwide warm|Fish|EN|Tall-finned coastal shark.
+Blacktip shark|Carcharhinus limbatus|0|140|Worldwide warm|Fish|VU|Spins out of the water when chasing schools.
+Spinner shark|Carcharhinus brevipinna|0|100|Worldwide warm|Fish|VU|Leaps and spins through sardine schools.
+Galápagos shark|Carcharhinus galapagensis|0|286|Oceanic islands|Fish|LC|Dominant shark around remote islands.
+Silvertip shark|Carcharhinus albimarginatus|0|800|Indo-Pacific|Fish|VU|White-edged fins; bold reef shark.
+Copper shark|Carcharhinus brachyurus|0|360|Temperate worldwide|Fish|VU|Follows the South African sardine run.
+Sand tiger shark|Carcharias taurus|0|190|Warm coasts|Fish|CR|Gulps air to float; embryos eat siblings in the womb.
+Smalltooth sand tiger|Odontaspis ferox|13|880|Worldwide|Fish|VU|Rare deep reef shark.
+Salmon shark|Lamna ditropis|0|670|N Pacific|Salmon, squid|LC|Keeps its body ~15°C warmer than cold water.
+Porbeagle|Lamna nasus|0|1360|N Atlantic; Southern|Fish|VU|Warm-bodied shark observed 'playing' with kelp.
+Common thresher|Alopias vulpinus|0|650|Worldwide|Fish|VU|Tail as long as its body.
+Crocodile shark|Pseudocarcharias kamoharai|0|590|Tropical worldwide|Fish, squid|LC|Small oceanic shark with large eyes.
+Leopard shark|Triakis semifasciata|0|91|NE Pacific|Crabs, worms|LC|Gathers in warm lagoons.
+Smooth hound|Mustelus mustelus|5|624|E Atlantic; Mediterranean|Crustaceans|EN|Small coastal hound shark.
+School shark|Galeorhinus galeus|0|826|Temperate worldwide|Fish|CR|Tope shark; a tagged one lived 42 years.
+Spiny dogfish|Squalus acanthias|0|1460|Temperate worldwide|Fish|VU|Gestation of up to 2 years, among the longest of any vertebrate.
+Small-spotted catshark|Scyliorhinus canicula|0|400|NE Atlantic; Mediterranean|Invertebrates|LC|Egg cases called 'mermaid's purses'.
+Swell shark|Cephaloscyllium ventriosum|5|457|E Pacific|Fish|LC|Gulps water to wedge itself in crevices; glows biofluorescent green.
+Horn shark|Heterodontus francisci|2|150|NE Pacific|Urchins, crabs|LC|Purple-stained teeth from eating urchins.
+Japanese wobbegong|Orectolobus japonicus|0|200|NW Pacific|Fish|LC|Bearded carpet shark.
+Tawny nurse shark|Nebrius ferrugineus|0|70|Indo-Pacific|Octopus, fish|VU|Sucks octopuses from holes.
+Bamboo shark brownbanded|Chiloscyllium punctatum|0|85|Indo-W Pacific|Invertebrates|NT|Survives hours out of water.
+Thornback ray|Raja clavata|10|300|NE Atlantic|Crustaceans|NT|Common European skate with thorny back.
+Common skate|Dipturus batis|30|600|NE Atlantic|Fish|CR|Once common; fished almost to extinction.
+Big skate|Beringraja binoculata|3|800|NE Pacific|Crustaceans|LC|Largest skate in North America.
+Bat ray|Myliobatis californica|0|108|NE Pacific|Clams|LC|Flaps 'wings' to dig out clams.
+Cownose ray|Rhinoptera bonasus|0|22|W Atlantic|Shellfish|VU|Migrates in schools of thousands.
+Shovelnose guitarfish|Pseudobatos productus|0|91|NE Pacific|Crabs|NT|Ray with a shark-like tail.
+Bowmouth guitarfish|Rhina ancylostoma|3|90|Indo-Pacific|Crabs|CR|Ridged head with thorny armour.
+Giant guitarfish|Glaucostegus typus|0|100|Indo-W Pacific|Crustaceans|CR|Wedgefish relative threatened by the fin trade.
+Bottlenose wedgefish|Rhynchobatus australiae|0|60|Indo-W Pacific|Crustaceans|CR|Fins among the most valuable in trade.
+Largetooth sawfish|Pristis pristis|0|25|Tropics|Fish|CR|Uses its rostrum to slash prey.
+Pacific electric ray|Tetronarce californica|3|425|NE Pacific|Fish|LC|Stuns fish with 45-volt shocks.
+Lesser electric ray|Narcine bancroftii|0|37|W Atlantic|Worms|CR|Small ray giving mild shocks.
+Round stingray|Urobatis halleri|0|91|E Pacific|Invertebrates|LC|Responsible for many beach stings.
+Ocellate river stingray|Potamotrygon motoro|0|5|South American rivers|Invertebrates|DD|Freshwater stingray with eye-spots.
+Smalleye stingray|Megatrygon microps|0|100|Indo-Pacific|Invertebrates|DD|Large rarely seen stingray.
+Blotched fantail ray|Taeniurops meyeni|1|500|Indo-Pacific|Invertebrates|VU|Large stingray of reefs.
+Chilean devil ray|Mobula tarapacana|0|1896|Worldwide|Plankton, fish|EN|Dives almost 2 km.
+Spinetail devil ray|Mobula mobular|0|700|Worldwide|Krill|EN|Common devil ray of oceanic waters.
+# Reef fish|🐠
+Clark's anemonefish|Amphiprion clarkii|1|60|Indo-W Pacific|Plankton, algae|LC|The least picky clownfish, using 10 anemone species.
+Pink skunk clownfish|Amphiprion perideraion|1|38|W Pacific|Plankton|LC|Pale pink clownfish with a white stripe.
+Maroon clownfish|Premnas biaculeatus|1|16|Indo-W Pacific|Plankton|LC|Largest, most aggressive clownfish.
+Tomato clownfish|Amphiprion frenatus|1|12|W Pacific|Plankton|LC|Red clownfish of bubble-tip anemones.
+Orange-spotted filefish|Oxymonacanthus longirostris|0|30|Indo-Pacific|Coral polyps|VU|Smells like the coral it eats to hide from predators.
+Scrawled filefish|Aluterus scriptus|2|120|Tropical worldwide|Algae, hydroids|LC|Drifts head-down near reefs.
+Harlequin filefish|Oxymonacanthus halli|0|10|Red Sea|Coral polyps|LC|Coral-eating filefish.
+Mimic filefish|Paraluteres prionurus|1|25|Indo-Pacific|Algae|LC|Mimics the toxic saddled puffer.
+Valentini's sharpnose puffer|Canthigaster valentini|1|55|Indo-Pacific|Algae, invertebrates|LC|Toxic puffer copied by mimic filefish.
+Guineafowl puffer|Arothron meleagris|1|73|Indo-Pacific|Coral tips|LC|Black with white spots, or golden phase.
+Black-saddled coral grouper|Plectropomus laevis|4|100|Indo-Pacific|Fish|VU|Juveniles mimic toxic puffers.
+Harlequin sweetlips|Plectorhinchus chaetodonoides|1|30|Indo-Pacific|Invertebrates|LC|Juveniles flap like toxic flatworms.
+Lyretail anthias|Pseudanthias squamipinnis|0|55|Indo-Pacific; Red Sea|Zooplankton|LC|Orange clouds over reefs; females turn male.
+Purple queen anthias|Pseudanthias tuka|5|40|W Pacific|Zooplankton|LC|Vivid purple plankton picker.
+Yellowfin goatfish|Mulloidichthys vanicolensis|1|113|Indo-Pacific|Invertebrates|LC|Schools by day, forages at night.
+Sweeper golden|Parapriacanthus ransonneti|5|30|Indo-W Pacific|Zooplankton|LC|Glows using light borrowed from eaten ostracods.
+Pajama cardinalfish|Sphaeramia nematoptera|1|8|W Pacific|Plankton|LC|Spotted cardinal that mouth-broods eggs.
+Twinspot lionfish|Dendrochirus biocellatus|1|40|Indo-Pacific|Crustaceans|LC|Small lionfish with false eye-spots.
+Ghost pipefish robust|Solenostomus cyanopterus|1|20|Indo-W Pacific|Shrimp|LC|Mimics a seagrass blade.
+Blue-ringed angelfish|Pomacanthus annularis|1|60|Indo-W Pacific|Sponges|LC|Blue rings on brown body.
+Semicircle angelfish|Pomacanthus semicirculatus|1|40|Indo-W Pacific|Sponges|LC|Juvenile patterns differ completely from adults.
+Saddleback butterflyfish|Chaetodon ephippium|1|30|Indo-Pacific|Polyps, sponges|LC|Large black saddle pattern.
+Ornate butterflyfish|Chaetodon ornatissimus|1|36|Indo-Pacific|Coral polyps|LC|Obligate coral eater, vulnerable to bleaching.
+Pyramid butterflyfish|Hemitaurichthys polylepis|3|60|Indo-Pacific|Zooplankton|LC|Plankton-feeding butterflyfish schools.
+Masked bannerfish|Heniochus monoceros|2|25|Indo-Pacific|Invertebrates|LC|Has small horn-like bumps.
+Regal tang yellow-tail|Acanthurus sohal|0|10|Red Sea|Algae|LC|Fiercely territorial Red Sea surgeonfish.
+Spotted unicornfish|Naso brevirostris|2|122|Indo-Pacific|Algae, plankton|LC|Long horn grows with age.
+Orangespine unicornfish|Naso lituratus|0|90|Indo-Pacific|Brown algae|LC|Orange tail spines.
+Moorish idol relative Pennant|Heniochus diphreutes|15|210|Indo-Pacific|Plankton|LC|Schooling bannerfish.
+Six-line wrasse|Pseudocheilinus hexataenia|2|35|Indo-Pacific|Small invertebrates|LC|Tiny striped wrasse.
+Cleaner wrasse bicolor|Labroides bicolor|2|40|Indo-Pacific|Parasites|LC|Roaming cleaner wrasse.
+Checkerboard wrasse|Halichoeres hortulanus|1|30|Indo-Pacific|Invertebrates|LC|Checkered pattern with a yellow spot.
+Christmas wrasse|Thalassoma trilobatum|0|5|Indo-Pacific|Invertebrates|LC|Colourful surge-zone wrasse.
+Cuban hogfish|Bodianus pulchellus|5|120|W Atlantic|Invertebrates|LC|Juveniles act as cleaners.
+Hogfish|Lachnolaimus maximus|3|30|W Atlantic|Molluscs|VU|Pig-like snout probes the sand.
+Yellowtail parrotfish|Sparisoma rubripinne|1|20|Atlantic|Algae|LC|Common Caribbean parrotfish.
+Princess parrotfish|Scarus taeniopterus|2|25|W Atlantic|Algae|LC|Sleeps in a mucus cocoon.
+Steephead parrotfish|Chlorurus microrhinos|2|50|Pacific|Algae|LC|Large blunt-headed parrotfish.
+Bluebarred parrotfish|Scarus ghobban|1|90|Indo-Pacific|Algae|LC|Common reef parrotfish.
+Spotfin squirrelfish|Neoniphon sammara|0|46|Indo-Pacific|Crustaceans|LC|Red nocturnal reef fish.
+Bigeye soldierfish|Myripristis berndti|1|50|Indo-Pacific|Plankton|LC|Large-eyed night feeder.
+Glasseye snapper|Heteropriacanthus cruentatus|1|300|Tropical worldwide|Invertebrates|LC|Changes colour quickly.
+Blackspotted puffer|Arothron nigropunctatus|3|35|Indo-Pacific|Coral, sponges|LC|Grey puffer with black spots.
+Spotted boxfish|Ostracion meleagris|1|30|Indo-Pacific|Algae, invertebrates|LC|Males blue, females spotted.
+Moray eel giant honeycomb|Gymnothorax favagineus|1|50|Indo-Pacific|Fish|LC|Leopard-patterned large moray.
+Fimbriated moray|Gymnothorax fimbriatus|0|50|Indo-Pacific|Fish|LC|Spotted moray of lagoons.
+Yellow-edged moray|Gymnothorax flavimarginatus|1|150|Indo-Pacific|Fish|LC|Hunts with coral groupers.
+Bluespotted cornetfish|Fistularia tabacaria|0|200|Atlantic|Fish|LC|Blue-spotted cornetfish.
+Peacock flounder|Bothus lunatus|1|100|W Atlantic|Fish|LC|Changes colour to match the bottom in seconds.
+Leopard flounder|Bothus pantherinus|1|250|Indo-Pacific|Invertebrates|LC|Reef-sand flounder.
+Crocodile fish|Cymbacephalus beauforti|0|12|W Pacific|Fish|LC|Flathead with lacy eye coverings.
+Sea moth|Eurypegasus draconis|1|90|Indo-Pacific|Small invertebrates|LC|Walks on fin rays; sheds skin.
+Jawfish Gold-specs|Opistognathus randalli|1|20|Indo-W Pacific|Plankton|LC|Mouth-brooding jawfish.
+Pearlfish|Carapus bermudensis|0|200|W Atlantic|Small invertebrates|LC|Lives inside sea cucumbers, entering through the anus.
+Pygmy goby|Eviota sigillata|0|30|Indo-Pacific|Plankton|LC|Lives only ~59 days, the shortest vertebrate lifespan.
+Stout infantfish|Schindleria brevipinguis|0|20|Great Barrier Reef|Plankton|NE|One of the smallest vertebrates at 7 mm.

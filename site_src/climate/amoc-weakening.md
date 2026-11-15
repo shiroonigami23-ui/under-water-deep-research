@@ -8,6 +8,9 @@ The **Atlantic Meridional Overturning Circulation (AMOC)** carries warm surface 
 
 ![AMOC projection](/ocean-change/png/amoc_projection_generated.png)
 
+
+{{chart:amoc}}
+
 ## What the 2026 evidence says
 
 - **Observed:** weakening at four latitudes over two decades (University of Miami study, April 2026).
