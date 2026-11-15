@@ -1,4 +1,4 @@
-﻿# Image Sources and Attribution
+# Image Sources and Attribution
 
 Generated on: April 19, 2026.
 
@@ -70,3 +70,23 @@ These were generated locally for research visualization:
   - `gifs/physics_showcase.gif`
   - `gifs/deep_water_types_showcase.gif`
   - `gifs/mutation_showcase.gif`
+
+
+## Generated hub figures (added November 15, 2026)
+
+Built by `scripts/generate_figures.py` from cited values:
+
+| File | Values from |
+|---|---|
+| `exploration/png/seabed2030_progress_generated.png` | Seabed 2030 announcements (6%, 23.4%, 27.3%, 28.7%) |
+| `exploration/png/seen_vs_mapped_generated.png` | Bell et al. 2025 (*Sci. Adv.*); Seabed 2030 (Apr 2026) |
+| `exploration/png/depth_records_generated.png` | NHM/UWA snailfish records; Peng et al. 2025 (*Nature*) |
+| `governance-and-mining/png/governance_timeline_generated.png` | ISA, NOAA, BBNJ dates in `governance-and-mining/seabed-governance-2026.md` |
+| `governance-and-mining/png/mining_track_recovery_generated.png` | Qualitative summary of Jones et al. 2025 (illustrative scale) |
+| `ocean-change/png/coral_bleaching_events_generated.png` | NOAA Coral Reef Watch (21%, 37%, 68.2%, 84.4%) |
+| `ocean-change/png/amoc_projection_generated.png` | Portmann et al. 2026 ranges (schematic paths) |
+| `ocean-change/png/pressure_light_profile_generated.png` | P = 1 + z/10.06 atm; light e^(−z/23 m) |
+
+## Screenshots
+
+- `docs/dive-lab-screenshot.png`: headless-Chrome capture of `labs/dive-profile-lab.html#9533`

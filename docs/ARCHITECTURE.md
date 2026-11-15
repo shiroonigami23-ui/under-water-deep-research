@@ -59,4 +59,15 @@ flowchart TB
 
 
 ---
-*Last updated: 2026-11-13*
+## Hub additions (2026-11-15)
+
+| Component | Location | Responsibility |
+|---|---|---|
+| New tracks | `exploration/`, `governance-and-mining/`, `ocean-change/` | Same template as the original five |
+| Paper library | `papers/` | One file per paper, fixed template, states its analysis basis |
+| Labs | `labs/dive-profile-lab.html` | Single-file depth explorer |
+| Figure pipeline | `scripts/generate_figures.py` | Rebuilds hub figures from cited values |
+| CI | `.github/workflows/validate.yml` | Figure smoke test + link check |
+| Hub homepage | `index.html` + `.nojekyll` | GitHub Pages landing page linking tracks, labs, tracker, papers and the sister hub |
+
+*Last updated: 2026-11-15*

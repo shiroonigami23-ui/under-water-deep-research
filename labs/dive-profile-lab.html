@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dive Profile Lab — Under Water Deep Research</title>
+<style>
+  :root { --bg:#04121f; --panel:#0a2236; --fg:#e6f1fb; --muted:#8fb3cc; --line:#16324a; --a:#4fc3f7; --w:#ffb74d; --g:#9ccc65; --r:#ef5350; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",sans-serif; background:var(--bg); color:var(--fg); }
+  header { padding:18px 22px 4px; }
+  h1 { margin:0; font-size:1.35rem; }
+  header p { margin:6px 0 0; color:var(--muted); font-size:.92rem; max-width:72ch; }
+  main { display:grid; grid-template-columns:minmax(0,1fr) 360px; gap:16px; padding:14px 22px 24px; }
+  @media (max-width:860px){ main{ grid-template-columns:1fr; } }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:14px; }
+  canvas { width:100%; aspect-ratio:900/1280; max-height:80vh; display:block; border-radius:10px; object-fit:contain; }
+  input[type=range]{ width:100%; }
+  .big { font-size:2.1rem; font-weight:800; font-variant-numeric:tabular-nums; }
+  .zone { display:inline-block; padding:3px 10px; border-radius:99px; background:#123a57; color:var(--a); font-weight:700; font-size:.85rem; }
+  table { width:100%; border-collapse:collapse; margin-top:10px; font-size:.9rem; }
+  td { padding:6px 4px; border-bottom:1px solid var(--line); }
+  td:last-child { text-align:right; font-weight:600; font-variant-numeric:tabular-nums; }
+  .life { margin-top:12px; font-size:.88rem; line-height:1.5; color:var(--fg); }
+  .life b { color:var(--w); }
+  .btns { display:flex; gap:6px; flex-wrap:wrap; margin-top:10px; }
+  button { background:#123a57; color:var(--fg); border:1px solid var(--line); border-radius:8px; padding:6px 9px; font-size:.8rem; cursor:pointer; }
+  button:hover { border-color:var(--a); }
+  .note { font-size:.78rem; color:var(--muted); margin-top:10px; line-height:1.45; }
+  a { color:var(--a); }
+</style>
+</head>
+<body>
+<header>
+  <h1>🌊 Dive Profile Lab</h1>
+  <p>Drag the depth slider (or tap a landmark) from the surface to the Challenger Deep. Watch pressure climb, light vanish,
+     a balloon get crushed (Boyle's law), and see which life and record dives live at each depth.</p>
+</header>
+<main>
+  <div class="card"><canvas id="c" width="900" height="1280" aria-label="Ocean depth column"></canvas></div>
+  <div class="card">
+    <div class="big" id="depth">0 m</div>
+    <span class="zone" id="zone">Sunlight zone</span>
+    <input id="d" type="range" min="0" max="1000" step="1" value="0" aria-label="Depth">
+    <div class="btns" id="jumps"></div>
+    <table>
+      <tr><td>Pressure</td><td id="p"></td></tr>
+      <tr><td>Force on a fingernail (1 cm²)</td><td id="f"></td></tr>
+      <tr><td>Surface light remaining</td><td id="l"></td></tr>
+      <tr><td>Typical temperature (open ocean)</td><td id="t"></td></tr>
+      <tr><td>1-litre balloon shrinks to</td><td id="v"></td></tr>
+    </table>
+    <div class="life" id="life"></div>
+    <p class="note">Models: P = 1 + z/10.06 atm; light = e<sup>−z/23 m</sup> (clear ocean); temperature is a smoothed
+      generic profile (real values vary by region). Records: snailfish 8,336 m, chemosynthetic community 9,533 m
+      (Peng et al. 2025), Challenger Deep ≈10,935 m. Part of
+      <a href="https://github.com/shiroonigami23-ui/under-water-deep-research">under-water-deep-research</a>.</p>
+  </div>
+</main>
+<script>
+(() => {
+  const MAX = 10935;
+  const $ = id => document.getElementById(id);
+  const cv = $("c"), ctx = cv.getContext("2d");
+  // slider is quadratic so the shallow, fast-changing part gets more resolution
+  const toDepth = s => Math.round(MAX * (s / 1000) ** 2);
+  const toSlider = z => Math.round(1000 * Math.sqrt(z / MAX));
+  let exact = null;
+  const zones = [
+    [0, 200, "Sunlight zone (epipelagic)"], [200, 1000, "Twilight zone (mesopelagic)"],
+    [1000, 4000, "Midnight zone (bathypelagic)"], [4000, 6000, "Abyss (abyssopelagic)"],
+    [6000, 11000, "Hadal zone (trenches)"]];
+  const marks = [
+    [0, "Surface"], [40, "Recreational dive limit"], [200, "Photosynthesis ends"], [332, "Deepest scuba (record)"],
+    [1000, "No sunlight at all"], [3800, "Titanic wreck"], [4500, "Abyssal plain / nodules"],
+    [6500, "Alvin max depth"], [8336, "Deepest fish filmed"], [9533, "Deepest chemosynthetic life"],
+    [10935, "Challenger Deep"]];
+  const life = [
+    [0, 200, "<b>Phytoplankton</b> make about half of Earth's oxygen; reef corals, tuna, dolphins."],
+    [200, 1000, "<b>Lanternfish</b>, siphonophores, squid. Many migrate up every night (the largest daily migration on Earth). Bioluminescence everywhere."],
+    [1000, 4000, "<b>Anglerfish</b>, gulper eels, vampire squid. Food arrives as 'marine snow'. Hydrothermal vents host tubeworms and chemosynthetic microbes."],
+    [4000, 6000, "Abyssal plains: <b>sea cucumbers</b>, xenophyophores, polymetallic nodules (the deep-sea mining target) and possible 'dark oxygen' (contested)."],
+    [6000, 8400, "Hadal trenches: <b>snailfish</b> (no swim bladder, the TMAO osmolyte stabilises proteins), giant amphipods."],
+    [8400, 11000, "Below the fish limit: <b>amphipods, holothurians, tubeworms and bivalves</b> on methane/sulfide seeps, down to 9,533 m and beyond."]];
+  const temp = z => 2 + 23 * Math.exp(-z / 400) - 0.6 * Math.min(z / 11000, 1);
+
+  marks.forEach(([z, n]) => { const b = document.createElement("button"); b.textContent = n + (z ? " · " + z.toLocaleString() + " m" : ""); b.onclick = () => { exact = z; $("d").value = toSlider(z); update(); }; $("jumps").appendChild(b); });
+
+  function draw(z) {
+    const W = cv.width, H = cv.height, y = d => 40 + (H - 80) * Math.sqrt(d / MAX);
+    const g = ctx.createLinearGradient(0, 0, 0, H);
+    g.addColorStop(0, "#1e88c7"); g.addColorStop(0.12, "#0d4f7a"); g.addColorStop(0.3, "#06263d"); g.addColorStop(1, "#010409");
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    ctx.font = "24px system-ui";
+    zones.forEach(([a, b, n], i) => {
+      ctx.fillStyle = i % 2 ? "rgba(255,255,255,0.03)" : "rgba(0,0,0,0.0)"; ctx.fillRect(0, y(a), W, y(b) - y(a));
+      ctx.fillStyle = "#8fb3cc"; ctx.fillText(n, 20, y(a) + 30);
+    });
+    ctx.font = "21px system-ui";
+    marks.forEach(([d, n]) => {
+      ctx.strokeStyle = "rgba(143,179,204,0.35)"; ctx.setLineDash([6, 6]); ctx.beginPath(); ctx.moveTo(W * 0.45, y(d)); ctx.lineTo(W - 10, y(d)); ctx.stroke(); ctx.setLineDash([]);
+      ctx.fillStyle = "#cfe3f2"; ctx.textAlign = "right"; ctx.fillText(n + " — " + d.toLocaleString() + " m", W - 14, y(d) - 6); ctx.textAlign = "left";
+    });
+    // probe
+    const py = y(z), P = 1 + z / 10.06, r = 34 / Math.cbrt(P);
+    ctx.strokeStyle = "#ffb74d"; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(W * 0.28, 0); ctx.lineTo(W * 0.28, py - r); ctx.stroke();
+    ctx.beginPath(); ctx.fillStyle = "#ffb74d"; ctx.arc(W * 0.28, py, Math.max(r, 3), 0, 7); ctx.fill();
+    ctx.fillStyle = "#04121f"; ctx.font = "bold 18px system-ui"; ctx.textAlign = "center"; if (r > 14) ctx.fillText("1 L", W * 0.28, py + 6); ctx.textAlign = "left";
+  }
+  function update() {
+    const z = exact != null ? exact : toDepth(+$("d").value), P = 1 + z / 10.06;
+    $("depth").textContent = z.toLocaleString() + " m";
+    $("zone").textContent = (zones.find(([a, b]) => z >= a && z < b) || zones[4])[2];
+    $("p").textContent = P.toFixed(1) + " atm · " + (P * 0.101325).toFixed(1) + " MPa";
+    $("f").textContent = (P * 1.033).toFixed(1) + " kg-force";
+    const L = 100 * Math.exp(-z / 23);
+    $("l").textContent = L > 0.01 ? L.toPrecision(3) + " %" : L > 1e-30 ? L.toExponential(1) + " %" : "effectively 0 %";
+    $("t").textContent = "≈ " + temp(z).toFixed(1) + " °C";
+    const V = 1000 / P; $("v").textContent = V >= 10 ? V.toFixed(0) + " mL" : V.toFixed(2) + " mL";
+    const L2 = life.find(([a, b]) => z >= a && z < b) || life[5];
+    $("life").innerHTML = "<b>Who lives here?</b> " + L2[2].replace(/^<b>Who.*?<\/b> /, "");
+    draw(z);
+  }
+  $("d").oninput = () => { exact = null; update(); };
+  if (location.hash) { const n = parseInt(location.hash.slice(1)); if (!isNaN(n)) { exact = Math.min(MAX, n); $("d").value = toSlider(exact); } }
+  update();
+})();
+</script>
+</body>
+</html>

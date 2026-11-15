@@ -1,8 +1,22 @@
-﻿# Ongoing Biology Studies (2025-2026)
+# Ongoing Biology Studies (2025-2026)
 
-Status date: April 19, 2026.
+Status date: November 15, 2026 (first written April 19, 2026).
 
-## Current High-Relevance Study Streams
+## November 2026 Updates
+
+### A) Ocean Census year 3: 1,121 new species
+- Between 1 Apr 2025 and 31 Mar 2026, the network recorded 1,121 species new to science. That is a 54% rise in the annual rate, from 13 expeditions and 9 workshops.
+- Most came from **funded taxonomists working on existing specimens**, not new expeditions. "Discovered" is now a formal status recorded instantly in the open **NOVA** platform, because formal description averages ~13.5 years.
+- Highlights include ghost sharks and a carnivorous *Chondrocladia* "death-ball" sponge at ~3,600 m.
+
+### B) Life at the hadal extreme
+- Tubeworm and bivalve chemosynthetic communities found down to **9,533 m** in the Kuril–Kamchatka Trench (*Nature*, 2025). See [`../papers/peng-2025-hadal-chemosynthesis.md`](../papers/peng-2025-hadal-chemosynthesis.md).
+- Fish depth ceiling: snailfish filmed at 8,336 m. The TMAO osmolyte limit predicts no fish much below ~8,200–8,400 m. See [`../exploration/exploration-methods-and-records.md`](../exploration/exploration-methods-and-records.md).
+
+### C) Mining-impact biology
+- After 44 years, a 1979 mining track still shows reduced fauna. Large attached animals such as sponges and corals barely return. See [`../papers/jones-2025-mining-track-recovery.md`](../papers/jones-2025-mining-track-recovery.md).
+
+## Earlier High-Relevance Study Streams (April 2026)
 
 ### 1) Global biodiversity discovery acceleration
 
@@ -30,7 +44,7 @@ Why it matters:
 ## 2025-2026 Governance Context Affecting Biology Research
 
 - ISA negotiations (30th session, July 30, 2025 communication) continued mining code work and intersessional groups.
-- High Seas Treaty reached threshold for entry into force on January 17, 2026 (as reported on Wikipedia; verify against UN treaty status pages before formal policy use).
+- High Seas Treaty **entered into force on 17 January 2026** (confirmed by the European Commission). See [`../governance-and-mining/`](../governance-and-mining/).
 
 Why it matters:
 - Access, impact assessments, and conservation regimes shape what biology research is funded and where.
@@ -43,3 +57,5 @@ Why it matters:
 - MBARI 2025 highlights (Dec 18, 2025): https://www.mbari.org/news/new-video-features-highlights-of-mbaris-deep-sea-exploration-in-2025/
 - ISA 30th session summary (July 30, 2025): https://isa.org.jm/news/international-seabed-authority-holds-a-landmark-30th-session-the-assembly-adopts-historic-decisions-as-negotiations-on-the-mining-code-progress/
 - High Seas Treaty (Wikipedia, fast reference): https://en.wikipedia.org/wiki/High_Seas_Treaty
+- Ocean Census year-3 (May 2026): https://nektonmission.org/news/scientists-discover-over-1100-new-marine-species-in-landmark-ocean-census/
+- ScienceBlog analysis of the 1,121 count: https://scienceblog.com/?p=598926

@@ -15,19 +15,21 @@ Status: **ongoing**.
 - [x] GIF showcase and image-source register
 - [x] Dated research tracker
 
-### Phase 2 — Depth
+### Phase 2 — Depth (mostly done, 2026-11-15)
 
 *Goal:* Turn notes into citable mini-reviews.
 
-- [ ] Add a references section (DOI-linked) to every track document
-- [ ] Hadal-zone (>6,000 m) sub-track and trench case studies
+- [x] DOI-linked paper deep-reads in `papers/` (5) + reading list
+- [x] Hadal-zone records and trench case studies
+- [x] New tracks: exploration, governance & mining, ocean change
 - [ ] Data plots from open datasets (NOAA, OBIS, GEBCO bathymetry)
 
 ### Phase 3 — Interactivity
 
-- [ ] Interactive depth-profile explorer (pressure, light, temperature vs depth)
+- [x] Interactive depth-profile explorer (`labs/dive-profile-lab.html`)
+- [x] GitHub Pages hub homepage (`index.html`)
 - [ ] Species map using OBIS occurrence data
-- [ ] Publish the whole repo as a GitHub Pages microsite with navigation
+- [ ] Mining-plume dispersion toy model lab
 
 ### Phase 4 — Output
 
@@ -45,4 +47,4 @@ Pick any unchecked item, open an issue to discuss the approach, then send a PR. 
 
 
 ---
-*Last updated: 2026-11-13*
+*Last updated: 2026-11-15*

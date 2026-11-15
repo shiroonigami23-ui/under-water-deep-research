@@ -4,15 +4,15 @@
 
 # 🌊 Under Water Deep Research
 
-### An open research notebook on the deep ocean — biology, physics, structures, habitats and evolution
+### A sourced, visual research hub on the deep ocean: biology, exploration, seabed governance, ocean change, physics, habitats and evolution
 
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) ![Last commit](https://img.shields.io/github/last-commit/shiroonigami23-ui/under-water-deep-research?style=flat-square) ![Repo size](https://img.shields.io/github/repo-size/shiroonigami23-ui/under-water-deep-research?style=flat-square) ![Top language](https://img.shields.io/github/languages/top/shiroonigami23-ui/under-water-deep-research?style=flat-square) ![Status](https://img.shields.io/badge/status-ongoing-blueviolet?style=flat-square)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) ![Last commit](https://img.shields.io/github/last-commit/shiroonigami23-ui/under-water-deep-research?style=flat-square) ![Repo size](https://img.shields.io/github/repo-size/shiroonigami23-ui/under-water-deep-research?style=flat-square) ![Top language](https://img.shields.io/github/languages/top/shiroonigami23-ui/under-water-deep-research?style=flat-square) ![Status](https://img.shields.io/badge/status-ongoing-blueviolet?style=flat-square) [![Validate](https://github.com/shiroonigami23-ui/under-water-deep-research/actions/workflows/validate.yml/badge.svg)](https://github.com/shiroonigami23-ui/under-water-deep-research/actions/workflows/validate.yml) [![Hub site](https://img.shields.io/badge/hub-live_site-4fc3f7?style=flat-square)](https://shiroonigami23-ui.github.io/under-water-deep-research/) ![Tracker](https://img.shields.io/badge/tracker-15_Nov_2026-orange?style=flat-square)
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/shiroonigami23-ui/under-water-deep-research?quickstart=1) [![Download ZIP](https://img.shields.io/badge/Download-ZIP-2ea44f?style=flat-square&logo=github)](https://github.com/shiroonigami23-ui/under-water-deep-research/archive/refs/heads/main.zip)
 
-[**Overview**](#-overview) · [**Features**](#-features) · [**Architecture**](#-architecture) · [**Getting Started**](#-getting-started) · [**Roadmap**](#-roadmap)
+[**🌐 Hub site**](https://shiroonigami23-ui.github.io/under-water-deep-research/) · [**Overview**](#-overview) · [**What's new**](#-whats-new-nov-2026) · [**Features**](#-features) · [**Architecture**](#-architecture) · [**Getting Started**](#-getting-started) · [**Roadmap**](#-roadmap)
 
 </div>
 
@@ -29,20 +29,47 @@
 
 ## 📖 Overview
 
-**Under Water Deep Research** is a structured, living research node about the deep ocean. Work is split into five parallel
-tracks — **biology, structure, physics & chemistry, deep-water types, and mutation/adaptation** — each with its own notes,
-generated figures, image credits and a list of active questions. Two **interactive HTML labs** let you simulate how deep-sea
-life evolves under pressure, darkness and cold.
+**Under Water Deep Research** is a living research hub on the deep ocean. It now has **eight tracks**:
 
-A tracker (`LATEST-ONGOING-RESEARCH-TRACKER.md`) follows current expeditions and discoveries (e.g. NOAA Okeanos/Nautilus
-2025 reports, 2026 Coral Sea finds) with dated sources. The repo is linked from my broader [Research-Vault](https://github.com/shiroonigami23-ui/Research-Vault).
+- biology
+- **exploration**
+- **governance & mining**
+- **ocean change**
+- physics & chemistry
+- structure
+- deep-water types
+- mutation/adaptation
+
+Each track follows the same template: concepts → open questions → dated studies → sources, with original figures.
+
+A **paper-analysis library** (`papers/`) gives structured deep reads of the key studies. **Three interactive labs** run in the browser. A dated **tracker** follows the ISA, NOAA permits, the High Seas Treaty, new species, mapping, bleaching and AMOC.
+
+🌐 **Browse it as a website:** <https://shiroonigami23-ui.github.io/under-water-deep-research/> · 🌌 Sister hub: [outer-space-research](https://github.com/shiroonigami23-ui/outer-space-research)
 
 ### ✨ Highlights
 
-- **5 research tracks** with consistent structure: concepts → open questions → dated studies → evidence
-- **2 interactive labs** — live evolution simulator and evolution timeline tree
-- **Generated comparison figures** — fish-type matrix, living-condition gradients, basin cross-sections
-- **Source discipline** — every image credited in `IMAGE-SOURCES.md`; every claim dated in the tracker
+- **8 research tracks**, including three new ones (exploration, governance & mining, ocean change)
+- **5 paper deep-reads** (Nature, Nature Geoscience, Science Advances), plus a reading list of papers to open yourself
+- **Dive Profile Lab**: pressure, light, temperature, a Boyle's-law balloon and life zones from 0 to 10,935 m
+- **Tracker refreshed to 15 Nov 2026**, with a status board and monthly digest
+- **Reproducible figures** (`scripts/generate_figures.py`) and CI link checks
+
+## 🆕 What's New (Nov 2026)
+
+| Finding | Number | Where |
+|---|---|---|
+| Deep seafloor ever seen by camera | **≤0.001%** | [exploration](exploration/) · [Bell 2025](papers/bell-2025-how-little-weve-seen.md) |
+| Seafloor mapped (Seabed 2030) | **28.7%** | [exploration](exploration/) |
+| Deepest chemosynthetic animal community | **9,533 m** | [Peng 2025](papers/peng-2025-hadal-chemosynthesis.md) |
+| New marine species in one year | **1,121** | [biology](biology/ongoing-studies-2025-2026.md) |
+| Reef area hit by 4th bleaching event | **84.4%** | [ocean-change](ocean-change/) |
+| Projected AMOC weakening by 2100 | **43–59%** | [Portmann 2026](papers/portmann-2026-amoc-weakening.md) |
+| ISA Mining Code | **still not adopted** | [governance](governance-and-mining/) |
+
+<div align="center">
+<img src="docs/dive-lab-screenshot.png" alt="Dive Profile Lab" width="80%">
+<br><img src="exploration/png/seen_vs_mapped_generated.png" alt="Seen vs mapped" width="48%"> <img src="ocean-change/png/coral_bleaching_events_generated.png" alt="Bleaching" width="48%">
+</div>
 
 ## 🧩 Features
 
@@ -55,7 +82,14 @@ A tracker (`LATEST-ONGOING-RESEARCH-TRACKER.md`) follows current expeditions and
 | **Mutation & adaptation** | `mutation/` — evolutionary pathways under extreme conditions |
 | **Live Evolution Lab** | `mutation/live-evolution-lab.html` — interactive simulation in the browser |
 | **Evolution Timeline Tree** | `mutation/evolution-timeline-tree-lab.html` — explore branching adaptations over time |
-| **Research tracker** | `LATEST-ONGOING-RESEARCH-TRACKER.md` — dated, sourced feed of new findings |
+| **Research tracker** | `LATEST-ONGOING-RESEARCH-TRACKER.md`: dated status board + monthly digest |
+| **Exploration track** | `exploration/`: mapping vs imaging, depth records, platforms |
+| **Governance & mining** | `governance-and-mining/`: ISA, NOAA/TMC, BBNJ, evidence base, both sides' arguments |
+| **Ocean change** | `ocean-change/`: coral bleaching, AMOC, pressure & light profiles |
+| **Paper library** | `papers/`: structured deep reads + reading list |
+| **Dive Profile Lab** | `labs/dive-profile-lab.html`: interactive depth explorer |
+| **Hub website** | `index.html` served on GitHub Pages |
+| **Glossary** | `GLOSSARY.md`: 20+ deep-ocean terms |
 
 ## 🛠 Tech Stack
 
@@ -63,7 +97,8 @@ A tracker (`LATEST-ONGOING-RESEARCH-TRACKER.md`) follows current expeditions and
 |---|---|
 | Writing | Markdown |
 | Interactive labs | HTML5, CSS, vanilla JavaScript |
-| Figures | Generated PNG matrices/diagrams + curated photos (credited) |
+| Figures | Generated PNGs (`scripts/generate_figures.py`, Matplotlib) + curated photos (credited) |
+| Automation | GitHub Actions (`validate.yml`), GitHub Pages hub |
 | Showcase | Animated GIF montages per track |
 
 ## 🏗 Architecture
@@ -78,7 +113,12 @@ flowchart TB
     P[⚗️ physics/]
     D[🗺 deep-water-types/]
     M[🧬 mutation/]
+    E[🛰 exploration/]
+    G[⚖️ governance-and-mining/]
+    O[🌡 ocean-change/]
   end
+  PA[📚 papers/] --> B & E & G & O
+  E --> L3[labs/dive-profile-lab.html]
   B & S & P & D & M --> T[LATEST-ONGOING-RESEARCH-TRACKER.md]
   B & S & P & D & M --> G[gifs/ showcase]
   M --> L1[live-evolution-lab.html]
@@ -98,6 +138,14 @@ under-water-deep-research/
 ├── physics/            # deep-ocean-physics-chemistry.md, png/
 ├── deep-water-types/   # deep-water-types-and-geographies.md, png/
 ├── mutation/           # live-evolution-lab.html, evolution-timeline-tree-lab.html, png/
+├── exploration/        # exploration-methods-and-records.md, png/
+├── governance-and-mining/  # seabed-governance-2026.md, png/
+├── ocean-change/       # ocean-change-2026.md, png/
+├── papers/             # structured paper deep-reads + reading list
+├── labs/               # dive-profile-lab.html
+├── scripts/            # generate_figures.py, check_links.py
+├── index.html          # GitHub Pages hub homepage
+├── GLOSSARY.md
 ├── gifs/               # per-track showcase GIFs
 ├── connected/          # link to Research-Vault
 ├── IMAGE-SOURCES.md
@@ -134,7 +182,8 @@ python3 -m http.server 8080      # optional: serve the labs locally
 ### 3. Run
 
 - Read the tracks directly on GitHub, starting from each folder's `README.md`.
-- Open <http://localhost:8080/mutation/live-evolution-lab.html> and `evolution-timeline-tree-lab.html` for the interactive labs.
+- Open <http://localhost:8080/> for the hub homepage, or `labs/dive-profile-lab.html`, `mutation/live-evolution-lab.html` and `evolution-timeline-tree-lab.html` for the labs.
+- Rebuild figures: `pip install -r scripts/requirements.txt && python scripts/generate_figures.py`
 
 ## 🎮 Usage
 
@@ -156,17 +205,18 @@ To contribute a finding, add it to the relevant track *and* to the tracker with 
 - [x] GIF showcase and image-source register
 - [x] Dated research tracker
 
-**Phase 2 — Depth**
+**Phase 2 — Depth (mostly done, Nov 2026)**
 
-- [ ] Add a references section (DOI-linked) to every track document
-- [ ] Hadal-zone (>6,000 m) sub-track and trench case studies
-- [ ] Data plots from open datasets (NOAA, OBIS, GEBCO bathymetry)
+- [x] DOI-linked paper deep-reads (`papers/`) + reading list
+- [x] Hadal-zone records and trench case study (9,533 m chemosynthesis, snailfish limit)
+- [x] Three new tracks: exploration, governance & mining, ocean change
+- [ ] Data plots from open datasets (OBIS occurrences, GEBCO grid extracts)
 
 **Phase 3 — Interactivity**
 
-- [ ] Interactive depth-profile explorer (pressure, light, temperature vs depth)
+- [x] Interactive depth-profile explorer (`labs/dive-profile-lab.html`)
+- [x] GitHub Pages hub homepage with navigation (`index.html`)
 - [ ] Species map using OBIS occurrence data
-- [ ] Publish the whole repo as a GitHub Pages microsite with navigation
 
 **Phase 4 — Output**
 
