@@ -277,10 +277,10 @@ def related_html(c, it):
             def _key(o):
                 n = re.sub(r"\s*\(.*?\)", "", o[oc.get("name_key", "name")].lower())
                 return n.replace(" ocean", "").replace(" sea", "") if oc["id"] == "seas" else n
-            hits = [o for o in items if o is not it and re.search(r"(?<![\w-])" + re.escape(_key(o)) + r"(?![\w-])", txt)]
+            hits = [o for o in items if o is not it and re.search(r"(?<![\w-])" + re.escape(_key(o)) + r"(?:s|es)?(?![\w-])", txt)]
         elif t == "backname":
             nm = re.sub(r"\s*\(.*?\)", "", it[c.get("name_key", "name")]).lower()
-            hits = [o for o in items if re.search(r"(?<![\w-])" + re.escape(nm) + r"(?![\w-])", str(o.get(L["theirs"], "")).lower())]
+            hits = [o for o in items if re.search(r"(?<![\w-])" + re.escape(nm) + r"(?:s|es)?(?![\w-])", str(o.get(L["theirs"], "")).lower())]
         else:
             hits = []
         if not hits:
@@ -352,7 +352,7 @@ def build_collections(env, write, sections, search, built):
             else:
                 icon = it.get("emoji", c["icon"])
                 try:
-                    prompt = c["prompt"].format(**{k: (v if not isinstance(v, list) else ", ".join(map(str, v))) for k, v in it.items()})
+                    prompt = it["prompt"] if it.get("prompt") else c["prompt"].format(**{k: (v if not isinstance(v, list) else ", ".join(map(str, v))) for k, v in it.items()})
                 except KeyError:
                     prompt = f"Scientific illustration of {name}"
                 wk = urllib.parse.unquote(str(it.get(c.get("photo_key", "wiki"), ""))).replace("_", " ") if c.get("live_photos") else ""
