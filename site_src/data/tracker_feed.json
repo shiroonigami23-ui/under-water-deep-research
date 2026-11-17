@@ -3,31 +3,19 @@
  "streams": {
   "isa": [
    {
-    "title": "Polymetallic nodules provide a distinct habitat for abyssal meiofauna",
-    "date": "2026-11-11",
-    "venue": "Scientific Reports",
-    "url": "https://doi.org/10.1038/s41598-026-76737-w"
+    "title": "Epistemic justice and deep-sea mining: UNCLOS’s facilitation of epistemic diversity the International Seabed Authority’s decision-making process",
+    "date": "2026-10-09",
+    "venue": "Marine Policy",
+    "url": "https://doi.org/10.1016/j.marpol.2026.107312"
    },
    {
-    "title": "Cosechar el abismo: Derecho internacional privado y minería submarina de nódulos polimetálicos ante la fractura del régimen de la Zona (2011-2026)",
-    "date": "2026-11-10",
-    "venue": "CUADERNOS DE DERECHO TRANSNACIONAL",
-    "url": "https://doi.org/10.20318/cdt.2026.10940"
-   },
-   {
-    "title": "Native deep-sea ciliate reveals hidden vulnerability of midwater ecosystems to mining metals",
-    "date": "2026-11-09",
-    "venue": "Marine Pollution Bulletin",
-    "url": "https://doi.org/10.1016/j.marpolbul.2026.120562"
+    "title": "The Case for a Moratorium on Deep-Sea Mining: The International Seabed Authority, Indigenous Rights, and Marine Ecosystems in the Eastern Pacific",
+    "date": "2026-01-14",
+    "venue": "eYLS (Yale Law School)",
+    "url": "https://openalex.org/W7124370028"
    }
   ],
   "noaa-tmc": [
-   {
-    "title": "Multiscale Characterization of a Deep-Sea Ferromanganese Nodule from the Clarion-Clipperton Zone",
-    "date": "2026-11-13",
-    "venue": "ACS Earth and Space Chemistry",
-    "url": "https://doi.org/10.1021/acsearthspacechem.6c00147"
-   },
    {
     "title": "Harvesting efficiency optimization of multi-manipulator collaboration for hovering deep-sea mining vehicles in polymetallic nodule harvesting",
     "date": "2026-11-12",
@@ -35,159 +23,96 @@
     "url": "https://doi.org/10.1016/j.oceaneng.2026.129304"
    },
    {
-    "title": "Polymetallic nodules provide a distinct habitat for abyssal meiofauna",
-    "date": "2026-11-11",
-    "venue": "Scientific Reports",
-    "url": "https://doi.org/10.1038/s41598-026-76737-w"
-   }
-  ],
-  "bbnj": [
-   {
-    "title": "Uptake, application and impact of an open access platform for investigating global marine fishing activity",
-    "date": "2026-11-15",
-    "venue": "npj Ocean Sustainability",
-    "url": "https://doi.org/10.1038/s44183-026-00254-6"
-   },
-   {
-    "title": "МЕЖДУНАРОДНО-ПРАВОВЫЕ ПРОБЛЕМЫ УПРАВЛЕНИЯ РЫБОЛОВСТВОМ В ОТКРЫТОМ МОРЕ",
-    "date": "2026-11-11",
-    "venue": "Electronic supplement to Russian Juridical Journal",
-    "url": "https://doi.org/10.34076/22196838_2026_5_27"
-   },
-   {
-    "title": "Governing ship-generated underwater radiated noise in the Arctic: spatial fit, legal coordination, and implementation incentives",
-    "date": "2026-11-09",
-    "venue": "Frontiers in Marine Science",
-    "url": "https://doi.org/10.3389/fmars.2026.1960441"
-   }
-  ],
-  "dark-oxygen": [
-   {
-    "title": "Multiscale Characterization of a Deep-Sea Ferromanganese Nodule from the Clarion-Clipperton Zone",
-    "date": "2026-11-13",
-    "venue": "ACS Earth and Space Chemistry",
-    "url": "https://doi.org/10.1021/acsearthspacechem.6c00147"
-   },
-   {
-    "title": "Benthic Literacies: Glossing the Seabeds",
+    "title": "Acute Toxicity Assessment of Heavy Metals Arising from Deep-Sea Polymetallic Nodule Mining in Mytilus Coruscus: Bioconcentration, Oxidative Stress, Tissue Damage, and Gene Expression",
     "date": "2026-11-01",
-    "venue": "Goldsmiths (University of London)",
-    "url": "https://openalex.org/W7119559978"
+    "venue": "Water & Ecology",
+    "url": "https://doi.org/10.1016/j.wateco.2026.100065"
    },
    {
-    "title": "Makhtesh Ramon: A unique natural-resource complex of strategic, multi-component mineral raw materials in Southern Israel",
-    "date": "2026-10-31",
-    "venue": "Stratigraphy Petroleum Sedimentology Geochemistry",
-    "url": "https://doi.org/10.35714/ggistrat20260200026"
+    "title": "Business interruption risk modeling framework for polymetallic nodule deep-sea mining",
+    "date": "2026-08-14",
+    "venue": "Reliability Engineering & System Safety",
+    "url": "https://doi.org/10.1016/j.ress.2026.113273"
    }
   ],
-  "hadal": [
-   {
-    "title": "Antelopebrush (Purshia tridentata) in British Columbia's South Okanagan: A Literature Review",
-    "date": "2026-11-13",
-    "venue": "Journal of Ecosystems and Management",
-    "url": "https://doi.org/10.22230/jem.2026v26n2a641"
-   },
-   {
-    "title": "Comparative population genetic structure of two antlion species, Neleon bore and N. solers , inhabiting sandy beaches along the sea of Japan",
-    "date": "2026-11-11",
-    "venue": "Entomological Science",
-    "url": "https://doi.org/10.1111/ens.70040"
-   },
-   {
-    "title": "Species composition and population structure of devil rays (Mobula spp.) in artisanal fisheries of Guatemala's Pacific coast",
-    "date": "2026-11-11",
-    "venue": "Latin American Journal of Aquatic Research",
-    "url": "https://doi.org/10.3856/vol54-issue5-fulltext-3674"
-   }
-  ],
+  "bbnj": [],
+  "dark-oxygen": [],
+  "hadal": [],
   "census": [
    {
-    "title": "RNA virus‐induced metabolic reprogramming in a bloom‐forming marine diatom",
-    "date": "2026-11-15",
-    "venue": "New Phytologist",
-    "url": "https://doi.org/10.1111/nph.71757"
+    "title": "Marine Exploration: Application of AI and SCADA for Discovery of New Marine Species",
+    "date": "2026-06-30",
+    "venue": "Neliti",
+    "url": "https://doi.org/10.5281/zenodo.22104130"
    },
    {
-    "title": "Computational exploration of Hemidesmus indicus phytochemicals targeting HSP90 in ovarian cancer through molecular docking, structural dynamics and free energy landscape",
-    "date": "2026-11-15",
-    "venue": "Scientific Reports",
-    "url": "https://doi.org/10.1038/s41598-026-78139-4"
-   },
-   {
-    "title": "Uptake, application and impact of an open access platform for investigating global marine fishing activity",
-    "date": "2026-11-15",
-    "venue": "npj Ocean Sustainability",
-    "url": "https://doi.org/10.1038/s44183-026-00254-6"
+    "title": "The role of “Big Science” in the discovery of new marine species: Experience from the International Indian Ocean Expedition of the 1960s",
+    "date": "2025-09-16",
+    "venue": "Frontiers of Biogeography",
+    "url": "https://doi.org/10.21425/fob.18.163345"
    }
   ],
   "mapping": [
    {
-    "title": "Gravity-conditioned diffusion for seafloor bathymetric resolution enhancement",
-    "date": "2026-11-14",
-    "venue": "GIScience & Remote Sensing",
-    "url": "https://doi.org/10.1080/15481603.2026.2757465"
+    "title": "Experiencing Sea-Going Opportunities in International Ocean Mapping Inspired by Seabed 2030",
+    "date": "2026-01-01",
+    "venue": "",
+    "url": "https://doi.org/10.13140/rg.2.2.17137.03680"
    },
    {
-    "title": "Sea level rise and subsidence compound flood risks on the century-old Treasure Island",
-    "date": "2026-11-12",
-    "venue": "Communications Earth & Environment",
-    "url": "https://doi.org/10.1038/s43247-026-04158-8"
+    "title": "Perspectives From the South Pacific's Papua New Guinea and Kiribati on Ocean Mapping's Importance and How Collaborations Through Seabed 2030 Can Help Achieve Sustainable Ocean Management Goals",
+    "date": "2025-01-21",
+    "venue": "Marine Technology Society Journal",
+    "url": "https://doi.org/10.4031/mtsj.59.2.3"
    },
    {
-    "title": "Ocean stewardship commitment across global businesses",
-    "date": "2026-11-11",
-    "venue": "Frontiers in Ocean Sustainability",
-    "url": "https://doi.org/10.3389/focsu.2026.1861504"
+    "title": "Seabed 2030: Developing an Open-Access Map of the Ocean Floor",
+    "date": "2024-12-20",
+    "venue": "MAINSHEET",
+    "url": "https://doi.org/10.61355/001c.132442"
    }
   ],
   "visual": [
    {
-    "title": "Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments",
-    "date": "2026-12-31",
-    "venue": "PhilPapers (PhilPapers Foundation)",
-    "url": "https://doi.org/10.17613/v92ad-xvp66"
+    "title": "The contested curb: a visual exploration of sidewalk appropriation and its health risk in Manila",
+    "date": "2026-11-13",
+    "venue": "Cities & Health",
+    "url": "https://doi.org/10.1080/23748834.2026.2758005"
    },
    {
-    "title": "The tale of two systems: EFL teachers' lived realities in Addis Ababa",
-    "date": "2026-12-30",
-    "venue": "Journal of Second and Multiple Language Acquisition",
-    "url": "https://doi.org/10.5281/zenodo.22679221"
+    "title": "I Don't Have Enough Room to Stretch My Legs -- A Visual Exploration of Black and Queer Identity",
+    "date": "2026-11-10",
+    "venue": "University of North Florida Digital Commons (University of North Florida)",
+    "url": "https://openalex.org/W7225846269"
    },
    {
-    "title": "Video and digital games: Historical controversies, benefits, and risks for children and adolescents",
-    "date": "2026-12-30",
-    "venue": "Journal of Child Development, Exceptionality and Education",
-    "url": "https://doi.org/10.5281/zenodo.22768009"
+    "title": "Spatial Configuration and Multisensory Experience in Art Exhibitions: Linking Visual Exploration, Cortical Haemodynamics and Soundscape Appraisal",
+    "date": "2026-11-08",
+    "venue": "Buildings",
+    "url": "https://doi.org/10.3390/buildings16214459"
    }
   ],
   "bleaching": [
    {
-    "title": "Submission to EPBC portal 26 Oct 2026, re Woodside's proposed sub-marine CCS storage Environmental Impact Statement.",
-    "date": "2026-11-26",
-    "venue": "Knowledge Commons Works (Michigan State University)",
-    "url": "https://doi.org/10.17613/4940f-vca49"
+    "title": "Temporal dynamics of coral bleaching and live coral cover at the Cayman Crown Reef, Gulf of Honduras (2016–2025)",
+    "date": "2026-11-10",
+    "venue": "Frontiers in Marine Science",
+    "url": "https://doi.org/10.3389/fmars.2026.1924894"
    },
    {
-    "title": "Vertical structure and evolution of large-scale subsurface marine heatwaves",
-    "date": "2026-11-14",
-    "venue": "npj Climate and Atmospheric Science",
-    "url": "https://doi.org/10.1038/s41612-026-01592-5"
+    "title": "Marine Heatwave and Extreme Hypoxia Coincide With Rapid Coral Bleaching and Mortality on a Central Red Sea Coral Reef",
+    "date": "2026-11-01",
+    "venue": "Ecology and Evolution",
+    "url": "https://doi.org/10.1002/ece3.74606"
    },
    {
-    "title": "Environmental DNA provides an initial baseline of marine biodiversity in the Mdona Hiera Marine Protected Area, Southwest Maluku, Indonesia",
-    "date": "2026-11-14",
-    "venue": "Biodiversitas Journal of Biological Diversity",
-    "url": "https://doi.org/10.13057/biodiv/d271014"
+    "title": "Trustworthy Coral Bleaching Classification with Convolutional and Transformer Networks",
+    "date": "2026-10-30",
+    "venue": "Journal of Smart Algorithms and Applications (JSAA)",
+    "url": "https://doi.org/10.66279/dek71h57"
    }
   ],
   "amoc": [
-   {
-    "title": "Emergent-constrained future aridity and drought changes under low-to-moderate emission scenarios with explicit external forcings",
-    "date": "2026-11-14",
-    "venue": "npj Climate and Atmospheric Science",
-    "url": "https://doi.org/10.1038/s41612-026-01593-4"
-   },
    {
     "title": "Southern Ocean Control on the Relationship Between AMOC Slowdown and ITCZ Shift in CMIP6 Models",
     "date": "2026-11-14",
@@ -195,10 +120,16 @@
     "url": "https://doi.org/10.1029/2026gl125573"
    },
    {
-    "title": "Sea ice variability and links to East Siberian permafrost carbon remobilization during the last glacial-interglacial transition",
-    "date": "2026-11-13",
-    "venue": "Climate of the past",
-    "url": "https://doi.org/10.5194/cp-22-2031-2026"
+    "title": "Hydro-ecological responses to AMOC in North China during Heinrich 4 and 5 stadials",
+    "date": "2026-11-09",
+    "venue": "Quaternary Science Reviews",
+    "url": "https://doi.org/10.1016/j.quascirev.2026.110370"
+   },
+   {
+    "title": "Radiative effects of decreased North America and European aerosols weaken the AMOC via wind-driven freshwater advection",
+    "date": "2026-11-05",
+    "venue": "Journal of Climate",
+    "url": "https://doi.org/10.1175/jcli-d-26-0085.1"
    }
   ]
  }
