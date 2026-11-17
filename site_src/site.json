@@ -162,42 +162,48 @@
    "icon": "⚖️",
    "name": "ISA Mining Code",
    "status": "31st session ended without the Code; roadmap agreed",
-   "next": "32nd session, 2027"
+   "next": "32nd session, 2027",
+   "query": "deep-sea mining International Seabed Authority"
   },
   {
    "id": "noaa-tmc",
    "icon": "⛏",
    "name": "US mining permit (NOAA/TMC)",
    "status": "65,000 km² application fully compliant; hearing 13 Oct",
-   "next": "Certification → EIS"
+   "next": "Certification → EIS",
+   "query": "deep-sea mining polymetallic nodules"
   },
   {
    "id": "bbnj",
    "icon": "🌐",
    "name": "High Seas Treaty",
    "status": "In force since 17 Jan 2026; 86 parties",
-   "next": "COP1 ~Jan 2027"
+   "next": "COP1 ~Jan 2027",
+   "query": "high seas biodiversity treaty BBNJ"
   },
   {
    "id": "dark-oxygen",
    "icon": "🫧",
    "name": "Dark oxygen",
    "status": "Contested; DORI follow-up running",
-   "next": "2026 lander results"
+   "next": "2026 lander results",
+   "query": "dark oxygen production abyssal nodules"
   },
   {
    "id": "hadal",
    "icon": "🕳",
    "name": "Hadal life",
    "status": "Chemosynthetic communities to 9,533 m",
-   "next": "Other trench surveys"
+   "next": "Other trench surveys",
+   "query": "hadal trench fauna"
   },
   {
    "id": "census",
    "icon": "🧬",
    "name": "Ocean Census",
    "status": "1,121 new species in a year (+54%)",
-   "next": "Year-4 report ~May 2027"
+   "next": "Year-4 report ~May 2027",
+   "query": "new marine species discovery"
   },
   {
    "id": "mapping",
@@ -953,5 +959,45 @@
    "title": "Shipwrecks"
   }
  ],
- "hero_anim": "bubbles"
+ "hero_anim": "bubbles",
+ "home_groups": [
+  {
+   "icon": "🐋",
+   "title": "Ocean life",
+   "ids": [
+    "species"
+   ]
+  },
+  {
+   "icon": "🌊",
+   "title": "Waters of the world",
+   "ids": [
+    "seas",
+    "rivers"
+   ]
+  },
+  {
+   "icon": "⚓",
+   "title": "History & mysteries",
+   "ids": [
+    "wrecks",
+    "phenomena"
+   ]
+  },
+  {
+   "icon": "🔬",
+   "title": "Evidence",
+   "ids": [
+    "papers"
+   ]
+  }
+ ],
+ "search_hints": [
+  "Blue whale",
+  "Mariana Trench",
+  "Titanic",
+  "Coral bleaching",
+  "Giant squid",
+  "Bioluminescence"
+ ]
 }
